@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-12T21:02:02+02:00",
+ "generated_at": "2026-10-12T21:22:45+02:00",
  "settled": [
   {
    "fixture_id": 1593330,
@@ -287,6 +287,32 @@
    "outcome": "lost",
    "pl_units": -1.0,
    "matin": null
+  },
+  {
+   "fixture_id": 1517364,
+   "date": "2026-10-12",
+   "kickoff": "2026-10-12T19:00:00+02:00",
+   "league": {
+    "name": "Canadian Premier League",
+    "country": "Canada"
+   },
+   "region": "ameriques",
+   "method_version": "dc-v1",
+   "reading_id": "1517364-r3",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "OU3.5",
+   "selection": "under",
+   "label_fr": "Moins de 3,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.618,
+   "confidence_bucket": "60-65",
+   "odds": 1.73,
+   "bookmaker": "Pinnacle",
+   "final_score": "5-0",
+   "outcome": "lost",
+   "pl_units": -1.0,
+   "matin": null
   }
  ],
  "aggregates": {
@@ -303,15 +329,15 @@
     "avg_odds": null
    },
    "SKIP": {
-    "n": 11,
+    "n": 12,
     "won": 5,
-    "lost": 6,
+    "lost": 7,
     "void": 0,
     "no_odds": 0,
-    "hit_rate": 0.455,
-    "pl_units": -2.22,
-    "roi": -0.202,
-    "avg_odds": 1.89
+    "hit_rate": 0.417,
+    "pl_units": -3.22,
+    "roi": -0.268,
+    "avg_odds": 1.87
    },
    "by_league": [
     {
@@ -322,6 +348,15 @@
      "pl_units": 0.1,
      "league": "Allsvenskan",
      "country": "Suède"
+    },
+    {
+     "label": "SKIP",
+     "n": 1,
+     "won": 0,
+     "lost": 1,
+     "pl_units": -1.0,
+     "league": "Canadian Premier League",
+     "country": "Canada"
     },
     {
      "label": "SKIP",
@@ -433,10 +468,10 @@
     {
      "market": "OU3.5",
      "label": "SKIP",
-     "n": 1,
+     "n": 2,
      "won": 1,
-     "lost": 0,
-     "pl_units": 0.69
+     "lost": 1,
+     "pl_units": -0.31
     }
    ],
    "by_confidence_bucket": [
@@ -457,9 +492,9 @@
     {
      "bucket": "60-65",
      "label": "SKIP",
-     "n": 2,
+     "n": 3,
      "won": 1,
-     "lost": 1
+     "lost": 2
     },
     {
      "bucket": "65-70",
@@ -480,29 +515,29 @@
     {
      "date": "2026-10-12",
      "label": "SKIP",
-     "n": 11,
+     "n": 12,
      "won": 5,
-     "lost": 6,
-     "pl_units": -2.22
+     "lost": 7,
+     "pl_units": -3.22
     }
    ],
    "by_week": [
     {
      "week": "2026-W42",
      "label": "SKIP",
-     "n": 11,
+     "n": 12,
      "won": 5,
-     "lost": 6,
-     "pl_units": -2.22
+     "lost": 7,
+     "pl_units": -3.22
     }
    ],
    "by_trigger": [
     {
      "trigger": "compo",
      "label": "SKIP",
-     "n": 8,
+     "n": 9,
      "won": 3,
-     "lost": 5
+     "lost": 6
     },
     {
      "trigger": "manuel",
@@ -527,9 +562,9 @@
     },
     {
      "bucket": "60-65",
-     "n": 2,
-     "mean_predicted": 0.607,
-     "observed": 0.5
+     "n": 3,
+     "mean_predicted": 0.61,
+     "observed": 0.333
     },
     {
      "bucket": "65-70",
