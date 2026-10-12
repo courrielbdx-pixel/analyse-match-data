@@ -1,7 +1,34 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-12T17:25:03+02:00",
- "settled": [],
+ "generated_at": "2026-10-12T18:55:04+02:00",
+ "settled": [
+  {
+   "fixture_id": 1593330,
+   "date": "2026-10-12",
+   "kickoff": "2026-10-12T17:00:00+02:00",
+   "league": {
+    "name": "Super League",
+    "country": "Grèce"
+   },
+   "region": "europe",
+   "method_version": "dc-v1",
+   "reading_id": "1593330-r1",
+   "trigger": "manuel",
+   "lineups_confirmed": false,
+   "market": "OU2.5",
+   "selection": "over",
+   "label_fr": "Plus de 2,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.655,
+   "confidence_bucket": "65-70",
+   "odds": 1.57,
+   "bookmaker": "Betano",
+   "final_score": "1-3",
+   "outcome": "won",
+   "pl_units": 0.57,
+   "matin": null
+  }
+ ],
  "aggregates": {
   "dc-v1": {
    "TICKET": {
@@ -16,23 +43,83 @@
     "avg_odds": null
    },
    "SKIP": {
-    "n": 0,
-    "won": 0,
+    "n": 1,
+    "won": 1,
     "lost": 0,
     "void": 0,
     "no_odds": 0,
-    "hit_rate": null,
-    "pl_units": 0,
-    "roi": null,
-    "avg_odds": null
+    "hit_rate": 1.0,
+    "pl_units": 0.57,
+    "roi": 0.57,
+    "avg_odds": 1.57
    },
-   "by_league": [],
-   "by_market": [],
-   "by_confidence_bucket": [],
-   "by_day": [],
-   "by_week": [],
-   "by_trigger": [],
-   "calibration": []
+   "by_league": [
+    {
+     "label": "SKIP",
+     "n": 1,
+     "won": 1,
+     "lost": 0,
+     "pl_units": 0.57,
+     "league": "Super League",
+     "country": "Grèce"
+    }
+   ],
+   "by_market": [
+    {
+     "market": "OU2.5",
+     "label": "SKIP",
+     "n": 1,
+     "won": 1,
+     "lost": 0,
+     "pl_units": 0.57
+    }
+   ],
+   "by_confidence_bucket": [
+    {
+     "bucket": "65-70",
+     "label": "SKIP",
+     "n": 1,
+     "won": 1,
+     "lost": 0
+    }
+   ],
+   "by_day": [
+    {
+     "date": "2026-10-12",
+     "label": "SKIP",
+     "n": 1,
+     "won": 1,
+     "lost": 0,
+     "pl_units": 0.57
+    }
+   ],
+   "by_week": [
+    {
+     "week": "2026-W42",
+     "label": "SKIP",
+     "n": 1,
+     "won": 1,
+     "lost": 0,
+     "pl_units": 0.57
+    }
+   ],
+   "by_trigger": [
+    {
+     "trigger": "manuel",
+     "label": "SKIP",
+     "n": 1,
+     "won": 1,
+     "lost": 0
+    }
+   ],
+   "calibration": [
+    {
+     "bucket": "65-70",
+     "n": 1,
+     "mean_predicted": 0.655,
+     "observed": 1.0
+    }
+   ]
   }
  }
 }
