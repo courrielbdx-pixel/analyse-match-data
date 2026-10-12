@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-12T18:55:04+02:00",
+ "generated_at": "2026-10-12T20:06:02+02:00",
  "settled": [
   {
    "fixture_id": 1593330,
@@ -27,6 +27,58 @@
    "outcome": "won",
    "pl_units": 0.57,
    "matin": null
+  },
+  {
+   "fixture_id": 1553187,
+   "date": "2026-10-12",
+   "kickoff": "2026-10-12T18:00:00+02:00",
+   "league": {
+    "name": "Ekstraklasa",
+    "country": "Pologne"
+   },
+   "region": "europe",
+   "method_version": "dc-v1",
+   "reading_id": "1553187-r1",
+   "trigger": "manuel",
+   "lineups_confirmed": false,
+   "market": "DC",
+   "selection": "1X",
+   "label_fr": "Radomiak Radom ou nul (1N)",
+   "label": "SKIP",
+   "model_probability": 0.698,
+   "confidence_bucket": "65-70",
+   "odds": 1.47,
+   "bookmaker": "Betano",
+   "final_score": "2-3",
+   "outcome": "lost",
+   "pl_units": -1.0,
+   "matin": null
+  },
+  {
+   "fixture_id": 1638106,
+   "date": "2026-10-12",
+   "kickoff": "2026-10-12T18:00:00+02:00",
+   "league": {
+    "name": "Veikkausliiga",
+    "country": "Finlande"
+   },
+   "region": "europe",
+   "method_version": "dc-v1",
+   "reading_id": "1638106-r1",
+   "trigger": "manuel",
+   "lineups_confirmed": false,
+   "market": "OU2.5",
+   "selection": "over",
+   "label_fr": "Plus de 2,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.573,
+   "confidence_bucket": "55-60",
+   "odds": 1.75,
+   "bookmaker": "Pinnacle",
+   "final_score": "3-4",
+   "outcome": "won",
+   "pl_units": 0.75,
+   "matin": null
   }
  ],
  "aggregates": {
@@ -43,17 +95,26 @@
     "avg_odds": null
    },
    "SKIP": {
-    "n": 1,
-    "won": 1,
-    "lost": 0,
+    "n": 3,
+    "won": 2,
+    "lost": 1,
     "void": 0,
     "no_odds": 0,
-    "hit_rate": 1.0,
-    "pl_units": 0.57,
-    "roi": 0.57,
-    "avg_odds": 1.57
+    "hit_rate": 0.667,
+    "pl_units": 0.32,
+    "roi": 0.107,
+    "avg_odds": 1.6
    },
    "by_league": [
+    {
+     "label": "SKIP",
+     "n": 1,
+     "won": 0,
+     "lost": 1,
+     "pl_units": -1.0,
+     "league": "Ekstraklasa",
+     "country": "Pologne"
+    },
     {
      "label": "SKIP",
      "n": 1,
@@ -62,62 +123,92 @@
      "pl_units": 0.57,
      "league": "Super League",
      "country": "Grèce"
-    }
-   ],
-   "by_market": [
+    },
     {
-     "market": "OU2.5",
      "label": "SKIP",
      "n": 1,
      "won": 1,
      "lost": 0,
-     "pl_units": 0.57
+     "pl_units": 0.75,
+     "league": "Veikkausliiga",
+     "country": "Finlande"
+    }
+   ],
+   "by_market": [
+    {
+     "market": "DC",
+     "label": "SKIP",
+     "n": 1,
+     "won": 0,
+     "lost": 1,
+     "pl_units": -1.0
+    },
+    {
+     "market": "OU2.5",
+     "label": "SKIP",
+     "n": 2,
+     "won": 2,
+     "lost": 0,
+     "pl_units": 1.32
     }
    ],
    "by_confidence_bucket": [
     {
-     "bucket": "65-70",
+     "bucket": "55-60",
      "label": "SKIP",
      "n": 1,
      "won": 1,
      "lost": 0
+    },
+    {
+     "bucket": "65-70",
+     "label": "SKIP",
+     "n": 2,
+     "won": 1,
+     "lost": 1
     }
    ],
    "by_day": [
     {
      "date": "2026-10-12",
      "label": "SKIP",
-     "n": 1,
-     "won": 1,
-     "lost": 0,
-     "pl_units": 0.57
+     "n": 3,
+     "won": 2,
+     "lost": 1,
+     "pl_units": 0.32
     }
    ],
    "by_week": [
     {
      "week": "2026-W42",
      "label": "SKIP",
-     "n": 1,
-     "won": 1,
-     "lost": 0,
-     "pl_units": 0.57
+     "n": 3,
+     "won": 2,
+     "lost": 1,
+     "pl_units": 0.32
     }
    ],
    "by_trigger": [
     {
      "trigger": "manuel",
      "label": "SKIP",
-     "n": 1,
-     "won": 1,
-     "lost": 0
+     "n": 3,
+     "won": 2,
+     "lost": 1
     }
    ],
    "calibration": [
     {
-     "bucket": "65-70",
+     "bucket": "55-60",
      "n": 1,
-     "mean_predicted": 0.655,
+     "mean_predicted": 0.573,
      "observed": 1.0
+    },
+    {
+     "bucket": "65-70",
+     "n": 2,
+     "mean_predicted": 0.676,
+     "observed": 0.5
     }
    ]
   }
