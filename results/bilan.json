@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-12T20:25:20+02:00",
+ "generated_at": "2026-10-12T20:46:43+02:00",
  "settled": [
   {
    "fixture_id": 1593330,
@@ -105,6 +105,32 @@
    "outcome": "lost",
    "pl_units": -1.0,
    "matin": null
+  },
+  {
+   "fixture_id": 1569967,
+   "date": "2026-10-12",
+   "kickoff": "2026-10-12T18:30:00+02:00",
+   "league": {
+    "name": "Segunda División",
+    "country": "Espagne"
+   },
+   "region": "europe",
+   "method_version": "dc-v1",
+   "reading_id": "1569967-r2",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "DC",
+   "selection": "X2",
+   "label_fr": "Nul ou Eibar (N2)",
+   "label": "SKIP",
+   "model_probability": 0.702,
+   "confidence_bucket": "70-75",
+   "odds": 1.6,
+   "bookmaker": "SBO",
+   "final_score": "3-1",
+   "outcome": "lost",
+   "pl_units": -1.0,
+   "matin": null
   }
  ],
  "aggregates": {
@@ -121,15 +147,15 @@
     "avg_odds": null
    },
    "SKIP": {
-    "n": 4,
+    "n": 5,
     "won": 2,
-    "lost": 2,
+    "lost": 3,
     "void": 0,
     "no_odds": 0,
-    "hit_rate": 0.5,
-    "pl_units": -0.68,
-    "roi": -0.17,
-    "avg_odds": 1.77
+    "hit_rate": 0.4,
+    "pl_units": -1.68,
+    "roi": -0.336,
+    "avg_odds": 1.74
    },
    "by_league": [
     {
@@ -140,6 +166,15 @@
      "pl_units": -1.0,
      "league": "Ekstraklasa",
      "country": "Pologne"
+    },
+    {
+     "label": "SKIP",
+     "n": 1,
+     "won": 0,
+     "lost": 1,
+     "pl_units": -1.0,
+     "league": "Segunda División",
+     "country": "Espagne"
     },
     {
      "label": "SKIP",
@@ -181,10 +216,10 @@
     {
      "market": "DC",
      "label": "SKIP",
-     "n": 1,
+     "n": 2,
      "won": 0,
-     "lost": 1,
-     "pl_units": -1.0
+     "lost": 2,
+     "pl_units": -2.0
     },
     {
      "market": "OU2.5",
@@ -209,35 +244,42 @@
      "n": 2,
      "won": 1,
      "lost": 1
+    },
+    {
+     "bucket": "70-75",
+     "label": "SKIP",
+     "n": 1,
+     "won": 0,
+     "lost": 1
     }
    ],
    "by_day": [
     {
      "date": "2026-10-12",
      "label": "SKIP",
-     "n": 4,
+     "n": 5,
      "won": 2,
-     "lost": 2,
-     "pl_units": -0.68
+     "lost": 3,
+     "pl_units": -1.68
     }
    ],
    "by_week": [
     {
      "week": "2026-W42",
      "label": "SKIP",
-     "n": 4,
+     "n": 5,
      "won": 2,
-     "lost": 2,
-     "pl_units": -0.68
+     "lost": 3,
+     "pl_units": -1.68
     }
    ],
    "by_trigger": [
     {
      "trigger": "compo",
      "label": "SKIP",
-     "n": 1,
+     "n": 2,
      "won": 0,
-     "lost": 1
+     "lost": 2
     },
     {
      "trigger": "manuel",
@@ -259,6 +301,12 @@
      "n": 2,
      "mean_predicted": 0.676,
      "observed": 0.5
+    },
+    {
+     "bucket": "70-75",
+     "n": 1,
+     "mean_predicted": 0.702,
+     "observed": 0.0
     }
    ]
   }
