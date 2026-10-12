@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-12T20:06:02+02:00",
+ "generated_at": "2026-10-12T20:25:20+02:00",
  "date": "2026-10-12",
  "picks": [
   {
@@ -4177,7 +4177,7 @@
   },
   {
    "fixture_id": 1550146,
-   "final_reading_id": "1550146-r2",
+   "final_reading_id": "1550146-r3",
    "readings": [
     {
      "reading_id": "1550146-r1",
@@ -4460,12 +4460,163 @@
        }
       ]
      }
+    },
+    {
+     "reading_id": "1550146-r3",
+     "timestamp": "2026-10-12T20:25:18+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "Écart modèle/marché 5,6 pts > 5"
+     ],
+     "model_probability": 0.741,
+     "probabilities": {
+      "1X2": {
+       "1": 0.356,
+       "X": 0.259,
+       "2": 0.385
+      },
+      "DC": {
+       "1X": 0.615,
+       "X2": 0.644,
+       "12": 0.741
+      },
+      "OU1.5": {
+       "over": 0.731,
+       "under": 0.269
+      },
+      "OU2.5": {
+       "over": 0.483,
+       "under": 0.517
+      },
+      "OU3.5": {
+       "over": 0.265,
+       "under": 0.735
+      },
+      "BTTS": {
+       "yes": 0.527,
+       "no": 0.473
+      },
+      "1X_O1.5": {
+       "yes": 0.447
+      },
+      "1X_BTTS": {
+       "yes": 0.351
+      },
+      "BTTS_O2.5": {
+       "yes": 0.404
+      }
+     },
+     "expected_goals": {
+      "home": 1.27,
+      "away": 1.33
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.123
+      },
+      {
+       "score": "0-1",
+       "p": 0.101
+      },
+      {
+       "score": "1-0",
+       "p": 0.097
+      }
+     ],
+     "confidence": {
+      "value": 0.741,
+      "source": "model_probability",
+      "bucket": "70-75"
+     },
+     "market_probability": 0.685,
+     "ev": 0.053,
+     "odds_seen": {
+      "value": 1.42,
+      "bookmaker": "1xBet",
+      "captured_at": "2026-10-12T20:25:18+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 74,1 % pour « Pas de nul (12) » contre 68,5 % pour le marché.",
+      "Buts attendus (modèle) : 1,27 – 1,33.",
+      "Non retenu (EV +5,3 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Torino : Adams et Fortini incertains.",
+       "Udinese : Piotrowski, Zaniolo, Gueye absents ; Davis de retour.",
+       "H-1 (19:50) : compos officielles OK — Adams titulaire côté Torino ; Udinese avec Gomez en pointe (Davis banc), Zanoli forfait fatigue. Pas d’annulation du ticket X2."
+      ],
+      "h1_check": {
+       "at": "2026-10-12T19:51:25.279058+02:00",
+       "decision": "confirmed",
+       "lineups_source": "Di Marzio / TMW"
+      }
+     },
+     "team_samples": {
+      "home": 74,
+      "away": 74
+     },
+     "change_from_previous": {
+      "pick_changed": true,
+      "label_changed": true,
+      "reason_fr": "Nouvelle lecture : compos officielles publiées, proba +9,7 pt, cote 1,65 → 1,42."
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     }
     }
    ]
   },
   {
    "fixture_id": 1552487,
-   "final_reading_id": "1552487-r2",
+   "final_reading_id": "1552487-r3",
    "readings": [
     {
      "reading_id": "1552487-r1",
@@ -4691,6 +4842,152 @@
       "value": 2.19,
       "bookmaker": "Pinnacle",
       "captured_at": "2026-10-12T19:19:41+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 51,7 % pour « Moins de 2,5 buts » contre 44,8 % pour le marché.",
+      "Buts attendus (modèle) : 1,20 – 1,40.",
+      "Non retenu (EV +13,2 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Metz : premier match de Grégory Proment sur le banc (Républicain Lorrain, Actu L2). Aucun absent de dernière minute signalé ; compos non publiées à 19:20."
+      ]
+     },
+     "team_samples": {
+      "home": 7,
+      "away": 7
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     }
+    },
+    {
+     "reading_id": "1552487-r3",
+     "timestamp": "2026-10-12T20:25:19+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU2.5",
+      "selection": "under",
+      "label_fr": "Moins de 2,5 buts"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "Écart modèle/marché 6,9 pts > 5",
+      "Proba 51,7 % < 55 %",
+      "Échantillon insuffisant (7 matchs < 20)"
+     ],
+     "model_probability": 0.517,
+     "probabilities": {
+      "1X2": {
+       "1": 0.314,
+       "X": 0.279,
+       "2": 0.407
+      },
+      "DC": {
+       "1X": 0.593,
+       "X2": 0.686,
+       "12": 0.721
+      },
+      "OU1.5": {
+       "over": 0.743,
+       "under": 0.257
+      },
+      "OU2.5": {
+       "over": 0.483,
+       "under": 0.517
+      },
+      "OU3.5": {
+       "over": 0.265,
+       "under": 0.735
+      },
+      "BTTS": {
+       "yes": 0.537,
+       "no": 0.463
+      },
+      "1X_O1.5": {
+       "yes": 0.43
+      },
+      "1X_BTTS": {
+       "yes": 0.347
+      },
+      "BTTS_O2.5": {
+       "yes": 0.403
+      }
+     },
+     "expected_goals": {
+      "home": 1.2,
+      "away": 1.4
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.133
+      },
+      {
+       "score": "0-1",
+       "p": 0.095
+      },
+      {
+       "score": "1-2",
+       "p": 0.087
+      }
+     ],
+     "confidence": {
+      "value": 0.517,
+      "source": "model_probability",
+      "bucket": "50-55"
+     },
+     "market_probability": 0.448,
+     "ev": 0.132,
+     "odds_seen": {
+      "value": 2.19,
+      "bookmaker": "Pinnacle",
+      "captured_at": "2026-10-12T20:25:19+02:00"
      },
      "reasoning_fr": [
       "Modèle 51,7 % pour « Moins de 2,5 buts » contre 44,8 % pour le marché.",
