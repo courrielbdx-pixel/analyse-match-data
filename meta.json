@@ -1,0 +1,118 @@
+{
+ "schema_version": "6.0",
+ "generated_at": "2026-10-12T16:48:21+02:00",
+ "run": {
+  "id": "2026-10-12T16:48-manuel",
+  "type": "manuel",
+  "finished_at": "2026-10-12T16:48:25+02:00"
+ },
+ "engine_status": {
+  "level": "ok",
+  "message_fr": null
+ },
+ "method": {
+  "version": "dc-v1",
+  "name": "Dixon-Coles v1",
+  "since": "2026-10-12",
+  "description_fr": "Modèle Dixon-Coles sans cotes en entrée ; un pick par match ; ticket si EV ≥ 5 %, écart marché ≤ 5 pts, proba ≥ 55 %, cote ≤ 3,50, ≥ 20 matchs par équipe."
+ },
+ "methods_history": [
+  {
+   "version": "dc-v1",
+   "from": "2026-10-12",
+   "to": null,
+   "description_fr": "Dixon-Coles v1"
+  }
+ ],
+ "rules": {
+  "text_fr": [
+   "Probabilités : modèle Dixon-Coles uniquement, sans les cotes en entrée.",
+   "Un seul pick par match et par lecture.",
+   "TICKET si EV ≥ +5 %, écart modèle/marché ≤ 5 points, proba ≥ 55 %, cote ≤ 3,50, ≥ 20 matchs par équipe, vérification web non contradictoire. Sinon SKIP.",
+   "Lecture finale = lecture faite avec les compos officielles, sinon la dernière avant le coup d'envoi.",
+   "Backtest 2024–2026 : aucun avantage démontré contre les cotes. Suivi papier.",
+   "Cotes vues chez des bookmakers internationaux (API-Football) : aucune cote de bookmaker agréé ANJ disponible."
+  ],
+  "ticket_criteria": {
+   "min_ev": 0.05,
+   "max_gap_market": 0.05,
+   "min_prob": 0.55,
+   "max_odds": 3.5,
+   "min_team_matches": 20
+  },
+  "allowed_markets": [
+   "1X2",
+   "DC",
+   "OU1.5",
+   "OU2.5",
+   "OU3.5",
+   "BTTS",
+   "1X_O1.5",
+   "1X_BTTS",
+   "BTTS_O2.5"
+  ]
+ },
+ "thresholds": {
+  "paper_min_tickets": 300,
+  "min_sample_display": 30
+ },
+ "dates_available": [
+  "2026-10-10",
+  "2026-10-11",
+  "2026-10-12",
+  "2026-10-13",
+  "2026-10-14",
+  "2026-10-15",
+  "2026-10-16",
+  "2026-10-17"
+ ],
+ "files": {
+  "2026-10-10": {
+   "fixtures": "2026-10-12T16:48:21+02:00",
+   "live": "2026-10-12T16:48:21+02:00"
+  },
+  "2026-10-11": {
+   "fixtures": "2026-10-12T16:48:21+02:00",
+   "live": "2026-10-12T16:48:21+02:00"
+  },
+  "2026-10-12": {
+   "fixtures": "2026-10-12T16:48:21+02:00",
+   "picks": "2026-10-12T16:48:21+02:00",
+   "live": "2026-10-12T16:48:21+02:00"
+  },
+  "2026-10-13": {
+   "fixtures": "2026-10-12T16:48:21+02:00"
+  },
+  "2026-10-14": {
+   "fixtures": "2026-10-12T16:48:21+02:00"
+  },
+  "2026-10-15": {
+   "fixtures": "2026-10-12T16:48:21+02:00"
+  },
+  "2026-10-16": {
+   "fixtures": "2026-10-12T16:48:21+02:00"
+  },
+  "2026-10-17": {
+   "fixtures": "2026-10-12T16:48:21+02:00"
+  }
+ },
+ "next_runs": {
+  "matin": "2026-10-13T07:00:00+02:00",
+  "calendrier": "2026-10-12T19:00:00+02:00"
+ },
+ "api_usage": {
+  "date": "2026-10-12",
+  "used": 5319,
+  "limit": 7500,
+  "plan_expires": "2026-10-16"
+ },
+ "exclusions": [
+  "Afrique",
+  "Moyen-Orient",
+  "Jeunes (U17–U23, Youth League, Primavera, Premier League 2)",
+  "Bolivie",
+  "Pérou",
+  "Jeux méditerranéens",
+  "Géorgie Liga 3"
+ ]
+}
