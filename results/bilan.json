@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-12T22:46:25+02:00",
+ "generated_at": "2026-10-12T23:03:55+02:00",
  "settled": [
   {
    "fixture_id": 1593330,
@@ -443,6 +443,110 @@
    "outcome": "lost",
    "pl_units": -1.0,
    "matin": null
+  },
+  {
+   "fixture_id": 1493173,
+   "date": "2026-10-12",
+   "kickoff": "2026-10-12T21:00:00+02:00",
+   "league": {
+    "name": "Liga Profesional",
+    "country": "Argentine"
+   },
+   "region": "ameriques",
+   "method_version": "dc-v1",
+   "reading_id": "1493173-r3",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "OU2.5",
+   "selection": "under",
+   "label_fr": "Moins de 2,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.695,
+   "confidence_bucket": "65-70",
+   "odds": 1.56,
+   "bookmaker": "Pinnacle",
+   "final_score": "2-0",
+   "outcome": "won",
+   "pl_units": 0.56,
+   "matin": null
+  },
+  {
+   "fixture_id": 1557420,
+   "date": "2026-10-12",
+   "kickoff": "2026-10-12T21:00:00+02:00",
+   "league": {
+    "name": "Premier League",
+    "country": "Angleterre"
+   },
+   "region": "europe",
+   "method_version": "dc-v1",
+   "reading_id": "1557420-r3",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "1X2",
+   "selection": "2",
+   "label_fr": "Victoire Newcastle (2)",
+   "label": "SKIP",
+   "model_probability": 0.55,
+   "confidence_bucket": "55-60",
+   "odds": 2.25,
+   "bookmaker": "Dafabet",
+   "final_score": "4-1",
+   "outcome": "lost",
+   "pl_units": -1.0,
+   "matin": null
+  },
+  {
+   "fixture_id": 1569968,
+   "date": "2026-10-12",
+   "kickoff": "2026-10-12T21:00:00+02:00",
+   "league": {
+    "name": "Segunda División",
+    "country": "Espagne"
+   },
+   "region": "europe",
+   "method_version": "dc-v1",
+   "reading_id": "1569968-r2",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "OU2.5",
+   "selection": "over",
+   "label_fr": "Plus de 2,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.53,
+   "confidence_bucket": "50-55",
+   "odds": 2.17,
+   "bookmaker": "Pinnacle",
+   "final_score": "1-1",
+   "outcome": "lost",
+   "pl_units": -1.0,
+   "matin": null
+  },
+  {
+   "fixture_id": 1570407,
+   "date": "2026-10-12",
+   "kickoff": "2026-10-12T21:00:00+02:00",
+   "league": {
+    "name": "LaLiga",
+    "country": "Espagne"
+   },
+   "region": "europe",
+   "method_version": "dc-v1",
+   "reading_id": "1570407-r3",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "OU2.5",
+   "selection": "over",
+   "label_fr": "Plus de 2,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.543,
+   "confidence_bucket": "50-55",
+   "odds": 2.26,
+   "bookmaker": "Pinnacle",
+   "final_score": "3-3",
+   "outcome": "won",
+   "pl_units": 1.26,
+   "matin": null
   }
  ],
  "aggregates": {
@@ -459,15 +563,15 @@
     "avg_odds": 1.65
    },
    "SKIP": {
-    "n": 16,
-    "won": 7,
-    "lost": 9,
+    "n": 20,
+    "won": 9,
+    "lost": 11,
     "void": 0,
     "no_odds": 0,
-    "hit_rate": 0.438,
-    "pl_units": -3.36,
-    "roi": -0.21,
-    "avg_odds": 1.95
+    "hit_rate": 0.45,
+    "pl_units": -3.54,
+    "roi": -0.177,
+    "avg_odds": 1.97
    },
    "by_league": [
     {
@@ -518,11 +622,29 @@
     {
      "label": "SKIP",
      "n": 1,
+     "won": 1,
+     "lost": 0,
+     "pl_units": 1.26,
+     "league": "LaLiga",
+     "country": "Espagne"
+    },
+    {
+     "label": "SKIP",
+     "n": 1,
      "won": 0,
      "lost": 1,
      "pl_units": -1.0,
      "league": "Liga I",
      "country": "Roumanie"
+    },
+    {
+     "label": "SKIP",
+     "n": 1,
+     "won": 1,
+     "lost": 0,
+     "pl_units": 0.56,
+     "league": "Liga Profesional",
+     "country": "Argentine"
     },
     {
      "label": "SKIP",
@@ -539,6 +661,15 @@
      "won": 0,
      "lost": 1,
      "pl_units": -1.0,
+     "league": "Premier League",
+     "country": "Angleterre"
+    },
+    {
+     "label": "SKIP",
+     "n": 2,
+     "won": 0,
+     "lost": 2,
+     "pl_units": -2.0,
      "league": "Segunda División",
      "country": "Espagne"
     },
@@ -610,10 +741,10 @@
     {
      "market": "1X2",
      "label": "SKIP",
-     "n": 2,
+     "n": 3,
      "won": 1,
-     "lost": 1,
-     "pl_units": 0.13
+     "lost": 2,
+     "pl_units": -0.87
     },
     {
      "market": "BTTS",
@@ -642,10 +773,10 @@
     {
      "market": "OU2.5",
      "label": "SKIP",
-     "n": 7,
-     "won": 3,
-     "lost": 4,
-     "pl_units": -1.95
+     "n": 10,
+     "won": 5,
+     "lost": 5,
+     "pl_units": -1.13
     },
     {
      "market": "OU3.5",
@@ -660,16 +791,16 @@
     {
      "bucket": "50-55",
      "label": "SKIP",
-     "n": 4,
-     "won": 1,
-     "lost": 3
+     "n": 6,
+     "won": 2,
+     "lost": 4
     },
     {
      "bucket": "55-60",
      "label": "SKIP",
-     "n": 5,
+     "n": 6,
      "won": 3,
-     "lost": 2
+     "lost": 3
     },
     {
      "bucket": "60-65",
@@ -688,8 +819,8 @@
     {
      "bucket": "65-70",
      "label": "SKIP",
-     "n": 2,
-     "won": 1,
+     "n": 3,
+     "won": 2,
      "lost": 1
     },
     {
@@ -704,10 +835,10 @@
     {
      "date": "2026-10-12",
      "label": "SKIP",
-     "n": 16,
-     "won": 7,
-     "lost": 9,
-     "pl_units": -3.36
+     "n": 20,
+     "won": 9,
+     "lost": 11,
+     "pl_units": -3.54
     },
     {
      "date": "2026-10-12",
@@ -722,10 +853,10 @@
     {
      "week": "2026-W42",
      "label": "SKIP",
-     "n": 16,
-     "won": 7,
-     "lost": 9,
-     "pl_units": -3.36
+     "n": 20,
+     "won": 9,
+     "lost": 11,
+     "pl_units": -3.54
     },
     {
      "week": "2026-W42",
@@ -740,9 +871,9 @@
     {
      "trigger": "compo",
      "label": "SKIP",
-     "n": 13,
-     "won": 5,
-     "lost": 8
+     "n": 17,
+     "won": 7,
+     "lost": 10
     },
     {
      "trigger": "manuel",
@@ -762,15 +893,15 @@
    "calibration": [
     {
      "bucket": "50-55",
-     "n": 4,
-     "mean_predicted": 0.519,
-     "observed": 0.25
+     "n": 6,
+     "mean_predicted": 0.525,
+     "observed": 0.333
     },
     {
      "bucket": "55-60",
-     "n": 5,
-     "mean_predicted": 0.573,
-     "observed": 0.6
+     "n": 6,
+     "mean_predicted": 0.57,
+     "observed": 0.5
     },
     {
      "bucket": "60-65",
@@ -780,9 +911,9 @@
     },
     {
      "bucket": "65-70",
-     "n": 2,
-     "mean_predicted": 0.676,
-     "observed": 0.5
+     "n": 3,
+     "mean_predicted": 0.683,
+     "observed": 0.667
     },
     {
      "bucket": "70-75",
