@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-13T15:50:09+02:00",
+ "generated_at": "2026-10-13T16:22:13+02:00",
  "settled": [
   {
    "fixture_id": 1593330,
@@ -849,6 +849,66 @@
     "label": "SKIP",
     "outcome": "won"
    }
+  },
+  {
+   "fixture_id": 1629937,
+   "date": "2026-10-13",
+   "kickoff": "2026-10-13T14:15:00+02:00",
+   "league": {
+    "name": "AFC Champions League Elite",
+    "country": "Asie"
+   },
+   "region": "asie_oceanie",
+   "method_version": "dc-v1",
+   "reading_id": "1629937-r3",
+   "trigger": "manuel",
+   "lineups_confirmed": false,
+   "market": "OU1.5",
+   "selection": "over",
+   "label_fr": "Plus de 1,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.757,
+   "confidence_bucket": "75-80",
+   "odds": 1.23,
+   "bookmaker": "Betano",
+   "final_score": "0-1",
+   "outcome": "lost",
+   "pl_units": -1.0,
+   "matin": {
+    "selection": "X2",
+    "label": "SKIP",
+    "outcome": "won"
+   }
+  },
+  {
+   "fixture_id": 1629938,
+   "date": "2026-10-13",
+   "kickoff": "2026-10-13T14:15:00+02:00",
+   "league": {
+    "name": "AFC Champions League Elite",
+    "country": "Asie"
+   },
+   "region": "asie_oceanie",
+   "method_version": "dc-v1",
+   "reading_id": "1629938-r3",
+   "trigger": "manuel",
+   "lineups_confirmed": false,
+   "market": "DC",
+   "selection": "X2",
+   "label_fr": "Nul ou Kashima (N2)",
+   "label": "SKIP",
+   "model_probability": 0.822,
+   "confidence_bucket": "80-85",
+   "odds": 1.12,
+   "bookmaker": "Betano",
+   "final_score": "0-1",
+   "outcome": "won",
+   "pl_units": 0.12,
+   "matin": {
+    "selection": "over",
+    "label": "SKIP",
+    "outcome": "lost"
+   }
   }
  ],
  "aggregates": {
@@ -865,23 +925,23 @@
     "avg_odds": 1.65
    },
    "SKIP": {
-    "n": 31,
-    "won": 13,
-    "lost": 18,
+    "n": 33,
+    "won": 14,
+    "lost": 19,
     "void": 0,
     "no_odds": 0,
-    "hit_rate": 0.419,
-    "pl_units": -8.23,
-    "roi": -0.265,
-    "avg_odds": 1.88
+    "hit_rate": 0.424,
+    "pl_units": -9.11,
+    "roi": -0.276,
+    "avg_odds": 1.84
    },
    "by_league": [
     {
      "label": "SKIP",
-     "n": 4,
-     "won": 3,
-     "lost": 1,
-     "pl_units": 0.4,
+     "n": 6,
+     "won": 4,
+     "lost": 2,
+     "pl_units": -0.48,
      "league": "AFC Champions League Elite",
      "country": "Asie"
     },
@@ -1095,10 +1155,10 @@
     {
      "market": "DC",
      "label": "SKIP",
-     "n": 4,
-     "won": 2,
+     "n": 5,
+     "won": 3,
      "lost": 2,
-     "pl_units": -0.96
+     "pl_units": -0.84
     },
     {
      "market": "DC",
@@ -1111,10 +1171,10 @@
     {
      "market": "OU1.5",
      "label": "SKIP",
-     "n": 3,
+     "n": 4,
      "won": 1,
-     "lost": 2,
-     "pl_units": -1.8
+     "lost": 3,
+     "pl_units": -2.8
     },
     {
      "market": "OU2.5",
@@ -1177,10 +1237,17 @@
      "lost": 2
     },
     {
+     "bucket": "75-80",
+     "label": "SKIP",
+     "n": 1,
+     "won": 0,
+     "lost": 1
+    },
+    {
      "bucket": "80-85",
      "label": "SKIP",
-     "n": 2,
-     "won": 1,
+     "n": 3,
+     "won": 2,
      "lost": 1
     }
    ],
@@ -1204,20 +1271,20 @@
     {
      "date": "2026-10-13",
      "label": "SKIP",
-     "n": 6,
-     "won": 4,
-     "lost": 2,
-     "pl_units": 0.31
+     "n": 8,
+     "won": 5,
+     "lost": 3,
+     "pl_units": -0.57
     }
    ],
    "by_week": [
     {
      "week": "2026-W42",
      "label": "SKIP",
-     "n": 31,
-     "won": 13,
-     "lost": 18,
-     "pl_units": -8.23
+     "n": 33,
+     "won": 14,
+     "lost": 19,
+     "pl_units": -9.11
     },
     {
      "week": "2026-W42",
@@ -1239,9 +1306,9 @@
     {
      "trigger": "manuel",
      "label": "SKIP",
-     "n": 9,
-     "won": 5,
-     "lost": 4
+     "n": 11,
+     "won": 6,
+     "lost": 5
     },
     {
      "trigger": "manuel",
@@ -1290,10 +1357,16 @@
      "observed": 0.6
     },
     {
+     "bucket": "75-80",
+     "n": 1,
+     "mean_predicted": 0.757,
+     "observed": 0.0
+    },
+    {
      "bucket": "80-85",
-     "n": 2,
-     "mean_predicted": 0.839,
-     "observed": 0.5
+     "n": 3,
+     "mean_predicted": 0.834,
+     "observed": 0.667
     }
    ]
   }
@@ -1317,31 +1390,31 @@
  },
  "skip_lines": {
   "probable": {
-   "n": 6,
-   "won": 4,
-   "hit_rate": 0.667,
-   "with_odds": 6,
-   "avg_odds": 1.61,
-   "profit_eur": 0.31,
-   "roi": 0.052
+   "n": 8,
+   "won": 5,
+   "hit_rate": 0.625,
+   "with_odds": 8,
+   "avg_odds": 1.5,
+   "profit_eur": -0.57,
+   "roi": -0.071
   },
   "resultat": {
-   "n": 2,
-   "won": 1,
-   "hit_rate": 0.5,
-   "with_odds": 2,
-   "avg_odds": 1.23,
-   "profit_eur": -0.82,
-   "roi": -0.41
-  },
-  "valeur": {
    "n": 3,
    "won": 2,
    "hit_rate": 0.667,
    "with_odds": 3,
-   "avg_odds": 2.2,
-   "profit_eur": 0.97,
-   "roi": 0.323
+   "avg_odds": 1.26,
+   "profit_eur": -0.52,
+   "roi": -0.173
+  },
+  "valeur": {
+   "n": 5,
+   "won": 3,
+   "hit_rate": 0.6,
+   "with_odds": 5,
+   "avg_odds": 2.25,
+   "profit_eur": 0.74,
+   "roi": 0.148
   }
  }
 }
