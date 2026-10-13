@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-13T17:11:10+02:00",
+ "generated_at": "2026-10-13T17:19:41+02:00",
  "settled": [
   {
    "fixture_id": 1593330,
@@ -1437,6 +1437,7 @@
    "start": 100.0,
    "bank": 98.0,
    "bets": 1,
+   "zero_stake": 0,
    "roi_bank": -0.02,
    "curve": [
     {
@@ -1447,10 +1448,50 @@
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
   },
+  "probable": {
+   "start": 100.0,
+   "bank": 99.41,
+   "bets": 4,
+   "zero_stake": 4,
+   "roi_bank": -0.0059,
+   "curve": [
+    {
+     "date": "2026-10-13",
+     "stake": 2.0,
+     "bank": 101.82
+    },
+    {
+     "date": "2026-10-13",
+     "stake": 2.04,
+     "bank": 99.78
+    },
+    {
+     "date": "2026-10-13",
+     "stake": 2.0,
+     "bank": 101.44
+    },
+    {
+     "date": "2026-10-13",
+     "stake": 2.03,
+     "bank": 99.41
+    }
+   ],
+   "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
+  },
+  "resultat": {
+   "start": 100.0,
+   "bank": 100.0,
+   "bets": 0,
+   "zero_stake": 3,
+   "roi_bank": 0.0,
+   "curve": [],
+   "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
+  },
   "valeur": {
    "start": 100.0,
    "bank": 100.61,
    "bets": 5,
+   "zero_stake": 0,
    "roi_bank": 0.0061,
    "curve": [
     {
