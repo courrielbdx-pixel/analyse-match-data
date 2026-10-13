@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-13T00:25:42+02:00",
+ "generated_at": "2026-10-13T02:57:29+02:00",
  "settled": [
   {
    "fixture_id": 1593330,
@@ -651,6 +651,58 @@
    "outcome": "lost",
    "pl_units": -1.0,
    "matin": null
+  },
+  {
+   "fixture_id": 1493171,
+   "date": "2026-10-12",
+   "kickoff": "2026-10-12T23:30:00+02:00",
+   "league": {
+    "name": "Liga Profesional",
+    "country": "Argentine"
+   },
+   "region": "ameriques",
+   "method_version": "dc-v1",
+   "reading_id": "1493171-r2",
+   "trigger": "manuel",
+   "lineups_confirmed": false,
+   "market": "OU1.5",
+   "selection": "over",
+   "label_fr": "Plus de 1,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.674,
+   "confidence_bucket": "65-70",
+   "odds": 1.53,
+   "bookmaker": "Betano",
+   "final_score": "1-0",
+   "outcome": "lost",
+   "pl_units": -1.0,
+   "matin": null
+  },
+  {
+   "fixture_id": 1492403,
+   "date": "2026-10-13",
+   "kickoff": "2026-10-13T00:30:00+02:00",
+   "league": {
+    "name": "Serie A",
+    "country": "Brésil"
+   },
+   "region": "ameriques",
+   "method_version": "dc-v1",
+   "reading_id": "1492403-r1",
+   "trigger": "manuel",
+   "lineups_confirmed": false,
+   "market": "OU2.5",
+   "selection": "over",
+   "label_fr": "Plus de 2,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.599,
+   "confidence_bucket": "55-60",
+   "odds": 1.91,
+   "bookmaker": "Pinnacle",
+   "final_score": "1-4",
+   "outcome": "won",
+   "pl_units": 0.91,
+   "matin": null
   }
  ],
  "aggregates": {
@@ -667,15 +719,15 @@
     "avg_odds": 1.65
    },
    "SKIP": {
-    "n": 24,
-    "won": 9,
-    "lost": 15,
+    "n": 26,
+    "won": 10,
+    "lost": 16,
     "void": 0,
     "no_odds": 0,
-    "hit_rate": 0.375,
-    "pl_units": -7.54,
-    "roi": -0.314,
-    "avg_odds": 1.96
+    "hit_rate": 0.385,
+    "pl_units": -7.63,
+    "roi": -0.293,
+    "avg_odds": 1.94
    },
    "by_league": [
     {
@@ -752,10 +804,10 @@
     },
     {
      "label": "SKIP",
-     "n": 1,
+     "n": 2,
      "won": 1,
-     "lost": 0,
-     "pl_units": 0.56,
+     "lost": 1,
+     "pl_units": -0.44,
      "league": "Liga Profesional",
      "country": "Argentine"
     },
@@ -797,10 +849,10 @@
     },
     {
      "label": "SKIP",
-     "n": 1,
-     "won": 0,
+     "n": 2,
+     "won": 1,
      "lost": 1,
-     "pl_units": -1.0,
+     "pl_units": -0.09,
      "league": "Serie A",
      "country": "Brésil"
     },
@@ -902,12 +954,20 @@
      "pl_units": -1.0
     },
     {
+     "market": "OU1.5",
+     "label": "SKIP",
+     "n": 1,
+     "won": 0,
+     "lost": 1,
+     "pl_units": -1.0
+    },
+    {
      "market": "OU2.5",
      "label": "SKIP",
-     "n": 12,
-     "won": 5,
+     "n": 13,
+     "won": 6,
      "lost": 7,
-     "pl_units": -3.13
+     "pl_units": -2.22
     },
     {
      "market": "OU3.5",
@@ -929,8 +989,8 @@
     {
      "bucket": "55-60",
      "label": "SKIP",
-     "n": 8,
-     "won": 3,
+     "n": 9,
+     "won": 4,
      "lost": 5
     },
     {
@@ -950,9 +1010,9 @@
     {
      "bucket": "65-70",
      "label": "SKIP",
-     "n": 3,
+     "n": 4,
      "won": 2,
-     "lost": 1
+     "lost": 2
     },
     {
      "bucket": "70-75",
@@ -966,10 +1026,10 @@
     {
      "date": "2026-10-12",
      "label": "SKIP",
-     "n": 24,
+     "n": 25,
      "won": 9,
-     "lost": 15,
-     "pl_units": -7.54
+     "lost": 16,
+     "pl_units": -8.54
     },
     {
      "date": "2026-10-12",
@@ -978,16 +1038,24 @@
      "won": 0,
      "lost": 1,
      "pl_units": -1.0
+    },
+    {
+     "date": "2026-10-13",
+     "label": "SKIP",
+     "n": 1,
+     "won": 1,
+     "lost": 0,
+     "pl_units": 0.91
     }
    ],
    "by_week": [
     {
      "week": "2026-W42",
      "label": "SKIP",
-     "n": 24,
-     "won": 9,
-     "lost": 15,
-     "pl_units": -7.54
+     "n": 26,
+     "won": 10,
+     "lost": 16,
+     "pl_units": -7.63
     },
     {
      "week": "2026-W42",
@@ -1009,9 +1077,9 @@
     {
      "trigger": "manuel",
      "label": "SKIP",
-     "n": 3,
-     "won": 2,
-     "lost": 1
+     "n": 5,
+     "won": 3,
+     "lost": 2
     },
     {
      "trigger": "manuel",
@@ -1030,9 +1098,9 @@
     },
     {
      "bucket": "55-60",
-     "n": 8,
-     "mean_predicted": 0.573,
-     "observed": 0.375
+     "n": 9,
+     "mean_predicted": 0.576,
+     "observed": 0.444
     },
     {
      "bucket": "60-65",
@@ -1042,9 +1110,9 @@
     },
     {
      "bucket": "65-70",
-     "n": 3,
-     "mean_predicted": 0.683,
-     "observed": 0.667
+     "n": 4,
+     "mean_predicted": 0.68,
+     "observed": 0.5
     },
     {
      "bucket": "70-75",
