@@ -1,11 +1,11 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-13T11:49:24+02:00",
+ "generated_at": "2026-10-14T01:12:33+02:00",
  "date": "2026-10-14",
  "picks": [
   {
    "fixture_id": 1549745,
-   "final_reading_id": "1549745-r2",
+   "final_reading_id": "1549745-r3",
    "readings": [
     {
      "reading_id": "1549745-r1",
@@ -331,6 +331,194 @@
       "odds": 2.65,
       "bookmaker": "Betano",
       "ev": 0.139
+     }
+    },
+    {
+     "reading_id": "1549745-r3",
+     "timestamp": "2026-10-14T01:12:32+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)"
+     },
+     "label": "SKIP",
+     "value_pick": {
+      "market": "BTTS",
+      "selection": "no",
+      "label_fr": "Les deux équipes ne marquent pas",
+      "model_probability": 0.538,
+      "market_probability": 0.444,
+      "odds": 2.15,
+      "bookmaker": "Betano",
+      "ev": 0.156
+     },
+     "skip_reasons_fr": [
+      "EV −1,5 % < 5 %"
+     ],
+     "model_probability": 0.752,
+     "probabilities": {
+      "1X2": {
+       "1": 0.595,
+       "X": 0.248,
+       "2": 0.157
+      },
+      "DC": {
+       "1X": 0.843,
+       "X2": 0.405,
+       "12": 0.752
+      },
+      "OU1.5": {
+       "over": 0.732,
+       "under": 0.268
+      },
+      "OU2.5": {
+       "over": 0.47,
+       "under": 0.53
+      },
+      "OU3.5": {
+       "over": 0.254,
+       "under": 0.746
+      },
+      "BTTS": {
+       "yes": 0.462,
+       "no": 0.538
+      },
+      "BTTS_O2.5": {
+       "yes": 0.345
+      },
+      "1X_O1.5": {
+       "yes": 0.628
+      },
+      "1X_O2.5": {
+       "yes": 0.39
+      },
+      "1X_U3.5": {
+       "yes": 0.619
+      },
+      "1X_BTTS": {
+       "yes": 0.391
+      },
+      "X2_O1.5": {
+       "yes": 0.266
+      },
+      "X2_O2.5": {
+       "yes": 0.124
+      },
+      "X2_U3.5": {
+       "yes": 0.331
+      },
+      "X2_BTTS": {
+       "yes": 0.233
+      },
+      "12_O1.5": {
+       "yes": 0.57
+      },
+      "12_O2.5": {
+       "yes": 0.425
+      },
+      "12_U3.5": {
+       "yes": 0.542
+      },
+      "12_BTTS": {
+       "yes": 0.301
+      },
+      "HT1X2": {
+       "1": 0.43,
+       "X": 0.416,
+       "2": 0.155
+      }
+     },
+     "expected_goals": {
+      "home": 1.76,
+      "away": 0.79
+     },
+     "top_scores": [
+      {
+       "score": "1-0",
+       "p": 0.128
+      },
+      {
+       "score": "2-0",
+       "p": 0.12
+      },
+      {
+       "score": "1-1",
+       "p": 0.117
+      }
+     ],
+     "confidence": {
+      "value": 0.752,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.725,
+     "ev": -0.015,
+     "odds_seen": {
+      "value": 1.31,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-14T01:12:32+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 75,2 % pour « Pas de nul (12) » contre 72,5 % pour le marché.",
+      "Buts attendus (modèle) : 1,76 – 0,79.",
+      "Candidat EV max écarté : Victoire Bucaramanga (1) (59,5 %, cote 2,05, EV +21,9 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 75,
+      "away": 71
+     },
+     "change_from_previous": {
+      "pick_changed": true,
+      "label_changed": false,
+      "reason_fr": "Nouvelle lecture : compos officielles publiées, cote 1,27 → 1,31."
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
      }
     }
    ]
