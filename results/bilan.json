@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-14T19:55:45+02:00",
+ "generated_at": "2026-10-14T20:38:10+02:00",
  "settled": [
   {
    "fixture_id": 1593330,
@@ -1595,6 +1595,36 @@
     "label": "SKIP",
     "outcome": "lost"
    }
+  },
+  {
+   "fixture_id": 1635674,
+   "date": "2026-10-14",
+   "kickoff": "2026-10-14T18:45:00+02:00",
+   "league": {
+    "name": "UEFA Champions League",
+    "country": "Europe"
+   },
+   "region": "uefa",
+   "method_version": "dc-v1",
+   "reading_id": "1635674-r1",
+   "trigger": "matin",
+   "lineups_confirmed": false,
+   "market": "OU1.5",
+   "selection": "over",
+   "label_fr": "Plus de 1,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.84,
+   "confidence_bucket": "80-85",
+   "odds": 1.12,
+   "bookmaker": "Betano",
+   "final_score": "3-6",
+   "outcome": "won",
+   "pl_units": 0.12,
+   "matin": {
+    "selection": "over",
+    "label": "SKIP",
+    "outcome": "won"
+   }
   }
  ],
  "aggregates": {
@@ -1611,15 +1641,15 @@
     "avg_odds": 1.75
    },
    "SKIP": {
-    "n": 55,
-    "won": 31,
+    "n": 56,
+    "won": 32,
     "lost": 24,
     "void": 0,
     "no_odds": 0,
-    "hit_rate": 0.564,
-    "pl_units": -10.93,
-    "roi": -0.199,
-    "avg_odds": 1.59
+    "hit_rate": 0.571,
+    "pl_units": -10.81,
+    "roi": -0.193,
+    "avg_odds": 1.58
    },
    "by_league": [
     {
@@ -1867,10 +1897,10 @@
     },
     {
      "label": "SKIP",
-     "n": 9,
-     "won": 8,
+     "n": 10,
+     "won": 9,
      "lost": 1,
-     "pl_units": 0.1,
+     "pl_units": 0.22,
      "league": "UEFA Champions League",
      "country": "Europe"
     },
@@ -1920,10 +1950,10 @@
     {
      "market": "OU1.5",
      "label": "SKIP",
-     "n": 14,
-     "won": 9,
+     "n": 15,
+     "won": 10,
      "lost": 5,
-     "pl_units": -3.56
+     "pl_units": -3.44
     },
     {
      "market": "OU2.5",
@@ -2002,8 +2032,8 @@
     {
      "bucket": "80-85",
      "label": "SKIP",
-     "n": 8,
-     "won": 7,
+     "n": 9,
+     "won": 8,
      "lost": 1
     },
     {
@@ -2057,20 +2087,20 @@
     {
      "date": "2026-10-14",
      "label": "SKIP",
-     "n": 6,
-     "won": 3,
+     "n": 7,
+     "won": 4,
      "lost": 3,
-     "pl_units": -2.4
+     "pl_units": -2.28
     }
    ],
    "by_week": [
     {
      "week": "2026-W42",
      "label": "SKIP",
-     "n": 55,
-     "won": 31,
+     "n": 56,
+     "won": 32,
      "lost": 24,
-     "pl_units": -10.93
+     "pl_units": -10.81
     },
     {
      "week": "2026-W42",
@@ -2106,8 +2136,8 @@
     {
      "trigger": "matin",
      "label": "SKIP",
-     "n": 5,
-     "won": 4,
+     "n": 6,
+     "won": 5,
      "lost": 1
     },
     {
@@ -2157,9 +2187,9 @@
     },
     {
      "bucket": "80-85",
-     "n": 8,
-     "mean_predicted": 0.832,
-     "observed": 0.875
+     "n": 9,
+     "mean_predicted": 0.833,
+     "observed": 0.889
     },
     {
      "bucket": "85-90",
@@ -2195,31 +2225,31 @@
  },
  "skip_lines": {
   "probable": {
-   "n": 30,
-   "won": 22,
-   "hit_rate": 0.733,
-   "with_odds": 30,
-   "avg_odds": 1.3,
-   "profit_eur": -2.39,
-   "roi": -0.08
+   "n": 31,
+   "won": 23,
+   "hit_rate": 0.742,
+   "with_odds": 31,
+   "avg_odds": 1.29,
+   "profit_eur": -2.27,
+   "roi": -0.073
   },
   "resultat": {
-   "n": 17,
-   "won": 12,
-   "hit_rate": 0.706,
-   "with_odds": 17,
-   "avg_odds": 1.26,
-   "profit_eur": -2.12,
-   "roi": -0.125
+   "n": 18,
+   "won": 13,
+   "hit_rate": 0.722,
+   "with_odds": 18,
+   "avg_odds": 1.25,
+   "profit_eur": -2.04,
+   "roi": -0.113
   },
   "valeur": {
-   "n": 25,
+   "n": 26,
    "won": 8,
-   "hit_rate": 0.32,
-   "with_odds": 25,
-   "avg_odds": 2.2,
-   "profit_eur": -9.66,
-   "roi": -0.386
+   "hit_rate": 0.308,
+   "with_odds": 26,
+   "avg_odds": 2.19,
+   "profit_eur": -10.66,
+   "roi": -0.41
   }
  },
  "clv": {
@@ -2595,7 +2625,7 @@
    "start": 100.0,
    "bank": 97.77,
    "bets": 10,
-   "zero_stake": 20,
+   "zero_stake": 21,
    "roi_bank": -0.0223,
    "curve": [
     {
@@ -2655,7 +2685,7 @@
    "start": 100.0,
    "bank": 98.28,
    "bets": 1,
-   "zero_stake": 16,
+   "zero_stake": 17,
    "roi_bank": -0.0172,
    "curve": [
     {
@@ -2668,10 +2698,10 @@
   },
   "valeur": {
    "start": 100.0,
-   "bank": 85.79,
-   "bets": 25,
+   "bank": 84.07,
+   "bets": 26,
    "zero_stake": 0,
-   "roi_bank": -0.1421,
+   "roi_bank": -0.1593,
    "curve": [
     {
      "date": "2026-10-13",
@@ -2797,6 +2827,11 @@
      "date": "2026-10-14",
      "stake": 1.68,
      "bank": 85.79
+    },
+    {
+     "date": "2026-10-14",
+     "stake": 1.72,
+     "bank": 84.07
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
