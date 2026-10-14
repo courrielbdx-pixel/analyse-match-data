@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-14T07:06:58+02:00",
+ "generated_at": "2026-10-14T13:51:32+02:00",
  "settled": [
   {
    "fixture_id": 1593330,
@@ -1475,6 +1475,66 @@
     "label": "SKIP",
     "outcome": "lost"
    }
+  },
+  {
+   "fixture_id": 1630362,
+   "date": "2026-10-14",
+   "kickoff": "2026-10-14T09:45:00+02:00",
+   "league": {
+    "name": "AFC Champions League Two",
+    "country": "Asie"
+   },
+   "region": "asie_oceanie",
+   "method_version": "dc-v1",
+   "reading_id": "1630362-r1",
+   "trigger": "matin",
+   "lineups_confirmed": false,
+   "market": "OU1.5",
+   "selection": "over",
+   "label_fr": "Plus de 1,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.769,
+   "confidence_bucket": "75-80",
+   "odds": 1.19,
+   "bookmaker": "Betano",
+   "final_score": "3-0",
+   "outcome": "won",
+   "pl_units": 0.19,
+   "matin": {
+    "selection": "over",
+    "label": "SKIP",
+    "outcome": "won"
+   }
+  },
+  {
+   "fixture_id": 1629942,
+   "date": "2026-10-14",
+   "kickoff": "2026-10-14T12:00:00+02:00",
+   "league": {
+    "name": "AFC Champions League Elite",
+    "country": "Asie"
+   },
+   "region": "asie_oceanie",
+   "method_version": "dc-v1",
+   "reading_id": "1629942-r1",
+   "trigger": "matin",
+   "lineups_confirmed": false,
+   "market": "OU3.5",
+   "selection": "under",
+   "label_fr": "Moins de 3,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.794,
+   "confidence_bucket": "75-80",
+   "odds": 1.35,
+   "bookmaker": "Pinnacle",
+   "final_score": "2-0",
+   "outcome": "won",
+   "pl_units": 0.35,
+   "matin": {
+    "selection": "under",
+    "label": "SKIP",
+    "outcome": "won"
+   }
   }
  ],
  "aggregates": {
@@ -1491,24 +1551,33 @@
     "avg_odds": 1.75
    },
    "SKIP": {
-    "n": 51,
-    "won": 28,
+    "n": 53,
+    "won": 30,
     "lost": 23,
     "void": 0,
     "no_odds": 0,
-    "hit_rate": 0.549,
-    "pl_units": -10.53,
-    "roi": -0.206,
-    "avg_odds": 1.62
+    "hit_rate": 0.566,
+    "pl_units": -9.99,
+    "roi": -0.188,
+    "avg_odds": 1.61
    },
    "by_league": [
     {
      "label": "SKIP",
-     "n": 6,
-     "won": 4,
+     "n": 7,
+     "won": 5,
      "lost": 2,
-     "pl_units": -0.48,
+     "pl_units": -0.13,
      "league": "AFC Champions League Elite",
+     "country": "Asie"
+    },
+    {
+     "label": "SKIP",
+     "n": 1,
+     "won": 1,
+     "lost": 0,
+     "pl_units": 0.19,
+     "league": "AFC Champions League Two",
      "country": "Asie"
     },
     {
@@ -1782,10 +1851,10 @@
     {
      "market": "OU1.5",
      "label": "SKIP",
-     "n": 12,
-     "won": 8,
+     "n": 13,
+     "won": 9,
      "lost": 4,
-     "pl_units": -2.75
+     "pl_units": -2.56
     },
     {
      "market": "OU2.5",
@@ -1798,10 +1867,10 @@
     {
      "market": "OU3.5",
      "label": "SKIP",
-     "n": 6,
-     "won": 4,
+     "n": 7,
+     "won": 5,
      "lost": 2,
-     "pl_units": -0.37
+     "pl_units": -0.02
     }
    ],
    "by_confidence_bucket": [
@@ -1857,8 +1926,8 @@
     {
      "bucket": "75-80",
      "label": "SKIP",
-     "n": 6,
-     "won": 4,
+     "n": 8,
+     "won": 6,
      "lost": 2
     },
     {
@@ -1919,20 +1988,20 @@
     {
      "date": "2026-10-14",
      "label": "SKIP",
-     "n": 2,
-     "won": 0,
+     "n": 4,
+     "won": 2,
      "lost": 2,
-     "pl_units": -2.0
+     "pl_units": -1.46
     }
    ],
    "by_week": [
     {
      "week": "2026-W42",
      "label": "SKIP",
-     "n": 51,
-     "won": 28,
+     "n": 53,
+     "won": 30,
      "lost": 23,
-     "pl_units": -10.53
+     "pl_units": -9.99
     },
     {
      "week": "2026-W42",
@@ -1968,8 +2037,8 @@
     {
      "trigger": "matin",
      "label": "SKIP",
-     "n": 1,
-     "won": 1,
+     "n": 3,
+     "won": 3,
      "lost": 0
     },
     {
@@ -2013,9 +2082,9 @@
     },
     {
      "bucket": "75-80",
-     "n": 6,
-     "mean_predicted": 0.762,
-     "observed": 0.667
+     "n": 8,
+     "mean_predicted": 0.767,
+     "observed": 0.75
     },
     {
      "bucket": "80-85",
@@ -2057,31 +2126,31 @@
  },
  "skip_lines": {
   "probable": {
-   "n": 26,
-   "won": 19,
-   "hit_rate": 0.731,
-   "with_odds": 26,
+   "n": 28,
+   "won": 21,
+   "hit_rate": 0.75,
+   "with_odds": 28,
    "avg_odds": 1.31,
-   "profit_eur": -1.99,
-   "roi": -0.077
+   "profit_eur": -1.45,
+   "roi": -0.052
   },
   "resultat": {
-   "n": 14,
-   "won": 9,
-   "hit_rate": 0.643,
-   "with_odds": 14,
-   "avg_odds": 1.26,
-   "profit_eur": -2.81,
-   "roi": -0.201
+   "n": 16,
+   "won": 11,
+   "hit_rate": 0.688,
+   "with_odds": 16,
+   "avg_odds": 1.25,
+   "profit_eur": -2.42,
+   "roi": -0.151
   },
   "valeur": {
-   "n": 21,
-   "won": 6,
-   "hit_rate": 0.286,
-   "with_odds": 21,
-   "avg_odds": 2.22,
-   "profit_eur": -9.73,
-   "roi": -0.463
+   "n": 23,
+   "won": 7,
+   "hit_rate": 0.304,
+   "with_odds": 23,
+   "avg_odds": 2.21,
+   "profit_eur": -9.78,
+   "roi": -0.425
   }
  },
  "clv": {
@@ -2092,84 +2161,24 @@
    "se": null
   },
   "probable": {
-   "n": 18,
-   "mean_clv": 0.0,
+   "n": 20,
+   "mean_clv": -0.0023,
    "beat_close": 0.0,
-   "se": 0.0
+   "se": 0.0016
   },
   "resultat": {
-   "n": 11,
-   "mean_clv": 0.0,
-   "beat_close": 0.0,
-   "se": 0.0
+   "n": 13,
+   "mean_clv": -0.0006,
+   "beat_close": 0.077,
+   "se": 0.0014
   },
   "valeur": {
-   "n": 16,
-   "mean_clv": 0.0,
+   "n": 18,
+   "mean_clv": -0.0038,
    "beat_close": 0.0,
-   "se": 0.0
+   "se": 0.0025
   },
   "recent": [
-   {
-    "date": "2026-10-13",
-    "match": "Millwall – Swansea",
-    "fixture_id": 1563195,
-    "label_fr": "Victoire Millwall (1)",
-    "line": "valeur",
-    "odds": 2.37,
-    "closing_odds": 2.37,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-13",
-    "match": "Wolves – Bolton",
-    "fixture_id": 1563197,
-    "label_fr": "Wolves ou nul (1N)",
-    "line": "probable",
-    "odds": 1.11,
-    "closing_odds": 1.11,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-13",
-    "match": "Wrexham – West Brom",
-    "fixture_id": 1563198,
-    "label_fr": "Moins de 3,5 buts",
-    "line": "probable",
-    "odds": 1.32,
-    "closing_odds": 1.32,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-13",
-    "match": "Wrexham – West Brom",
-    "fixture_id": 1563198,
-    "label_fr": "Wrexham ou nul (1N)",
-    "line": "resultat",
-    "odds": 1.38,
-    "closing_odds": 1.38,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-13",
-    "match": "Wrexham – West Brom",
-    "fixture_id": 1563198,
-    "label_fr": "Victoire Wrexham (1)",
-    "line": "valeur",
-    "odds": 2.42,
-    "closing_odds": 2.42,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-13",
-    "match": "Arsenal – Lille",
-    "fixture_id": 1635612,
-    "label_fr": "Arsenal ou nul (1N)",
-    "line": "probable",
-    "odds": 1.05,
-    "closing_odds": 1.05,
-    "clv": 0.0
-   },
    {
     "date": "2026-10-13",
     "match": "Arsenal – Lille",
@@ -2409,6 +2418,66 @@
     "odds": 1.92,
     "closing_odds": 1.92,
     "clv": 0.0
+   },
+   {
+    "date": "2026-10-14",
+    "match": "Melbourne Victory – FC Seoul",
+    "fixture_id": 1630362,
+    "label_fr": "Plus de 1,5 buts",
+    "line": "probable",
+    "odds": 1.19,
+    "closing_odds": 1.22,
+    "clv": -0.0246
+   },
+   {
+    "date": "2026-10-14",
+    "match": "Melbourne Victory – FC Seoul",
+    "fixture_id": 1630362,
+    "label_fr": "Pas de nul (12)",
+    "line": "resultat",
+    "odds": 1.2,
+    "closing_odds": 1.22,
+    "clv": -0.0164
+   },
+   {
+    "date": "2026-10-14",
+    "match": "Melbourne Victory – FC Seoul",
+    "fixture_id": 1630362,
+    "label_fr": "Moins de 2,5 buts",
+    "line": "valeur",
+    "odds": 2.27,
+    "closing_odds": 2.35,
+    "clv": -0.034
+   },
+   {
+    "date": "2026-10-14",
+    "match": "Vissel Kobe – Jeonbuk Motors",
+    "fixture_id": 1629942,
+    "label_fr": "Moins de 3,5 buts",
+    "line": "probable",
+    "odds": 1.35,
+    "closing_odds": 1.38,
+    "clv": -0.0217
+   },
+   {
+    "date": "2026-10-14",
+    "match": "Vissel Kobe – Jeonbuk Motors",
+    "fixture_id": 1629942,
+    "label_fr": "Vissel Kobe ou nul (1N)",
+    "line": "resultat",
+    "odds": 1.19,
+    "closing_odds": 1.18,
+    "clv": 0.0085
+   },
+   {
+    "date": "2026-10-14",
+    "match": "Vissel Kobe – Jeonbuk Motors",
+    "fixture_id": 1629942,
+    "label_fr": "Moins de 2,5 buts",
+    "line": "valeur",
+    "odds": 1.95,
+    "closing_odds": 2.02,
+    "clv": -0.0347
    }
   ]
  },
@@ -2455,10 +2524,10 @@
   },
   "probable": {
    "start": 100.0,
-   "bank": 97.1,
-   "bets": 9,
-   "zero_stake": 17,
-   "roi_bank": -0.029,
+   "bank": 97.77,
+   "bets": 10,
+   "zero_stake": 18,
+   "roi_bank": -0.0223,
    "curve": [
     {
      "date": "2026-10-13",
@@ -2504,6 +2573,11 @@
      "date": "2026-10-14",
      "stake": 1.92,
      "bank": 97.1
+    },
+    {
+     "date": "2026-10-14",
+     "stake": 1.94,
+     "bank": 97.77
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
@@ -2512,7 +2586,7 @@
    "start": 100.0,
    "bank": 98.28,
    "bets": 1,
-   "zero_stake": 13,
+   "zero_stake": 15,
    "roi_bank": -0.0172,
    "curve": [
     {
@@ -2525,10 +2599,10 @@
   },
   "valeur": {
    "start": 100.0,
-   "bank": 85.37,
-   "bets": 21,
+   "bank": 85.61,
+   "bets": 23,
    "zero_stake": 0,
-   "roi_bank": -0.1463,
+   "roi_bank": -0.1439,
    "curve": [
     {
      "date": "2026-10-13",
@@ -2634,6 +2708,16 @@
      "date": "2026-10-14",
      "stake": 1.74,
      "bank": 85.37
+    },
+    {
+     "date": "2026-10-14",
+     "stake": 1.35,
+     "bank": 84.02
+    },
+    {
+     "date": "2026-10-14",
+     "stake": 1.68,
+     "bank": 85.61
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
