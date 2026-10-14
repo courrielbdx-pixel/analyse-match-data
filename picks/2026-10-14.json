@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-14T01:12:33+02:00",
+ "generated_at": "2026-10-14T02:12:01+02:00",
  "date": "2026-10-14",
  "picks": [
   {
@@ -525,7 +525,7 @@
   },
   {
    "fixture_id": 1639863,
-   "final_reading_id": "1639863-r2",
+   "final_reading_id": "1639863-r3",
    "readings": [
     {
      "reading_id": "1639863-r1",
@@ -852,6 +852,184 @@
       "odds": 2.38,
       "bookmaker": "Bet365",
       "ev": 0.128
+     }
+    },
+    {
+     "reading_id": "1639863-r3",
+     "timestamp": "2026-10-14T02:11:58+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "inter-competitions",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "1X2",
+      "selection": "1",
+      "label_fr": "Victoire Boca Juniors (1)"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "Contrôle de cohérence échoué"
+     ],
+     "model_probability": 0.558,
+     "probabilities": {
+      "1X2": {
+       "1": 0.558,
+       "X": 0.252,
+       "2": 0.19
+      },
+      "DC": {
+       "1X": 0.81,
+       "X2": 0.442,
+       "12": 0.748
+      },
+      "OU1.5": {
+       "over": 0.723,
+       "under": 0.277
+      },
+      "OU2.5": {
+       "over": 0.463,
+       "under": 0.537
+      },
+      "OU3.5": {
+       "over": 0.248,
+       "under": 0.752
+      },
+      "BTTS": {
+       "yes": 0.474,
+       "no": 0.526
+      },
+      "BTTS_O2.5": {
+       "yes": 0.354
+      },
+      "1X_O1.5": {
+       "yes": 0.597
+      },
+      "1X_O2.5": {
+       "yes": 0.368
+      },
+      "1X_U3.5": {
+       "yes": 0.599
+      },
+      "1X_BTTS": {
+       "yes": 0.389
+      },
+      "X2_O1.5": {
+       "yes": 0.293
+      },
+      "X2_O2.5": {
+       "yes": 0.144
+      },
+      "X2_U3.5": {
+       "yes": 0.357
+      },
+      "X2_BTTS": {
+       "yes": 0.252
+      },
+      "12_O1.5": {
+       "yes": 0.555
+      },
+      "12_O2.5": {
+       "yes": 0.414
+      },
+      "12_U3.5": {
+       "yes": 0.548
+      },
+      "12_BTTS": {
+       "yes": 0.306
+      },
+      "HT1X2": {
+       "1": 0.403,
+       "X": 0.424,
+       "2": 0.174
+      }
+     },
+     "expected_goals": {
+      "home": 1.66,
+      "away": 0.86
+     },
+     "top_scores": [
+      {
+       "score": "1-0",
+       "p": 0.128
+      },
+      {
+       "score": "1-1",
+       "p": 0.119
+      },
+      {
+       "score": "2-0",
+       "p": 0.11
+      }
+     ],
+     "confidence": {
+      "value": 0.558,
+      "source": "model_probability",
+      "bucket": "55-60"
+     },
+     "market_probability": 0.508,
+     "ev": 0.071,
+     "odds_seen": {
+      "value": 1.92,
+      "bookmaker": "Dafabet",
+      "captured_at": "2026-10-14T02:11:58+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 55,8 % pour « Victoire Boca Juniors (1) » contre 50,8 % pour le marché.",
+      "Buts attendus (modèle) : 1,66 – 0,86.",
+      "Tous les critères dc-v1 sont remplis (EV +7,1 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 98,
+      "away": 116
+     },
+     "change_from_previous": {
+      "pick_changed": true,
+      "label_changed": true,
+      "reason_fr": "Nouvelle lecture : compos officielles publiées, cote 1,21 → 1,92."
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
      }
     }
    ]
