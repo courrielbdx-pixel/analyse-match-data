@@ -1,11 +1,11 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-15T21:46:51+02:00",
+ "generated_at": "2026-10-15T22:10:39+02:00",
  "date": "2026-10-16",
  "picks": [
   {
    "fixture_id": 1493190,
-   "final_reading_id": "1493190-r3",
+   "final_reading_id": "1493190-r4",
    "readings": [
     {
      "reading_id": "1493190-r1",
@@ -600,12 +600,210 @@
      },
      "releco_count": 5,
      "first_timestamp": "2026-10-15T10:01:46+02:00"
+    },
+    {
+     "reading_id": "1493190-r4",
+     "timestamp": "2026-10-15T22:10:38+02:00",
+     "trigger": "soir",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": false,
+     "pick": {
+      "market": "OU3.5",
+      "selection": "under",
+      "label_fr": "Moins de 3,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Huracan ou nul (1N)",
+      "model_probability": 0.758,
+      "market_probability": 0.684,
+      "odds": 1.42,
+      "bookmaker": "Betano"
+     },
+     "value_pick": {
+      "market": "1X2",
+      "selection": "1",
+      "label_fr": "Victoire Huracan (1)",
+      "model_probability": 0.436,
+      "market_probability": 0.366,
+      "odds": 2.75,
+      "bookmaker": "Pinnacle",
+      "ev": 0.198
+     },
+     "skip_reasons_fr": [
+      "EV +3,8 % < 5 %",
+      "Écart modèle/marché 6,1 pts > 5"
+     ],
+     "model_probability": 0.858,
+     "probabilities": {
+      "1X2": {
+       "1": 0.436,
+       "X": 0.322,
+       "2": 0.242
+      },
+      "DC": {
+       "1X": 0.758,
+       "X2": 0.564,
+       "12": 0.678
+      },
+      "OU1.5": {
+       "over": 0.603,
+       "under": 0.397
+      },
+      "OU2.5": {
+       "over": 0.322,
+       "under": 0.678
+      },
+      "OU3.5": {
+       "over": 0.142,
+       "under": 0.858
+      },
+      "BTTS": {
+       "yes": 0.396,
+       "no": 0.604
+      },
+      "BTTS_O2.5": {
+       "yes": 0.255
+      },
+      "1X_O1.5": {
+       "yes": 0.461
+      },
+      "1X_O2.5": {
+       "yes": 0.225
+      },
+      "1X_U3.5": {
+       "yes": 0.648
+      },
+      "1X_BTTS": {
+       "yes": 0.314
+      },
+      "X2_O1.5": {
+       "yes": 0.318
+      },
+      "X2_O2.5": {
+       "yes": 0.132
+      },
+      "X2_U3.5": {
+       "yes": 0.497
+      },
+      "X2_BTTS": {
+       "yes": 0.258
+      },
+      "12_O1.5": {
+       "yes": 0.427
+      },
+      "12_O2.5": {
+       "yes": 0.287
+      },
+      "12_U3.5": {
+       "yes": 0.57
+      },
+      "12_BTTS": {
+       "yes": 0.22
+      },
+      "HT1X2": {
+       "1": 0.311,
+       "X": 0.493,
+       "2": 0.196
+      }
+     },
+     "expected_goals": {
+      "home": 1.18,
+      "away": 0.81
+     },
+     "top_scores": [
+      {
+       "score": "1-0",
+       "p": 0.15
+      },
+      {
+       "score": "0-0",
+       "p": 0.146
+      },
+      {
+       "score": "1-1",
+       "p": 0.141
+      }
+     ],
+     "confidence": {
+      "value": 0.858,
+      "source": "model_probability",
+      "bucket": "85-90"
+     },
+     "market_probability": 0.797,
+     "ev": 0.038,
+     "odds_seen": {
+      "value": 1.21,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-15T22:10:38+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 85,8 % pour « Moins de 3,5 buts » contre 79,7 % pour le marché.",
+      "Buts attendus (modèle) : 1,18 – 0,81.",
+      "Candidat EV max écarté : Huracan ou nul (1N) (75,8 %, cote 1,42, EV +7,6 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 66,
+      "away": 65
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     }
     }
    ]
   },
   {
    "fixture_id": 1640555,
-   "final_reading_id": "1640555-r3",
+   "final_reading_id": "1640555-r4",
    "readings": [
     {
      "reading_id": "1640555-r1",
@@ -1195,6 +1393,206 @@
      },
      "releco_count": 5,
      "first_timestamp": "2026-10-15T10:01:46+02:00"
+    },
+    {
+     "reading_id": "1640555-r4",
+     "timestamp": "2026-10-15T22:10:38+02:00",
+     "trigger": "soir",
+     "method_version": "dc-v1",
+     "model_variant": "inter-competitions",
+     "lineups_confirmed": false,
+     "pick": {
+      "market": "OU3.5",
+      "selection": "under",
+      "label_fr": "Moins de 3,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou Flamengo (N2)",
+      "model_probability": 0.746,
+      "market_probability": 0.765,
+      "odds": 1.27,
+      "bookmaker": "Betano"
+     },
+     "value_pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts",
+      "model_probability": 0.64,
+      "market_probability": 0.593,
+      "odds": 1.61,
+      "bookmaker": "Pinnacle",
+      "ev": 0.031
+     },
+     "skip_reasons_fr": [
+      "EV −4,0 % < 5 %"
+     ],
+     "model_probability": 0.827,
+     "probabilities": {
+      "1X2": {
+       "1": 0.254,
+       "X": 0.298,
+       "2": 0.448
+      },
+      "DC": {
+       "1X": 0.552,
+       "X2": 0.746,
+       "12": 0.702
+      },
+      "OU1.5": {
+       "over": 0.64,
+       "under": 0.36
+      },
+      "OU2.5": {
+       "over": 0.366,
+       "under": 0.634
+      },
+      "OU3.5": {
+       "over": 0.173,
+       "under": 0.827
+      },
+      "BTTS": {
+       "yes": 0.428,
+       "no": 0.572
+      },
+      "BTTS_O2.5": {
+       "yes": 0.293
+      },
+      "1X_O1.5": {
+       "yes": 0.334
+      },
+      "1X_O2.5": {
+       "yes": 0.153
+      },
+      "1X_U3.5": {
+       "yes": 0.47
+      },
+      "1X_BTTS": {
+       "yes": 0.272
+      },
+      "X2_O1.5": {
+       "yes": 0.484
+      },
+      "X2_O2.5": {
+       "yes": 0.255
+      },
+      "X2_U3.5": {
+       "yes": 0.614
+      },
+      "X2_BTTS": {
+       "yes": 0.334
+      },
+      "12_O1.5": {
+       "yes": 0.463
+      },
+      "12_O2.5": {
+       "yes": 0.325
+      },
+      "12_U3.5": {
+       "yes": 0.571
+      },
+      "12_BTTS": {
+       "yes": 0.251
+      },
+      "HT1X2": {
+       "1": 0.205,
+       "X": 0.472,
+       "2": 0.322
+      }
+     },
+     "expected_goals": {
+      "home": 0.89,
+      "away": 1.27
+     },
+     "top_scores": [
+      {
+       "score": "0-1",
+       "p": 0.142
+      },
+      {
+       "score": "1-1",
+       "p": 0.135
+      },
+      {
+       "score": "0-0",
+       "p": 0.121
+      }
+     ],
+     "confidence": {
+      "value": 0.827,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.831,
+     "ev": -0.04,
+     "odds_seen": {
+      "value": 1.16,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-15T22:10:38+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 82,7 % pour « Moins de 3,5 buts » contre 83,1 % pour le marché.",
+      "Buts attendus (modèle) : 0,89 – 1,27.",
+      "Candidat EV max écarté : Plus de 1,5 buts (64,0 %, cote 1,61, EV +3,1 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Flamengo : Jorginho suspendu ; Arrascaeta et Danilo blessés ; Ayrton Lucas et Evertton Araújo en reprise (Lance!).",
+       "Estudiantes : Marcos Rojo non qualifié par la CONMEBOL (El Gráfico)."
+      ]
+     },
+     "team_samples": {
+      "home": 102,
+      "away": 111
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     }
     }
    ],
    "skip_check": {
