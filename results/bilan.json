@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-17T00:09:14+02:00",
+ "generated_at": "2026-10-17T00:50:48+02:00",
  "settled": [
   {
    "fixture_id": 1492403,
@@ -4423,6 +4423,36 @@
     "label": "SKIP",
     "outcome": "won"
    }
+  },
+  {
+   "fixture_id": 1639825,
+   "date": "2026-10-16",
+   "kickoff": "2026-10-16T22:30:00+02:00",
+   "league": {
+    "name": "Liga Pro",
+    "country": "Équateur"
+   },
+   "region": "ameriques",
+   "method_version": "dc-v1",
+   "reading_id": "1639825-r4",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "OU3.5",
+   "selection": "under",
+   "label_fr": "Moins de 3,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.842,
+   "confidence_bucket": "80-85",
+   "odds": 1.22,
+   "bookmaker": "Bet365",
+   "final_score": "2-1",
+   "outcome": "won",
+   "pl_units": 0.22,
+   "matin": {
+    "selection": "under",
+    "label": "SKIP",
+    "outcome": "won"
+   }
   }
  ],
  "aggregates": {
@@ -4439,14 +4469,14 @@
     "avg_odds": 1.86
    },
    "SKIP": {
-    "n": 143,
-    "won": 111,
+    "n": 144,
+    "won": 112,
     "lost": 32,
     "void": 0,
     "no_odds": 1,
-    "hit_rate": 0.776,
-    "pl_units": -10.42,
-    "roi": -0.073,
+    "hit_rate": 0.778,
+    "pl_units": -10.2,
+    "roi": -0.071,
     "avg_odds": 1.25
    },
    "by_league": [
@@ -4611,6 +4641,15 @@
      "pl_units": 0.3,
      "league": "Liga I",
      "country": "Roumanie"
+    },
+    {
+     "label": "SKIP",
+     "n": 1,
+     "won": 1,
+     "lost": 0,
+     "pl_units": 0.22,
+     "league": "Liga Pro",
+     "country": "Équateur"
     },
     {
      "label": "SKIP",
@@ -4950,10 +4989,10 @@
     {
      "market": "OU3.5",
      "label": "SKIP",
-     "n": 19,
-     "won": 15,
+     "n": 20,
+     "won": 16,
      "lost": 4,
-     "pl_units": 0.24
+     "pl_units": 0.46
     }
    ],
    "by_confidence_bucket": [
@@ -5030,8 +5069,8 @@
     {
      "bucket": "80-85",
      "label": "SKIP",
-     "n": 41,
-     "won": 35,
+     "n": 42,
+     "won": 36,
      "lost": 6
     },
     {
@@ -5109,10 +5148,10 @@
     {
      "date": "2026-10-16",
      "label": "SKIP",
-     "n": 53,
-     "won": 39,
+     "n": 54,
+     "won": 40,
      "lost": 14,
-     "pl_units": -6.52
+     "pl_units": -6.3
     },
     {
      "date": "2026-10-16",
@@ -5135,10 +5174,10 @@
     {
      "week": "2026-W42",
      "label": "SKIP",
-     "n": 143,
-     "won": 111,
+     "n": 144,
+     "won": 112,
      "lost": 32,
-     "pl_units": -10.42
+     "pl_units": -10.2
     },
     {
      "week": "2026-W42",
@@ -5161,8 +5200,8 @@
     {
      "trigger": "compo",
      "label": "SKIP",
-     "n": 117,
-     "won": 92,
+     "n": 118,
+     "won": 93,
      "lost": 25
     },
     {
@@ -5261,9 +5300,9 @@
     },
     {
      "bucket": "80-85",
-     "n": 41,
+     "n": 42,
      "mean_predicted": 0.826,
-     "observed": 0.854
+     "observed": 0.857
     },
     {
      "bucket": "85-90",
@@ -5342,31 +5381,31 @@
  "bilan_start": "2026-10-13",
  "skip_lines": {
   "probable": {
-   "n": 143,
-   "won": 111,
-   "hit_rate": 0.776,
-   "with_odds": 142,
+   "n": 144,
+   "won": 112,
+   "hit_rate": 0.778,
+   "with_odds": 143,
    "avg_odds": 1.25,
-   "profit_eur": -10.42,
-   "roi": -0.073
+   "profit_eur": -10.2,
+   "roi": -0.071
   },
   "resultat": {
-   "n": 92,
-   "won": 70,
-   "hit_rate": 0.761,
-   "with_odds": 92,
+   "n": 93,
+   "won": 71,
+   "hit_rate": 0.763,
+   "with_odds": 93,
    "avg_odds": 1.27,
-   "profit_eur": -3.99,
-   "roi": -0.043
+   "profit_eur": -3.79,
+   "roi": -0.041
   },
   "valeur": {
-   "n": 131,
+   "n": 132,
    "won": 58,
-   "hit_rate": 0.443,
-   "with_odds": 131,
+   "hit_rate": 0.439,
+   "with_odds": 132,
    "avg_odds": 2.28,
-   "profit_eur": -1.61,
-   "roi": -0.012
+   "profit_eur": -2.61,
+   "roi": -0.02
   }
  },
  "clv": {
@@ -5377,54 +5416,24 @@
    "se": 0.0057
   },
   "probable": {
-   "n": 137,
+   "n": 138,
    "mean_clv": 0.0013,
    "beat_close": 0.029,
-   "se": 0.0009
+   "se": 0.0008
   },
   "resultat": {
-   "n": 89,
+   "n": 90,
    "mean_clv": 0.0009,
-   "beat_close": 0.045,
+   "beat_close": 0.044,
    "se": 0.0006
   },
   "valeur": {
-   "n": 128,
+   "n": 129,
    "mean_clv": -0.0001,
-   "beat_close": 0.094,
+   "beat_close": 0.093,
    "se": 0.0016
   },
   "recent": [
-   {
-    "date": "2026-10-16",
-    "match": "Bohemians – Waterford",
-    "fixture_id": 1492781,
-    "label_fr": "Victoire Bohemians (1)",
-    "line": "valeur",
-    "odds": 1.71,
-    "closing_odds": 1.65,
-    "clv": 0.0364
-   },
-   {
-    "date": "2026-10-16",
-    "match": "Drogheda United – Derry City",
-    "fixture_id": 1492782,
-    "label_fr": "Moins de 3,5 buts",
-    "line": "probable",
-    "odds": 1.3,
-    "closing_odds": 1.3,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-16",
-    "match": "Drogheda United – Derry City",
-    "fixture_id": 1492782,
-    "label_fr": "Pas de nul (12)",
-    "line": "resultat",
-    "odds": 1.36,
-    "closing_odds": 1.36,
-    "clv": 0.0
-   },
    {
     "date": "2026-10-16",
     "match": "Drogheda United – Derry City",
@@ -5694,6 +5703,36 @@
     "odds": 1.87,
     "closing_odds": 1.95,
     "clv": -0.041
+   },
+   {
+    "date": "2026-10-16",
+    "match": "Deportivo Cuenca – Tecnico Universitario",
+    "fixture_id": 1639825,
+    "label_fr": "Moins de 3,5 buts",
+    "line": "probable",
+    "odds": 1.22,
+    "closing_odds": 1.22,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-16",
+    "match": "Deportivo Cuenca – Tecnico Universitario",
+    "fixture_id": 1639825,
+    "label_fr": "Deportivo Cuenca ou nul (1N)",
+    "line": "resultat",
+    "odds": 1.2,
+    "closing_odds": 1.2,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-16",
+    "match": "Deportivo Cuenca – Tecnico Universitario",
+    "fixture_id": 1639825,
+    "label_fr": "Les deux équipes ne marquent pas",
+    "line": "valeur",
+    "odds": 1.73,
+    "closing_odds": 1.73,
+    "clv": 0.0
    }
   ]
  },
@@ -5768,10 +5807,10 @@
   },
   "probable": {
    "start": 100.0,
-   "bank": 89.24,
-   "bets": 44,
+   "bank": 89.63,
+   "bets": 45,
    "zero_stake": 98,
-   "roi_bank": -0.1076,
+   "roi_bank": -0.1037,
    "curve": [
     {
      "date": "2026-10-13",
@@ -5992,6 +6031,11 @@
      "date": "2026-10-16",
      "stake": 1.77,
      "bank": 89.24
+    },
+    {
+     "date": "2026-10-16",
+     "stake": 1.78,
+     "bank": 89.63
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
@@ -6000,7 +6044,7 @@
    "start": 100.0,
    "bank": 94.25,
    "bets": 13,
-   "zero_stake": 79,
+   "zero_stake": 80,
    "roi_bank": -0.0575,
    "curve": [
     {
@@ -6073,10 +6117,10 @@
   },
   "valeur": {
    "start": 100.0,
-   "bank": 96.63,
-   "bets": 131,
+   "bank": 94.7,
+   "bets": 132,
    "zero_stake": 0,
-   "roi_bank": -0.0337,
+   "roi_bank": -0.053,
    "curve": [
     {
      "date": "2026-10-13",
@@ -6732,6 +6776,11 @@
      "date": "2026-10-16",
      "stake": 0.32,
      "bank": 96.63
+    },
+    {
+     "date": "2026-10-16",
+     "stake": 1.93,
+     "bank": 94.7
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
