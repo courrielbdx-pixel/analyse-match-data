@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-16T15:17:32+02:00",
+ "generated_at": "2026-10-16T15:31:57+02:00",
  "settled": [
   {
    "fixture_id": 1492403,
@@ -2922,6 +2922,36 @@
     "label": "SKIP",
     "outcome": "won"
    }
+  },
+  {
+   "fixture_id": 1523275,
+   "date": "2026-10-16",
+   "kickoff": "2026-10-16T13:35:00+02:00",
+   "league": {
+    "name": "Super League",
+    "country": "Chine"
+   },
+   "region": "asie_oceanie",
+   "method_version": "dc-v1",
+   "reading_id": "1523275-r4",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "DC",
+   "selection": "X2",
+   "label_fr": "Nul ou Tianjin Teda (N2)",
+   "label": "TARDIF",
+   "model_probability": 0.591,
+   "confidence_bucket": "55-60",
+   "odds": 1.8,
+   "bookmaker": "Bet365",
+   "final_score": "0-1",
+   "outcome": "won",
+   "pl_units": 0.8,
+   "matin": {
+    "selection": "under",
+    "label": "SKIP",
+    "outcome": "won"
+   }
   }
  ],
  "aggregates": {
@@ -3076,6 +3106,15 @@
      "country": "Brésil"
     },
     {
+     "label": "TARDIF",
+     "n": 1,
+     "won": 1,
+     "lost": 0,
+     "pl_units": 0.8,
+     "league": "Super League",
+     "country": "Chine"
+    },
+    {
      "label": "SKIP",
      "n": 1,
      "won": 0,
@@ -3156,6 +3195,14 @@
     },
     {
      "market": "DC",
+     "label": "TARDIF",
+     "n": 1,
+     "won": 1,
+     "lost": 0,
+     "pl_units": 0.8
+    },
+    {
+     "market": "DC",
      "label": "TICKET",
      "n": 2,
      "won": 0,
@@ -3201,6 +3248,13 @@
      "n": 5,
      "won": 1,
      "lost": 4
+    },
+    {
+     "bucket": "55-60",
+     "label": "TARDIF",
+     "n": 1,
+     "won": 1,
+     "lost": 0
     },
     {
      "bucket": "55-60",
@@ -3315,6 +3369,14 @@
      "won": 3,
      "lost": 2,
      "pl_units": -1.38
+    },
+    {
+     "date": "2026-10-16",
+     "label": "TARDIF",
+     "n": 1,
+     "won": 1,
+     "lost": 0,
+     "pl_units": 0.8
     }
    ],
    "by_week": [
@@ -3336,6 +3398,14 @@
     },
     {
      "week": "2026-W42",
+     "label": "TARDIF",
+     "n": 1,
+     "won": 1,
+     "lost": 0,
+     "pl_units": 0.8
+    },
+    {
+     "week": "2026-W42",
      "label": "TICKET",
      "n": 2,
      "won": 0,
@@ -3350,6 +3420,13 @@
      "n": 86,
      "won": 69,
      "lost": 17
+    },
+    {
+     "trigger": "compo",
+     "label": "TARDIF",
+     "n": 1,
+     "won": 1,
+     "lost": 0
     },
     {
      "trigger": "manuel",
@@ -3404,9 +3481,9 @@
    "calibration": [
     {
      "bucket": "55-60",
-     "n": 7,
-     "mean_predicted": 0.575,
-     "observed": 0.286
+     "n": 8,
+     "mean_predicted": 0.577,
+     "observed": 0.375
     },
     {
      "bucket": "60-65",
@@ -3876,13 +3953,16 @@
   }
  ],
  "late": {
-  "n": 0,
-  "won": 0,
-  "hit_rate": null,
-  "pl_units": 0,
-  "roi": null,
+  "n": 1,
+  "won": 1,
+  "hit_rate": 1.0,
+  "pl_units": 0.8,
+  "roi": 0.8,
   "clv": {
-   "n": 0
+   "n": 1,
+   "mean_clv": 0.0,
+   "beat_close": 0.0,
+   "se": null
   }
  },
  "kelly": {
@@ -3908,11 +3988,17 @@
   },
   "tardifs": {
    "start": 100.0,
-   "bank": 100.0,
-   "bets": 0,
+   "bank": 101.59,
+   "bets": 1,
    "zero_stake": 0,
-   "roi_bank": 0.0,
-   "curve": [],
+   "roi_bank": 0.0159,
+   "curve": [
+    {
+     "date": "2026-10-16",
+     "stake": 1.99,
+     "bank": 101.59
+    }
+   ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
   },
   "probable": {
