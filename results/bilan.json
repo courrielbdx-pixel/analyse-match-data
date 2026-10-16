@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-16T18:38:24+02:00",
+ "generated_at": "2026-10-16T18:56:13+02:00",
  "settled": [
   {
    "fixture_id": 1492403,
@@ -3042,6 +3042,67 @@
     "label": "SKIP",
     "outcome": "won"
    }
+  },
+  {
+   "fixture_id": 1553889,
+   "date": "2026-10-16",
+   "kickoff": "2026-10-16T17:00:00+02:00",
+   "league": {
+    "name": "Super Liga",
+    "country": "Serbie"
+   },
+   "region": "europe",
+   "method_version": "dc-v1",
+   "reading_id": "1553889-r1",
+   "trigger": "releco",
+   "lineups_confirmed": false,
+   "market": "OU2.5",
+   "selection": "under",
+   "label_fr": "Moins de 2,5 buts",
+   "label": "ANNULE",
+   "cancel_reason_fr": "EV +1,7 % < 5 %",
+   "model_probability": 0.568,
+   "confidence_bucket": "55-60",
+   "odds": 1.86,
+   "bookmaker": "1xBet",
+   "final_score": "3-0",
+   "outcome": "lost",
+   "pl_units": -1.0,
+   "matin": {
+    "selection": "under",
+    "label": "TICKET",
+    "outcome": "lost"
+   }
+  },
+  {
+   "fixture_id": 1601913,
+   "date": "2026-10-16",
+   "kickoff": "2026-10-16T17:00:00+02:00",
+   "league": {
+    "name": "Premyer Liqa",
+    "country": "Azerbaïdjan"
+   },
+   "region": "europe",
+   "method_version": "dc-v1",
+   "reading_id": "1601913-r4",
+   "trigger": "releco",
+   "lineups_confirmed": false,
+   "market": "OU1.5",
+   "selection": "over",
+   "label_fr": "Plus de 1,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.84,
+   "confidence_bucket": "80-85",
+   "odds": 1.25,
+   "bookmaker": "BetVictor",
+   "final_score": "2-1",
+   "outcome": "won",
+   "pl_units": 0.25,
+   "matin": {
+    "selection": "12",
+    "label": "SKIP",
+    "outcome": "won"
+   }
   }
  ],
  "aggregates": {
@@ -3058,14 +3119,14 @@
     "avg_odds": 1.86
    },
    "SKIP": {
-    "n": 98,
-    "won": 78,
+    "n": 99,
+    "won": 79,
     "lost": 20,
     "void": 0,
     "no_odds": 0,
-    "hit_rate": 0.796,
-    "pl_units": -4.76,
-    "roi": -0.049,
+    "hit_rate": 0.798,
+    "pl_units": -4.51,
+    "roi": -0.046,
     "avg_odds": 1.25
    },
    "by_league": [
@@ -3170,10 +3231,10 @@
     },
     {
      "label": "SKIP",
-     "n": 1,
-     "won": 1,
+     "n": 2,
+     "won": 2,
      "lost": 0,
-     "pl_units": 0.21,
+     "pl_units": 0.46,
      "league": "Premyer Liqa",
      "country": "Azerbaïdjan"
     },
@@ -3221,6 +3282,15 @@
      "pl_units": 0.8,
      "league": "Super League",
      "country": "Chine"
+    },
+    {
+     "label": "ANNULE",
+     "n": 1,
+     "won": 0,
+     "lost": 1,
+     "pl_units": -1.0,
+     "league": "Super Liga",
+     "country": "Serbie"
     },
     {
      "label": "SKIP",
@@ -3320,10 +3390,18 @@
     {
      "market": "OU1.5",
      "label": "SKIP",
-     "n": 52,
-     "won": 42,
+     "n": 53,
+     "won": 43,
      "lost": 10,
-     "pl_units": -2.07
+     "pl_units": -1.82
+    },
+    {
+     "market": "OU2.5",
+     "label": "ANNULE",
+     "n": 1,
+     "won": 0,
+     "lost": 1,
+     "pl_units": -1.0
     },
     {
      "market": "OU2.5",
@@ -3346,9 +3424,9 @@
     {
      "bucket": "55-60",
      "label": "ANNULE",
-     "n": 1,
+     "n": 2,
      "won": 1,
-     "lost": 0
+     "lost": 1
     },
     {
      "bucket": "55-60",
@@ -3402,8 +3480,8 @@
     {
      "bucket": "80-85",
      "label": "SKIP",
-     "n": 28,
-     "won": 25,
+     "n": 29,
+     "won": 26,
      "lost": 3
     },
     {
@@ -3472,11 +3550,19 @@
     },
     {
      "date": "2026-10-16",
+     "label": "ANNULE",
+     "n": 1,
+     "won": 0,
+     "lost": 1,
+     "pl_units": -1.0
+    },
+    {
+     "date": "2026-10-16",
      "label": "SKIP",
-     "n": 8,
-     "won": 6,
+     "n": 9,
+     "won": 7,
      "lost": 2,
-     "pl_units": -0.86
+     "pl_units": -0.61
     },
     {
      "date": "2026-10-16",
@@ -3491,18 +3577,18 @@
     {
      "week": "2026-W42",
      "label": "ANNULE",
-     "n": 1,
+     "n": 2,
      "won": 1,
-     "lost": 0,
-     "pl_units": 0.9
+     "lost": 1,
+     "pl_units": -0.1
     },
     {
      "week": "2026-W42",
      "label": "SKIP",
-     "n": 98,
-     "won": 78,
+     "n": 99,
+     "won": 79,
      "lost": 20,
-     "pl_units": -4.76
+     "pl_units": -4.51
     },
     {
      "week": "2026-W42",
@@ -3560,15 +3646,15 @@
     {
      "trigger": "releco",
      "label": "ANNULE",
-     "n": 1,
+     "n": 2,
      "won": 1,
-     "lost": 0
+     "lost": 1
     },
     {
      "trigger": "releco",
      "label": "SKIP",
-     "n": 3,
-     "won": 3,
+     "n": 4,
+     "won": 4,
      "lost": 0
     },
     {
@@ -3589,9 +3675,9 @@
    "calibration": [
     {
      "bucket": "55-60",
-     "n": 8,
-     "mean_predicted": 0.577,
-     "observed": 0.375
+     "n": 9,
+     "mean_predicted": 0.576,
+     "observed": 0.333
     },
     {
      "bucket": "60-65",
@@ -3613,9 +3699,9 @@
     },
     {
      "bucket": "80-85",
-     "n": 28,
-     "mean_predicted": 0.827,
-     "observed": 0.893
+     "n": 29,
+     "mean_predicted": 0.828,
+     "observed": 0.897
     },
     {
      "bucket": "85-90",
@@ -3694,31 +3780,31 @@
  "bilan_start": "2026-10-13",
  "skip_lines": {
   "probable": {
-   "n": 98,
-   "won": 78,
-   "hit_rate": 0.796,
-   "with_odds": 98,
+   "n": 99,
+   "won": 79,
+   "hit_rate": 0.798,
+   "with_odds": 99,
    "avg_odds": 1.25,
-   "profit_eur": -4.76,
-   "roi": -0.049
+   "profit_eur": -4.51,
+   "roi": -0.046
   },
   "resultat": {
-   "n": 64,
-   "won": 48,
-   "hit_rate": 0.75,
-   "with_odds": 64,
+   "n": 65,
+   "won": 49,
+   "hit_rate": 0.754,
+   "with_odds": 65,
    "avg_odds": 1.27,
-   "profit_eur": -3.54,
-   "roi": -0.055
+   "profit_eur": -3.18,
+   "roi": -0.049
   },
   "valeur": {
-   "n": 88,
-   "won": 35,
-   "hit_rate": 0.398,
-   "with_odds": 88,
-   "avg_odds": 2.32,
-   "profit_eur": -9.2,
-   "roi": -0.105
+   "n": 89,
+   "won": 36,
+   "hit_rate": 0.404,
+   "with_odds": 89,
+   "avg_odds": 2.31,
+   "profit_eur": -8.0,
+   "roi": -0.09
   }
  },
  "clv": {
@@ -3729,54 +3815,24 @@
    "se": 0.0057
   },
   "probable": {
-   "n": 93,
+   "n": 94,
    "mean_clv": 0.0012,
    "beat_close": 0.032,
    "se": 0.001
   },
   "resultat": {
-   "n": 61,
+   "n": 62,
    "mean_clv": 0.0011,
-   "beat_close": 0.049,
+   "beat_close": 0.048,
    "se": 0.0008
   },
   "valeur": {
-   "n": 85,
+   "n": 86,
    "mean_clv": -0.0006,
-   "beat_close": 0.071,
+   "beat_close": 0.07,
    "se": 0.0019
   },
   "recent": [
-   {
-    "date": "2026-10-15",
-    "match": "SC Freiburg – FK Jablonec",
-    "fixture_id": 1636411,
-    "label_fr": "SC Freiburg ou nul (1N)",
-    "line": "probable",
-    "odds": 1.05,
-    "closing_odds": 1.05,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-15",
-    "match": "SC Freiburg – FK Jablonec",
-    "fixture_id": 1636411,
-    "label_fr": "Moins de 2,5 buts",
-    "line": "valeur",
-    "odds": 2.45,
-    "closing_odds": 2.45,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-15",
-    "match": "Heart Of Midlothian – FC Nordsjaelland",
-    "fixture_id": 1636423,
-    "label_fr": "Plus de 1,5 buts",
-    "line": "probable",
-    "odds": 1.18,
-    "closing_odds": 1.18,
-    "clv": 0.0
-   },
    {
     "date": "2026-10-15",
     "match": "Heart Of Midlothian – FC Nordsjaelland",
@@ -4046,6 +4102,36 @@
     "odds": 2.5,
     "closing_odds": 2.5,
     "clv": 0.0
+   },
+   {
+    "date": "2026-10-16",
+    "match": "Sumqayıt – Araz",
+    "fixture_id": 1601913,
+    "label_fr": "Plus de 1,5 buts",
+    "line": "probable",
+    "odds": 1.25,
+    "closing_odds": 1.25,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-16",
+    "match": "Sumqayıt – Araz",
+    "fixture_id": 1601913,
+    "label_fr": "Pas de nul (12)",
+    "line": "resultat",
+    "odds": 1.36,
+    "closing_odds": 1.36,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-16",
+    "match": "Sumqayıt – Araz",
+    "fixture_id": 1601913,
+    "label_fr": "Victoire Sumqayıt (1)",
+    "line": "valeur",
+    "odds": 2.2,
+    "closing_odds": 2.2,
+    "clv": 0.0
    }
   ]
  },
@@ -4058,6 +4144,15 @@
    "final_score": "2-3",
    "outcome": "won",
    "cancel_reason_fr": "Annulé (relecture 4h) : Vlahović (6 buts en 8 matchs) forfait (problèmes gastriques), confirmé par Italiano via AA Spor ; Beşiktaş aussi sans Černý et Rashica. L'avantage du modèle sur le marché n'est plus fiable."
+  },
+  {
+   "date": "2026-10-16",
+   "fixture_id": 1553889,
+   "label_fr": "Moins de 2,5 buts",
+   "odds": 1.86,
+   "final_score": "3-0",
+   "outcome": "lost",
+   "cancel_reason_fr": "EV +1,7 % < 5 %"
   }
  ],
  "late": {
@@ -4111,10 +4206,10 @@
   },
   "probable": {
    "start": 100.0,
-   "bank": 90.87,
-   "bets": 28,
+   "bank": 91.33,
+   "bets": 29,
    "zero_stake": 70,
-   "roi_bank": -0.0913,
+   "roi_bank": -0.0867,
    "curve": [
     {
      "date": "2026-10-13",
@@ -4255,16 +4350,21 @@
      "date": "2026-10-16",
      "stake": 1.81,
      "bank": 90.87
+    },
+    {
+     "date": "2026-10-16",
+     "stake": 1.82,
+     "bank": 91.33
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
   },
   "resultat": {
    "start": 100.0,
-   "bank": 95.87,
-   "bets": 7,
+   "bank": 96.56,
+   "bets": 8,
    "zero_stake": 57,
-   "roi_bank": -0.0413,
+   "roi_bank": -0.0344,
    "curve": [
     {
      "date": "2026-10-13",
@@ -4300,16 +4400,21 @@
      "date": "2026-10-16",
      "stake": 1.96,
      "bank": 95.87
+    },
+    {
+     "date": "2026-10-16",
+     "stake": 1.92,
+     "bank": 96.56
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
   },
   "valeur": {
    "start": 100.0,
-   "bank": 86.81,
-   "bets": 88,
+   "bank": 88.89,
+   "bets": 89,
    "zero_stake": 0,
-   "roi_bank": -0.1319,
+   "roi_bank": -0.1111,
    "curve": [
     {
      "date": "2026-10-13",
@@ -4750,6 +4855,11 @@
      "date": "2026-10-16",
      "stake": 1.69,
      "bank": 86.81
+    },
+    {
+     "date": "2026-10-16",
+     "stake": 1.74,
+     "bank": 88.89
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
