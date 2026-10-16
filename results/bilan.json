@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-16T00:13:05+02:00",
+ "generated_at": "2026-10-16T03:16:53+02:00",
  "settled": [
   {
    "fixture_id": 1492403,
@@ -2772,6 +2772,36 @@
     "label": "SKIP",
     "outcome": "won"
    }
+  },
+  {
+   "fixture_id": 1493190,
+   "date": "2026-10-16",
+   "kickoff": "2026-10-16T01:00:00+02:00",
+   "league": {
+    "name": "Liga Profesional",
+    "country": "Argentine"
+   },
+   "region": "ameriques",
+   "method_version": "dc-v1",
+   "reading_id": "1493190-r4",
+   "trigger": "soir",
+   "lineups_confirmed": false,
+   "market": "OU3.5",
+   "selection": "under",
+   "label_fr": "Moins de 3,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.858,
+   "confidence_bucket": "85-90",
+   "odds": 1.21,
+   "bookmaker": "Betano",
+   "final_score": "1-2",
+   "outcome": "won",
+   "pl_units": 0.21,
+   "matin": {
+    "selection": "under",
+    "label": "SKIP",
+    "outcome": "won"
+   }
   }
  ],
  "aggregates": {
@@ -2788,14 +2818,14 @@
     "avg_odds": 1.86
    },
    "SKIP": {
-    "n": 90,
-    "won": 72,
+    "n": 91,
+    "won": 73,
     "lost": 18,
     "void": 0,
     "no_odds": 0,
-    "hit_rate": 0.8,
-    "pl_units": -3.9,
-    "roi": -0.043,
+    "hit_rate": 0.802,
+    "pl_units": -3.69,
+    "roi": -0.041,
     "avg_odds": 1.25
    },
    "by_league": [
@@ -2846,10 +2876,10 @@
     },
     {
      "label": "SKIP",
-     "n": 1,
-     "won": 1,
+     "n": 2,
+     "won": 2,
      "lost": 0,
-     "pl_units": 0.27,
+     "pl_units": 0.48,
      "league": "Liga Profesional",
      "country": "Argentine"
     },
@@ -3004,10 +3034,10 @@
     {
      "market": "OU3.5",
      "label": "SKIP",
-     "n": 11,
-     "won": 9,
+     "n": 12,
+     "won": 10,
      "lost": 2,
-     "pl_units": 0.65
+     "pl_units": 0.86
     }
    ],
    "by_confidence_bucket": [
@@ -3063,8 +3093,8 @@
     {
      "bucket": "85-90",
      "label": "SKIP",
-     "n": 13,
-     "won": 9,
+     "n": 14,
+     "won": 10,
      "lost": 4
     },
     {
@@ -3123,6 +3153,14 @@
      "won": 0,
      "lost": 1,
      "pl_units": -1.0
+    },
+    {
+     "date": "2026-10-16",
+     "label": "SKIP",
+     "n": 1,
+     "won": 1,
+     "lost": 0,
+     "pl_units": 0.21
     }
    ],
    "by_week": [
@@ -3137,10 +3175,10 @@
     {
      "week": "2026-W42",
      "label": "SKIP",
-     "n": 90,
-     "won": 72,
+     "n": 91,
+     "won": 73,
      "lost": 18,
-     "pl_units": -3.9
+     "pl_units": -3.69
     },
     {
      "week": "2026-W42",
@@ -3196,6 +3234,13 @@
     },
     {
      "trigger": "soir",
+     "label": "SKIP",
+     "n": 1,
+     "won": 1,
+     "lost": 0
+    },
+    {
+     "trigger": "soir",
      "label": "TICKET",
      "n": 1,
      "won": 0,
@@ -3235,9 +3280,9 @@
     },
     {
      "bucket": "85-90",
-     "n": 13,
-     "mean_predicted": 0.872,
-     "observed": 0.692
+     "n": 14,
+     "mean_predicted": 0.871,
+     "observed": 0.714
     },
     {
      "bucket": "90-95",
@@ -3310,31 +3355,31 @@
  "bilan_start": "2026-10-13",
  "skip_lines": {
   "probable": {
-   "n": 90,
-   "won": 72,
-   "hit_rate": 0.8,
-   "with_odds": 90,
+   "n": 91,
+   "won": 73,
+   "hit_rate": 0.802,
+   "with_odds": 91,
    "avg_odds": 1.25,
-   "profit_eur": -3.9,
-   "roi": -0.043
+   "profit_eur": -3.69,
+   "roi": -0.041
   },
   "resultat": {
-   "n": 62,
+   "n": 63,
    "won": 48,
-   "hit_rate": 0.774,
-   "with_odds": 62,
-   "avg_odds": 1.26,
-   "profit_eur": -1.54,
-   "roi": -0.025
+   "hit_rate": 0.762,
+   "with_odds": 63,
+   "avg_odds": 1.27,
+   "profit_eur": -2.54,
+   "roi": -0.04
   },
   "valeur": {
-   "n": 82,
+   "n": 83,
    "won": 32,
-   "hit_rate": 0.39,
-   "with_odds": 82,
-   "avg_odds": 2.3,
-   "profit_eur": -10.45,
-   "roi": -0.127
+   "hit_rate": 0.386,
+   "with_odds": 83,
+   "avg_odds": 2.31,
+   "profit_eur": -11.45,
+   "roi": -0.138
   }
  },
  "clv": {
@@ -3345,54 +3390,24 @@
    "se": 0.0057
   },
   "probable": {
-   "n": 85,
-   "mean_clv": 0.0008,
-   "beat_close": 0.012,
+   "n": 86,
+   "mean_clv": 0.0009,
+   "beat_close": 0.023,
    "se": 0.001
   },
   "resultat": {
-   "n": 59,
-   "mean_clv": 0.0004,
-   "beat_close": 0.034,
-   "se": 0.0004
+   "n": 60,
+   "mean_clv": 0.0011,
+   "beat_close": 0.05,
+   "se": 0.0008
   },
   "valeur": {
-   "n": 79,
-   "mean_clv": -0.0018,
-   "beat_close": 0.063,
-   "se": 0.0016
+   "n": 80,
+   "mean_clv": -0.0005,
+   "beat_close": 0.075,
+   "se": 0.002
   },
   "recent": [
-   {
-    "date": "2026-10-15",
-    "match": "Marseille – Olympiakos Piraeus",
-    "fixture_id": 1636295,
-    "label_fr": "Moins de 3,5 buts",
-    "line": "probable",
-    "odds": 1.42,
-    "closing_odds": 1.42,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-15",
-    "match": "Marseille – Olympiakos Piraeus",
-    "fixture_id": 1636295,
-    "label_fr": "Pas de nul (12)",
-    "line": "resultat",
-    "odds": 1.33,
-    "closing_odds": 1.33,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-15",
-    "match": "Marseille – Olympiakos Piraeus",
-    "fixture_id": 1636295,
-    "label_fr": "Moins de 2,5 buts",
-    "line": "valeur",
-    "odds": 2.07,
-    "closing_odds": 2.07,
-    "clv": 0.0
-   },
    {
     "date": "2026-10-15",
     "match": "NEC Nijmegen – Levski Sofia",
@@ -3662,6 +3677,36 @@
     "odds": 1.01,
     "closing_odds": 1.01,
     "clv": 0.0
+   },
+   {
+    "date": "2026-10-16",
+    "match": "Huracan – Gimnasia L.P.",
+    "fixture_id": 1493190,
+    "label_fr": "Moins de 3,5 buts",
+    "line": "probable",
+    "odds": 1.21,
+    "closing_odds": 1.2,
+    "clv": 0.0083
+   },
+   {
+    "date": "2026-10-16",
+    "match": "Huracan – Gimnasia L.P.",
+    "fixture_id": 1493190,
+    "label_fr": "Huracan ou nul (1N)",
+    "line": "resultat",
+    "odds": 1.42,
+    "closing_odds": 1.36,
+    "clv": 0.0441
+   },
+   {
+    "date": "2026-10-16",
+    "match": "Huracan – Gimnasia L.P.",
+    "fixture_id": 1493190,
+    "label_fr": "Victoire Huracan (1)",
+    "line": "valeur",
+    "odds": 2.75,
+    "closing_odds": 2.5,
+    "clv": 0.1
    }
   ]
  },
@@ -3718,10 +3763,10 @@
   },
   "probable": {
    "start": 100.0,
-   "bank": 91.45,
-   "bets": 24,
+   "bank": 91.83,
+   "bets": 25,
    "zero_stake": 66,
-   "roi_bank": -0.0855,
+   "roi_bank": -0.0817,
    "curve": [
     {
      "date": "2026-10-13",
@@ -3842,16 +3887,21 @@
      "date": "2026-10-15",
      "stake": 1.87,
      "bank": 91.45
+    },
+    {
+     "date": "2026-10-16",
+     "stake": 1.83,
+     "bank": 91.83
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
   },
   "resultat": {
    "start": 100.0,
-   "bank": 99.83,
-   "bets": 5,
+   "bank": 97.83,
+   "bets": 6,
    "zero_stake": 57,
-   "roi_bank": -0.0017,
+   "roi_bank": -0.0217,
    "curve": [
     {
      "date": "2026-10-13",
@@ -3877,16 +3927,21 @@
      "date": "2026-10-15",
      "stake": 1.55,
      "bank": 99.83
+    },
+    {
+     "date": "2026-10-16",
+     "stake": 2.0,
+     "bank": 97.83
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
   },
   "valeur": {
    "start": 100.0,
-   "bank": 84.67,
-   "bets": 82,
+   "bank": 82.98,
+   "bets": 83,
    "zero_stake": 0,
-   "roi_bank": -0.1533,
+   "roi_bank": -0.1702,
    "curve": [
     {
      "date": "2026-10-13",
@@ -4297,6 +4352,11 @@
      "date": "2026-10-15",
      "stake": 1.44,
      "bank": 84.67
+    },
+    {
+     "date": "2026-10-16",
+     "stake": 1.69,
+     "bank": 82.98
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
