@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-16T19:56:43+02:00",
+ "generated_at": "2026-10-16T20:33:55+02:00",
  "settled": [
   {
    "fixture_id": 1492403,
@@ -3283,6 +3283,66 @@
     "label": "SKIP",
     "outcome": "won"
    }
+  },
+  {
+   "fixture_id": 1576198,
+   "date": "2026-10-16",
+   "kickoff": "2026-10-16T18:30:00+02:00",
+   "league": {
+    "name": "2. Bundesliga",
+    "country": "Allemagne"
+   },
+   "region": "europe",
+   "method_version": "dc-v1",
+   "reading_id": "1576198-r4",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "OU1.5",
+   "selection": "over",
+   "label_fr": "Plus de 1,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.903,
+   "confidence_bucket": "90-95",
+   "odds": 1.11,
+   "bookmaker": "Pinnacle",
+   "final_score": "1-1",
+   "outcome": "won",
+   "pl_units": 0.11,
+   "matin": {
+    "selection": "over",
+    "label": "SKIP",
+    "outcome": "won"
+   }
+  },
+  {
+   "fixture_id": 1576201,
+   "date": "2026-10-16",
+   "kickoff": "2026-10-16T18:30:00+02:00",
+   "league": {
+    "name": "2. Bundesliga",
+    "country": "Allemagne"
+   },
+   "region": "europe",
+   "method_version": "dc-v1",
+   "reading_id": "1576201-r5",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "DC",
+   "selection": "12",
+   "label_fr": "Pas de nul (12)",
+   "label": "SKIP",
+   "model_probability": 0.745,
+   "confidence_bucket": "70-75",
+   "odds": 1.25,
+   "bookmaker": "William Hill",
+   "final_score": "0-0",
+   "outcome": "lost",
+   "pl_units": -1.0,
+   "matin": {
+    "selection": "over",
+    "label": "SKIP",
+    "outcome": "lost"
+   }
   }
  ],
  "aggregates": {
@@ -3299,14 +3359,14 @@
     "avg_odds": 1.86
    },
    "SKIP": {
-    "n": 105,
-    "won": 85,
-    "lost": 20,
+    "n": 107,
+    "won": 86,
+    "lost": 21,
     "void": 0,
     "no_odds": 0,
-    "hit_rate": 0.81,
-    "pl_units": -3.1,
-    "roi": -0.03,
+    "hit_rate": 0.804,
+    "pl_units": -3.99,
+    "roi": -0.037,
     "avg_odds": 1.25
    },
    "by_league": [
@@ -3318,6 +3378,15 @@
      "pl_units": 0.38,
      "league": "1. SNL",
      "country": "Slovénie"
+    },
+    {
+     "label": "SKIP",
+     "n": 2,
+     "won": 1,
+     "lost": 1,
+     "pl_units": -0.89,
+     "league": "2. Bundesliga",
+     "country": "Allemagne"
     },
     {
      "label": "SKIP",
@@ -3591,10 +3660,10 @@
     {
      "market": "DC",
      "label": "SKIP",
-     "n": 32,
+     "n": 33,
      "won": 27,
-     "lost": 5,
-     "pl_units": -0.99
+     "lost": 6,
+     "pl_units": -1.99
     },
     {
      "market": "DC",
@@ -3615,10 +3684,10 @@
     {
      "market": "OU1.5",
      "label": "SKIP",
-     "n": 55,
-     "won": 45,
+     "n": 56,
+     "won": 46,
      "lost": 10,
-     "pl_units": -1.46
+     "pl_units": -1.35
     },
     {
      "market": "OU2.5",
@@ -3698,9 +3767,9 @@
     {
      "bucket": "70-75",
      "label": "SKIP",
-     "n": 14,
+     "n": 15,
      "won": 9,
-     "lost": 5
+     "lost": 6
     },
     {
      "bucket": "75-80",
@@ -3726,8 +3795,8 @@
     {
      "bucket": "90-95",
      "label": "SKIP",
-     "n": 8,
-     "won": 7,
+     "n": 9,
+     "won": 8,
      "lost": 1
     }
    ],
@@ -3791,10 +3860,10 @@
     {
      "date": "2026-10-16",
      "label": "SKIP",
-     "n": 15,
-     "won": 13,
-     "lost": 2,
-     "pl_units": 0.8
+     "n": 17,
+     "won": 14,
+     "lost": 3,
+     "pl_units": -0.09
     },
     {
      "date": "2026-10-16",
@@ -3817,10 +3886,10 @@
     {
      "week": "2026-W42",
      "label": "SKIP",
-     "n": 105,
-     "won": 85,
-     "lost": 20,
-     "pl_units": -3.1
+     "n": 107,
+     "won": 86,
+     "lost": 21,
+     "pl_units": -3.99
     },
     {
      "week": "2026-W42",
@@ -3843,9 +3912,9 @@
     {
      "trigger": "compo",
      "label": "SKIP",
-     "n": 92,
-     "won": 75,
-     "lost": 17
+     "n": 94,
+     "won": 76,
+     "lost": 18
     },
     {
      "trigger": "compo",
@@ -3925,9 +3994,9 @@
     },
     {
      "bucket": "70-75",
-     "n": 14,
-     "mean_predicted": 0.734,
-     "observed": 0.643
+     "n": 15,
+     "mean_predicted": 0.735,
+     "observed": 0.6
     },
     {
      "bucket": "75-80",
@@ -3949,9 +4018,9 @@
     },
     {
      "bucket": "90-95",
-     "n": 8,
-     "mean_predicted": 0.923,
-     "observed": 0.875
+     "n": 9,
+     "mean_predicted": 0.921,
+     "observed": 0.889
     }
    ]
   }
@@ -4018,31 +4087,31 @@
  "bilan_start": "2026-10-13",
  "skip_lines": {
   "probable": {
-   "n": 105,
-   "won": 85,
-   "hit_rate": 0.81,
-   "with_odds": 105,
+   "n": 107,
+   "won": 86,
+   "hit_rate": 0.804,
+   "with_odds": 107,
    "avg_odds": 1.25,
-   "profit_eur": -3.1,
-   "roi": -0.03
-  },
-  "resultat": {
-   "n": 68,
-   "won": 52,
-   "hit_rate": 0.765,
-   "with_odds": 68,
-   "avg_odds": 1.27,
-   "profit_eur": -2.53,
+   "profit_eur": -3.99,
    "roi": -0.037
   },
+  "resultat": {
+   "n": 69,
+   "won": 52,
+   "hit_rate": 0.754,
+   "with_odds": 69,
+   "avg_odds": 1.27,
+   "profit_eur": -3.53,
+   "roi": -0.051
+  },
   "valeur": {
-   "n": 95,
-   "won": 39,
-   "hit_rate": 0.411,
-   "with_odds": 95,
-   "avg_odds": 2.32,
-   "profit_eur": -6.58,
-   "roi": -0.069
+   "n": 97,
+   "won": 41,
+   "hit_rate": 0.423,
+   "with_odds": 97,
+   "avg_odds": 2.33,
+   "profit_eur": -3.45,
+   "roi": -0.036
   }
  },
  "clv": {
@@ -4053,74 +4122,24 @@
    "se": 0.0057
   },
   "probable": {
-   "n": 100,
+   "n": 102,
    "mean_clv": 0.0011,
-   "beat_close": 0.03,
+   "beat_close": 0.029,
    "se": 0.0009
   },
   "resultat": {
-   "n": 65,
+   "n": 66,
    "mean_clv": 0.001,
-   "beat_close": 0.046,
-   "se": 0.0008
+   "beat_close": 0.045,
+   "se": 0.0007
   },
   "valeur": {
-   "n": 92,
+   "n": 94,
    "mean_clv": -0.0007,
-   "beat_close": 0.065,
+   "beat_close": 0.074,
    "se": 0.0017
   },
   "recent": [
-   {
-    "date": "2026-10-16",
-    "match": "Sydney – Western Sydney Wanderers",
-    "fixture_id": 1593680,
-    "label_fr": "Pas de nul (12)",
-    "line": "probable",
-    "odds": 1.3,
-    "closing_odds": 1.3,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-16",
-    "match": "Sydney – Western Sydney Wanderers",
-    "fixture_id": 1593680,
-    "label_fr": "Mi-temps : nul (MT N)",
-    "line": "valeur",
-    "odds": 2.4,
-    "closing_odds": 2.42,
-    "clv": -0.0083
-   },
-   {
-    "date": "2026-10-16",
-    "match": "Obolon'-Brovar – Veres Rivne",
-    "fixture_id": 1565502,
-    "label_fr": "Moins de 3,5 buts",
-    "line": "probable",
-    "odds": 1.2,
-    "closing_odds": 1.2,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-16",
-    "match": "Obolon'-Brovar – Veres Rivne",
-    "fixture_id": 1565502,
-    "label_fr": "Nul ou Veres Rivne (N2)",
-    "line": "resultat",
-    "odds": 1.44,
-    "closing_odds": 1.44,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-16",
-    "match": "Obolon'-Brovar – Veres Rivne",
-    "fixture_id": 1565502,
-    "label_fr": "Victoire Veres Rivne (2)",
-    "line": "valeur",
-    "odds": 2.7,
-    "closing_odds": 2.7,
-    "clv": 0.0
-   },
    {
     "date": "2026-10-16",
     "match": "Şamaxı FK – Safa Baku",
@@ -4370,6 +4389,56 @@
     "odds": 2.97,
     "closing_odds": 3.02,
     "clv": -0.0166
+   },
+   {
+    "date": "2026-10-16",
+    "match": "Energie Cottbus – 1. FC Nürnberg",
+    "fixture_id": 1576198,
+    "label_fr": "Plus de 1,5 buts",
+    "line": "probable",
+    "odds": 1.11,
+    "closing_odds": 1.11,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-16",
+    "match": "Energie Cottbus – 1. FC Nürnberg",
+    "fixture_id": 1576198,
+    "label_fr": "Pas de nul (12)",
+    "line": "resultat",
+    "odds": 1.22,
+    "closing_odds": 1.22,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-16",
+    "match": "Energie Cottbus – 1. FC Nürnberg",
+    "fixture_id": 1576198,
+    "label_fr": "Energie Cottbus ou nul (1N) & les deux marquent",
+    "line": "valeur",
+    "odds": 2.4,
+    "closing_odds": 2.395833333333333,
+    "clv": 0.0017
+   },
+   {
+    "date": "2026-10-16",
+    "match": "Holstein Kiel – Hertha BSC",
+    "fixture_id": 1576201,
+    "label_fr": "Pas de nul (12)",
+    "line": "probable",
+    "odds": 1.25,
+    "closing_odds": 1.25,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-16",
+    "match": "Holstein Kiel – Hertha BSC",
+    "fixture_id": 1576201,
+    "label_fr": "Mi-temps : nul (MT N)",
+    "line": "valeur",
+    "odds": 2.73,
+    "closing_odds": 2.73,
+    "clv": 0.0
    }
   ]
  },
@@ -4444,10 +4513,10 @@
   },
   "probable": {
    "start": 100.0,
-   "bank": 92.88,
-   "bets": 33,
-   "zero_stake": 72,
-   "roi_bank": -0.0712,
+   "bank": 92.94,
+   "bets": 34,
+   "zero_stake": 73,
+   "roi_bank": -0.0706,
    "curve": [
     {
      "date": "2026-10-13",
@@ -4613,6 +4682,11 @@
      "date": "2026-10-16",
      "stake": 1.85,
      "bank": 92.88
+    },
+    {
+     "date": "2026-10-16",
+     "stake": 0.49,
+     "bank": 92.94
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
@@ -4621,7 +4695,7 @@
    "start": 100.0,
    "bank": 96.56,
    "bets": 8,
-   "zero_stake": 60,
+   "zero_stake": 61,
    "roi_bank": -0.0344,
    "curve": [
     {
@@ -4669,10 +4743,10 @@
   },
   "valeur": {
    "start": 100.0,
-   "bank": 91.28,
-   "bets": 95,
+   "bank": 97.1,
+   "bets": 97,
    "zero_stake": 0,
-   "roi_bank": -0.0872,
+   "roi_bank": -0.029,
    "curve": [
     {
      "date": "2026-10-13",
@@ -5148,6 +5222,16 @@
      "date": "2026-10-16",
      "stake": 1.76,
      "bank": 91.28
+    },
+    {
+     "date": "2026-10-16",
+     "stake": 1.83,
+     "bank": 93.84
+    },
+    {
+     "date": "2026-10-16",
+     "stake": 1.88,
+     "bank": 97.1
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
