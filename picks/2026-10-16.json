@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-16T01:07:03+02:00",
+ "generated_at": "2026-10-16T02:17:43+02:00",
  "date": "2026-10-16",
  "picks": [
   {
@@ -803,7 +803,7 @@
   },
   {
    "fixture_id": 1640555,
-   "final_reading_id": "1640555-r5",
+   "final_reading_id": "1640555-r6",
    "readings": [
     {
      "reading_id": "1640555-r1",
@@ -1774,6 +1774,188 @@
        }
       ]
      }
+    },
+    {
+     "reading_id": "1640555-r6",
+     "timestamp": "2026-10-16T02:17:41+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "inter-competitions",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "Ticket tardif non publié : moins de 30 min avant le coup d'envoi"
+     ],
+     "model_probability": 0.641,
+     "probabilities": {
+      "1X2": {
+       "1": 0.252,
+       "X": 0.298,
+       "2": 0.45
+      },
+      "DC": {
+       "1X": 0.55,
+       "X2": 0.748,
+       "12": 0.702
+      },
+      "OU1.5": {
+       "over": 0.641,
+       "under": 0.359
+      },
+      "OU2.5": {
+       "over": 0.366,
+       "under": 0.634
+      },
+      "OU3.5": {
+       "over": 0.173,
+       "under": 0.827
+      },
+      "BTTS": {
+       "yes": 0.428,
+       "no": 0.572
+      },
+      "BTTS_O2.5": {
+       "yes": 0.293
+      },
+      "1X_O1.5": {
+       "yes": 0.333
+      },
+      "1X_O2.5": {
+       "yes": 0.152
+      },
+      "1X_U3.5": {
+       "yes": 0.468
+      },
+      "1X_BTTS": {
+       "yes": 0.271
+      },
+      "X2_O1.5": {
+       "yes": 0.485
+      },
+      "X2_O2.5": {
+       "yes": 0.256
+      },
+      "X2_U3.5": {
+       "yes": 0.615
+      },
+      "X2_BTTS": {
+       "yes": 0.334
+      },
+      "12_O1.5": {
+       "yes": 0.464
+      },
+      "12_O2.5": {
+       "yes": 0.325
+      },
+      "12_U3.5": {
+       "yes": 0.571
+      },
+      "12_BTTS": {
+       "yes": 0.251
+      },
+      "HT1X2": {
+       "1": 0.204,
+       "X": 0.472,
+       "2": 0.323
+      }
+     },
+     "expected_goals": {
+      "home": 0.88,
+      "away": 1.28
+     },
+     "top_scores": [
+      {
+       "score": "0-1",
+       "p": 0.142
+      },
+      {
+       "score": "1-1",
+       "p": 0.135
+      },
+      {
+       "score": "0-0",
+       "p": 0.121
+      }
+     ],
+     "confidence": {
+      "value": 0.641,
+      "source": "model_probability",
+      "bucket": "60-65"
+     },
+     "market_probability": 0.594,
+     "ev": 0.05,
+     "odds_seen": {
+      "value": 1.64,
+      "bookmaker": "Pinnacle",
+      "captured_at": "2026-10-16T02:17:41+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 64,1 % pour « Plus de 1,5 buts » contre 59,4 % pour le marché.",
+      "Buts attendus (modèle) : 0,88 – 1,28.",
+      "Tous les critères dc-v1 sont remplis (EV +5,0 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Flamengo : Arrascaeta (fracture poignet), Danilo (mâchoire), Ayrton Lucas blessés ; Jorginho suspendu (Lance!/TyC).",
+       "Estudiantes : Marcos Rojo non habilité par la CONMEBOL (TyC/ge). XI probables avec Carrillo/Pedro — rien pour annuler Plus de 1,5."
+      ]
+     },
+     "team_samples": {
+      "home": 102,
+      "away": 111
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": true,
+      "reason_fr": "Nouvelle lecture : compos officielles publiées, proba +0,1 pt."
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ],
    "skip_check": {
