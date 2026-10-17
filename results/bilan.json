@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-17T17:58:13+02:00",
+ "generated_at": "2026-10-17T18:17:31+02:00",
  "settled": [
   {
    "fixture_id": 1492403,
@@ -5594,6 +5594,126 @@
     "label": "SKIP",
     "outcome": "won"
    }
+  },
+  {
+   "fixture_id": 1557428,
+   "date": "2026-10-17",
+   "kickoff": "2026-10-17T16:00:00+02:00",
+   "league": {
+    "name": "Premier League",
+    "country": "Angleterre"
+   },
+   "region": "europe",
+   "method_version": "dc-v1",
+   "reading_id": "1557428-r4",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "OU1.5",
+   "selection": "over",
+   "label_fr": "Plus de 1,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.848,
+   "confidence_bucket": "80-85",
+   "odds": 1.17,
+   "bookmaker": "Bet365",
+   "final_score": "1-2",
+   "outcome": "won",
+   "pl_units": 0.17,
+   "matin": {
+    "selection": "over",
+    "label": "SKIP",
+    "outcome": "won"
+   }
+  },
+  {
+   "fixture_id": 1557433,
+   "date": "2026-10-17",
+   "kickoff": "2026-10-17T16:00:00+02:00",
+   "league": {
+    "name": "Premier League",
+    "country": "Angleterre"
+   },
+   "region": "europe",
+   "method_version": "dc-v1",
+   "reading_id": "1557433-r4",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "DC",
+   "selection": "1X",
+   "label_fr": "Manchester City ou nul (1N)",
+   "label": "SKIP",
+   "model_probability": 0.925,
+   "confidence_bucket": "90-95",
+   "odds": 1.07,
+   "bookmaker": "William Hill",
+   "final_score": "3-2",
+   "outcome": "won",
+   "pl_units": 0.07,
+   "matin": {
+    "selection": "1X",
+    "label": "SKIP",
+    "outcome": "won"
+   }
+  },
+  {
+   "fixture_id": 1563204,
+   "date": "2026-10-17",
+   "kickoff": "2026-10-17T16:00:00+02:00",
+   "league": {
+    "name": "Championship",
+    "country": "Angleterre"
+   },
+   "region": "europe",
+   "method_version": "dc-v1",
+   "reading_id": "1563204-r4",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "OU1.5",
+   "selection": "over",
+   "label_fr": "Plus de 1,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.751,
+   "confidence_bucket": "75-80",
+   "odds": 1.3,
+   "bookmaker": "Pinnacle",
+   "final_score": "0-1",
+   "outcome": "lost",
+   "pl_units": -1.0,
+   "matin": {
+    "selection": "over",
+    "label": "SKIP",
+    "outcome": "lost"
+   }
+  },
+  {
+   "fixture_id": 1570422,
+   "date": "2026-10-17",
+   "kickoff": "2026-10-17T16:15:00+02:00",
+   "league": {
+    "name": "LaLiga",
+    "country": "Espagne"
+   },
+   "region": "europe",
+   "method_version": "dc-v1",
+   "reading_id": "1570422-r4",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "BTTS",
+   "selection": "yes",
+   "label_fr": "Les deux équipes marquent",
+   "label": "TARDIF",
+   "model_probability": 0.627,
+   "confidence_bucket": "60-65",
+   "odds": 1.7,
+   "bookmaker": "Bet365",
+   "final_score": "0-0",
+   "outcome": "lost",
+   "pl_units": -1.0,
+   "matin": {
+    "selection": "over",
+    "label": "SKIP",
+    "outcome": "lost"
+   }
   }
  ],
  "aggregates": {
@@ -5610,14 +5730,14 @@
     "avg_odds": 1.86
    },
    "SKIP": {
-    "n": 181,
-    "won": 144,
-    "lost": 37,
+    "n": 184,
+    "won": 146,
+    "lost": 38,
     "void": 0,
     "no_odds": 1,
-    "hit_rate": 0.796,
-    "pl_units": -8.44,
-    "roi": -0.047,
+    "hit_rate": 0.793,
+    "pl_units": -9.2,
+    "roi": -0.05,
     "avg_odds": 1.22
    },
    "by_league": [
@@ -5713,10 +5833,10 @@
     },
     {
      "label": "SKIP",
-     "n": 16,
+     "n": 17,
      "won": 14,
-     "lost": 2,
-     "pl_units": 1.88,
+     "lost": 3,
+     "pl_units": 0.88,
      "league": "Championship",
      "country": "Angleterre"
     },
@@ -5794,6 +5914,15 @@
     },
     {
      "label": "SKIP",
+     "n": 1,
+     "won": 0,
+     "lost": 1,
+     "pl_units": -1.0,
+     "league": "LaLiga",
+     "country": "Espagne"
+    },
+    {
+     "label": "TARDIF",
      "n": 1,
      "won": 0,
      "lost": 1,
@@ -5884,10 +6013,10 @@
     },
     {
      "label": "SKIP",
-     "n": 1,
-     "won": 1,
+     "n": 3,
+     "won": 3,
      "lost": 0,
-     "pl_units": 0.2,
+     "pl_units": 0.44,
      "league": "Premier League",
      "country": "Angleterre"
     },
@@ -6154,6 +6283,14 @@
      "pl_units": -1.0
     },
     {
+     "market": "BTTS",
+     "label": "TARDIF",
+     "n": 1,
+     "won": 0,
+     "lost": 1,
+     "pl_units": -1.0
+    },
+    {
      "market": "DC",
      "label": "ANNULE",
      "n": 2,
@@ -6164,10 +6301,10 @@
     {
      "market": "DC",
      "label": "SKIP",
-     "n": 56,
-     "won": 44,
+     "n": 57,
+     "won": 45,
      "lost": 12,
-     "pl_units": -3.72
+     "pl_units": -3.65
     },
     {
      "market": "DC",
@@ -6188,10 +6325,10 @@
     {
      "market": "OU1.5",
      "label": "SKIP",
-     "n": 94,
-     "won": 76,
-     "lost": 18,
-     "pl_units": -4.68
+     "n": 96,
+     "won": 77,
+     "lost": 19,
+     "pl_units": -5.51
     },
     {
      "market": "OU2.5",
@@ -6256,6 +6393,13 @@
     },
     {
      "bucket": "60-65",
+     "label": "TARDIF",
+     "n": 1,
+     "won": 0,
+     "lost": 1
+    },
+    {
+     "bucket": "60-65",
      "label": "TICKET",
      "n": 1,
      "won": 0,
@@ -6285,15 +6429,15 @@
     {
      "bucket": "75-80",
      "label": "SKIP",
-     "n": 56,
+     "n": 57,
      "won": 44,
-     "lost": 12
+     "lost": 13
     },
     {
      "bucket": "80-85",
      "label": "SKIP",
-     "n": 53,
-     "won": 42,
+     "n": 54,
+     "won": 43,
      "lost": 11
     },
     {
@@ -6306,8 +6450,8 @@
     {
      "bucket": "90-95",
      "label": "SKIP",
-     "n": 11,
-     "won": 10,
+     "n": 12,
+     "won": 11,
      "lost": 1
     }
    ],
@@ -6395,10 +6539,18 @@
     {
      "date": "2026-10-17",
      "label": "SKIP",
-     "n": 74,
-     "won": 59,
-     "lost": 15,
-     "pl_units": -3.57
+     "n": 77,
+     "won": 61,
+     "lost": 16,
+     "pl_units": -4.33
+    },
+    {
+     "date": "2026-10-17",
+     "label": "TARDIF",
+     "n": 1,
+     "won": 0,
+     "lost": 1,
+     "pl_units": -1.0
     }
    ],
    "by_week": [
@@ -6413,18 +6565,18 @@
     {
      "week": "2026-W42",
      "label": "SKIP",
-     "n": 181,
-     "won": 144,
-     "lost": 37,
-     "pl_units": -8.44
+     "n": 184,
+     "won": 146,
+     "lost": 38,
+     "pl_units": -9.2
     },
     {
      "week": "2026-W42",
      "label": "TARDIF",
-     "n": 1,
+     "n": 2,
      "won": 1,
-     "lost": 0,
-     "pl_units": 0.8
+     "lost": 1,
+     "pl_units": -0.2
     },
     {
      "week": "2026-W42",
@@ -6439,16 +6591,16 @@
     {
      "trigger": "compo",
      "label": "SKIP",
-     "n": 147,
-     "won": 116,
-     "lost": 31
+     "n": 150,
+     "won": 118,
+     "lost": 32
     },
     {
      "trigger": "compo",
      "label": "TARDIF",
-     "n": 1,
+     "n": 2,
      "won": 1,
-     "lost": 0
+     "lost": 1
     },
     {
      "trigger": "manuel",
@@ -6509,7 +6661,7 @@
     },
     {
      "bucket": "60-65",
-     "n": 2,
+     "n": 3,
      "mean_predicted": 0.628,
      "observed": 0.0
     },
@@ -6527,15 +6679,15 @@
     },
     {
      "bucket": "75-80",
-     "n": 56,
+     "n": 57,
      "mean_predicted": 0.774,
-     "observed": 0.786
+     "observed": 0.772
     },
     {
      "bucket": "80-85",
-     "n": 53,
+     "n": 54,
      "mean_predicted": 0.825,
-     "observed": 0.792
+     "observed": 0.796
     },
     {
      "bucket": "85-90",
@@ -6545,9 +6697,9 @@
     },
     {
      "bucket": "90-95",
-     "n": 11,
-     "mean_predicted": 0.919,
-     "observed": 0.909
+     "n": 12,
+     "mean_predicted": 0.92,
+     "observed": 0.917
     }
    ]
   }
@@ -6606,39 +6758,39 @@
  },
  "fun_aggregate": {
   "played": 5,
-  "settled": 4,
+  "settled": 5,
   "won": 0,
   "stake_eur": 0.1,
-  "pl_eur": -0.4
+  "pl_eur": -0.5
  },
  "bilan_start": "2026-10-13",
  "skip_lines": {
   "probable": {
-   "n": 181,
-   "won": 144,
-   "hit_rate": 0.796,
-   "with_odds": 180,
+   "n": 184,
+   "won": 146,
+   "hit_rate": 0.793,
+   "with_odds": 183,
    "avg_odds": 1.22,
-   "profit_eur": -8.44,
-   "roi": -0.047
+   "profit_eur": -9.2,
+   "roi": -0.05
   },
   "resultat": {
-   "n": 121,
-   "won": 98,
-   "hit_rate": 0.81,
-   "with_odds": 121,
+   "n": 123,
+   "won": 100,
+   "hit_rate": 0.813,
+   "with_odds": 123,
    "avg_odds": 1.27,
-   "profit_eur": 2.49,
-   "roi": 0.021
+   "profit_eur": 3.11,
+   "roi": 0.025
   },
   "valeur": {
-   "n": 170,
-   "won": 68,
-   "hit_rate": 0.4,
-   "with_odds": 170,
-   "avg_odds": 2.24,
-   "profit_eur": -20.65,
-   "roi": -0.121
+   "n": 173,
+   "won": 71,
+   "hit_rate": 0.41,
+   "with_odds": 173,
+   "avg_odds": 2.23,
+   "profit_eur": -18.96,
+   "roi": -0.11
   }
  },
  "clv": {
@@ -6651,27 +6803,27 @@
    "se": 0.0057
   },
   "probable": {
-   "n": 175,
+   "n": 178,
    "mean_clv": -0.0,
-   "beat_close": 0.029,
+   "beat_close": 0.028,
    "beat_n": 5,
-   "same_n": 164,
+   "same_n": 167,
    "se": 0.0006
   },
   "resultat": {
-   "n": 118,
-   "mean_clv": 0.0006,
+   "n": 120,
+   "mean_clv": 0.0005,
    "beat_close": 0.042,
    "beat_n": 5,
-   "same_n": 109,
+   "same_n": 111,
    "se": 0.0005
   },
   "valeur": {
-   "n": 168,
+   "n": 171,
    "mean_clv": -0.0008,
-   "beat_close": 0.089,
+   "beat_close": 0.088,
    "beat_n": 15,
-   "same_n": 142,
+   "same_n": 145,
    "se": 0.0014
   },
   "tickets_list": [
@@ -6713,89 +6865,22 @@
     "closing_odds": 1.8,
     "clv": 0.0,
     "outcome": "won"
+   },
+   {
+    "date": "2026-10-17",
+    "league": {
+     "name": "LaLiga",
+     "country": "Espagne"
+    },
+    "label": "TARDIF",
+    "label_fr": "Les deux équipes marquent",
+    "odds": 1.7,
+    "closing_odds": 1.7,
+    "clv": 0.0,
+    "outcome": "lost"
    }
   ],
   "recent": [
-   {
-    "date": "2026-10-17",
-    "match": "Kilmarnock – Motherwell",
-    "fixture_id": 1556680,
-    "label_fr": "Plus de 1,5 buts",
-    "line": "probable",
-    "odds": 1.2,
-    "closing_odds": 1.2,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-17",
-    "match": "Kilmarnock – Motherwell",
-    "fixture_id": 1556680,
-    "label_fr": "Pas de nul (12)",
-    "line": "resultat",
-    "odds": 1.3,
-    "closing_odds": 1.3,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-17",
-    "match": "Kilmarnock – Motherwell",
-    "fixture_id": 1556680,
-    "label_fr": "Victoire Motherwell (2)",
-    "line": "valeur",
-    "odds": 2.38,
-    "closing_odds": 2.38,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-17",
-    "match": "Ballymena United – Crusaders FC",
-    "fixture_id": 1562092,
-    "label_fr": "Plus de 1,5 buts",
-    "line": "probable",
-    "odds": 1.17,
-    "closing_odds": 1.17,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-17",
-    "match": "Ballymena United – Crusaders FC",
-    "fixture_id": 1562092,
-    "label_fr": "Pas de nul (12)",
-    "line": "resultat",
-    "odds": 1.22,
-    "closing_odds": 1.22,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-17",
-    "match": "Ballymena United – Crusaders FC",
-    "fixture_id": 1562092,
-    "label_fr": "Nul ou Crusaders FC (N2)",
-    "line": "valeur",
-    "odds": 2.15,
-    "closing_odds": 2.15,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-17",
-    "match": "Bangor – Dungannon Swifts",
-    "fixture_id": 1562093,
-    "label_fr": "Pas de nul (12)",
-    "line": "probable",
-    "odds": 1.25,
-    "closing_odds": 1.25,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-17",
-    "match": "Bangor – Dungannon Swifts",
-    "fixture_id": 1562093,
-    "label_fr": "Bangor ou nul (1N)",
-    "line": "valeur",
-    "odds": 1.85,
-    "closing_odds": 1.85,
-    "clv": 0.0
-   },
    {
     "date": "2026-10-17",
     "match": "Carrick Rangers – Linfield",
@@ -7015,6 +7100,86 @@
     "odds": 1.47,
     "closing_odds": 1.5,
     "clv": -0.02
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Brentford – Liverpool",
+    "fixture_id": 1557428,
+    "label_fr": "Plus de 1,5 buts",
+    "line": "probable",
+    "odds": 1.17,
+    "closing_odds": 1.17,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Brentford – Liverpool",
+    "fixture_id": 1557428,
+    "label_fr": "Pas de nul (12)",
+    "line": "resultat",
+    "odds": 1.32,
+    "closing_odds": 1.32,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Brentford – Liverpool",
+    "fixture_id": 1557428,
+    "label_fr": "Plus de 2,5 buts",
+    "line": "valeur",
+    "odds": 1.61,
+    "closing_odds": 1.61,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Manchester City – Ipswich",
+    "fixture_id": 1557433,
+    "label_fr": "Manchester City ou nul (1N)",
+    "line": "probable",
+    "odds": 1.07,
+    "closing_odds": 1.07,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Manchester City – Ipswich",
+    "fixture_id": 1557433,
+    "label_fr": "Victoire Manchester City (1)",
+    "line": "valeur",
+    "odds": 1.28,
+    "closing_odds": 1.28,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Bristol City – Sheffield Utd",
+    "fixture_id": 1563204,
+    "label_fr": "Plus de 1,5 buts",
+    "line": "probable",
+    "odds": 1.3,
+    "closing_odds": 1.3,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Bristol City – Sheffield Utd",
+    "fixture_id": 1563204,
+    "label_fr": "Pas de nul (12)",
+    "line": "resultat",
+    "odds": 1.3,
+    "closing_odds": 1.3,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Bristol City – Sheffield Utd",
+    "fixture_id": 1563204,
+    "label_fr": "Nul ou Sheffield Utd (N2)",
+    "line": "valeur",
+    "odds": 1.8,
+    "closing_odds": 1.8,
+    "clv": 0.0
    }
   ]
  },
@@ -7048,18 +7213,18 @@
   }
  ],
  "late": {
-  "n": 1,
+  "n": 2,
   "won": 1,
-  "hit_rate": 1.0,
-  "pl_units": 0.8,
-  "roi": 0.8,
+  "hit_rate": 0.5,
+  "pl_units": -0.2,
+  "roi": -0.1,
   "clv": {
-   "n": 1,
+   "n": 2,
    "mean_clv": 0.0,
    "beat_close": 0.0,
    "beat_n": 0,
-   "same_n": 1,
-   "se": null
+   "same_n": 2,
+   "se": 0.0
   }
  },
  "kelly": {
@@ -7085,15 +7250,20 @@
   },
   "tardifs": {
    "start": 100.0,
-   "bank": 101.59,
-   "bets": 1,
+   "bank": 99.56,
+   "bets": 2,
    "zero_stake": 0,
-   "roi_bank": 0.0159,
+   "roi_bank": -0.0044,
    "curve": [
     {
      "date": "2026-10-16",
      "stake": 1.99,
      "bank": 101.59
+    },
+    {
+     "date": "2026-10-17",
+     "stake": 2.03,
+     "bank": 99.56
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
@@ -7102,7 +7272,7 @@
    "start": 100.0,
    "bank": 91.49,
    "bets": 52,
-   "zero_stake": 128,
+   "zero_stake": 131,
    "roi_bank": -0.0851,
    "curve": [
     {
@@ -7372,7 +7542,7 @@
    "start": 100.0,
    "bank": 94.79,
    "bets": 16,
-   "zero_stake": 105,
+   "zero_stake": 107,
    "roi_bank": -0.0521,
    "curve": [
     {
@@ -7460,10 +7630,10 @@
   },
   "valeur": {
    "start": 100.0,
-   "bank": 72.44,
-   "bets": 169,
+   "bank": 74.26,
+   "bets": 172,
    "zero_stake": 1,
-   "roi_bank": -0.2756,
+   "roi_bank": -0.2574,
    "curve": [
     {
      "date": "2026-10-13",
@@ -8309,6 +8479,21 @@
      "date": "2026-10-17",
      "stake": 1.48,
      "bank": 72.44
+    },
+    {
+     "date": "2026-10-17",
+     "stake": 0.71,
+     "bank": 72.87
+    },
+    {
+     "date": "2026-10-17",
+     "stake": 0.81,
+     "bank": 73.1
+    },
+    {
+     "date": "2026-10-17",
+     "stake": 1.46,
+     "bank": 74.26
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
