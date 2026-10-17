@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-17T06:15:33+02:00",
+ "generated_at": "2026-10-17T07:17:23+02:00",
  "settled": [
   {
    "fixture_id": 1492403,
@@ -4694,6 +4694,66 @@
     "label": "SKIP",
     "outcome": "won"
    }
+  },
+  {
+   "fixture_id": 1550995,
+   "date": "2026-10-17",
+   "kickoff": "2026-10-17T05:00:00+02:00",
+   "league": {
+    "name": "Liga MX",
+    "country": "Mexique"
+   },
+   "region": "ameriques",
+   "method_version": "dc-v1",
+   "reading_id": "1550995-r4",
+   "trigger": "releco",
+   "lineups_confirmed": false,
+   "market": "OU1.5",
+   "selection": "over",
+   "label_fr": "Plus de 1,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.786,
+   "confidence_bucket": "75-80",
+   "odds": 1.25,
+   "bookmaker": "Pinnacle",
+   "final_score": "1-2",
+   "outcome": "won",
+   "pl_units": 0.25,
+   "matin": {
+    "selection": "over",
+    "label": "SKIP",
+    "outcome": "won"
+   }
+  },
+  {
+   "fixture_id": 1550994,
+   "date": "2026-10-17",
+   "kickoff": "2026-10-17T05:05:00+02:00",
+   "league": {
+    "name": "Liga MX",
+    "country": "Mexique"
+   },
+   "region": "ameriques",
+   "method_version": "dc-v1",
+   "reading_id": "1550994-r5",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "DC",
+   "selection": "1X",
+   "label_fr": "Club Tijuana ou nul (1N)",
+   "label": "SKIP",
+   "model_probability": 0.844,
+   "confidence_bucket": "80-85",
+   "odds": 1.2,
+   "bookmaker": "William Hill",
+   "final_score": "0-0",
+   "outcome": "won",
+   "pl_units": 0.2,
+   "matin": {
+    "selection": "1X",
+    "label": "SKIP",
+    "outcome": "won"
+   }
   }
  ],
  "aggregates": {
@@ -4710,14 +4770,14 @@
     "avg_odds": 1.86
    },
    "SKIP": {
-    "n": 151,
-    "won": 118,
+    "n": 153,
+    "won": 120,
     "lost": 33,
     "void": 0,
     "no_odds": 1,
-    "hit_rate": 0.781,
-    "pl_units": -10.04,
-    "roi": -0.067,
+    "hit_rate": 0.784,
+    "pl_units": -9.59,
+    "roi": -0.063,
     "avg_odds": 1.24
    },
    "by_league": [
@@ -4894,10 +4954,10 @@
     },
     {
      "label": "SKIP",
-     "n": 1,
-     "won": 1,
+     "n": 3,
+     "won": 3,
      "lost": 0,
-     "pl_units": 0.23,
+     "pl_units": 0.68,
      "league": "Liga MX",
      "country": "Mexique"
     },
@@ -5218,10 +5278,10 @@
     {
      "market": "DC",
      "label": "SKIP",
-     "n": 44,
-     "won": 35,
+     "n": 45,
+     "won": 36,
      "lost": 9,
-     "pl_units": -3.21
+     "pl_units": -3.01
     },
     {
      "market": "DC",
@@ -5242,10 +5302,10 @@
     {
      "market": "OU1.5",
      "label": "SKIP",
-     "n": 80,
-     "won": 65,
+     "n": 81,
+     "won": 66,
      "lost": 15,
-     "pl_units": -3.42
+     "pl_units": -3.17
     },
     {
      "market": "OU2.5",
@@ -5346,15 +5406,15 @@
     {
      "bucket": "75-80",
      "label": "SKIP",
-     "n": 43,
-     "won": 37,
+     "n": 44,
+     "won": 38,
      "lost": 6
     },
     {
      "bucket": "80-85",
      "label": "SKIP",
-     "n": 44,
-     "won": 37,
+     "n": 45,
+     "won": 38,
      "lost": 7
     },
     {
@@ -5456,10 +5516,10 @@
     {
      "date": "2026-10-17",
      "label": "SKIP",
-     "n": 7,
-     "won": 6,
+     "n": 9,
+     "won": 8,
      "lost": 1,
-     "pl_units": 0.16
+     "pl_units": 0.61
     }
    ],
    "by_week": [
@@ -5474,10 +5534,10 @@
     {
      "week": "2026-W42",
      "label": "SKIP",
-     "n": 151,
-     "won": 118,
+     "n": 153,
+     "won": 120,
      "lost": 33,
-     "pl_units": -10.04
+     "pl_units": -9.59
     },
     {
      "week": "2026-W42",
@@ -5500,8 +5560,8 @@
     {
      "trigger": "compo",
      "label": "SKIP",
-     "n": 122,
-     "won": 96,
+     "n": 123,
+     "won": 97,
      "lost": 26
     },
     {
@@ -5542,8 +5602,8 @@
     {
      "trigger": "releco",
      "label": "SKIP",
-     "n": 21,
-     "won": 17,
+     "n": 22,
+     "won": 18,
      "lost": 4
     },
     {
@@ -5594,15 +5654,15 @@
     },
     {
      "bucket": "75-80",
-     "n": 43,
+     "n": 44,
      "mean_predicted": 0.775,
-     "observed": 0.86
+     "observed": 0.864
     },
     {
      "bucket": "80-85",
-     "n": 44,
+     "n": 45,
      "mean_predicted": 0.826,
-     "observed": 0.841
+     "observed": 0.844
     },
     {
      "bucket": "85-90",
@@ -5681,31 +5741,31 @@
  "bilan_start": "2026-10-13",
  "skip_lines": {
   "probable": {
-   "n": 151,
-   "won": 118,
-   "hit_rate": 0.781,
-   "with_odds": 150,
+   "n": 153,
+   "won": 120,
+   "hit_rate": 0.784,
+   "with_odds": 152,
    "avg_odds": 1.24,
-   "profit_eur": -10.04,
-   "roi": -0.067
+   "profit_eur": -9.59,
+   "roi": -0.063
   },
   "resultat": {
-   "n": 99,
-   "won": 77,
-   "hit_rate": 0.778,
-   "with_odds": 99,
+   "n": 100,
+   "won": 78,
+   "hit_rate": 0.78,
+   "with_odds": 100,
    "avg_odds": 1.27,
-   "profit_eur": -1.98,
-   "roi": -0.02
+   "profit_eur": -1.68,
+   "roi": -0.017
   },
   "valeur": {
-   "n": 139,
-   "won": 60,
-   "hit_rate": 0.432,
-   "with_odds": 139,
+   "n": 141,
+   "won": 62,
+   "hit_rate": 0.44,
+   "with_odds": 141,
    "avg_odds": 2.28,
-   "profit_eur": -4.78,
-   "roi": -0.034
+   "profit_eur": -3.15,
+   "roi": -0.022
   }
  },
  "clv": {
@@ -5716,74 +5776,24 @@
    "se": 0.0057
   },
   "probable": {
-   "n": 145,
+   "n": 147,
    "mean_clv": 0.0011,
    "beat_close": 0.034,
    "se": 0.0008
   },
   "resultat": {
-   "n": 96,
+   "n": 97,
    "mean_clv": 0.0009,
    "beat_close": 0.052,
    "se": 0.0006
   },
   "valeur": {
-   "n": 136,
-   "mean_clv": -0.0003,
-   "beat_close": 0.088,
+   "n": 138,
+   "mean_clv": 0.0,
+   "beat_close": 0.094,
    "se": 0.0016
   },
   "recent": [
-   {
-    "date": "2026-10-16",
-    "match": "Deportivo La Coruna – Levante",
-    "fixture_id": 1570415,
-    "label_fr": "Pas de nul (12)",
-    "line": "resultat",
-    "odds": 1.33,
-    "closing_odds": 1.33,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-16",
-    "match": "Deportivo La Coruna – Levante",
-    "fixture_id": 1570415,
-    "label_fr": "Plus de 2,5 buts",
-    "line": "valeur",
-    "odds": 1.92,
-    "closing_odds": 1.92,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-16",
-    "match": "Chaves – Os Marialvas",
-    "fixture_id": 1641808,
-    "label_fr": "Les deux équipes ne marquent pas",
-    "line": "probable",
-    "odds": 1.53,
-    "closing_odds": 1.53,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-16",
-    "match": "Chaves – Os Marialvas",
-    "fixture_id": 1641808,
-    "label_fr": "Mi-temps : nul (MT N)",
-    "line": "valeur",
-    "odds": 2.4,
-    "closing_odds": 2.4,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-16",
-    "match": "Breidablik – Vikingur Reykjavik",
-    "fixture_id": 1638631,
-    "label_fr": "Plus de 1,5 buts",
-    "line": "probable",
-    "odds": 1.11,
-    "closing_odds": 1.11,
-    "clv": 0.0
-   },
    {
     "date": "2026-10-16",
     "match": "Breidablik – Vikingur Reykjavik",
@@ -6033,6 +6043,56 @@
     "odds": 2.5,
     "closing_odds": 2.5,
     "clv": 0.0
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Atlante FC – U.N.A.M. - Pumas",
+    "fixture_id": 1550995,
+    "label_fr": "Plus de 1,5 buts",
+    "line": "probable",
+    "odds": 1.25,
+    "closing_odds": 1.25,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Atlante FC – U.N.A.M. - Pumas",
+    "fixture_id": 1550995,
+    "label_fr": "Pas de nul (12)",
+    "line": "resultat",
+    "odds": 1.3,
+    "closing_odds": 1.3,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Atlante FC – U.N.A.M. - Pumas",
+    "fixture_id": 1550995,
+    "label_fr": "Nul ou U.N.A.M. - Pumas (N2)",
+    "line": "valeur",
+    "odds": 1.5,
+    "closing_odds": 1.44,
+    "clv": 0.0417
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Club Tijuana – Puebla",
+    "fixture_id": 1550994,
+    "label_fr": "Club Tijuana ou nul (1N)",
+    "line": "probable",
+    "odds": 1.2,
+    "closing_odds": 1.2,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Club Tijuana – Puebla",
+    "fixture_id": 1550994,
+    "label_fr": "Moins de 2,5 buts",
+    "line": "valeur",
+    "odds": 2.13,
+    "closing_odds": 2.13,
+    "clv": 0.0
    }
   ]
  },
@@ -6116,10 +6176,10 @@
   },
   "probable": {
    "start": 100.0,
-   "bank": 88.62,
-   "bets": 48,
-   "zero_stake": 102,
-   "roi_bank": -0.1138,
+   "bank": 88.9,
+   "bets": 49,
+   "zero_stake": 103,
+   "roi_bank": -0.111,
    "curve": [
     {
      "date": "2026-10-13",
@@ -6360,6 +6420,11 @@
      "date": "2026-10-17",
      "stake": 1.77,
      "bank": 88.62
+    },
+    {
+     "date": "2026-10-17",
+     "stake": 1.42,
+     "bank": 88.9
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
@@ -6368,7 +6433,7 @@
    "start": 100.0,
    "bank": 94.25,
    "bets": 13,
-   "zero_stake": 86,
+   "zero_stake": 87,
    "roi_bank": -0.0575,
    "curve": [
     {
@@ -6441,10 +6506,10 @@
   },
   "valeur": {
    "start": 100.0,
-   "bank": 90.19,
-   "bets": 139,
+   "bank": 92.09,
+   "bets": 141,
    "zero_stake": 0,
-   "roi_bank": -0.0981,
+   "roi_bank": -0.0791,
    "curve": [
     {
      "date": "2026-10-13",
@@ -7140,6 +7205,16 @@
      "date": "2026-10-17",
      "stake": 1.57,
      "bank": 90.19
+    },
+    {
+     "date": "2026-10-17",
+     "stake": 0.09,
+     "bank": 90.23
+    },
+    {
+     "date": "2026-10-17",
+     "stake": 1.64,
+     "bank": 92.09
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
