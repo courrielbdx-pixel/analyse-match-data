@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-17T13:38:14+02:00",
+ "generated_at": "2026-10-17T14:09:43+02:00",
  "date": "2026-10-17",
  "picks": [
   {
@@ -43849,7 +43849,7 @@
   },
   {
    "fixture_id": 1560258,
-   "final_reading_id": "1560258-r3",
+   "final_reading_id": "1560258-r4",
    "readings": [
     {
      "reading_id": "1560258-r1",
@@ -44414,12 +44414,201 @@
       "label_fr": "Historique insuffisant",
       "text_fr": "⚠️ Historique insuffisant (42 / 8 matchs)"
      }
+    },
+    {
+     "reading_id": "1560258-r4",
+     "timestamp": "2026-10-17T14:09:13+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "⚠️ Historique insuffisant (42 / 8 matchs)",
+      "EV +3,3 % < 5 %",
+      "Écart modèle/marché 7,3 pts > 5",
+      "Échantillon insuffisant (8 matchs < 20)"
+     ],
+     "model_probability": 0.854,
+     "probabilities": {
+      "1X2": {
+       "1": 0.391,
+       "X": 0.235,
+       "2": 0.374
+      },
+      "DC": {
+       "1X": 0.626,
+       "X2": 0.609,
+       "12": 0.765
+      },
+      "OU1.5": {
+       "over": 0.854,
+       "under": 0.146
+      },
+      "OU2.5": {
+       "over": 0.655,
+       "under": 0.345
+      },
+      "OU3.5": {
+       "over": 0.436,
+       "under": 0.564
+      },
+      "BTTS": {
+       "yes": 0.668,
+       "no": 0.332
+      },
+      "BTTS_O2.5": {
+       "yes": 0.566
+      },
+      "1X_O1.5": {
+       "yes": 0.534
+      },
+      "1X_O2.5": {
+       "yes": 0.382
+      },
+      "1X_U3.5": {
+       "yes": 0.356
+      },
+      "1X_BTTS": {
+       "yes": 0.437
+      },
+      "X2_O1.5": {
+       "yes": 0.517
+      },
+      "X2_O2.5": {
+       "yes": 0.368
+      },
+      "X2_U3.5": {
+       "yes": 0.348
+      },
+      "X2_BTTS": {
+       "yes": 0.427
+      },
+      "12_O1.5": {
+       "yes": 0.657
+      },
+      "12_O2.5": {
+       "yes": 0.559
+      },
+      "12_U3.5": {
+       "yes": 0.425
+      },
+      "12_BTTS": {
+       "yes": 0.471
+      },
+      "HT1X2": {
+       "1": 0.322,
+       "X": 0.367,
+       "2": 0.311
+      }
+     },
+     "expected_goals": {
+      "home": 1.71,
+      "away": 1.66
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.101
+      },
+      {
+       "score": "2-1",
+       "p": 0.083
+      },
+      {
+       "score": "1-2",
+       "p": 0.081
+      }
+     ],
+     "confidence": {
+      "value": 0.854,
+      "source": "model_probability",
+      "bucket": "85-90"
+     },
+     "market_probability": 0.781,
+     "ev": 0.033,
+     "odds_seen": {
+      "value": 1.21,
+      "bookmaker": "Pinnacle",
+      "captured_at": "2026-10-17T14:09:13+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 85,4 % pour « Plus de 1,5 buts » contre 78,1 % pour le marché.",
+      "Buts attendus (modèle) : 1,71 – 1,66.",
+      "Candidat EV max écarté : Plus de 2,5 buts (65,5 %, cote 1,69, EV +10,7 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 42,
+      "away": 8
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "api",
+     "history_insufficient": {
+      "home": 42,
+      "away": 8,
+      "min": 20,
+      "label_fr": "Historique insuffisant",
+      "text_fr": "⚠️ Historique insuffisant (42 / 8 matchs)"
+     }
     }
    ]
   },
   {
    "fixture_id": 1565501,
-   "final_reading_id": "1565501-r3",
+   "final_reading_id": "1565501-r4",
    "readings": [
     {
      "reading_id": "1565501-r1",
@@ -44974,6 +45163,194 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-10-17T10:03:07+02:00",
+     "history_insufficient": {
+      "home": 40,
+      "away": 8,
+      "min": 20,
+      "label_fr": "Historique insuffisant",
+      "text_fr": "⚠️ Historique insuffisant (40 / 8 matchs)"
+     }
+    },
+    {
+     "reading_id": "1565501-r4",
+     "timestamp": "2026-10-17T14:09:13+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou Bukovyna (N2)"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "⚠️ Historique insuffisant (40 / 8 matchs)",
+      "EV −1,2 % < 5 %",
+      "Échantillon insuffisant (8 matchs < 20)"
+     ],
+     "model_probability": 0.772,
+     "probabilities": {
+      "1X2": {
+       "1": 0.228,
+       "X": 0.318,
+       "2": 0.454
+      },
+      "DC": {
+       "1X": 0.546,
+       "X2": 0.772,
+       "12": 0.682
+      },
+      "OU1.5": {
+       "over": 0.653,
+       "under": 0.347
+      },
+      "OU2.5": {
+       "over": 0.367,
+       "under": 0.633
+      },
+      "OU3.5": {
+       "over": 0.173,
+       "under": 0.827
+      },
+      "BTTS": {
+       "yes": 0.436,
+       "no": 0.564
+      },
+      "BTTS_O2.5": {
+       "yes": 0.291
+      },
+      "1X_O1.5": {
+       "yes": 0.332
+      },
+      "1X_O2.5": {
+       "yes": 0.145
+      },
+      "1X_U3.5": {
+       "yes": 0.468
+      },
+      "1X_BTTS": {
+       "yes": 0.275
+      },
+      "X2_O1.5": {
+       "yes": 0.507
+      },
+      "X2_O2.5": {
+       "yes": 0.263
+      },
+      "X2_U3.5": {
+       "yes": 0.636
+      },
+      "X2_BTTS": {
+       "yes": 0.347
+      },
+      "12_O1.5": {
+       "yes": 0.467
+      },
+      "12_O2.5": {
+       "yes": 0.326
+      },
+      "12_U3.5": {
+       "yes": 0.55
+      },
+      "12_BTTS": {
+       "yes": 0.25
+      },
+      "HT1X2": {
+       "1": 0.196,
+       "X": 0.471,
+       "2": 0.333
+      }
+     },
+     "expected_goals": {
+      "home": 0.86,
+      "away": 1.31
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.145
+      },
+      {
+       "score": "0-1",
+       "p": 0.134
+      },
+      {
+       "score": "0-0",
+       "p": 0.132
+      }
+     ],
+     "confidence": {
+      "value": 0.772,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.761,
+     "ev": -0.012,
+     "odds_seen": {
+      "value": 1.28,
+      "bookmaker": "1xBet",
+      "captured_at": "2026-10-17T14:09:13+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 77,2 % pour « Nul ou Bukovyna (N2) » contre 76,1 % pour le marché.",
+      "Buts attendus (modèle) : 0,86 – 1,31.",
+      "Candidat EV max écarté : Moins de 2,5 buts (63,3 %, cote 2,36, EV +49,4 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 40,
+      "away": 8
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "api",
      "history_insufficient": {
       "home": 40,
       "away": 8,
@@ -50273,7 +50650,7 @@
   },
   {
    "fixture_id": 1584435,
-   "final_reading_id": "1584435-r3",
+   "final_reading_id": "1584435-r4",
    "readings": [
     {
      "reading_id": "1584435-r1",
@@ -50838,6 +51215,195 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-10-17T10:03:09+02:00"
+    },
+    {
+     "reading_id": "1584435-r4",
+     "timestamp": "2026-10-17T14:09:21+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou Galatasaray (N2)"
+     },
+     "label": "SKIP",
+     "value_pick": {
+      "market": "OU3.5",
+      "selection": "under",
+      "label_fr": "Moins de 3,5 buts",
+      "model_probability": 0.609,
+      "market_probability": 0.559,
+      "odds": 1.75,
+      "bookmaker": "1xBet",
+      "ev": 0.066
+     },
+     "skip_reasons_fr": [
+      "EV −6,1 % < 5 %"
+     ],
+     "model_probability": 0.838,
+     "probabilities": {
+      "1X2": {
+       "1": 0.162,
+       "X": 0.225,
+       "2": 0.614
+      },
+      "DC": {
+       "1X": 0.386,
+       "X2": 0.838,
+       "12": 0.775
+      },
+      "OU1.5": {
+       "over": 0.837,
+       "under": 0.163
+      },
+      "OU2.5": {
+       "over": 0.614,
+       "under": 0.386
+      },
+      "OU3.5": {
+       "over": 0.391,
+       "under": 0.609
+      },
+      "BTTS": {
+       "yes": 0.58,
+       "no": 0.42
+      },
+      "BTTS_O2.5": {
+       "yes": 0.476
+      },
+      "1X_O1.5": {
+       "yes": 0.301
+      },
+      "1X_O2.5": {
+       "yes": 0.174
+      },
+      "1X_U3.5": {
+       "yes": 0.268
+      },
+      "1X_BTTS": {
+       "yes": 0.268
+      },
+      "X2_O1.5": {
+       "yes": 0.707
+      },
+      "X2_O2.5": {
+       "yes": 0.506
+      },
+      "X2_U3.5": {
+       "yes": 0.5
+      },
+      "X2_BTTS": {
+       "yes": 0.483
+      },
+      "12_O1.5": {
+       "yes": 0.667
+      },
+      "12_O2.5": {
+       "yes": 0.548
+      },
+      "12_U3.5": {
+       "yes": 0.45
+      },
+      "12_BTTS": {
+       "yes": 0.41
+      },
+      "HT1X2": {
+       "1": 0.173,
+       "X": 0.362,
+       "2": 0.464
+      }
+     },
+     "expected_goals": {
+      "home": 1.03,
+      "away": 2.14
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.105
+      },
+      {
+       "score": "1-2",
+       "p": 0.099
+      },
+      {
+       "score": "0-2",
+       "p": 0.096
+      }
+     ],
+     "confidence": {
+      "value": 0.838,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.872,
+     "ev": -0.061,
+     "odds_seen": {
+      "value": 1.12,
+      "bookmaker": "Bet365",
+      "captured_at": "2026-10-17T14:09:21+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 83,8 % pour « Nul ou Galatasaray (N2) » contre 87,2 % pour le marché.",
+      "Buts attendus (modèle) : 1,03 – 2,14.",
+      "Candidat EV max écarté : Moins de 3,5 buts (60,9 %, cote 1,75, EV +6,6 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 41,
+      "away": 41
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
