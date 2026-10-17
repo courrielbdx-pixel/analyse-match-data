@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-17T18:17:31+02:00",
+ "generated_at": "2026-10-17T18:39:14+02:00",
  "date": "2026-10-17",
  "picks": [
   {
@@ -110819,7 +110819,7 @@
   },
   {
    "fixture_id": 1553887,
-   "final_reading_id": "1553887-r4",
+   "final_reading_id": "1553887-r5",
    "readings": [
     {
      "reading_id": "1553887-r1",
@@ -111592,6 +111592,215 @@
        }
       ]
      }
+    },
+    {
+     "reading_id": "1553887-r5",
+     "timestamp": "2026-10-17T18:38:58+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts+interdiv",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU3.5",
+      "selection": "under",
+      "label_fr": "Moins de 3,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou OFK Beograd (N2)",
+      "model_probability": 0.684,
+      "market_probability": 0.742,
+      "odds": 1.27,
+      "bookmaker": "1xBet"
+     },
+     "value_pick": {
+      "market": "OU2.5",
+      "selection": "under",
+      "label_fr": "Moins de 2,5 buts",
+      "model_probability": 0.555,
+      "market_probability": 0.525,
+      "odds": 1.88,
+      "bookmaker": "1xBet",
+      "ev": 0.043
+     },
+     "skip_reasons_fr": [
+      "EV +0,4 % < 5 %",
+      "Échantillon insuffisant (11 matchs < 20)"
+     ],
+     "model_probability": 0.766,
+     "probabilities": {
+      "1X2": {
+       "1": 0.316,
+       "X": 0.324,
+       "2": 0.36
+      },
+      "DC": {
+       "1X": 0.64,
+       "X2": 0.684,
+       "12": 0.676
+      },
+      "OU1.5": {
+       "over": 0.73,
+       "under": 0.27
+      },
+      "OU2.5": {
+       "over": 0.445,
+       "under": 0.555
+      },
+      "OU3.5": {
+       "over": 0.234,
+       "under": 0.766
+      },
+      "BTTS": {
+       "yes": 0.526,
+       "no": 0.474
+      },
+      "BTTS_O2.5": {
+       "yes": 0.371
+      },
+      "1X_O1.5": {
+       "yes": 0.453
+      },
+      "1X_O2.5": {
+       "yes": 0.238
+      },
+      "1X_U3.5": {
+       "yes": 0.502
+      },
+      "1X_BTTS": {
+       "yes": 0.361
+      },
+      "X2_O1.5": {
+       "yes": 0.489
+      },
+      "X2_O2.5": {
+       "yes": 0.265
+      },
+      "X2_U3.5": {
+       "yes": 0.531
+      },
+      "X2_BTTS": {
+       "yes": 0.378
+      },
+      "12_O1.5": {
+       "yes": 0.517
+      },
+      "12_O2.5": {
+       "yes": 0.388
+      },
+      "12_U3.5": {
+       "yes": 0.5
+      },
+      "12_BTTS": {
+       "yes": 0.313
+      },
+      "HT1X2": {
+       "1": 0.266,
+       "X": 0.442,
+       "2": 0.292
+      }
+     },
+     "expected_goals": {
+      "home": 1.18,
+      "away": 1.27
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.155
+      },
+      {
+       "score": "0-0",
+       "p": 0.111
+      },
+      {
+       "score": "0-1",
+       "p": 0.083
+      }
+     ],
+     "confidence": {
+      "value": 0.766,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.718,
+     "ev": 0.004,
+     "odds_seen": {
+      "value": 1.31,
+      "bookmaker": "1xBet",
+      "captured_at": "2026-10-17T18:38:58+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 76,6 % pour « Moins de 3,5 buts » contre 71,8 % pour le marché.",
+      "Buts attendus (modèle) : 1,18 – 1,27.",
+      "Candidat EV max écarté : Macva ou nul (1N) (64,0 %, cote 1,77, EV +13,3 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 11,
+      "away": 48
+     },
+     "history_cross": {
+      "home": {
+       "n": 11,
+       "origin": "unknown",
+       "from_league_id": null,
+       "n_other": 0,
+       "weight_own": 0.688
+      },
+      "text_fr": "Historique complété : correction moyenne des promus (division précédente non couverte)"
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "api"
     }
    ]
   },
