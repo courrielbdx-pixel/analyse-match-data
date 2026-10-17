@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-17T11:51:05+02:00",
+ "generated_at": "2026-10-17T12:51:58+02:00",
  "settled": [
   {
    "fixture_id": 1492403,
@@ -5054,6 +5054,36 @@
     "label": "SKIP",
     "outcome": "won"
    }
+  },
+  {
+   "fixture_id": 1593683,
+   "date": "2026-10-17",
+   "kickoff": "2026-10-17T10:40:00+02:00",
+   "league": {
+    "name": "A-League",
+    "country": "Australie"
+   },
+   "region": "asie_oceanie",
+   "method_version": "dc-v1",
+   "reading_id": "1593683-r4",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "OU1.5",
+   "selection": "over",
+   "label_fr": "Plus de 1,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.88,
+   "confidence_bucket": "85-90",
+   "odds": 1.13,
+   "bookmaker": "Pinnacle",
+   "final_score": "2-2",
+   "outcome": "won",
+   "pl_units": 0.13,
+   "matin": {
+    "selection": "over",
+    "label": "SKIP",
+    "outcome": "won"
+   }
   }
  ],
  "aggregates": {
@@ -5070,14 +5100,14 @@
     "avg_odds": 1.86
    },
    "SKIP": {
-    "n": 163,
-    "won": 126,
+    "n": 164,
+    "won": 127,
     "lost": 37,
     "void": 0,
     "no_odds": 1,
-    "hit_rate": 0.773,
-    "pl_units": -12.57,
-    "roi": -0.078,
+    "hit_rate": 0.774,
+    "pl_units": -12.44,
+    "roi": -0.076,
     "avg_odds": 1.24
    },
    "by_league": [
@@ -5101,10 +5131,10 @@
     },
     {
      "label": "SKIP",
-     "n": 3,
-     "won": 1,
+     "n": 4,
+     "won": 2,
      "lost": 2,
-     "pl_units": -1.78,
+     "pl_units": -1.65,
      "league": "A-League",
      "country": "Australie"
     },
@@ -5620,10 +5650,10 @@
     {
      "market": "OU1.5",
      "label": "SKIP",
-     "n": 86,
-     "won": 69,
+     "n": 87,
+     "won": 70,
      "lost": 17,
-     "pl_units": -4.56
+     "pl_units": -4.43
     },
     {
      "market": "OU2.5",
@@ -5738,8 +5768,8 @@
     {
      "bucket": "85-90",
      "label": "SKIP",
-     "n": 27,
-     "won": 22,
+     "n": 28,
+     "won": 23,
      "lost": 5
     },
     {
@@ -5834,10 +5864,10 @@
     {
      "date": "2026-10-17",
      "label": "SKIP",
-     "n": 19,
-     "won": 14,
+     "n": 20,
+     "won": 15,
      "lost": 5,
-     "pl_units": -2.37
+     "pl_units": -2.24
     }
    ],
    "by_week": [
@@ -5852,10 +5882,10 @@
     {
      "week": "2026-W42",
      "label": "SKIP",
-     "n": 163,
-     "won": 126,
+     "n": 164,
+     "won": 127,
      "lost": 37,
-     "pl_units": -12.57
+     "pl_units": -12.44
     },
     {
      "week": "2026-W42",
@@ -5878,8 +5908,8 @@
     {
      "trigger": "compo",
      "label": "SKIP",
-     "n": 133,
-     "won": 103,
+     "n": 134,
+     "won": 104,
      "lost": 30
     },
     {
@@ -5984,9 +6014,9 @@
     },
     {
      "bucket": "85-90",
-     "n": 27,
+     "n": 28,
      "mean_predicted": 0.87,
-     "observed": 0.815
+     "observed": 0.821
     },
     {
      "bucket": "90-95",
@@ -6059,31 +6089,31 @@
  "bilan_start": "2026-10-13",
  "skip_lines": {
   "probable": {
-   "n": 163,
-   "won": 126,
-   "hit_rate": 0.773,
-   "with_odds": 162,
+   "n": 164,
+   "won": 127,
+   "hit_rate": 0.774,
+   "with_odds": 163,
    "avg_odds": 1.24,
-   "profit_eur": -12.57,
-   "roi": -0.078
+   "profit_eur": -12.44,
+   "roi": -0.076
   },
   "resultat": {
-   "n": 106,
+   "n": 107,
    "won": 84,
-   "hit_rate": 0.792,
-   "with_odds": 106,
+   "hit_rate": 0.785,
+   "with_odds": 107,
    "avg_odds": 1.27,
-   "profit_eur": 0.09,
-   "roi": 0.001
+   "profit_eur": -0.91,
+   "roi": -0.009
   },
   "valeur": {
-   "n": 149,
+   "n": 150,
    "won": 62,
-   "hit_rate": 0.416,
-   "with_odds": 149,
+   "hit_rate": 0.413,
+   "with_odds": 150,
    "avg_odds": 2.27,
-   "profit_eur": -11.15,
-   "roi": -0.075
+   "profit_eur": -12.15,
+   "roi": -0.081
   }
  },
  "clv": {
@@ -6094,54 +6124,24 @@
    "se": 0.0057
   },
   "probable": {
-   "n": 157,
-   "mean_clv": 0.0011,
+   "n": 158,
+   "mean_clv": 0.001,
    "beat_close": 0.038,
    "se": 0.0008
   },
   "resultat": {
-   "n": 103,
+   "n": 104,
    "mean_clv": 0.0008,
-   "beat_close": 0.049,
+   "beat_close": 0.048,
    "se": 0.0006
   },
   "valeur": {
-   "n": 147,
+   "n": 148,
    "mean_clv": -0.0004,
    "beat_close": 0.088,
    "se": 0.0015
   },
   "recent": [
-   {
-    "date": "2026-10-17",
-    "match": "Atlante FC – U.N.A.M. - Pumas",
-    "fixture_id": 1550995,
-    "label_fr": "Plus de 1,5 buts",
-    "line": "probable",
-    "odds": 1.25,
-    "closing_odds": 1.25,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-17",
-    "match": "Atlante FC – U.N.A.M. - Pumas",
-    "fixture_id": 1550995,
-    "label_fr": "Pas de nul (12)",
-    "line": "resultat",
-    "odds": 1.3,
-    "closing_odds": 1.3,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-17",
-    "match": "Atlante FC – U.N.A.M. - Pumas",
-    "fixture_id": 1550995,
-    "label_fr": "Nul ou U.N.A.M. - Pumas (N2)",
-    "line": "valeur",
-    "odds": 1.5,
-    "closing_odds": 1.44,
-    "clv": 0.0417
-   },
    {
     "date": "2026-10-17",
     "match": "Club Tijuana – Puebla",
@@ -6411,6 +6411,36 @@
     "odds": 2.25,
     "closing_odds": 2.25,
     "clv": 0.0
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Central Coast Mariners – Newcastle Jets",
+    "fixture_id": 1593683,
+    "label_fr": "Plus de 1,5 buts",
+    "line": "probable",
+    "odds": 1.13,
+    "closing_odds": 1.13,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Central Coast Mariners – Newcastle Jets",
+    "fixture_id": 1593683,
+    "label_fr": "Pas de nul (12)",
+    "line": "resultat",
+    "odds": 1.25,
+    "closing_odds": 1.25,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Central Coast Mariners – Newcastle Jets",
+    "fixture_id": 1593683,
+    "label_fr": "Victoire Newcastle Jets (2)",
+    "line": "valeur",
+    "odds": 1.98,
+    "closing_odds": 1.98,
+    "clv": 0.0
    }
   ]
  },
@@ -6496,7 +6526,7 @@
    "start": 100.0,
    "bank": 83.97,
    "bets": 52,
-   "zero_stake": 110,
+   "zero_stake": 111,
    "roi_bank": -0.1603,
    "curve": [
     {
@@ -6766,7 +6796,7 @@
    "start": 100.0,
    "bank": 94.98,
    "bets": 15,
-   "zero_stake": 91,
+   "zero_stake": 92,
    "roi_bank": -0.0502,
    "curve": [
     {
@@ -6849,10 +6879,10 @@
   },
   "valeur": {
    "start": 100.0,
-   "bank": 79.3,
-   "bets": 149,
+   "bank": 78.62,
+   "bets": 150,
    "zero_stake": 0,
-   "roi_bank": -0.207,
+   "roi_bank": -0.2138,
    "curve": [
     {
      "date": "2026-10-13",
@@ -7598,6 +7628,11 @@
      "date": "2026-10-17",
      "stake": 1.62,
      "bank": 79.3
+    },
+    {
+     "date": "2026-10-17",
+     "stake": 0.68,
+     "bank": 78.62
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
