@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-17T07:17:23+02:00",
+ "generated_at": "2026-10-17T08:13:23+02:00",
  "settled": [
   {
    "fixture_id": 1492403,
@@ -4754,6 +4754,66 @@
     "label": "SKIP",
     "outcome": "won"
    }
+  },
+  {
+   "fixture_id": 1556099,
+   "date": "2026-10-17",
+   "kickoff": "2026-10-17T06:00:00+02:00",
+   "league": {
+    "name": "J1 League",
+    "country": "Japon"
+   },
+   "region": "asie_oceanie",
+   "method_version": "dc-v1",
+   "reading_id": "1556099-r5",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "DC",
+   "selection": "12",
+   "label_fr": "Pas de nul (12)",
+   "label": "SKIP",
+   "model_probability": 0.709,
+   "confidence_bucket": "70-75",
+   "odds": 1.33,
+   "bookmaker": "Bet365",
+   "final_score": "2-2",
+   "outcome": "lost",
+   "pl_units": -1.0,
+   "matin": {
+    "selection": "12",
+    "label": "SKIP",
+    "outcome": "lost"
+   }
+  },
+  {
+   "fixture_id": 1593681,
+   "date": "2026-10-17",
+   "kickoff": "2026-10-17T06:00:00+02:00",
+   "league": {
+    "name": "A-League",
+    "country": "Australie"
+   },
+   "region": "asie_oceanie",
+   "method_version": "dc-v1",
+   "reading_id": "1593681-r5",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "OU3.5",
+   "selection": "under",
+   "label_fr": "Moins de 3,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.763,
+   "confidence_bucket": "75-80",
+   "odds": 1.34,
+   "bookmaker": "Pinnacle",
+   "final_score": "3-1",
+   "outcome": "lost",
+   "pl_units": -1.0,
+   "matin": {
+    "selection": "under",
+    "label": "SKIP",
+    "outcome": "lost"
+   }
   }
  ],
  "aggregates": {
@@ -4770,15 +4830,15 @@
     "avg_odds": 1.86
    },
    "SKIP": {
-    "n": 153,
+    "n": 155,
     "won": 120,
-    "lost": 33,
+    "lost": 35,
     "void": 0,
     "no_odds": 1,
-    "hit_rate": 0.784,
-    "pl_units": -9.59,
-    "roi": -0.063,
-    "avg_odds": 1.24
+    "hit_rate": 0.774,
+    "pl_units": -11.59,
+    "roi": -0.075,
+    "avg_odds": 1.25
    },
    "by_league": [
     {
@@ -4801,10 +4861,10 @@
     },
     {
      "label": "SKIP",
-     "n": 1,
+     "n": 2,
      "won": 0,
-     "lost": 1,
-     "pl_units": -1.0,
+     "lost": 2,
+     "pl_units": -2.0,
      "league": "A-League",
      "country": "Australie"
     },
@@ -4933,6 +4993,15 @@
      "pl_units": 0.19,
      "league": "HNL",
      "country": "Croatie"
+    },
+    {
+     "label": "SKIP",
+     "n": 1,
+     "won": 0,
+     "lost": 1,
+     "pl_units": -1.0,
+     "league": "J1 League",
+     "country": "Japon"
     },
     {
      "label": "SKIP",
@@ -5278,10 +5347,10 @@
     {
      "market": "DC",
      "label": "SKIP",
-     "n": 45,
+     "n": 46,
      "won": 36,
-     "lost": 9,
-     "pl_units": -3.01
+     "lost": 10,
+     "pl_units": -4.01
     },
     {
      "market": "DC",
@@ -5326,10 +5395,10 @@
     {
      "market": "OU3.5",
      "label": "SKIP",
-     "n": 21,
+     "n": 22,
      "won": 17,
-     "lost": 4,
-     "pl_units": 0.68
+     "lost": 5,
+     "pl_units": -0.32
     }
    ],
    "by_confidence_bucket": [
@@ -5399,16 +5468,16 @@
     {
      "bucket": "70-75",
      "label": "SKIP",
-     "n": 17,
+     "n": 18,
      "won": 11,
-     "lost": 6
+     "lost": 7
     },
     {
      "bucket": "75-80",
      "label": "SKIP",
-     "n": 44,
+     "n": 45,
      "won": 38,
-     "lost": 6
+     "lost": 7
     },
     {
      "bucket": "80-85",
@@ -5516,10 +5585,10 @@
     {
      "date": "2026-10-17",
      "label": "SKIP",
-     "n": 9,
+     "n": 11,
      "won": 8,
-     "lost": 1,
-     "pl_units": 0.61
+     "lost": 3,
+     "pl_units": -1.39
     }
    ],
    "by_week": [
@@ -5534,10 +5603,10 @@
     {
      "week": "2026-W42",
      "label": "SKIP",
-     "n": 153,
+     "n": 155,
      "won": 120,
-     "lost": 33,
-     "pl_units": -9.59
+     "lost": 35,
+     "pl_units": -11.59
     },
     {
      "week": "2026-W42",
@@ -5560,9 +5629,9 @@
     {
      "trigger": "compo",
      "label": "SKIP",
-     "n": 123,
+     "n": 125,
      "won": 97,
-     "lost": 26
+     "lost": 28
     },
     {
      "trigger": "compo",
@@ -5648,15 +5717,15 @@
     },
     {
      "bucket": "70-75",
-     "n": 17,
-     "mean_predicted": 0.735,
-     "observed": 0.647
+     "n": 18,
+     "mean_predicted": 0.734,
+     "observed": 0.611
     },
     {
      "bucket": "75-80",
-     "n": 44,
+     "n": 45,
      "mean_predicted": 0.775,
-     "observed": 0.864
+     "observed": 0.844
     },
     {
      "bucket": "80-85",
@@ -5741,31 +5810,31 @@
  "bilan_start": "2026-10-13",
  "skip_lines": {
   "probable": {
-   "n": 153,
+   "n": 155,
    "won": 120,
-   "hit_rate": 0.784,
-   "with_odds": 152,
-   "avg_odds": 1.24,
-   "profit_eur": -9.59,
-   "roi": -0.063
+   "hit_rate": 0.774,
+   "with_odds": 154,
+   "avg_odds": 1.25,
+   "profit_eur": -11.59,
+   "roi": -0.075
   },
   "resultat": {
-   "n": 100,
-   "won": 78,
-   "hit_rate": 0.78,
-   "with_odds": 100,
+   "n": 101,
+   "won": 79,
+   "hit_rate": 0.782,
+   "with_odds": 101,
    "avg_odds": 1.27,
-   "profit_eur": -1.68,
-   "roi": -0.017
+   "profit_eur": -1.35,
+   "roi": -0.013
   },
   "valeur": {
-   "n": 141,
+   "n": 143,
    "won": 62,
-   "hit_rate": 0.44,
-   "with_odds": 141,
-   "avg_odds": 2.28,
-   "profit_eur": -3.15,
-   "roi": -0.022
+   "hit_rate": 0.434,
+   "with_odds": 143,
+   "avg_odds": 2.27,
+   "profit_eur": -5.15,
+   "roi": -0.036
   }
  },
  "clv": {
@@ -5776,74 +5845,24 @@
    "se": 0.0057
   },
   "probable": {
-   "n": 147,
+   "n": 149,
    "mean_clv": 0.0011,
    "beat_close": 0.034,
    "se": 0.0008
   },
   "resultat": {
-   "n": 97,
+   "n": 98,
    "mean_clv": 0.0009,
-   "beat_close": 0.052,
+   "beat_close": 0.051,
    "se": 0.0006
   },
   "valeur": {
-   "n": 138,
+   "n": 140,
    "mean_clv": 0.0,
-   "beat_close": 0.094,
-   "se": 0.0016
+   "beat_close": 0.093,
+   "se": 0.0015
   },
   "recent": [
-   {
-    "date": "2026-10-16",
-    "match": "Breidablik – Vikingur Reykjavik",
-    "fixture_id": 1638631,
-    "label_fr": "Pas de nul (12)",
-    "line": "resultat",
-    "odds": 1.18,
-    "closing_odds": 1.18,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-16",
-    "match": "Breidablik – Vikingur Reykjavik",
-    "fixture_id": 1638631,
-    "label_fr": "Moins de 3,5 buts",
-    "line": "valeur",
-    "odds": 1.87,
-    "closing_odds": 1.95,
-    "clv": -0.041
-   },
-   {
-    "date": "2026-10-16",
-    "match": "Deportivo Cuenca – Tecnico Universitario",
-    "fixture_id": 1639825,
-    "label_fr": "Moins de 3,5 buts",
-    "line": "probable",
-    "odds": 1.22,
-    "closing_odds": 1.22,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-16",
-    "match": "Deportivo Cuenca – Tecnico Universitario",
-    "fixture_id": 1639825,
-    "label_fr": "Deportivo Cuenca ou nul (1N)",
-    "line": "resultat",
-    "odds": 1.2,
-    "closing_odds": 1.2,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-16",
-    "match": "Deportivo Cuenca – Tecnico Universitario",
-    "fixture_id": 1639825,
-    "label_fr": "Les deux équipes ne marquent pas",
-    "line": "valeur",
-    "odds": 1.73,
-    "closing_odds": 1.73,
-    "clv": 0.0
-   },
    {
     "date": "2026-10-17",
     "match": "Defensa Y Justicia – Instituto Cordoba",
@@ -6093,6 +6112,56 @@
     "odds": 2.13,
     "closing_odds": 2.13,
     "clv": 0.0
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Shimizu S-pulse – Gamba Osaka",
+    "fixture_id": 1556099,
+    "label_fr": "Pas de nul (12)",
+    "line": "probable",
+    "odds": 1.33,
+    "closing_odds": 1.33,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Shimizu S-pulse – Gamba Osaka",
+    "fixture_id": 1556099,
+    "label_fr": "Mi-temps : nul (MT N)",
+    "line": "valeur",
+    "odds": 2.3,
+    "closing_odds": 2.3,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Auckland – Melbourne City",
+    "fixture_id": 1593681,
+    "label_fr": "Moins de 3,5 buts",
+    "line": "probable",
+    "odds": 1.34,
+    "closing_odds": 1.34,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Auckland – Melbourne City",
+    "fixture_id": 1593681,
+    "label_fr": "Pas de nul (12)",
+    "line": "resultat",
+    "odds": 1.33,
+    "closing_odds": 1.33,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Auckland – Melbourne City",
+    "fixture_id": 1593681,
+    "label_fr": "Les deux équipes ne marquent pas",
+    "line": "valeur",
+    "odds": 2.05,
+    "closing_odds": 2.05,
+    "clv": 0.0
    }
   ]
  },
@@ -6176,10 +6245,10 @@
   },
   "probable": {
    "start": 100.0,
-   "bank": 88.9,
-   "bets": 49,
-   "zero_stake": 103,
-   "roi_bank": -0.111,
+   "bank": 87.43,
+   "bets": 50,
+   "zero_stake": 104,
+   "roi_bank": -0.1257,
    "curve": [
     {
      "date": "2026-10-13",
@@ -6425,6 +6494,11 @@
      "date": "2026-10-17",
      "stake": 1.42,
      "bank": 88.9
+    },
+    {
+     "date": "2026-10-17",
+     "stake": 1.47,
+     "bank": 87.43
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
@@ -6433,7 +6507,7 @@
    "start": 100.0,
    "bank": 94.25,
    "bets": 13,
-   "zero_stake": 87,
+   "zero_stake": 88,
    "roi_bank": -0.0575,
    "curve": [
     {
@@ -6506,10 +6580,10 @@
   },
   "valeur": {
    "start": 100.0,
-   "bank": 92.09,
-   "bets": 141,
+   "bank": 89.41,
+   "bets": 143,
    "zero_stake": 0,
-   "roi_bank": -0.0791,
+   "roi_bank": -0.1059,
    "curve": [
     {
      "date": "2026-10-13",
@@ -7215,6 +7289,16 @@
      "date": "2026-10-17",
      "stake": 1.64,
      "bank": 92.09
+    },
+    {
+     "date": "2026-10-17",
+     "stake": 1.48,
+     "bank": 90.61
+    },
+    {
+     "date": "2026-10-17",
+     "stake": 1.2,
+     "bank": 89.41
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
