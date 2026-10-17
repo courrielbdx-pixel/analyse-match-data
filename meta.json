@@ -1,10 +1,10 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-17T12:52:43+02:00",
+ "generated_at": "2026-10-17T12:58:32+02:00",
  "run": {
-  "id": "2026-10-17T12:52-reglement",
-  "type": "reglement",
-  "finished_at": "2026-10-17T12:52:55+02:00"
+  "id": "2026-10-17T12:58-calendrier",
+  "type": "calendrier",
+  "finished_at": "2026-10-17T12:58:43+02:00"
  },
  "engine_status": {
   "level": "ok",
@@ -30,6 +30,7 @@
    "Un seul pick par match et par lecture.",
    "Marchés : 1N2, double chance (1N, N2, 12), +/−1,5/2,5/3,5, les deux marquent, combinés double chance × (+1,5, +2,5, −3,5, les deux marquent) dans tous les sens, BTTS & +2,5, résultat à la mi-temps. Sans cote ni proba marché pour un combiné : lisible mais jamais TICKET.",
    "TICKET si EV ≥ +5 %, écart modèle/marché ≤ 5 points, proba ≥ 55 %, cote ≤ 3,50, ≥ 20 matchs par équipe, vérification web non contradictoire. Sinon SKIP.",
+   "SKIP avec une équipe à moins de 20 matchs d'historique : « Historique insuffisant », aucune ligne affichée, hors Bilan SKIP.",
    "Lecture finale = lecture faite avec les compos officielles, sinon la dernière avant le coup d'envoi.",
    "Backtest 2024–2026 : aucun avantage démontré contre les cotes. Suivi papier.",
    "Cotes vues chez des bookmakers internationaux (API-Football) : aucune cote de bookmaker agréé ANJ disponible."
@@ -81,26 +82,26 @@
  "files": {
   "2026-10-15": {
    "fixtures": "2026-10-17T11:30:06+02:00",
-   "picks": "2026-10-15T22:55:04+02:00",
-   "live": "2026-10-17T12:52:43+02:00",
+   "picks": "2026-10-17T12:58:32+02:00",
+   "live": "2026-10-17T12:58:32+02:00",
    "combine": "2026-10-15T23:10:28+02:00"
   },
   "2026-10-16": {
    "fixtures": "2026-10-17T11:30:06+02:00",
-   "picks": "2026-10-16T22:07:12+02:00",
-   "live": "2026-10-17T12:52:43+02:00",
+   "picks": "2026-10-17T12:58:32+02:00",
+   "live": "2026-10-17T12:58:32+02:00",
    "combine": "2026-10-17T00:50:48+02:00"
   },
   "2026-10-17": {
    "fixtures": "2026-10-17T12:51:58+02:00",
-   "picks": "2026-10-17T12:51:58+02:00",
-   "live": "2026-10-17T12:58:24+02:00",
+   "picks": "2026-10-17T12:58:32+02:00",
+   "live": "2026-10-17T12:58:32+02:00",
    "combine": "2026-10-17T03:17:08+02:00"
   },
   "2026-10-18": {
    "fixtures": "2026-10-17T11:51:05+02:00",
    "picks": "2026-10-17T12:46:32+02:00",
-   "live": "2026-10-17T12:52:43+02:00",
+   "live": "2026-10-17T12:58:32+02:00",
    "combine": "2026-10-13T11:06:28+02:00"
   },
   "2026-10-19": {
@@ -127,12 +128,12 @@
  },
  "api_usage": {
   "date": "2026-10-17",
-  "used": 2069,
+  "used": 2091,
   "limit": 7500,
   "plan_expires": "2026-11-16T16:01:06+01:00",
   "plan": "Pro",
   "active": true,
-  "updated_at": "2026-10-17T12:52:55+02:00"
+  "updated_at": "2026-10-17T12:58:43+02:00"
  },
  "exclusions": [
   "Afrique",
