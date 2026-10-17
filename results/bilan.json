@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-17T00:50:48+02:00",
+ "generated_at": "2026-10-17T02:14:39+02:00",
  "settled": [
   {
    "fixture_id": 1492403,
@@ -4453,6 +4453,97 @@
     "label": "SKIP",
     "outcome": "won"
    }
+  },
+  {
+   "fixture_id": 1493186,
+   "date": "2026-10-17",
+   "kickoff": "2026-10-17T00:00:00+02:00",
+   "league": {
+    "name": "Liga Profesional",
+    "country": "Argentine"
+   },
+   "region": "ameriques",
+   "method_version": "dc-v1",
+   "reading_id": "1493186-r5",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "OU3.5",
+   "selection": "under",
+   "label_fr": "Moins de 3,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.761,
+   "confidence_bucket": "75-80",
+   "odds": 1.22,
+   "bookmaker": "Pinnacle",
+   "final_score": "0-1",
+   "outcome": "won",
+   "pl_units": 0.22,
+   "matin": {
+    "selection": "under",
+    "label": "SKIP",
+    "outcome": "won"
+   }
+  },
+  {
+   "fixture_id": 1644698,
+   "date": "2026-10-17",
+   "kickoff": "2026-10-17T00:00:00+02:00",
+   "league": {
+    "name": "Primera División",
+    "country": "Uruguay"
+   },
+   "region": "ameriques",
+   "method_version": "dc-v1",
+   "reading_id": "1644698-r1",
+   "trigger": "releco",
+   "lineups_confirmed": false,
+   "market": "DC",
+   "selection": "X2",
+   "label_fr": "Nul ou Cerro Largo (N2)",
+   "label": "ANNULE",
+   "cancel_reason_fr": "EV +0,4 % < 5 % (relecture 13h)",
+   "model_probability": 0.656,
+   "confidence_bucket": "65-70",
+   "odds": 1.6,
+   "bookmaker": "Betano",
+   "final_score": "1-1",
+   "outcome": "won",
+   "pl_units": 0.6,
+   "matin": {
+    "selection": "X2",
+    "label": "TICKET",
+    "outcome": "won"
+   }
+  },
+  {
+   "fixture_id": 1632035,
+   "date": "2026-10-17",
+   "kickoff": "2026-10-17T00:20:00+02:00",
+   "league": {
+    "name": "Primera División – Clausura",
+    "country": "Paraguay"
+   },
+   "region": "ameriques",
+   "method_version": "dc-v1",
+   "reading_id": "1632035-r5",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "OU1.5",
+   "selection": "over",
+   "label_fr": "Plus de 1,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.833,
+   "confidence_bucket": "80-85",
+   "odds": 1.27,
+   "bookmaker": "1xBet",
+   "final_score": "1-0",
+   "outcome": "lost",
+   "pl_units": -1.0,
+   "matin": {
+    "selection": "over",
+    "label": "SKIP",
+    "outcome": "lost"
+   }
   }
  ],
  "aggregates": {
@@ -4469,14 +4560,14 @@
     "avg_odds": 1.86
    },
    "SKIP": {
-    "n": 144,
-    "won": 112,
-    "lost": 32,
+    "n": 146,
+    "won": 113,
+    "lost": 33,
     "void": 0,
     "no_odds": 1,
-    "hit_rate": 0.778,
-    "pl_units": -10.2,
-    "roi": -0.071,
+    "hit_rate": 0.774,
+    "pl_units": -10.98,
+    "roi": -0.076,
     "avg_odds": 1.25
    },
    "by_league": [
@@ -4653,10 +4744,10 @@
     },
     {
      "label": "SKIP",
-     "n": 2,
-     "won": 2,
+     "n": 3,
+     "won": 3,
      "lost": 0,
-     "pl_units": 0.48,
+     "pl_units": 0.7,
      "league": "Liga Profesional",
      "country": "Argentine"
     },
@@ -4767,6 +4858,24 @@
      "pl_units": -0.91,
      "league": "Primera A",
      "country": "Colombie"
+    },
+    {
+     "label": "SKIP",
+     "n": 1,
+     "won": 0,
+     "lost": 1,
+     "pl_units": -1.0,
+     "league": "Primera División – Clausura",
+     "country": "Paraguay"
+    },
+    {
+     "label": "ANNULE",
+     "n": 1,
+     "won": 1,
+     "lost": 0,
+     "pl_units": 0.6,
+     "league": "Primera División",
+     "country": "Uruguay"
     },
     {
      "label": "SKIP",
@@ -4933,10 +5042,10 @@
     {
      "market": "DC",
      "label": "ANNULE",
-     "n": 1,
-     "won": 1,
+     "n": 2,
+     "won": 2,
      "lost": 0,
-     "pl_units": 0.9
+     "pl_units": 1.5
     },
     {
      "market": "DC",
@@ -4965,10 +5074,10 @@
     {
      "market": "OU1.5",
      "label": "SKIP",
-     "n": 76,
+     "n": 77,
      "won": 62,
-     "lost": 14,
-     "pl_units": -2.9
+     "lost": 15,
+     "pl_units": -3.9
     },
     {
      "market": "OU2.5",
@@ -4989,10 +5098,10 @@
     {
      "market": "OU3.5",
      "label": "SKIP",
-     "n": 20,
-     "won": 16,
+     "n": 21,
+     "won": 17,
      "lost": 4,
-     "pl_units": 0.46
+     "pl_units": 0.68
     }
    ],
    "by_confidence_bucket": [
@@ -5047,6 +5156,13 @@
     },
     {
      "bucket": "65-70",
+     "label": "ANNULE",
+     "n": 1,
+     "won": 1,
+     "lost": 0
+    },
+    {
+     "bucket": "65-70",
      "label": "SKIP",
      "n": 1,
      "won": 1,
@@ -5062,16 +5178,16 @@
     {
      "bucket": "75-80",
      "label": "SKIP",
-     "n": 40,
-     "won": 34,
+     "n": 41,
+     "won": 35,
      "lost": 6
     },
     {
      "bucket": "80-85",
      "label": "SKIP",
-     "n": 42,
+     "n": 43,
      "won": 36,
-     "lost": 6
+     "lost": 7
     },
     {
      "bucket": "85-90",
@@ -5160,24 +5276,40 @@
      "won": 1,
      "lost": 0,
      "pl_units": 0.8
+    },
+    {
+     "date": "2026-10-17",
+     "label": "ANNULE",
+     "n": 1,
+     "won": 1,
+     "lost": 0,
+     "pl_units": 0.6
+    },
+    {
+     "date": "2026-10-17",
+     "label": "SKIP",
+     "n": 2,
+     "won": 1,
+     "lost": 1,
+     "pl_units": -0.78
     }
    ],
    "by_week": [
     {
      "week": "2026-W42",
      "label": "ANNULE",
-     "n": 2,
-     "won": 1,
+     "n": 3,
+     "won": 2,
      "lost": 1,
-     "pl_units": -0.1
+     "pl_units": 0.5
     },
     {
      "week": "2026-W42",
      "label": "SKIP",
-     "n": 144,
-     "won": 112,
-     "lost": 32,
-     "pl_units": -10.2
+     "n": 146,
+     "won": 113,
+     "lost": 33,
+     "pl_units": -10.98
     },
     {
      "week": "2026-W42",
@@ -5200,9 +5332,9 @@
     {
      "trigger": "compo",
      "label": "SKIP",
-     "n": 118,
-     "won": 93,
-     "lost": 25
+     "n": 120,
+     "won": 94,
+     "lost": 26
     },
     {
      "trigger": "compo",
@@ -5235,8 +5367,8 @@
     {
      "trigger": "releco",
      "label": "ANNULE",
-     "n": 2,
-     "won": 1,
+     "n": 3,
+     "won": 2,
      "lost": 1
     },
     {
@@ -5282,8 +5414,8 @@
     },
     {
      "bucket": "65-70",
-     "n": 1,
-     "mean_predicted": 0.695,
+     "n": 2,
+     "mean_predicted": 0.675,
      "observed": 1.0
     },
     {
@@ -5294,15 +5426,15 @@
     },
     {
      "bucket": "75-80",
-     "n": 40,
-     "mean_predicted": 0.775,
-     "observed": 0.85
+     "n": 41,
+     "mean_predicted": 0.774,
+     "observed": 0.854
     },
     {
      "bucket": "80-85",
-     "n": 42,
+     "n": 43,
      "mean_predicted": 0.826,
-     "observed": 0.857
+     "observed": 0.837
     },
     {
      "bucket": "85-90",
@@ -5381,31 +5513,31 @@
  "bilan_start": "2026-10-13",
  "skip_lines": {
   "probable": {
-   "n": 144,
-   "won": 112,
-   "hit_rate": 0.778,
-   "with_odds": 143,
+   "n": 146,
+   "won": 113,
+   "hit_rate": 0.774,
+   "with_odds": 145,
    "avg_odds": 1.25,
-   "profit_eur": -10.2,
-   "roi": -0.071
+   "profit_eur": -10.98,
+   "roi": -0.076
   },
   "resultat": {
-   "n": 93,
-   "won": 71,
-   "hit_rate": 0.763,
-   "with_odds": 93,
+   "n": 95,
+   "won": 73,
+   "hit_rate": 0.768,
+   "with_odds": 95,
    "avg_odds": 1.27,
-   "profit_eur": -3.79,
-   "roi": -0.041
+   "profit_eur": -3.1,
+   "roi": -0.033
   },
   "valeur": {
-   "n": 132,
-   "won": 58,
-   "hit_rate": 0.439,
-   "with_odds": 132,
+   "n": 134,
+   "won": 59,
+   "hit_rate": 0.44,
+   "with_odds": 134,
    "avg_odds": 2.28,
-   "profit_eur": -2.61,
-   "roi": -0.02
+   "profit_eur": -1.83,
+   "roi": -0.014
   }
  },
  "clv": {
@@ -5416,84 +5548,24 @@
    "se": 0.0057
   },
   "probable": {
-   "n": 138,
+   "n": 140,
    "mean_clv": 0.0013,
    "beat_close": 0.029,
    "se": 0.0008
   },
   "resultat": {
-   "n": 90,
+   "n": 92,
    "mean_clv": 0.0009,
-   "beat_close": 0.044,
+   "beat_close": 0.043,
    "se": 0.0006
   },
   "valeur": {
-   "n": 129,
+   "n": 131,
    "mean_clv": -0.0001,
-   "beat_close": 0.093,
+   "beat_close": 0.092,
    "se": 0.0016
   },
   "recent": [
-   {
-    "date": "2026-10-16",
-    "match": "Drogheda United – Derry City",
-    "fixture_id": 1492782,
-    "label_fr": "Drogheda United ou nul (1N)",
-    "line": "valeur",
-    "odds": 1.67,
-    "closing_odds": 1.67,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-16",
-    "match": "Galway United – Shamrock Rovers",
-    "fixture_id": 1492783,
-    "label_fr": "Nul ou Shamrock Rovers (N2)",
-    "line": "probable",
-    "odds": 1.2,
-    "closing_odds": 1.2,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-16",
-    "match": "Galway United – Shamrock Rovers",
-    "fixture_id": 1492783,
-    "label_fr": "Galway United ou nul (1N)",
-    "line": "valeur",
-    "odds": 2.05,
-    "closing_odds": 2.05,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-16",
-    "match": "Frosinone – Sassuolo",
-    "fixture_id": 1550151,
-    "label_fr": "Plus de 1,5 buts",
-    "line": "probable",
-    "odds": 1.13,
-    "closing_odds": 1.13,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-16",
-    "match": "Frosinone – Sassuolo",
-    "fixture_id": 1550151,
-    "label_fr": "Pas de nul (12)",
-    "line": "resultat",
-    "odds": 1.32,
-    "closing_odds": 1.32,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-16",
-    "match": "Frosinone – Sassuolo",
-    "fixture_id": 1550151,
-    "label_fr": "Victoire Frosinone (1)",
-    "line": "valeur",
-    "odds": 2.51,
-    "closing_odds": 2.51,
-    "clv": 0.0
-   },
    {
     "date": "2026-10-16",
     "match": "Le Mans – Toulouse",
@@ -5733,6 +5805,66 @@
     "odds": 1.73,
     "closing_odds": 1.73,
     "clv": 0.0
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Defensa Y Justicia – Instituto Cordoba",
+    "fixture_id": 1493186,
+    "label_fr": "Moins de 3,5 buts",
+    "line": "probable",
+    "odds": 1.22,
+    "closing_odds": 1.22,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Defensa Y Justicia – Instituto Cordoba",
+    "fixture_id": 1493186,
+    "label_fr": "Pas de nul (12)",
+    "line": "resultat",
+    "odds": 1.36,
+    "closing_odds": 1.36,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Defensa Y Justicia – Instituto Cordoba",
+    "fixture_id": 1493186,
+    "label_fr": "Plus de 2,5 buts",
+    "line": "valeur",
+    "odds": 2.4,
+    "closing_odds": 2.4,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Deportivo Recoleta – Rubio NU",
+    "fixture_id": 1632035,
+    "label_fr": "Plus de 1,5 buts",
+    "line": "probable",
+    "odds": 1.27,
+    "closing_odds": 1.27,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Deportivo Recoleta – Rubio NU",
+    "fixture_id": 1632035,
+    "label_fr": "Pas de nul (12)",
+    "line": "resultat",
+    "odds": 1.33,
+    "closing_odds": 1.33,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Deportivo Recoleta – Rubio NU",
+    "fixture_id": 1632035,
+    "label_fr": "Victoire Deportivo Recoleta (1)",
+    "line": "valeur",
+    "odds": 2.78,
+    "closing_odds": 2.78,
+    "clv": 0.0
    }
   ]
  },
@@ -5754,6 +5886,15 @@
    "final_score": "3-0",
    "outcome": "lost",
    "cancel_reason_fr": "EV +1,7 % < 5 %"
+  },
+  {
+   "date": "2026-10-17",
+   "fixture_id": 1644698,
+   "label_fr": "Nul ou Cerro Largo (N2)",
+   "odds": 1.6,
+   "final_score": "1-1",
+   "outcome": "won",
+   "cancel_reason_fr": "EV +0,4 % < 5 % (relecture 13h)"
   }
  ],
  "late": {
@@ -5807,10 +5948,10 @@
   },
   "probable": {
    "start": 100.0,
-   "bank": 89.63,
-   "bets": 45,
-   "zero_stake": 98,
-   "roi_bank": -0.1037,
+   "bank": 87.84,
+   "bets": 46,
+   "zero_stake": 99,
+   "roi_bank": -0.1216,
    "curve": [
     {
      "date": "2026-10-13",
@@ -6036,6 +6177,11 @@
      "date": "2026-10-16",
      "stake": 1.78,
      "bank": 89.63
+    },
+    {
+     "date": "2026-10-17",
+     "stake": 1.79,
+     "bank": 87.84
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
@@ -6044,7 +6190,7 @@
    "start": 100.0,
    "bank": 94.25,
    "bets": 13,
-   "zero_stake": 80,
+   "zero_stake": 82,
    "roi_bank": -0.0575,
    "curve": [
     {
@@ -6117,10 +6263,10 @@
   },
   "valeur": {
    "start": 100.0,
-   "bank": 94.7,
-   "bets": 132,
+   "bank": 96.54,
+   "bets": 134,
    "zero_stake": 0,
-   "roi_bank": -0.053,
+   "roi_bank": -0.0346,
    "curve": [
     {
      "date": "2026-10-13",
@@ -6781,6 +6927,16 @@
      "date": "2026-10-16",
      "stake": 1.93,
      "bank": 94.7
+    },
+    {
+     "date": "2026-10-17",
+     "stake": 1.47,
+     "bank": 93.23
+    },
+    {
+     "date": "2026-10-17",
+     "stake": 1.86,
+     "bank": 96.54
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
