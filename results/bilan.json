@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-17T02:14:39+02:00",
+ "generated_at": "2026-10-17T03:17:08+02:00",
  "settled": [
   {
    "fixture_id": 1492403,
@@ -4544,6 +4544,66 @@
     "label": "SKIP",
     "outcome": "lost"
    }
+  },
+  {
+   "fixture_id": 1492417,
+   "date": "2026-10-17",
+   "kickoff": "2026-10-17T01:00:00+02:00",
+   "league": {
+    "name": "Serie A",
+    "country": "Brésil"
+   },
+   "region": "ameriques",
+   "method_version": "dc-v1",
+   "reading_id": "1492417-r6",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "DC",
+   "selection": "1X",
+   "label_fr": "Mirassol ou nul (1N)",
+   "label": "SKIP",
+   "model_probability": 0.802,
+   "confidence_bucket": "80-85",
+   "odds": 1.33,
+   "bookmaker": "William Hill",
+   "final_score": "2-0",
+   "outcome": "won",
+   "pl_units": 0.33,
+   "matin": {
+    "selection": "under",
+    "label": "SKIP",
+    "outcome": "won"
+   }
+  },
+  {
+   "fixture_id": 1517366,
+   "date": "2026-10-17",
+   "kickoff": "2026-10-17T01:00:00+02:00",
+   "league": {
+    "name": "Canadian Premier League",
+    "country": "Canada"
+   },
+   "region": "ameriques",
+   "method_version": "dc-v1",
+   "reading_id": "1517366-r4",
+   "trigger": "soir",
+   "lineups_confirmed": false,
+   "market": "OU1.5",
+   "selection": "over",
+   "label_fr": "Plus de 1,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.913,
+   "confidence_bucket": "90-95",
+   "odds": 1.11,
+   "bookmaker": "Bet365",
+   "final_score": "3-0",
+   "outcome": "won",
+   "pl_units": 0.11,
+   "matin": {
+    "selection": "over",
+    "label": "SKIP",
+    "outcome": "won"
+   }
   }
  ],
  "aggregates": {
@@ -4560,14 +4620,14 @@
     "avg_odds": 1.86
    },
    "SKIP": {
-    "n": 146,
-    "won": 113,
+    "n": 148,
+    "won": 115,
     "lost": 33,
     "void": 0,
     "no_odds": 1,
-    "hit_rate": 0.774,
-    "pl_units": -10.98,
-    "roi": -0.076,
+    "hit_rate": 0.777,
+    "pl_units": -10.54,
+    "roi": -0.072,
     "avg_odds": 1.25
    },
    "by_league": [
@@ -4642,6 +4702,15 @@
      "pl_units": -0.66,
      "league": "CONMEBOL Sudamericana",
      "country": "Amériques"
+    },
+    {
+     "label": "SKIP",
+     "n": 1,
+     "won": 1,
+     "lost": 0,
+     "pl_units": 0.11,
+     "league": "Canadian Premier League",
+     "country": "Canada"
     },
     {
      "label": "SKIP",
@@ -4906,10 +4975,10 @@
     },
     {
      "label": "SKIP",
-     "n": 2,
-     "won": 1,
+     "n": 3,
+     "won": 2,
      "lost": 1,
-     "pl_units": -0.09,
+     "pl_units": 0.24,
      "league": "Serie A",
      "country": "Brésil"
     },
@@ -5050,10 +5119,10 @@
     {
      "market": "DC",
      "label": "SKIP",
-     "n": 42,
-     "won": 33,
+     "n": 43,
+     "won": 34,
      "lost": 9,
-     "pl_units": -3.67
+     "pl_units": -3.34
     },
     {
      "market": "DC",
@@ -5074,10 +5143,10 @@
     {
      "market": "OU1.5",
      "label": "SKIP",
-     "n": 77,
-     "won": 62,
+     "n": 78,
+     "won": 63,
      "lost": 15,
-     "pl_units": -3.9
+     "pl_units": -3.79
     },
     {
      "market": "OU2.5",
@@ -5185,8 +5254,8 @@
     {
      "bucket": "80-85",
      "label": "SKIP",
-     "n": 43,
-     "won": 36,
+     "n": 44,
+     "won": 37,
      "lost": 7
     },
     {
@@ -5199,8 +5268,8 @@
     {
      "bucket": "90-95",
      "label": "SKIP",
-     "n": 11,
-     "won": 9,
+     "n": 12,
+     "won": 10,
      "lost": 2
     }
    ],
@@ -5288,10 +5357,10 @@
     {
      "date": "2026-10-17",
      "label": "SKIP",
-     "n": 2,
-     "won": 1,
+     "n": 4,
+     "won": 3,
      "lost": 1,
-     "pl_units": -0.78
+     "pl_units": -0.34
     }
    ],
    "by_week": [
@@ -5306,10 +5375,10 @@
     {
      "week": "2026-W42",
      "label": "SKIP",
-     "n": 146,
-     "won": 113,
+     "n": 148,
+     "won": 115,
      "lost": 33,
-     "pl_units": -10.98
+     "pl_units": -10.54
     },
     {
      "week": "2026-W42",
@@ -5332,8 +5401,8 @@
     {
      "trigger": "compo",
      "label": "SKIP",
-     "n": 120,
-     "won": 94,
+     "n": 121,
+     "won": 95,
      "lost": 26
     },
     {
@@ -5381,8 +5450,8 @@
     {
      "trigger": "soir",
      "label": "SKIP",
-     "n": 1,
-     "won": 1,
+     "n": 2,
+     "won": 2,
      "lost": 0
     },
     {
@@ -5432,9 +5501,9 @@
     },
     {
      "bucket": "80-85",
-     "n": 43,
+     "n": 44,
      "mean_predicted": 0.826,
-     "observed": 0.837
+     "observed": 0.841
     },
     {
      "bucket": "85-90",
@@ -5444,9 +5513,9 @@
     },
     {
      "bucket": "90-95",
-     "n": 11,
+     "n": 12,
      "mean_predicted": 0.918,
-     "observed": 0.818
+     "observed": 0.833
     }
    ]
   }
@@ -5513,31 +5582,31 @@
  "bilan_start": "2026-10-13",
  "skip_lines": {
   "probable": {
-   "n": 146,
-   "won": 113,
-   "hit_rate": 0.774,
-   "with_odds": 145,
+   "n": 148,
+   "won": 115,
+   "hit_rate": 0.777,
+   "with_odds": 147,
    "avg_odds": 1.25,
-   "profit_eur": -10.98,
-   "roi": -0.076
+   "profit_eur": -10.54,
+   "roi": -0.072
   },
   "resultat": {
-   "n": 95,
-   "won": 73,
-   "hit_rate": 0.768,
-   "with_odds": 95,
+   "n": 97,
+   "won": 75,
+   "hit_rate": 0.773,
+   "with_odds": 97,
    "avg_odds": 1.27,
-   "profit_eur": -3.1,
-   "roi": -0.033
+   "profit_eur": -2.57,
+   "roi": -0.026
   },
   "valeur": {
-   "n": 134,
-   "won": 59,
-   "hit_rate": 0.44,
-   "with_odds": 134,
+   "n": 136,
+   "won": 60,
+   "hit_rate": 0.441,
+   "with_odds": 136,
    "avg_odds": 2.28,
-   "profit_eur": -1.83,
-   "roi": -0.014
+   "profit_eur": -1.78,
+   "roi": -0.013
   }
  },
  "clv": {
@@ -5548,84 +5617,24 @@
    "se": 0.0057
   },
   "probable": {
-   "n": 140,
+   "n": 142,
    "mean_clv": 0.0013,
-   "beat_close": 0.029,
+   "beat_close": 0.035,
    "se": 0.0008
   },
   "resultat": {
-   "n": 92,
-   "mean_clv": 0.0009,
-   "beat_close": 0.043,
+   "n": 94,
+   "mean_clv": 0.001,
+   "beat_close": 0.053,
    "se": 0.0006
   },
   "valeur": {
-   "n": 131,
-   "mean_clv": -0.0001,
-   "beat_close": 0.092,
+   "n": 133,
+   "mean_clv": -0.0003,
+   "beat_close": 0.09,
    "se": 0.0016
   },
   "recent": [
-   {
-    "date": "2026-10-16",
-    "match": "Le Mans – Toulouse",
-    "fixture_id": 1552785,
-    "label_fr": "Plus de 1,5 buts",
-    "line": "probable",
-    "odds": 1.17,
-    "closing_odds": 1.17,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-16",
-    "match": "Le Mans – Toulouse",
-    "fixture_id": 1552785,
-    "label_fr": "Pas de nul (12)",
-    "line": "resultat",
-    "odds": 1.32,
-    "closing_odds": 1.32,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-16",
-    "match": "Le Mans – Toulouse",
-    "fixture_id": 1552785,
-    "label_fr": "Le Mans ou nul (1N)",
-    "line": "valeur",
-    "odds": 1.69,
-    "closing_odds": 1.69,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-16",
-    "match": "Larne – Coleraine FC",
-    "fixture_id": 1562097,
-    "label_fr": "Moins de 3,5 buts",
-    "line": "probable",
-    "odds": 1.3,
-    "closing_odds": 1.3,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-16",
-    "match": "Larne – Coleraine FC",
-    "fixture_id": 1562097,
-    "label_fr": "Pas de nul (12)",
-    "line": "resultat",
-    "odds": 1.35,
-    "closing_odds": 1.33,
-    "clv": 0.015
-   },
-   {
-    "date": "2026-10-16",
-    "match": "Larne – Coleraine FC",
-    "fixture_id": 1562097,
-    "label_fr": "Victoire Larne (1)",
-    "line": "valeur",
-    "odds": 2.46,
-    "closing_odds": 2.44,
-    "clv": 0.0082
-   },
    {
     "date": "2026-10-16",
     "match": "St Patrick's Athl. – Shelbourne",
@@ -5865,6 +5874,66 @@
     "odds": 2.78,
     "closing_odds": 2.78,
     "clv": 0.0
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Mirassol – Internacional",
+    "fixture_id": 1492417,
+    "label_fr": "Mirassol ou nul (1N)",
+    "line": "probable",
+    "odds": 1.33,
+    "closing_odds": 1.32,
+    "clv": 0.0076
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Mirassol – Internacional",
+    "fixture_id": 1492417,
+    "label_fr": "Pas de nul (12)",
+    "line": "resultat",
+    "odds": 1.33,
+    "closing_odds": 1.3,
+    "clv": 0.0231
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Mirassol – Internacional",
+    "fixture_id": 1492417,
+    "label_fr": "Les deux équipes ne marquent pas",
+    "line": "valeur",
+    "odds": 2.05,
+    "closing_odds": 2.1,
+    "clv": -0.0238
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Supra du Quebec – York United",
+    "fixture_id": 1517366,
+    "label_fr": "Plus de 1,5 buts",
+    "line": "probable",
+    "odds": 1.11,
+    "closing_odds": 1.11,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Supra du Quebec – York United",
+    "fixture_id": 1517366,
+    "label_fr": "Pas de nul (12)",
+    "line": "resultat",
+    "odds": 1.2,
+    "closing_odds": 1.22,
+    "clv": -0.0164
+   },
+   {
+    "date": "2026-10-17",
+    "match": "Supra du Quebec – York United",
+    "fixture_id": 1517366,
+    "label_fr": "Plus de 3,5 buts",
+    "line": "valeur",
+    "odds": 1.93,
+    "closing_odds": 1.93,
+    "clv": 0.0
    }
   ]
  },
@@ -5948,10 +6017,10 @@
   },
   "probable": {
    "start": 100.0,
-   "bank": 87.84,
-   "bets": 46,
+   "bank": 88.62,
+   "bets": 48,
    "zero_stake": 99,
-   "roi_bank": -0.1216,
+   "roi_bank": -0.1138,
    "curve": [
     {
      "date": "2026-10-13",
@@ -6182,6 +6251,16 @@
      "date": "2026-10-17",
      "stake": 1.79,
      "bank": 87.84
+    },
+    {
+     "date": "2026-10-17",
+     "stake": 1.76,
+     "bank": 88.42
+    },
+    {
+     "date": "2026-10-17",
+     "stake": 1.77,
+     "bank": 88.62
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
@@ -6190,7 +6269,7 @@
    "start": 100.0,
    "bank": 94.25,
    "bets": 13,
-   "zero_stake": 82,
+   "zero_stake": 84,
    "roi_bank": -0.0575,
    "curve": [
     {
@@ -6263,10 +6342,10 @@
   },
   "valeur": {
    "start": 100.0,
-   "bank": 96.54,
-   "bets": 134,
+   "bank": 95.54,
+   "bets": 136,
    "zero_stake": 0,
-   "roi_bank": -0.0346,
+   "roi_bank": -0.0446,
    "curve": [
     {
      "date": "2026-10-13",
@@ -6937,6 +7016,16 @@
      "date": "2026-10-17",
      "stake": 1.86,
      "bank": 96.54
+    },
+    {
+     "date": "2026-10-17",
+     "stake": 0.9,
+     "bank": 97.49
+    },
+    {
+     "date": "2026-10-17",
+     "stake": 1.95,
+     "bank": 95.54
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
