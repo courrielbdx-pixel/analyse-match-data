@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-18T22:18:29+02:00",
+ "generated_at": "2026-10-18T22:55:30+02:00",
  "settled": [
   {
    "fixture_id": 1492403,
@@ -11501,6 +11501,67 @@
     "label": "SKIP",
     "outcome": "won"
    }
+  },
+  {
+   "fixture_id": 1550152,
+   "date": "2026-10-18",
+   "kickoff": "2026-10-18T20:45:00+02:00",
+   "league": {
+    "name": "Serie A",
+    "country": "Italie"
+   },
+   "region": "europe",
+   "method_version": "dc-v1",
+   "reading_id": "1550152-r1",
+   "trigger": "releco",
+   "lineups_confirmed": false,
+   "market": "OU2.5",
+   "selection": "under",
+   "label_fr": "Moins de 2,5 buts",
+   "label": "ANNULE",
+   "cancel_reason_fr": "la proba du modèle n'a pas bougé (55,6 % pour Moins de 2,5 buts), seules les cotes ont changé : l'écart modèle/marché atteint 6,0 points, au-delà du plafond de 5 points",
+   "model_probability": 0.556,
+   "confidence_bucket": "55-60",
+   "odds": 1.91,
+   "bookmaker": "Pinnacle",
+   "final_score": "0-3",
+   "outcome": "lost",
+   "pl_units": -1.0,
+   "matin": {
+    "selection": "under",
+    "label": "TICKET",
+    "outcome": "lost"
+   }
+  },
+  {
+   "fixture_id": 1552788,
+   "date": "2026-10-18",
+   "kickoff": "2026-10-18T20:45:00+02:00",
+   "league": {
+    "name": "Ligue 1",
+    "country": "France"
+   },
+   "region": "france",
+   "method_version": "dc-v1",
+   "reading_id": "1552788-r4",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "OU2.5",
+   "selection": "over",
+   "label_fr": "Plus de 2,5 buts",
+   "label": "TARDIF",
+   "model_probability": 0.6,
+   "confidence_bucket": "60-65",
+   "odds": 1.75,
+   "bookmaker": "1xBet",
+   "final_score": "2-1",
+   "outcome": "won",
+   "pl_units": 0.75,
+   "matin": {
+    "selection": "over",
+    "label": "SKIP",
+    "outcome": "won"
+   }
   }
  ],
  "aggregates": {
@@ -11791,10 +11852,10 @@
     },
     {
      "label": "TARDIF",
-     "n": 1,
-     "won": 1,
+     "n": 2,
+     "won": 2,
      "lost": 0,
-     "pl_units": 0.73,
+     "pl_units": 1.48,
      "league": "Ligue 1",
      "country": "France"
     },
@@ -11995,6 +12056,15 @@
      "pl_units": 1.18,
      "league": "Serie A",
      "country": "Brésil"
+    },
+    {
+     "label": "ANNULE",
+     "n": 1,
+     "won": 0,
+     "lost": 1,
+     "pl_units": -1.0,
+     "league": "Serie A",
+     "country": "Italie"
     },
     {
      "label": "SKIP",
@@ -12228,10 +12298,10 @@
     {
      "market": "OU2.5",
      "label": "ANNULE",
-     "n": 2,
+     "n": 3,
      "won": 0,
-     "lost": 2,
-     "pl_units": -2.0
+     "lost": 3,
+     "pl_units": -3.0
     },
     {
      "market": "OU2.5",
@@ -12244,10 +12314,10 @@
     {
      "market": "OU2.5",
      "label": "TARDIF",
-     "n": 1,
-     "won": 1,
+     "n": 2,
+     "won": 2,
      "lost": 0,
-     "pl_units": 0.73
+     "pl_units": 1.48
     },
     {
      "market": "OU3.5",
@@ -12270,9 +12340,9 @@
     {
      "bucket": "55-60",
      "label": "ANNULE",
-     "n": 3,
+     "n": 4,
      "won": 1,
-     "lost": 2
+     "lost": 3
     },
     {
      "bucket": "55-60",
@@ -12305,8 +12375,8 @@
     {
      "bucket": "60-65",
      "label": "TARDIF",
-     "n": 3,
-     "won": 2,
+     "n": 4,
+     "won": 3,
      "lost": 1
     },
     {
@@ -12473,10 +12543,10 @@
     {
      "date": "2026-10-18",
      "label": "ANNULE",
-     "n": 1,
+     "n": 2,
      "won": 0,
-     "lost": 1,
-     "pl_units": -1.0
+     "lost": 2,
+     "pl_units": -2.0
     },
     {
      "date": "2026-10-18",
@@ -12489,20 +12559,20 @@
     {
      "date": "2026-10-18",
      "label": "TARDIF",
-     "n": 2,
-     "won": 2,
+     "n": 3,
+     "won": 3,
      "lost": 0,
-     "pl_units": 1.43
+     "pl_units": 2.18
     }
    ],
    "by_week": [
     {
      "week": "2026-W42",
      "label": "ANNULE",
-     "n": 4,
+     "n": 5,
      "won": 2,
-     "lost": 2,
-     "pl_units": -0.5
+     "lost": 3,
+     "pl_units": -1.5
     },
     {
      "week": "2026-W42",
@@ -12515,10 +12585,10 @@
     {
      "week": "2026-W42",
      "label": "TARDIF",
-     "n": 4,
-     "won": 3,
+     "n": 5,
+     "won": 4,
      "lost": 1,
-     "pl_units": 1.23
+     "pl_units": 1.98
     },
     {
      "week": "2026-W42",
@@ -12540,8 +12610,8 @@
     {
      "trigger": "compo",
      "label": "TARDIF",
-     "n": 4,
-     "won": 3,
+     "n": 5,
+     "won": 4,
      "lost": 1
     },
     {
@@ -12568,9 +12638,9 @@
     {
      "trigger": "releco",
      "label": "ANNULE",
-     "n": 4,
+     "n": 5,
      "won": 2,
-     "lost": 2
+     "lost": 3
     },
     {
      "trigger": "releco",
@@ -12597,15 +12667,15 @@
    "calibration": [
     {
      "bucket": "55-60",
-     "n": 8,
-     "mean_predicted": 0.573,
-     "observed": 0.375
+     "n": 9,
+     "mean_predicted": 0.571,
+     "observed": 0.333
     },
     {
      "bucket": "60-65",
-     "n": 6,
-     "mean_predicted": 0.627,
-     "observed": 0.5
+     "n": 7,
+     "mean_predicted": 0.623,
+     "observed": 0.571
     },
     {
      "bucket": "65-70",
@@ -12893,6 +12963,19 @@
     "label_fr": "Moins de 3,5 buts",
     "odds": 1.7,
     "closing_odds": 1.7,
+    "clv": 0.0,
+    "outcome": "won"
+   },
+   {
+    "date": "2026-10-18",
+    "league": {
+     "name": "Ligue 1",
+     "country": "France"
+    },
+    "label": "TARDIF",
+    "label_fr": "Plus de 2,5 buts",
+    "odds": 1.75,
+    "closing_odds": 1.75,
     "clv": 0.0,
     "outcome": "won"
    }
@@ -13236,20 +13319,29 @@
    "final_score": "4-1",
    "outcome": "lost",
    "cancel_reason_fr": "la cote est passée de 1,86 à 1,84 et la proba du modèle a un peu baissé (56,5 % → 56,1 %), donc EV +3,3 % < 5 %"
+  },
+  {
+   "date": "2026-10-18",
+   "fixture_id": 1550152,
+   "label_fr": "Moins de 2,5 buts",
+   "odds": 1.91,
+   "final_score": "0-3",
+   "outcome": "lost",
+   "cancel_reason_fr": "la proba du modèle n'a pas bougé (55,6 % pour Moins de 2,5 buts), seules les cotes ont changé : l'écart modèle/marché atteint 6,0 points, au-delà du plafond de 5 points"
   }
  ],
  "late": {
-  "n": 4,
-  "won": 3,
-  "hit_rate": 0.75,
-  "pl_units": 1.23,
-  "roi": 0.307,
+  "n": 5,
+  "won": 4,
+  "hit_rate": 0.8,
+  "pl_units": 1.98,
+  "roi": 0.396,
   "clv": {
-   "n": 4,
+   "n": 5,
    "mean_clv": 0.0,
    "beat_close": 0.0,
    "beat_n": 0,
-   "same_n": 4,
+   "same_n": 5,
    "se": 0.0
   }
  },
@@ -13276,10 +13368,10 @@
   },
   "tardifs": {
    "start": 100.0,
-   "bank": 102.26,
-   "bets": 4,
+   "bank": 103.54,
+   "bets": 5,
    "zero_stake": 0,
-   "roi_bank": 0.0226,
+   "roi_bank": 0.0354,
    "curve": [
     {
      "date": "2026-10-16",
@@ -13300,6 +13392,11 @@
      "date": "2026-10-18",
      "stake": 1.95,
      "bank": 102.26
+    },
+    {
+     "date": "2026-10-18",
+     "stake": 1.7,
+     "bank": 103.54
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
