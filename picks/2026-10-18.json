@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-18T16:53:02+02:00",
+ "generated_at": "2026-10-18T17:21:40+02:00",
  "date": "2026-10-18",
  "picks": [
   {
@@ -85999,7 +85999,7 @@
   },
   {
    "fixture_id": 1639013,
-   "final_reading_id": "1639013-r3",
+   "final_reading_id": "1639013-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -86592,6 +86592,204 @@
      },
      "releco_count": 3,
      "first_timestamp": "2026-10-18T09:55:59+02:00"
+    },
+    {
+     "reading_id": "1639013-r4",
+     "timestamp": "2026-10-18T17:21:22+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.767,
+      "market_probability": 0.743,
+      "odds": 1.29,
+      "bookmaker": "William Hill"
+     },
+     "value_pick": {
+      "market": "1X_BTTS",
+      "selection": "yes",
+      "label_fr": "Ajman ou nul (1N) & les deux marquent",
+      "model_probability": 0.426,
+      "market_probability": 0.337,
+      "odds": 2.57,
+      "bookmaker": "Bet365",
+      "ev": 0.095
+     },
+     "skip_reasons_fr": [
+      "EV −0,3 % < 5 %"
+     ],
+     "model_probability": 0.824,
+     "probabilities": {
+      "1X2": {
+       "1": 0.412,
+       "X": 0.233,
+       "2": 0.355
+      },
+      "DC": {
+       "1X": 0.645,
+       "X2": 0.588,
+       "12": 0.767
+      },
+      "OU1.5": {
+       "over": 0.824,
+       "under": 0.176
+      },
+      "OU2.5": {
+       "over": 0.614,
+       "under": 0.386
+      },
+      "OU3.5": {
+       "over": 0.391,
+       "under": 0.609
+      },
+      "BTTS": {
+       "yes": 0.63,
+       "no": 0.37
+      },
+      "BTTS_O2.5": {
+       "yes": 0.526
+      },
+      "1X_O1.5": {
+       "yes": 0.534
+      },
+      "1X_O2.5": {
+       "yes": 0.372
+      },
+      "1X_U3.5": {
+       "yes": 0.391
+      },
+      "1X_BTTS": {
+       "yes": 0.426
+      },
+      "X2_O1.5": {
+       "yes": 0.482
+      },
+      "X2_O2.5": {
+       "yes": 0.329
+      },
+      "X2_U3.5": {
+       "yes": 0.363
+      },
+      "X2_BTTS": {
+       "yes": 0.396
+      },
+      "12_O1.5": {
+       "yes": 0.632
+      },
+      "12_O2.5": {
+       "yes": 0.526
+      },
+      "12_U3.5": {
+       "yes": 0.464
+      },
+      "12_BTTS": {
+       "yes": 0.438
+      },
+      "HT1X2": {
+       "1": 0.328,
+       "X": 0.381,
+       "2": 0.292
+      }
+     },
+     "expected_goals": {
+      "home": 1.65,
+      "away": 1.52
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.104
+      },
+      {
+       "score": "2-1",
+       "p": 0.087
+      },
+      {
+       "score": "1-2",
+       "p": 0.08
+      }
+     ],
+     "confidence": {
+      "value": 0.824,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.778,
+     "ev": -0.003,
+     "odds_seen": {
+      "value": 1.21,
+      "bookmaker": "Pinnacle",
+      "captured_at": "2026-10-18T17:21:22+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 82,4 % pour « Plus de 1,5 buts » contre 77,8 % pour le marché.",
+      "Buts attendus (modèle) : 1,65 – 1,52.",
+      "Candidat EV max écarté : Ajman ou nul (1N) & +1,5 buts (53,4 %, cote 2,14, EV +14,1 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 31,
+      "away": 31
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "api"
     }
    ]
   },
@@ -91343,8 +91541,8 @@
   },
   {
    "fixture_id": 1584431,
-   "final_reading_id": "1584431-r4",
-   "decision": "SKIP",
+   "final_reading_id": "1584431-r5",
+   "decision": "TARDIF",
    "readings": [
     {
      "reading_id": "1584431-r1",
@@ -92090,6 +92288,184 @@
        }
       ]
      }
+    },
+    {
+     "reading_id": "1584431-r5",
+     "timestamp": "2026-10-18T17:21:30+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU3.5",
+      "selection": "under",
+      "label_fr": "Moins de 3,5 buts"
+     },
+     "label": "TICKET",
+     "skip_reasons_fr": [],
+     "model_probability": 0.62,
+     "probabilities": {
+      "1X2": {
+       "1": 0.657,
+       "X": 0.211,
+       "2": 0.133
+      },
+      "DC": {
+       "1X": 0.867,
+       "X2": 0.343,
+       "12": 0.789
+      },
+      "OU1.5": {
+       "over": 0.829,
+       "under": 0.171
+      },
+      "OU2.5": {
+       "over": 0.604,
+       "under": 0.396
+      },
+      "OU3.5": {
+       "over": 0.38,
+       "under": 0.62
+      },
+      "BTTS": {
+       "yes": 0.544,
+       "no": 0.456
+      },
+      "BTTS_O2.5": {
+       "yes": 0.445
+      },
+      "1X_O1.5": {
+       "yes": 0.726
+      },
+      "1X_O2.5": {
+       "yes": 0.519
+      },
+      "1X_U3.5": {
+       "yes": 0.525
+      },
+      "1X_BTTS": {
+       "yes": 0.467
+      },
+      "X2_O1.5": {
+       "yes": 0.259
+      },
+      "X2_O2.5": {
+       "yes": 0.141
+      },
+      "X2_U3.5": {
+       "yes": 0.249
+      },
+      "X2_BTTS": {
+       "yes": 0.233
+      },
+      "12_O1.5": {
+       "yes": 0.673
+      },
+      "12_O2.5": {
+       "yes": 0.547
+      },
+      "12_U3.5": {
+       "yes": 0.465
+      },
+      "12_BTTS": {
+       "yes": 0.388
+      },
+      "HT1X2": {
+       "1": 0.491,
+       "X": 0.359,
+       "2": 0.15
+      }
+     },
+     "expected_goals": {
+      "home": 2.21,
+      "away": 0.92
+     },
+     "top_scores": [
+      {
+       "score": "2-0",
+       "p": 0.107
+      },
+      {
+       "score": "1-1",
+       "p": 0.1
+      },
+      {
+       "score": "2-1",
+       "p": 0.098
+      }
+     ],
+     "confidence": {
+      "value": 0.62,
+      "source": "model_probability",
+      "bucket": "60-65"
+     },
+     "market_probability": 0.571,
+     "ev": 0.054,
+     "odds_seen": {
+      "value": 1.7,
+      "bookmaker": "Pinnacle",
+      "captured_at": "2026-10-18T17:21:30+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 62,0 % pour « Moins de 3,5 buts » contre 57,1 % pour le marché.",
+      "Buts attendus (modèle) : 2,21 – 0,92.",
+      "Tous les critères dc-v1 sont remplis (EV +5,4 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 41,
+      "away": 41
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": true,
+      "reason_fr": "Nouvelle lecture : compos officielles publiées."
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "late_ticket": true,
+     "lineups_source": "espn"
     }
    ]
   },
