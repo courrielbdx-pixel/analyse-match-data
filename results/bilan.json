@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-18T19:11:55+02:00",
+ "generated_at": "2026-10-18T19:32:15+02:00",
  "settled": [
   {
    "fixture_id": 1492403,
@@ -10691,6 +10691,96 @@
     "label": "SKIP",
     "outcome": "won"
    }
+  },
+  {
+   "fixture_id": 1552789,
+   "date": "2026-10-18",
+   "kickoff": "2026-10-18T17:15:00+02:00",
+   "league": {
+    "name": "Ligue 1",
+    "country": "France"
+   },
+   "region": "france",
+   "method_version": "dc-v1",
+   "reading_id": "1552789-r4",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "OU2.5",
+   "selection": "over",
+   "label_fr": "Plus de 2,5 buts",
+   "label": "TARDIF",
+   "model_probability": 0.609,
+   "confidence_bucket": "60-65",
+   "odds": 1.73,
+   "bookmaker": "1xBet",
+   "final_score": "4-3",
+   "outcome": "won",
+   "pl_units": 0.73,
+   "matin": {
+    "selection": "over",
+    "label": "SKIP",
+    "outcome": "won"
+   }
+  },
+  {
+   "fixture_id": 1553194,
+   "date": "2026-10-18",
+   "kickoff": "2026-10-18T17:30:00+02:00",
+   "league": {
+    "name": "Ekstraklasa",
+    "country": "Pologne"
+   },
+   "region": "europe",
+   "method_version": "dc-v1",
+   "reading_id": "1553194-r3",
+   "trigger": "releco",
+   "lineups_confirmed": false,
+   "market": "DC",
+   "selection": "1X",
+   "label_fr": "Lech Poznan ou nul (1N)",
+   "label": "SKIP",
+   "model_probability": 0.838,
+   "confidence_bucket": "80-85",
+   "odds": 1.17,
+   "bookmaker": "Bet365",
+   "final_score": "6-1",
+   "outcome": "won",
+   "pl_units": 0.17,
+   "matin": {
+    "selection": "1X",
+    "label": "SKIP",
+    "outcome": "won"
+   }
+  },
+  {
+   "fixture_id": 1557435,
+   "date": "2026-10-18",
+   "kickoff": "2026-10-18T17:30:00+02:00",
+   "league": {
+    "name": "Premier League",
+    "country": "Angleterre"
+   },
+   "region": "europe",
+   "method_version": "dc-v1",
+   "reading_id": "1557435-r4",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "DC",
+   "selection": "X2",
+   "label_fr": "Nul ou Arsenal (N2)",
+   "label": "SKIP",
+   "model_probability": 0.795,
+   "confidence_bucket": "75-80",
+   "odds": 1.17,
+   "bookmaker": "1xBet",
+   "final_score": "0-1",
+   "outcome": "won",
+   "pl_units": 0.17,
+   "matin": {
+    "selection": "X2",
+    "label": "SKIP",
+    "outcome": "won"
+   }
   }
  ],
  "aggregates": {
@@ -10707,14 +10797,14 @@
     "avg_odds": 1.86
    },
    "SKIP": {
-    "n": 349,
-    "won": 286,
+    "n": 351,
+    "won": 288,
     "lost": 63,
     "void": 0,
     "no_odds": 2,
-    "hit_rate": 0.819,
-    "pl_units": -6.87,
-    "roi": -0.02,
+    "hit_rate": 0.821,
+    "pl_units": -6.53,
+    "roi": -0.019,
     "avg_odds": 1.21
    },
    "by_league": [
@@ -10855,10 +10945,10 @@
     },
     {
      "label": "SKIP",
-     "n": 4,
-     "won": 3,
+     "n": 5,
+     "won": 4,
      "lost": 1,
-     "pl_units": 0.0,
+     "pl_units": 0.17,
      "league": "Ekstraklasa",
      "country": "Pologne"
     },
@@ -10980,6 +11070,15 @@
      "country": "France"
     },
     {
+     "label": "TARDIF",
+     "n": 1,
+     "won": 1,
+     "lost": 0,
+     "pl_units": 0.73,
+     "league": "Ligue 1",
+     "country": "France"
+    },
+    {
      "label": "SKIP",
      "n": 5,
      "won": 3,
@@ -11035,10 +11134,10 @@
     },
     {
      "label": "SKIP",
-     "n": 7,
-     "won": 6,
+     "n": 8,
+     "won": 7,
      "lost": 1,
-     "pl_units": 0.23,
+     "pl_units": 0.4,
      "league": "Premier League",
      "country": "Angleterre"
     },
@@ -11368,10 +11467,10 @@
     {
      "market": "DC",
      "label": "SKIP",
-     "n": 124,
-     "won": 105,
+     "n": 126,
+     "won": 107,
      "lost": 19,
-     "pl_units": 0.3
+     "pl_units": 0.64
     },
     {
      "market": "DC",
@@ -11412,6 +11511,14 @@
      "won": 1,
      "lost": 1,
      "pl_units": -0.09
+    },
+    {
+     "market": "OU2.5",
+     "label": "TARDIF",
+     "n": 1,
+     "won": 1,
+     "lost": 0,
+     "pl_units": 0.73
     },
     {
      "market": "OU3.5",
@@ -11461,8 +11568,8 @@
     {
      "bucket": "60-65",
      "label": "TARDIF",
-     "n": 1,
-     "won": 0,
+     "n": 2,
+     "won": 1,
      "lost": 1
     },
     {
@@ -11496,15 +11603,15 @@
     {
      "bucket": "75-80",
      "label": "SKIP",
-     "n": 116,
-     "won": 91,
+     "n": 117,
+     "won": 92,
      "lost": 25
     },
     {
      "bucket": "80-85",
      "label": "SKIP",
-     "n": 105,
-     "won": 84,
+     "n": 106,
+     "won": 85,
      "lost": 21
     },
     {
@@ -11637,10 +11744,18 @@
     {
      "date": "2026-10-18",
      "label": "SKIP",
-     "n": 104,
-     "won": 89,
+     "n": 106,
+     "won": 91,
      "lost": 15,
-     "pl_units": 2.66
+     "pl_units": 3.0
+    },
+    {
+     "date": "2026-10-18",
+     "label": "TARDIF",
+     "n": 1,
+     "won": 1,
+     "lost": 0,
+     "pl_units": 0.73
     }
    ],
    "by_week": [
@@ -11655,18 +11770,18 @@
     {
      "week": "2026-W42",
      "label": "SKIP",
-     "n": 349,
-     "won": 286,
+     "n": 351,
+     "won": 288,
      "lost": 63,
-     "pl_units": -6.87
+     "pl_units": -6.53
     },
     {
      "week": "2026-W42",
      "label": "TARDIF",
-     "n": 2,
-     "won": 1,
+     "n": 3,
+     "won": 2,
      "lost": 1,
-     "pl_units": -0.2
+     "pl_units": 0.53
     },
     {
      "week": "2026-W42",
@@ -11681,15 +11796,15 @@
     {
      "trigger": "compo",
      "label": "SKIP",
-     "n": 261,
-     "won": 214,
+     "n": 262,
+     "won": 215,
      "lost": 47
     },
     {
      "trigger": "compo",
      "label": "TARDIF",
-     "n": 2,
-     "won": 1,
+     "n": 3,
+     "won": 2,
      "lost": 1
     },
     {
@@ -11723,8 +11838,8 @@
     {
      "trigger": "releco",
      "label": "SKIP",
-     "n": 54,
-     "won": 46,
+     "n": 55,
+     "won": 47,
      "lost": 8
     },
     {
@@ -11751,9 +11866,9 @@
     },
     {
      "bucket": "60-65",
-     "n": 4,
-     "mean_predicted": 0.633,
-     "observed": 0.25
+     "n": 5,
+     "mean_predicted": 0.628,
+     "observed": 0.4
     },
     {
      "bucket": "65-70",
@@ -11769,15 +11884,15 @@
     },
     {
      "bucket": "75-80",
-     "n": 116,
+     "n": 117,
      "mean_predicted": 0.774,
-     "observed": 0.784
+     "observed": 0.786
     },
     {
      "bucket": "80-85",
-     "n": 105,
+     "n": 106,
      "mean_predicted": 0.824,
-     "observed": 0.8
+     "observed": 0.802
     },
     {
      "bucket": "85-90",
@@ -11905,13 +12020,13 @@
  "bilan_start": "2026-10-13",
  "skip_lines": {
   "probable": {
-   "n": 349,
-   "won": 286,
-   "hit_rate": 0.819,
-   "with_odds": 347,
+   "n": 351,
+   "won": 288,
+   "hit_rate": 0.821,
+   "with_odds": 349,
    "avg_odds": 1.21,
-   "profit_eur": -6.87,
-   "roi": -0.02
+   "profit_eur": -6.53,
+   "roi": -0.019
   },
   "resultat": {
    "n": 223,
@@ -11923,13 +12038,13 @@
    "roi": 0.016
   },
   "valeur": {
-   "n": 332,
+   "n": 334,
    "won": 146,
-   "hit_rate": 0.44,
-   "with_odds": 332,
+   "hit_rate": 0.437,
+   "with_odds": 334,
    "avg_odds": 2.24,
-   "profit_eur": -15.36,
-   "roi": -0.046
+   "profit_eur": -17.36,
+   "roi": -0.052
   }
  },
  "clv": {
@@ -11942,11 +12057,11 @@
    "se": 0.0057
   },
   "probable": {
-   "n": 318,
+   "n": 320,
    "mean_clv": 0.0,
    "beat_close": 0.028,
    "beat_n": 9,
-   "same_n": 302,
+   "same_n": 303,
    "se": 0.0004
   },
   "resultat": {
@@ -11958,10 +12073,10 @@
    "se": 0.0004
   },
   "valeur": {
-   "n": 305,
-   "mean_clv": 0.0004,
-   "beat_close": 0.115,
-   "beat_n": 35,
+   "n": 307,
+   "mean_clv": 0.0005,
+   "beat_close": 0.121,
+   "beat_n": 37,
    "same_n": 252,
    "se": 0.001
   },
@@ -12017,49 +12132,22 @@
     "closing_odds": 1.7,
     "clv": 0.0,
     "outcome": "lost"
+   },
+   {
+    "date": "2026-10-18",
+    "league": {
+     "name": "Ligue 1",
+     "country": "France"
+    },
+    "label": "TARDIF",
+    "label_fr": "Plus de 2,5 buts",
+    "odds": 1.73,
+    "closing_odds": 1.73,
+    "clv": 0.0,
+    "outcome": "won"
    }
   ],
   "recent": [
-   {
-    "date": "2026-10-18",
-    "match": "Panathinaikos – Asteras Tripolis",
-    "fixture_id": 1593335,
-    "label_fr": "Moins de 2,5 buts",
-    "line": "valeur",
-    "odds": 2.45,
-    "closing_odds": 2.45,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-18",
-    "match": "Kapaz – Zira",
-    "fixture_id": 1601910,
-    "label_fr": "Moins de 3,5 buts",
-    "line": "probable",
-    "odds": 1.25,
-    "closing_odds": 1.25,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-18",
-    "match": "Kapaz – Zira",
-    "fixture_id": 1601910,
-    "label_fr": "Nul ou Zira (N2)",
-    "line": "resultat",
-    "odds": 1.2,
-    "closing_odds": 1.22,
-    "clv": -0.0164
-   },
-   {
-    "date": "2026-10-18",
-    "match": "Kapaz – Zira",
-    "fixture_id": 1601910,
-    "label_fr": "Moins de 2,5 buts",
-    "line": "valeur",
-    "odds": 1.74,
-    "closing_odds": 1.7,
-    "clv": 0.0235
-   },
    {
     "date": "2026-10-18",
     "match": "Groningen – Ajax",
@@ -12319,6 +12407,46 @@
     "odds": 2.08,
     "closing_odds": 2.08,
     "clv": 0.0
+   },
+   {
+    "date": "2026-10-18",
+    "match": "Lech Poznan – Korona Kielce",
+    "fixture_id": 1553194,
+    "label_fr": "Lech Poznan ou nul (1N)",
+    "line": "probable",
+    "odds": 1.17,
+    "closing_odds": 1.18,
+    "clv": -0.0085
+   },
+   {
+    "date": "2026-10-18",
+    "match": "Lech Poznan – Korona Kielce",
+    "fixture_id": 1553194,
+    "label_fr": "Moins de 2,5 buts",
+    "line": "valeur",
+    "odds": 2.46,
+    "closing_odds": 2.43,
+    "clv": 0.0123
+   },
+   {
+    "date": "2026-10-18",
+    "match": "Nottingham Forest – Arsenal",
+    "fixture_id": 1557435,
+    "label_fr": "Nul ou Arsenal (N2)",
+    "line": "probable",
+    "odds": 1.17,
+    "closing_odds": 1.17,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-18",
+    "match": "Nottingham Forest – Arsenal",
+    "fixture_id": 1557435,
+    "label_fr": "Nottingham Forest ou nul (1N)",
+    "line": "valeur",
+    "odds": 2.38,
+    "closing_odds": 2.33,
+    "clv": 0.0215
    }
   ]
  },
@@ -12361,17 +12489,17 @@
   }
  ],
  "late": {
-  "n": 2,
-  "won": 1,
-  "hit_rate": 0.5,
-  "pl_units": -0.2,
-  "roi": -0.1,
+  "n": 3,
+  "won": 2,
+  "hit_rate": 0.667,
+  "pl_units": 0.53,
+  "roi": 0.177,
   "clv": {
-   "n": 2,
+   "n": 3,
    "mean_clv": 0.0,
    "beat_close": 0.0,
    "beat_n": 0,
-   "same_n": 2,
+   "same_n": 3,
    "se": 0.0
   }
  },
@@ -12398,10 +12526,10 @@
   },
   "tardifs": {
    "start": 100.0,
-   "bank": 99.56,
-   "bets": 2,
+   "bank": 100.9,
+   "bets": 3,
    "zero_stake": 0,
-   "roi_bank": -0.0044,
+   "roi_bank": 0.009,
    "curve": [
     {
      "date": "2026-10-16",
@@ -12412,6 +12540,11 @@
      "date": "2026-10-17",
      "stake": 2.03,
      "bank": 99.56
+    },
+    {
+     "date": "2026-10-18",
+     "stake": 1.83,
+     "bank": 100.9
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
@@ -12420,7 +12553,7 @@
    "start": 100.0,
    "bank": 103.48,
    "bets": 98,
-   "zero_stake": 249,
+   "zero_stake": 251,
    "roi_bank": 0.0348,
    "curve": [
     {
@@ -13078,21 +13211,11 @@
   },
   "valeur": {
    "start": 100.0,
-   "bank": 65.56,
-   "bets": 331,
+   "bank": 62.96,
+   "bets": 333,
    "zero_stake": 1,
-   "roi_bank": -0.3444,
+   "roi_bank": -0.3704,
    "curve": [
-    {
-     "date": "2026-10-17",
-     "stake": 1.44,
-     "bank": 70.66
-    },
-    {
-     "date": "2026-10-17",
-     "stake": 1.41,
-     "bank": 72.42
-    },
     {
      "date": "2026-10-17",
      "stake": 1.45,
@@ -14082,6 +14205,16 @@
      "date": "2026-10-18",
      "stake": 0.48,
      "bank": 65.56
+    },
+    {
+     "date": "2026-10-18",
+     "stake": 1.31,
+     "bank": 64.25
+    },
+    {
+     "date": "2026-10-18",
+     "stake": 1.29,
+     "bank": 62.96
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
