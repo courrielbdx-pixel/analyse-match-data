@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-18T15:22:25+02:00",
+ "generated_at": "2026-10-18T15:37:01+02:00",
  "date": "2026-10-18",
  "picks": [
   {
@@ -67101,7 +67101,7 @@
   },
   {
    "fixture_id": 1553885,
-   "final_reading_id": "1553885-r2",
+   "final_reading_id": "1553885-r3",
    "decision": "SKIP",
    "readings": [
     {
@@ -67477,6 +67477,195 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-10-18T09:55:55+02:00"
+    },
+    {
+     "reading_id": "1553885-r3",
+     "timestamp": "2026-10-18T15:36:42+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "FK Crvena Zvezda ou nul (1N)"
+     },
+     "label": "SKIP",
+     "value_pick": {
+      "market": "1X_U3.5",
+      "selection": "yes",
+      "label_fr": "FK Crvena Zvezda ou nul (1N) & −3,5 buts",
+      "model_probability": 0.56,
+      "market_probability": 0.467,
+      "odds": 1.97,
+      "bookmaker": "Marathonbet",
+      "ev": 0.101
+     },
+     "skip_reasons_fr": [
+      "EV −0,8 % < 5 %"
+     ],
+     "model_probability": 0.972,
+     "probabilities": {
+      "1X2": {
+       "1": 0.85,
+       "X": 0.123,
+       "2": 0.028
+      },
+      "DC": {
+       "1X": 0.972,
+       "X2": 0.15,
+       "12": 0.877
+      },
+      "OU1.5": {
+       "over": 0.85,
+       "under": 0.15
+      },
+      "OU2.5": {
+       "over": 0.639,
+       "under": 0.361
+      },
+      "OU3.5": {
+       "over": 0.417,
+       "under": 0.583
+      },
+      "BTTS": {
+       "yes": 0.354,
+       "no": 0.646
+      },
+      "BTTS_O2.5": {
+       "yes": 0.297
+      },
+      "1X_O1.5": {
+       "yes": 0.829
+      },
+      "1X_O2.5": {
+       "yes": 0.622
+      },
+      "1X_U3.5": {
+       "yes": 0.56
+      },
+      "1X_BTTS": {
+       "yes": 0.338
+      },
+      "X2_O1.5": {
+       "yes": 0.096
+      },
+      "X2_O2.5": {
+       "yes": 0.034
+      },
+      "X2_U3.5": {
+       "yes": 0.127
+      },
+      "X2_BTTS": {
+       "yes": 0.092
+      },
+      "12_O1.5": {
+       "yes": 0.774
+      },
+      "12_O2.5": {
+       "yes": 0.621
+      },
+      "12_U3.5": {
+       "yes": 0.478
+      },
+      "12_BTTS": {
+       "yes": 0.279
+      },
+      "HT1X2": {
+       "1": 0.648,
+       "X": 0.294,
+       "2": 0.059
+      }
+     },
+     "expected_goals": {
+      "home": 2.83,
+      "away": 0.46
+     },
+     "top_scores": [
+      {
+       "score": "2-0",
+       "p": 0.15
+      },
+      {
+       "score": "3-0",
+       "p": 0.141
+      },
+      {
+       "score": "4-0",
+       "p": 0.1
+      }
+     ],
+     "confidence": {
+      "value": 0.972,
+      "source": "model_probability",
+      "bucket": "95-100"
+     },
+     "market_probability": 0.951,
+     "ev": -0.008,
+     "odds_seen": {
+      "value": 1.02,
+      "bookmaker": "William Hill",
+      "captured_at": "2026-10-18T15:36:42+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 97,2 % pour « FK Crvena Zvezda ou nul (1N) » contre 95,1 % pour le marché.",
+      "Buts attendus (modèle) : 2,83 – 0,46.",
+      "Candidat EV max écarté : Moins de 3,5 buts (58,3 %, cote 2,02, EV +17,7 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 48,
+      "away": 48
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "api"
     }
    ]
   },
