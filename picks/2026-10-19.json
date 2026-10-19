@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-19T20:00:10+02:00",
+ "generated_at": "2026-10-19T20:17:23+02:00",
  "date": "2026-10-19",
  "picks": [
   {
@@ -23113,7 +23113,7 @@
   },
   {
    "fixture_id": 1492779,
-   "final_reading_id": "1492779-r3",
+   "final_reading_id": "1492779-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -23710,6 +23710,210 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-10-19T12:53:02+02:00"
+    },
+    {
+     "reading_id": "1492779-r4",
+     "timestamp": "2026-10-19T20:17:14+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.717,
+      "market_probability": 0.768,
+      "odds": 1.28,
+      "bookmaker": "Bet365"
+     },
+     "value_pick": {
+      "market": "OU2.5",
+      "selection": "under",
+      "label_fr": "Moins de 2,5 buts",
+      "model_probability": 0.462,
+      "market_probability": 0.395,
+      "odds": 2.51,
+      "bookmaker": "Pinnacle",
+      "ev": 0.16
+     },
+     "skip_reasons_fr": [
+      "EV −6,7 % < 5 %"
+     ],
+     "model_probability": 0.791,
+     "probabilities": {
+      "1X2": {
+       "1": 0.397,
+       "X": 0.283,
+       "2": 0.32
+      },
+      "DC": {
+       "1X": 0.68,
+       "X2": 0.603,
+       "12": 0.717
+      },
+      "OU1.5": {
+       "over": 0.791,
+       "under": 0.209
+      },
+      "OU2.5": {
+       "over": 0.538,
+       "under": 0.462
+      },
+      "OU3.5": {
+       "over": 0.315,
+       "under": 0.685
+      },
+      "BTTS": {
+       "yes": 0.588,
+       "no": 0.412
+      },
+      "BTTS_O2.5": {
+       "yes": 0.454
+      },
+      "1X_O1.5": {
+       "yes": 0.533
+      },
+      "1X_O2.5": {
+       "yes": 0.332
+      },
+      "1X_U3.5": {
+       "yes": 0.469
+      },
+      "1X_BTTS": {
+       "yes": 0.416
+      },
+      "X2_O1.5": {
+       "yes": 0.466
+      },
+      "X2_O2.5": {
+       "yes": 0.28
+      },
+      "X2_U3.5": {
+       "yes": 0.425
+      },
+      "X2_BTTS": {
+       "yes": 0.38
+      },
+      "12_O1.5": {
+       "yes": 0.583
+      },
+      "12_O2.5": {
+       "yes": 0.464
+      },
+      "12_U3.5": {
+       "yes": 0.475
+      },
+      "12_BTTS": {
+       "yes": 0.38
+      },
+      "HT1X2": {
+       "1": 0.32,
+       "X": 0.407,
+       "2": 0.273
+      }
+     },
+     "expected_goals": {
+      "home": 1.5,
+      "away": 1.33
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.134
+      },
+      {
+       "score": "2-1",
+       "p": 0.088
+      },
+      {
+       "score": "1-2",
+       "p": 0.078
+      }
+     ],
+     "confidence": {
+      "value": 0.791,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.805,
+     "ev": -0.067,
+     "odds_seen": {
+      "value": 1.18,
+      "bookmaker": "Pinnacle",
+      "captured_at": "2026-10-19T20:17:14+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 79,1 % pour « Plus de 1,5 buts » contre 80,5 % pour le marché.",
+      "Buts attendus (modèle) : 1,50 – 1,33.",
+      "Candidat EV max écarté : Nul ou Galway United (N2) (60,3 %, cote 2,15, EV +29,7 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif X 12h45 : Waterford–Galway (match en retard 33e journée) : Waterford joue le maintien selon la League of Ireland ; aucune info d'absence fiable. Rien de nouveau."
+      ],
+      "sources": [
+       "https://x.com/LeagueofIreland/status/2112122082024739185"
+      ],
+      "checked_at": "2026-10-19T12:52+02:00"
+     },
+     "team_samples": {
+      "home": 70,
+      "away": 69
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "api"
     }
    ]
   },
@@ -26063,7 +26267,7 @@
   },
   {
    "fixture_id": 1557436,
-   "final_reading_id": "1557436-r3",
+   "final_reading_id": "1557436-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -26635,12 +26839,209 @@
       "label_fr": "Historique insuffisant",
       "text_fr": "⚠️ Historique insuffisant (74 / 5 matchs)"
      }
+    },
+    {
+     "reading_id": "1557436-r4",
+     "timestamp": "2026-10-19T20:17:17+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "xg0.5",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Tottenham ou nul (1N)"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "⚠️ Historique insuffisant (74 / 5 matchs)",
+      "EV −12,2 % < 5 %",
+      "Écart modèle/marché 8,1 pts > 5",
+      "Échantillon insuffisant (5 matchs < 20)"
+     ],
+     "model_probability": 0.75,
+     "probabilities": {
+      "1X2": {
+       "1": 0.469,
+       "X": 0.281,
+       "2": 0.25
+      },
+      "DC": {
+       "1X": 0.75,
+       "X2": 0.531,
+       "12": 0.719
+      },
+      "OU1.5": {
+       "over": 0.731,
+       "under": 0.269
+      },
+      "OU2.5": {
+       "over": 0.465,
+       "under": 0.535
+      },
+      "OU3.5": {
+       "over": 0.25,
+       "under": 0.75
+      },
+      "BTTS": {
+       "yes": 0.512,
+       "no": 0.488
+      },
+      "BTTS_O2.5": {
+       "yes": 0.378
+      },
+      "1X_O1.5": {
+       "yes": 0.552
+      },
+      "1X_O2.5": {
+       "yes": 0.329
+      },
+      "1X_U3.5": {
+       "yes": 0.559
+      },
+      "1X_BTTS": {
+       "yes": 0.395
+      },
+      "X2_O1.5": {
+       "yes": 0.37
+      },
+      "X2_O2.5": {
+       "yes": 0.193
+      },
+      "X2_U3.5": {
+       "yes": 0.416
+      },
+      "X2_BTTS": {
+       "yes": 0.308
+      },
+      "12_O1.5": {
+       "yes": 0.54
+      },
+      "12_O2.5": {
+       "yes": 0.408
+      },
+      "12_U3.5": {
+       "yes": 0.526
+      },
+      "12_BTTS": {
+       "yes": 0.321
+      },
+      "HT1X2": {
+       "1": 0.352,
+       "X": 0.43,
+       "2": 0.217
+      }
+     },
+     "expected_goals": {
+      "home": 1.5,
+      "away": 1.03
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.134
+      },
+      {
+       "score": "1-0",
+       "p": 0.108
+      },
+      {
+       "score": "2-1",
+       "p": 0.092
+      }
+     ],
+     "confidence": {
+      "value": 0.75,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.831,
+     "ev": -0.122,
+     "odds_seen": {
+      "value": 1.17,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-19T20:17:17+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 75,0 % pour « Tottenham ou nul (1N) » contre 83,1 % pour le marché.",
+      "Buts attendus (modèle) : 1,50 – 1,03.",
+      "Candidat EV max écarté : Nul ou Coventry (N2) (53,1 %, cote 2,56, EV +35,9 %)."
+     ],
+     "web_check": {
+      "status": "contradiction",
+      "items_fr": [
+       "Vérif X 9h45 : Tottenham–Coventry : en conférence, De Zerbi a confirmé Savio forfait plusieurs semaines (muscle) et Bergvall forfait (genou) ; Bentancur purge le 1er de ses 3 matchs de suspension ; Mudryk, Xavi Simons et Odobert toujours absents, Porro pas avant Chelsea. Kulusevski revient sur le banc. Tottenham très diminué au milieu, ce qui va contre « Tottenham ou nul »."
+      ],
+      "sources": [
+       "https://x.com/GaryRWard/status/2111741467693572560",
+       "https://x.com/standardsport/status/2111743404207980823",
+       "https://x.com/talktottenhamtt/status/2111772693406327262"
+      ],
+      "checked_at": "2026-10-19T09:52+02:00"
+     },
+     "team_samples": {
+      "home": 74,
+      "away": 5
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn",
+     "history_insufficient": {
+      "home": 74,
+      "away": 5,
+      "min": 20,
+      "label_fr": "Historique insuffisant",
+      "text_fr": "⚠️ Historique insuffisant (74 / 5 matchs)"
+     }
     }
    ]
   },
   {
    "fixture_id": 1570417,
-   "final_reading_id": "1570417-r3",
+   "final_reading_id": "1570417-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -27238,6 +27639,211 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-10-19T10:00:21+02:00"
+    },
+    {
+     "reading_id": "1570417-r4",
+     "timestamp": "2026-10-19T20:17:19+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "xg0.5",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU3.5",
+      "selection": "under",
+      "label_fr": "Moins de 3,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.696,
+      "market_probability": 0.678,
+      "odds": 1.42,
+      "bookmaker": "Marathonbet"
+     },
+     "value_pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Getafe ou nul (1N)",
+      "model_probability": 0.669,
+      "market_probability": 0.636,
+      "odds": 1.53,
+      "bookmaker": "Marathonbet",
+      "ev": 0.024
+     },
+     "skip_reasons_fr": [
+      "EV −0,4 % < 5 %"
+     ],
+     "model_probability": 0.858,
+     "probabilities": {
+      "1X2": {
+       "1": 0.365,
+       "X": 0.304,
+       "2": 0.331
+      },
+      "DC": {
+       "1X": 0.669,
+       "X2": 0.635,
+       "12": 0.696
+      },
+      "OU1.5": {
+       "over": 0.589,
+       "under": 0.411
+      },
+      "OU2.5": {
+       "over": 0.321,
+       "under": 0.679
+      },
+      "OU3.5": {
+       "over": 0.142,
+       "under": 0.858
+      },
+      "BTTS": {
+       "yes": 0.395,
+       "no": 0.605
+      },
+      "BTTS_O2.5": {
+       "yes": 0.262
+      },
+      "1X_O1.5": {
+       "yes": 0.392
+      },
+      "1X_O2.5": {
+       "yes": 0.188
+      },
+      "1X_U3.5": {
+       "yes": 0.576
+      },
+      "1X_BTTS": {
+       "yes": 0.287
+      },
+      "X2_O1.5": {
+       "yes": 0.367
+      },
+      "X2_O2.5": {
+       "yes": 0.171
+      },
+      "X2_U3.5": {
+       "yes": 0.549
+      },
+      "X2_BTTS": {
+       "yes": 0.277
+      },
+      "12_O1.5": {
+       "yes": 0.419
+      },
+      "12_O2.5": {
+       "yes": 0.284
+      },
+      "12_U3.5": {
+       "yes": 0.592
+      },
+      "12_BTTS": {
+       "yes": 0.225
+      },
+      "HT1X2": {
+       "1": 0.262,
+       "X": 0.496,
+       "2": 0.242
+      }
+     },
+     "expected_goals": {
+      "home": 1.03,
+      "away": 0.96
+     },
+     "top_scores": [
+      {
+       "score": "1-0",
+       "p": 0.143
+      },
+      {
+       "score": "0-1",
+       "p": 0.134
+      },
+      {
+       "score": "0-0",
+       "p": 0.134
+      }
+     ],
+     "confidence": {
+      "value": 0.858,
+      "source": "model_probability",
+      "bucket": "85-90"
+     },
+     "market_probability": 0.83,
+     "ev": -0.004,
+     "odds_seen": {
+      "value": 1.16,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-19T20:17:19+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 85,8 % pour « Moins de 3,5 buts » contre 83,0 % pour le marché.",
+      "Buts attendus (modèle) : 1,03 – 0,96.",
+      "Candidat EV max écarté : Getafe ou nul (1N) (66,9 %, cote 1,53, EV +2,4 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif X 9h45 : Getafe–Rayo : Getafe pourrait encore être privé de Zaid Romero, Mangala et Enes Ünal (blessés, retour incertain, compte suiveur du club) ; le Rayo arrive après le report de son match contre l'Athletic. Rien contre la lecture SKIP."
+      ],
+      "sources": [
+       "https://x.com/FantasiaAzulona/status/2111483121308967072",
+       "https://x.com/SergioNavaD/status/2112074308189302875"
+      ],
+      "checked_at": "2026-10-19T09:52+02:00"
+     },
+     "team_samples": {
+      "home": 74,
+      "away": 74
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
