@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-19T20:00:30+02:00",
+ "generated_at": "2026-10-19T20:17:36+02:00",
  "source_fr": "Backtest walk-forward 2024-08-03 → 2026-10-07, 7622 matchs, 10 championnats (cotes moyennes football-data.co.uk, marge retirée).",
  "markets": {
   "1": {
@@ -269,16 +269,22 @@
  },
  "live": {
   "label_fr": "Matchs réels depuis le 12/10 (1X2, 3 issues par match)",
-  "n": 1587,
-  "brier": 0.1915,
-  "logloss": 0.567,
-  "ece": 0.0323,
+  "n": 1590,
+  "brier": 0.1921,
+  "logloss": 0.5684,
+  "ece": 0.0316,
   "calibration": [
    {
+    "bin": "0-10",
+    "n": 20,
+    "pred": 0.072,
+    "real": 0.1
+   },
+   {
     "bin": "10-20",
-    "n": 184,
-    "pred": 0.162,
-    "real": 0.109
+    "n": 185,
+    "pred": 0.161,
+    "real": 0.114
    },
    {
     "bin": "20-30",
