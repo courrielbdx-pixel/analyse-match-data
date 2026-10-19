@@ -1,11 +1,11 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-19T22:09:38+02:00",
+ "generated_at": "2026-10-19T23:40:58+02:00",
  "date": "2026-10-20",
  "picks": [
   {
    "fixture_id": 1493192,
-   "final_reading_id": "1493192-r3",
+   "final_reading_id": "1493192-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -610,12 +610,216 @@
        }
       ]
      }
+    },
+    {
+     "reading_id": "1493192-r4",
+     "timestamp": "2026-10-19T23:40:52+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU3.5",
+      "selection": "under",
+      "label_fr": "Moins de 3,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Newells Old Boys ou nul (1N)",
+      "model_probability": 0.716,
+      "market_probability": 0.806,
+      "odds": 1.19,
+      "bookmaker": "Betano"
+     },
+     "value_pick": {
+      "market": "OU2.5",
+      "selection": "under",
+      "label_fr": "Moins de 2,5 buts",
+      "model_probability": 0.662,
+      "market_probability": 0.581,
+      "odds": 1.67,
+      "bookmaker": "Pinnacle",
+      "ev": 0.105
+     },
+     "skip_reasons_fr": [
+      "Écart modèle/marché 7,0 pts > 5"
+     ],
+     "model_probability": 0.847,
+     "probabilities": {
+      "1X2": {
+       "1": 0.396,
+       "X": 0.32,
+       "2": 0.284
+      },
+      "DC": {
+       "1X": 0.716,
+       "X2": 0.604,
+       "12": 0.68
+      },
+      "OU1.5": {
+       "over": 0.618,
+       "under": 0.382
+      },
+      "OU2.5": {
+       "over": 0.338,
+       "under": 0.662
+      },
+      "OU3.5": {
+       "over": 0.153,
+       "under": 0.847
+      },
+      "BTTS": {
+       "yes": 0.418,
+       "no": 0.582
+      },
+      "BTTS_O2.5": {
+       "yes": 0.274
+      },
+      "1X_O1.5": {
+       "yes": 0.442
+      },
+      "1X_O2.5": {
+       "yes": 0.216
+      },
+      "1X_U3.5": {
+       "yes": 0.606
+      },
+      "1X_BTTS": {
+       "yes": 0.317
+      },
+      "X2_O1.5": {
+       "yes": 0.358
+      },
+      "X2_O2.5": {
+       "yes": 0.161
+      },
+      "X2_U3.5": {
+       "yes": 0.521
+      },
+      "X2_BTTS": {
+       "yes": 0.283
+      },
+      "12_O1.5": {
+       "yes": 0.436
+      },
+      "12_O2.5": {
+       "yes": 0.299
+      },
+      "12_U3.5": {
+       "yes": 0.566
+      },
+      "12_BTTS": {
+       "yes": 0.235
+      },
+      "HT1X2": {
+       "1": 0.29,
+       "X": 0.487,
+       "2": 0.223
+      }
+     },
+     "expected_goals": {
+      "home": 1.14,
+      "away": 0.92
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.143
+      },
+      {
+       "score": "0-0",
+       "p": 0.137
+      },
+      {
+       "score": "1-0",
+       "p": 0.136
+      }
+     ],
+     "confidence": {
+      "value": 0.847,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.777,
+     "ev": 0.05,
+     "odds_seen": {
+      "value": 1.24,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-19T23:40:52+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 84,7 % pour « Moins de 3,5 buts » contre 77,7 % pour le marché.",
+      "Buts attendus (modèle) : 1,14 – 0,92.",
+      "Candidat EV max écarté : Nul ou Central Cordoba de Santiago (N2) (60,4 %, cote 2,04, EV +23,3 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif X 21h45 : Newell's–Central Córdoba : onze de Newell's annoncé (Reinatti ; Ortega, Cabrera, Carrizo, Escobar ; Gómez Mattar, Herrera, Guch ; Mazzantti, Cóccaro, Solari), un seul changement. Aucune absence majeure signalée. Rien contre Moins de 3,5 en SKIP."
+      ],
+      "checked_at": "2026-10-19T21:50+02:00",
+      "sources": [
+       "https://x.com/Alanponceeee/status/2112251762161705140"
+      ]
+     },
+     "team_samples": {
+      "home": 60,
+      "away": 62
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
   {
    "fixture_id": 1493195,
-   "final_reading_id": "1493195-r3",
+   "final_reading_id": "1493195-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -1218,6 +1422,210 @@
        }
       ]
      }
+    },
+    {
+     "reading_id": "1493195-r4",
+     "timestamp": "2026-10-19T23:40:53+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU3.5",
+      "selection": "under",
+      "label_fr": "Moins de 3,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.686,
+      "market_probability": 0.682,
+      "odds": 1.4,
+      "bookmaker": "Bet365"
+     },
+     "value_pick": {
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou Barracas Central (N2)",
+      "model_probability": 0.644,
+      "market_probability": 0.589,
+      "odds": 1.62,
+      "bookmaker": "William Hill",
+      "ev": 0.044
+     },
+     "skip_reasons_fr": [
+      "EV −3,0 % < 5 %"
+     ],
+     "model_probability": 0.829,
+     "probabilities": {
+      "1X2": {
+       "1": 0.356,
+       "X": 0.314,
+       "2": 0.33
+      },
+      "DC": {
+       "1X": 0.67,
+       "X2": 0.644,
+       "12": 0.686
+      },
+      "OU1.5": {
+       "over": 0.643,
+       "under": 0.357
+      },
+      "OU2.5": {
+       "over": 0.364,
+       "under": 0.636
+      },
+      "OU3.5": {
+       "over": 0.171,
+       "under": 0.829
+      },
+      "BTTS": {
+       "yes": 0.443,
+       "no": 0.557
+      },
+      "BTTS_O2.5": {
+       "yes": 0.299
+      },
+      "1X_O1.5": {
+       "yes": 0.425
+      },
+      "1X_O2.5": {
+       "yes": 0.211
+      },
+      "1X_U3.5": {
+       "yes": 0.559
+      },
+      "1X_BTTS": {
+       "yes": 0.32
+      },
+      "X2_O1.5": {
+       "yes": 0.406
+      },
+      "X2_O2.5": {
+       "yes": 0.198
+      },
+      "X2_U3.5": {
+       "yes": 0.54
+      },
+      "X2_BTTS": {
+       "yes": 0.312
+      },
+      "12_O1.5": {
+       "yes": 0.455
+      },
+      "12_O2.5": {
+       "yes": 0.32
+      },
+      "12_U3.5": {
+       "yes": 0.559
+      },
+      "12_BTTS": {
+       "yes": 0.255
+      },
+      "HT1X2": {
+       "1": 0.269,
+       "X": 0.476,
+       "2": 0.254
+      }
+     },
+     "expected_goals": {
+      "home": 1.1,
+      "away": 1.05
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.144
+      },
+      {
+       "score": "0-0",
+       "p": 0.126
+      },
+      {
+       "score": "1-0",
+       "p": 0.119
+      }
+     ],
+     "confidence": {
+      "value": 0.829,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.822,
+     "ev": -0.03,
+     "odds_seen": {
+      "value": 1.17,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-19T23:40:53+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 82,9 % pour « Moins de 3,5 buts » contre 82,2 % pour le marché.",
+      "Buts attendus (modèle) : 1,10 – 1,05.",
+      "Candidat EV max écarté : Nul ou Barracas Central (N2) (64,4 %, cote 1,62, EV +4,4 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif X 21h45 : Sarmiento–Barracas Central : match à huis clos (sanction), aucune absence fiable signalée. Rien contre Nul ou Barracas (N2) ni Moins de 3,5 en SKIP."
+      ],
+      "checked_at": "2026-10-19T21:50+02:00",
+      "sources": [
+       "https://x.com/SolPlay915/status/2112253821061894586"
+      ]
+     },
+     "team_samples": {
+      "home": 60,
+      "away": 63
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ],
    "skip_check": {
