@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-19T19:18:11+02:00",
+ "generated_at": "2026-10-19T19:32:38+02:00",
  "date": "2026-10-19",
  "picks": [
   {
@@ -19808,7 +19808,7 @@
   },
   {
    "fixture_id": 1565273,
-   "final_reading_id": "1565273-r3",
+   "final_reading_id": "1565273-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -20430,6 +20430,215 @@
        }
       ]
      }
+    },
+    {
+     "reading_id": "1565273-r4",
+     "timestamp": "2026-10-19T19:32:25+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts+interdiv",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.774,
+      "market_probability": 0.778,
+      "odds": 1.22,
+      "bookmaker": "Betano"
+     },
+     "value_pick": {
+      "market": "BTTS",
+      "selection": "yes",
+      "label_fr": "Les deux équipes marquent",
+      "model_probability": 0.65,
+      "market_probability": 0.565,
+      "odds": 1.67,
+      "bookmaker": "Bet365",
+      "ev": 0.085
+     },
+     "skip_reasons_fr": [
+      "EV +0,7 % < 5 %",
+      "Échantillon insuffisant (13 matchs < 20)"
+     ],
+     "model_probability": 0.839,
+     "probabilities": {
+      "1X2": {
+       "1": 0.371,
+       "X": 0.226,
+       "2": 0.403
+      },
+      "DC": {
+       "1X": 0.597,
+       "X2": 0.629,
+       "12": 0.774
+      },
+      "OU1.5": {
+       "over": 0.839,
+       "under": 0.161
+      },
+      "OU2.5": {
+       "over": 0.64,
+       "under": 0.36
+      },
+      "OU3.5": {
+       "over": 0.419,
+       "under": 0.581
+      },
+      "BTTS": {
+       "yes": 0.65,
+       "no": 0.35
+      },
+      "BTTS_O2.5": {
+       "yes": 0.551
+      },
+      "1X_O1.5": {
+       "yes": 0.501
+      },
+      "1X_O2.5": {
+       "yes": 0.354
+      },
+      "1X_U3.5": {
+       "yes": 0.35
+      },
+      "1X_BTTS": {
+       "yes": 0.412
+      },
+      "X2_O1.5": {
+       "yes": 0.53
+      },
+      "X2_O2.5": {
+       "yes": 0.378
+      },
+      "X2_U3.5": {
+       "yes": 0.365
+      },
+      "X2_BTTS": {
+       "yes": 0.429
+      },
+      "12_O1.5": {
+       "yes": 0.648
+      },
+      "12_O2.5": {
+       "yes": 0.547
+      },
+      "12_U3.5": {
+       "yes": 0.448
+      },
+      "12_BTTS": {
+       "yes": 0.459
+      },
+      "HT1X2": {
+       "1": 0.304,
+       "X": 0.372,
+       "2": 0.324
+      }
+     },
+     "expected_goals": {
+      "home": 1.61,
+      "away": 1.69
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.098
+      },
+      {
+       "score": "1-2",
+       "p": 0.085
+      },
+      {
+       "score": "2-1",
+       "p": 0.081
+      }
+     ],
+     "confidence": {
+      "value": 0.839,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.801,
+     "ev": 0.007,
+     "odds_seen": {
+      "value": 1.2,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-19T19:32:25+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 83,9 % pour « Plus de 1,5 buts » contre 80,1 % pour le marché.",
+      "Buts attendus (modèle) : 1,61 – 1,69.",
+      "Candidat EV max écarté : FC Voluntari ou nul (1N) (59,7 %, cote 2,38, EV +42,1 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 13,
+      "away": 52
+     },
+     "history_cross": {
+      "home": {
+       "n": 13,
+       "origin": "unknown",
+       "from_league_id": null,
+       "n_other": 0,
+       "weight_own": 0.722
+      },
+      "text_fr": "Historique complété : correction moyenne des promus (division précédente non couverte)"
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "api"
     }
    ]
   },
@@ -21945,7 +22154,7 @@
   },
   {
    "fixture_id": 1569971,
-   "final_reading_id": "1569971-r4",
+   "final_reading_id": "1569971-r5",
    "decision": "SKIP",
    "readings": [
     {
@@ -22697,6 +22906,201 @@
        }
       ]
      },
+     "history_insufficient": {
+      "home": 9,
+      "away": 9,
+      "min": 20,
+      "label_fr": "Historique insuffisant",
+      "text_fr": "⚠️ Historique insuffisant (9 / 9 matchs)"
+     }
+    },
+    {
+     "reading_id": "1569971-r5",
+     "timestamp": "2026-10-19T19:32:27+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "⚠️ Historique insuffisant (9 / 9 matchs)",
+      "EV +4,3 % < 5 %",
+      "Écart modèle/marché 6,5 pts > 5",
+      "Échantillon insuffisant (9 matchs < 20)"
+     ],
+     "model_probability": 0.767,
+     "probabilities": {
+      "1X2": {
+       "1": 0.481,
+       "X": 0.233,
+       "2": 0.286
+      },
+      "DC": {
+       "1X": 0.714,
+       "X2": 0.519,
+       "12": 0.767
+      },
+      "OU1.5": {
+       "over": 0.811,
+       "under": 0.189
+      },
+      "OU2.5": {
+       "over": 0.593,
+       "under": 0.407
+      },
+      "OU3.5": {
+       "over": 0.369,
+       "under": 0.631
+      },
+      "BTTS": {
+       "yes": 0.605,
+       "no": 0.395
+      },
+      "BTTS_O2.5": {
+       "yes": 0.498
+      },
+      "1X_O1.5": {
+       "yes": 0.586
+      },
+      "1X_O2.5": {
+       "yes": 0.407
+      },
+      "1X_U3.5": {
+       "yes": 0.443
+      },
+      "1X_BTTS": {
+       "yes": 0.444
+      },
+      "X2_O1.5": {
+       "yes": 0.412
+      },
+      "X2_O2.5": {
+       "yes": 0.265
+      },
+      "X2_U3.5": {
+       "yes": 0.341
+      },
+      "X2_BTTS": {
+       "yes": 0.347
+      },
+      "12_O1.5": {
+       "yes": 0.624
+      },
+      "12_O2.5": {
+       "yes": 0.513
+      },
+      "12_U3.5": {
+       "yes": 0.478
+      },
+      "12_BTTS": {
+       "yes": 0.418
+      },
+      "HT1X2": {
+       "1": 0.369,
+       "X": 0.385,
+       "2": 0.247
+      }
+     },
+     "expected_goals": {
+      "home": 1.76,
+      "away": 1.31
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.107
+      },
+      {
+       "score": "2-1",
+       "p": 0.094
+      },
+      {
+       "score": "1-0",
+       "p": 0.082
+      }
+     ],
+     "confidence": {
+      "value": 0.767,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.702,
+     "ev": 0.043,
+     "odds_seen": {
+      "value": 1.36,
+      "bookmaker": "Bet365",
+      "captured_at": "2026-10-19T19:32:27+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 76,7 % pour « Pas de nul (12) » contre 70,2 % pour le marché.",
+      "Buts attendus (modèle) : 1,76 – 1,31.",
+      "Candidat EV max écarté : Plus de 2,5 buts (59,3 %, cote 2,14, EV +26,8 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif X 12h45 : Celta Fortuna–Tenerife : convocation du Celta B publiée (Grada de Río) : retour de Meixús après suspension, Seyni absent (raison personnelle), Ángel Arcos appelé en équipe première ; absents connus Anxo (blessé), Bajcetic, Antañón, Burcio, Somuah, Khayat. Rien contre la lecture SKIP."
+      ],
+      "sources": [
+       "https://x.com/gradaderio/status/2112111530053341660"
+      ],
+      "checked_at": "2026-10-19T12:52+02:00"
+     },
+     "team_samples": {
+      "home": 9,
+      "away": 9
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn",
      "history_insufficient": {
       "home": 9,
       "away": 9,
