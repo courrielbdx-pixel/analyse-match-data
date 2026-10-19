@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-19T22:54:40+02:00",
+ "generated_at": "2026-10-19T23:13:50+02:00",
  "settled": [
   {
    "fixture_id": 1492403,
@@ -12852,6 +12852,66 @@
     "label": "SKIP",
     "outcome": "lost"
    }
+  },
+  {
+   "fixture_id": 1570417,
+   "date": "2026-10-19",
+   "kickoff": "2026-10-19T21:00:00+02:00",
+   "league": {
+    "name": "LaLiga",
+    "country": "Espagne"
+   },
+   "region": "europe",
+   "method_version": "dc-v1",
+   "reading_id": "1570417-r4",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "OU3.5",
+   "selection": "under",
+   "label_fr": "Moins de 3,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.858,
+   "confidence_bucket": "85-90",
+   "odds": 1.16,
+   "bookmaker": "Betano",
+   "final_score": "1-1",
+   "outcome": "won",
+   "pl_units": 0.16,
+   "matin": {
+    "selection": "under",
+    "label": "SKIP",
+    "outcome": "won"
+   }
+  },
+  {
+   "fixture_id": 1638632,
+   "date": "2026-10-19",
+   "kickoff": "2026-10-19T21:15:00+02:00",
+   "league": {
+    "name": "Úrvalsdeild",
+    "country": "Islande"
+   },
+   "region": "europe",
+   "method_version": "dc-v1",
+   "reading_id": "1638632-r3",
+   "trigger": "releco",
+   "lineups_confirmed": false,
+   "market": "OU1.5",
+   "selection": "over",
+   "label_fr": "Plus de 1,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.887,
+   "confidence_bucket": "85-90",
+   "odds": 1.08,
+   "bookmaker": "Betano",
+   "final_score": "2-4",
+   "outcome": "won",
+   "pl_units": 0.08,
+   "matin": {
+    "selection": "over",
+    "label": "SKIP",
+    "outcome": "won"
+   }
   }
  ],
  "aggregates": {
@@ -12868,14 +12928,14 @@
     "avg_odds": 1.85
    },
    "SKIP": {
-    "n": 416,
-    "won": 342,
+    "n": 418,
+    "won": 344,
     "lost": 74,
     "void": 0,
     "no_odds": 2,
-    "hit_rate": 0.822,
-    "pl_units": -6.46,
-    "roi": -0.016,
+    "hit_rate": 0.823,
+    "pl_units": -6.22,
+    "roi": -0.015,
     "avg_odds": 1.21
    },
    "by_league": [
@@ -13079,10 +13139,10 @@
     },
     {
      "label": "SKIP",
-     "n": 4,
-     "won": 3,
+     "n": 5,
+     "won": 4,
      "lost": 1,
-     "pl_units": -0.45,
+     "pl_units": -0.29,
      "league": "LaLiga",
      "country": "Espagne"
     },
@@ -13529,10 +13589,10 @@
     },
     {
      "label": "SKIP",
-     "n": 5,
-     "won": 5,
+     "n": 6,
+     "won": 6,
      "lost": 0,
-     "pl_units": 0.47,
+     "pl_units": 0.55,
      "league": "Úrvalsdeild",
      "country": "Islande"
     }
@@ -13589,10 +13649,10 @@
     {
      "market": "OU1.5",
      "label": "SKIP",
-     "n": 192,
-     "won": 155,
+     "n": 193,
+     "won": 156,
      "lost": 37,
-     "pl_units": -9.18
+     "pl_units": -9.1
     },
     {
      "market": "OU2.5",
@@ -13621,10 +13681,10 @@
     {
      "market": "OU3.5",
      "label": "SKIP",
-     "n": 69,
-     "won": 57,
+     "n": 70,
+     "won": 58,
      "lost": 12,
-     "pl_units": 3.09
+     "pl_units": 3.25
     },
     {
      "market": "OU3.5",
@@ -13731,8 +13791,8 @@
     {
      "bucket": "85-90",
      "label": "SKIP",
-     "n": 72,
-     "won": 65,
+     "n": 74,
+     "won": 67,
      "lost": 7
     },
     {
@@ -13882,10 +13942,10 @@
     {
      "date": "2026-10-19",
      "label": "SKIP",
-     "n": 30,
-     "won": 26,
+     "n": 32,
+     "won": 28,
      "lost": 4,
-     "pl_units": 1.59
+     "pl_units": 1.83
     }
    ],
    "by_week": [
@@ -13924,18 +13984,18 @@
     {
      "week": "2026-W43",
      "label": "SKIP",
-     "n": 30,
-     "won": 26,
+     "n": 32,
+     "won": 28,
      "lost": 4,
-     "pl_units": 1.59
+     "pl_units": 1.83
     }
    ],
    "by_trigger": [
     {
      "trigger": "compo",
      "label": "SKIP",
-     "n": 316,
-     "won": 261,
+     "n": 317,
+     "won": 262,
      "lost": 55
     },
     {
@@ -13976,8 +14036,8 @@
     {
      "trigger": "releco",
      "label": "SKIP",
-     "n": 61,
-     "won": 51,
+     "n": 62,
+     "won": 52,
      "lost": 10
     },
     {
@@ -14041,9 +14101,9 @@
     },
     {
      "bucket": "85-90",
-     "n": 72,
+     "n": 74,
      "mean_predicted": 0.873,
-     "observed": 0.903
+     "observed": 0.905
     },
     {
      "bucket": "90-95",
@@ -14165,31 +14225,31 @@
  "bilan_start": "2026-10-13",
  "skip_lines": {
   "probable": {
-   "n": 416,
-   "won": 342,
-   "hit_rate": 0.822,
-   "with_odds": 414,
+   "n": 418,
+   "won": 344,
+   "hit_rate": 0.823,
+   "with_odds": 416,
    "avg_odds": 1.21,
-   "profit_eur": -6.46,
-   "roi": -0.016
+   "profit_eur": -6.22,
+   "roi": -0.015
   },
   "resultat": {
-   "n": 262,
-   "won": 207,
-   "hit_rate": 0.79,
-   "with_odds": 262,
+   "n": 264,
+   "won": 208,
+   "hit_rate": 0.788,
+   "with_odds": 264,
    "avg_odds": 1.28,
-   "profit_eur": 0.82,
-   "roi": 0.003
+   "profit_eur": 0.04,
+   "roi": 0.0
   },
   "valeur": {
-   "n": 398,
-   "won": 182,
-   "hit_rate": 0.457,
-   "with_odds": 398,
+   "n": 400,
+   "won": 183,
+   "hit_rate": 0.458,
+   "with_odds": 400,
    "avg_odds": 2.23,
-   "profit_eur": -5.81,
-   "roi": -0.015
+   "profit_eur": -6.28,
+   "roi": -0.016
   }
  },
  "clv": {
@@ -14202,27 +14262,27 @@
    "se": 0.0038
   },
   "probable": {
-   "n": 381,
+   "n": 383,
    "mean_clv": 0.0002,
    "beat_close": 0.029,
    "beat_n": 11,
-   "same_n": 362,
+   "same_n": 364,
    "se": 0.0003
   },
   "resultat": {
-   "n": 240,
+   "n": 242,
    "mean_clv": 0.0005,
    "beat_close": 0.033,
    "beat_n": 8,
-   "same_n": 226,
+   "same_n": 228,
    "se": 0.0003
   },
   "valeur": {
-   "n": 367,
+   "n": 369,
    "mean_clv": 0.0006,
-   "beat_close": 0.112,
+   "beat_close": 0.111,
    "beat_n": 41,
-   "same_n": 305,
+   "same_n": 307,
    "se": 0.0008
   },
   "tickets_list": [
@@ -14332,66 +14392,6 @@
    }
   ],
   "recent": [
-   {
-    "date": "2026-10-19",
-    "match": "Degerfors IF – Kalmar FF",
-    "fixture_id": 1494299,
-    "label_fr": "Victoire Degerfors IF (1)",
-    "line": "valeur",
-    "odds": 3.02,
-    "closing_odds": 3.02,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-19",
-    "match": "Dinamo Minsk – Arsenal",
-    "fixture_id": 1526001,
-    "label_fr": "Dinamo Minsk ou nul (1N)",
-    "line": "probable",
-    "odds": 1.01,
-    "closing_odds": 1.01,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-19",
-    "match": "Dinamo Minsk – Arsenal",
-    "fixture_id": 1526001,
-    "label_fr": "Moins de 2,5 buts",
-    "line": "valeur",
-    "odds": 2.43,
-    "closing_odds": 2.43,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-19",
-    "match": "Viborg – FC Midtjylland",
-    "fixture_id": 1549039,
-    "label_fr": "Plus de 1,5 buts",
-    "line": "probable",
-    "odds": 1.18,
-    "closing_odds": 1.18,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-19",
-    "match": "Viborg – FC Midtjylland",
-    "fixture_id": 1549039,
-    "label_fr": "Pas de nul (12)",
-    "line": "resultat",
-    "odds": 1.29,
-    "closing_odds": 1.29,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-19",
-    "match": "Viborg – FC Midtjylland",
-    "fixture_id": 1549039,
-    "label_fr": "Victoire FC Midtjylland (2)",
-    "line": "valeur",
-    "odds": 2.49,
-    "closing_odds": 2.49,
-    "clv": 0.0
-   },
    {
     "date": "2026-10-19",
     "match": "Wisla Plock – Radomiak Radom",
@@ -14631,6 +14631,66 @@
     "odds": 1.82,
     "closing_odds": 1.82,
     "clv": 0.0
+   },
+   {
+    "date": "2026-10-19",
+    "match": "Getafe – Rayo Vallecano",
+    "fixture_id": 1570417,
+    "label_fr": "Moins de 3,5 buts",
+    "line": "probable",
+    "odds": 1.16,
+    "closing_odds": 1.16,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-19",
+    "match": "Getafe – Rayo Vallecano",
+    "fixture_id": 1570417,
+    "label_fr": "Pas de nul (12)",
+    "line": "resultat",
+    "odds": 1.42,
+    "closing_odds": 1.42,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-19",
+    "match": "Getafe – Rayo Vallecano",
+    "fixture_id": 1570417,
+    "label_fr": "Getafe ou nul (1N)",
+    "line": "valeur",
+    "odds": 1.53,
+    "closing_odds": 1.53,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-19",
+    "match": "Fram Reykjavik – IA Akranes",
+    "fixture_id": 1638632,
+    "label_fr": "Plus de 1,5 buts",
+    "line": "probable",
+    "odds": 1.08,
+    "closing_odds": 1.08,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-19",
+    "match": "Fram Reykjavik – IA Akranes",
+    "fixture_id": 1638632,
+    "label_fr": "Pas de nul (12)",
+    "line": "resultat",
+    "odds": 1.22,
+    "closing_odds": 1.22,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-19",
+    "match": "Fram Reykjavik – IA Akranes",
+    "fixture_id": 1638632,
+    "label_fr": "Victoire Fram Reykjavik (1)",
+    "line": "valeur",
+    "odds": 2.01,
+    "closing_odds": 2.01,
+    "clv": 0.0
    }
   ]
  },
@@ -14761,7 +14821,7 @@
    "start": 100.0,
    "bank": 97.69,
    "bets": 121,
-   "zero_stake": 293,
+   "zero_stake": 295,
    "roi_bank": -0.0231,
    "curve": [
     {
@@ -15376,7 +15436,7 @@
    "start": 100.0,
    "bank": 96.67,
    "bets": 38,
-   "zero_stake": 224,
+   "zero_stake": 226,
    "roi_bank": -0.0333,
    "curve": [
     {
@@ -15574,21 +15634,11 @@
   },
   "valeur": {
    "start": 100.0,
-   "bank": 70.32,
-   "bets": 397,
+   "bank": 69.33,
+   "bets": 399,
    "zero_stake": 1,
-   "roi_bank": -0.2968,
+   "roi_bank": -0.3067,
    "curve": [
-    {
-     "date": "2026-10-17",
-     "stake": 1.17,
-     "bank": 66.08
-    },
-    {
-     "date": "2026-10-17",
-     "stake": 1.32,
-     "bank": 67.47
-    },
     {
      "date": "2026-10-17",
      "stake": 1.35,
@@ -16578,6 +16628,16 @@
      "date": "2026-10-19",
      "stake": 1.38,
      "bank": 70.32
+    },
+    {
+     "date": "2026-10-19",
+     "stake": 0.78,
+     "bank": 70.74
+    },
+    {
+     "date": "2026-10-19",
+     "stake": 1.41,
+     "bank": 69.33
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
