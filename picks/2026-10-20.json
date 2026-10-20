@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-20T15:57:28+02:00",
+ "generated_at": "2026-10-20T16:20:05+02:00",
  "date": "2026-10-20",
  "picks": [
   {
@@ -3982,7 +3982,7 @@
   },
   {
    "fixture_id": 1603054,
-   "final_reading_id": "1603054-r3",
+   "final_reading_id": "1603054-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -4547,12 +4547,204 @@
       "label_fr": "Historique insuffisant",
       "text_fr": "⚠️ Historique insuffisant (9 / 42 matchs)"
      }
+    },
+    {
+     "reading_id": "1603054-r4",
+     "timestamp": "2026-10-20T16:20:03+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Al Diriyah ou nul (1N)"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "⚠️ Historique insuffisant (9 / 42 matchs)",
+      "EV −0,3 % < 5 %",
+      "Échantillon insuffisant (9 matchs < 20)"
+     ],
+     "model_probability": 0.811,
+     "probabilities": {
+      "1X2": {
+       "1": 0.485,
+       "X": 0.325,
+       "2": 0.189
+      },
+      "DC": {
+       "1X": 0.811,
+       "X2": 0.515,
+       "12": 0.675
+      },
+      "OU1.5": {
+       "over": 0.648,
+       "under": 0.352
+      },
+      "OU2.5": {
+       "over": 0.356,
+       "under": 0.644
+      },
+      "OU3.5": {
+       "over": 0.166,
+       "under": 0.834
+      },
+      "BTTS": {
+       "yes": 0.42,
+       "no": 0.58
+      },
+      "BTTS_O2.5": {
+       "yes": 0.273
+      },
+      "1X_O1.5": {
+       "yes": 0.529
+      },
+      "1X_O2.5": {
+       "yes": 0.272
+      },
+      "1X_U3.5": {
+       "yes": 0.673
+      },
+      "1X_BTTS": {
+       "yes": 0.346
+      },
+      "X2_O1.5": {
+       "yes": 0.303
+      },
+      "X2_O2.5": {
+       "yes": 0.121
+      },
+      "X2_U3.5": {
+       "yes": 0.45
+      },
+      "X2_BTTS": {
+       "yes": 0.257
+      },
+      "12_O1.5": {
+       "yes": 0.465
+      },
+      "12_O2.5": {
+       "yes": 0.32
+      },
+      "12_U3.5": {
+       "yes": 0.545
+      },
+      "12_BTTS": {
+       "yes": 0.237
+      },
+      "HT1X2": {
+       "1": 0.353,
+       "X": 0.473,
+       "2": 0.174
+      }
+     },
+     "expected_goals": {
+      "home": 1.36,
+      "away": 0.77
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.147
+      },
+      {
+       "score": "0-0",
+       "p": 0.142
+      },
+      {
+       "score": "1-0",
+       "p": 0.14
+      }
+     ],
+     "confidence": {
+      "value": 0.811,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.791,
+     "ev": -0.003,
+     "odds_seen": {
+      "value": 1.23,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-20T16:20:03+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 81,1 % pour « Al Diriyah ou nul (1N) » contre 79,1 % pour le marché.",
+      "Buts attendus (modèle) : 1,36 – 0,77.",
+      "Candidat EV max écarté : Moins de 2,5 buts (64,4 %, cote 2,02, EV +30,0 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif X 9h45 : Al Diriyah–Al Riyadh : aucune info d'effectif fiable trouvée."
+      ],
+      "checked_at": "2026-10-20T09:43+02:00",
+      "sources": []
+     },
+     "team_samples": {
+      "home": 9,
+      "away": 42
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn",
+     "history_insufficient": {
+      "home": 9,
+      "away": 42,
+      "min": 20,
+      "label_fr": "Historique insuffisant",
+      "text_fr": "⚠️ Historique insuffisant (9 / 42 matchs)"
+     }
     }
    ]
   },
   {
    "fixture_id": 1603061,
-   "final_reading_id": "1603061-r3",
+   "final_reading_id": "1603061-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -5149,6 +5341,210 @@
      },
      "releco_count": 3,
      "first_timestamp": "2026-10-20T09:51:59+02:00"
+    },
+    {
+     "reading_id": "1603061-r4",
+     "timestamp": "2026-10-20T16:20:04+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou Al-Qadisiyah FC (N2)",
+      "model_probability": 0.86,
+      "market_probability": 0.841,
+      "odds": 1.14,
+      "bookmaker": "Betano"
+     },
+     "value_pick": {
+      "market": "OU3.5",
+      "selection": "over",
+      "label_fr": "Plus de 3,5 buts",
+      "model_probability": 0.426,
+      "market_probability": 0.433,
+      "odds": 2.37,
+      "bookmaker": "Pinnacle",
+      "ev": 0.01
+     },
+     "skip_reasons_fr": [
+      "EV +0,7 % < 5 %"
+     ],
+     "model_probability": 0.86,
+     "probabilities": {
+      "1X2": {
+       "1": 0.14,
+       "X": 0.217,
+       "2": 0.643
+      },
+      "DC": {
+       "1X": 0.357,
+       "X2": 0.86,
+       "12": 0.783
+      },
+      "OU1.5": {
+       "over": 0.86,
+       "under": 0.14
+      },
+      "OU2.5": {
+       "over": 0.647,
+       "under": 0.353
+      },
+      "OU3.5": {
+       "over": 0.426,
+       "under": 0.574
+      },
+      "BTTS": {
+       "yes": 0.594,
+       "no": 0.406
+      },
+      "BTTS_O2.5": {
+       "yes": 0.494
+      },
+      "1X_O1.5": {
+       "yes": 0.284
+      },
+      "1X_O2.5": {
+       "yes": 0.165
+      },
+      "1X_U3.5": {
+       "yes": 0.242
+      },
+      "1X_BTTS": {
+       "yes": 0.256
+      },
+      "X2_O1.5": {
+       "yes": 0.742
+      },
+      "X2_O2.5": {
+       "yes": 0.547
+      },
+      "X2_U3.5": {
+       "yes": 0.483
+      },
+      "X2_BTTS": {
+       "yes": 0.503
+      },
+      "12_O1.5": {
+       "yes": 0.695
+      },
+      "12_O2.5": {
+       "yes": 0.581
+      },
+      "12_U3.5": {
+       "yes": 0.423
+      },
+      "12_BTTS": {
+       "yes": 0.428
+      },
+      "HT1X2": {
+       "1": 0.163,
+       "X": 0.346,
+       "2": 0.491
+      }
+     },
+     "expected_goals": {
+      "home": 1.03,
+      "away": 2.3
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.1
+      },
+      {
+       "score": "1-2",
+       "p": 0.098
+      },
+      {
+       "score": "0-2",
+       "p": 0.095
+      }
+     ],
+     "confidence": {
+      "value": 0.86,
+      "source": "model_probability",
+      "bucket": "85-90"
+     },
+     "market_probability": 0.83,
+     "ev": 0.007,
+     "odds_seen": {
+      "value": 1.17,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-20T16:20:04+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 86,0 % pour « Plus de 1,5 buts » contre 83,0 % pour le marché.",
+      "Buts attendus (modèle) : 1,03 – 2,30.",
+      "Non retenu (EV +0,7 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif X 9h45 : Al Taawon–Al-Qadisiyah : match à huis clos (sanction Al Taawon) ; absences limitées. Rien contre Plus de 1,5 ni Moins de 3,5 en SKIP."
+      ],
+      "checked_at": "2026-10-20T09:43+02:00",
+      "sources": [
+       "https://x.com/NABSHAmedia/status/2112249924993904816"
+      ]
+     },
+     "team_samples": {
+      "home": 43,
+      "away": 43
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ],
    "skip_check": {
