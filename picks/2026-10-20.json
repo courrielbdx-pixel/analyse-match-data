@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-20T19:19:02+02:00",
+ "generated_at": "2026-10-20T19:56:02+02:00",
  "date": "2026-10-20",
  "picks": [
   {
@@ -9693,7 +9693,7 @@
   },
   {
    "fixture_id": 1563150,
-   "final_reading_id": "1563150-r3",
+   "final_reading_id": "1563150-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -10324,6 +10324,222 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-10-20T09:52:02+02:00"
+    },
+    {
+     "reading_id": "1563150-r4",
+     "timestamp": "2026-10-20T19:55:51+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts+interdiv",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Wolves ou nul (1N)",
+      "model_probability": 0.817,
+      "market_probability": 0.823,
+      "odds": 1.18,
+      "bookmaker": "Betano"
+     },
+     "value_pick": {
+      "market": "12_BTTS",
+      "selection": "yes",
+      "label_fr": "Pas de nul (12) & les deux marquent",
+      "model_probability": 0.444,
+      "market_probability": 0.345,
+      "odds": 2.54,
+      "bookmaker": "Bet365",
+      "ev": 0.127
+     },
+     "skip_reasons_fr": [
+      "Écart modèle/marché 9,8 pts > 5",
+      "Échantillon insuffisant (7 matchs < 20)"
+     ],
+     "model_probability": 0.854,
+     "probabilities": {
+      "1X2": {
+       "1": 0.607,
+       "X": 0.211,
+       "2": 0.183
+      },
+      "DC": {
+       "1X": 0.817,
+       "X2": 0.393,
+       "12": 0.789
+      },
+      "OU1.5": {
+       "over": 0.854,
+       "under": 0.146
+      },
+      "OU2.5": {
+       "over": 0.651,
+       "under": 0.349
+      },
+      "OU3.5": {
+       "over": 0.431,
+       "under": 0.569
+      },
+      "BTTS": {
+       "yes": 0.614,
+       "no": 0.386
+      },
+      "BTTS_O2.5": {
+       "yes": 0.519
+      },
+      "1X_O1.5": {
+       "yes": 0.705
+      },
+      "1X_O2.5": {
+       "yes": 0.525
+      },
+      "1X_U3.5": {
+       "yes": 0.452
+      },
+      "1X_BTTS": {
+       "yes": 0.5
+      },
+      "X2_O1.5": {
+       "yes": 0.318
+      },
+      "X2_O2.5": {
+       "yes": 0.2
+      },
+      "X2_U3.5": {
+       "yes": 0.253
+      },
+      "X2_BTTS": {
+       "yes": 0.283
+      },
+      "12_O1.5": {
+       "yes": 0.684
+      },
+      "12_O2.5": {
+       "yes": 0.576
+      },
+      "12_U3.5": {
+       "yes": 0.433
+      },
+      "12_BTTS": {
+       "yes": 0.444
+      },
+      "HT1X2": {
+       "1": 0.46,
+       "X": 0.352,
+       "2": 0.187
+      }
+     },
+     "expected_goals": {
+      "home": 2.2,
+      "away": 1.15
+     },
+     "top_scores": [
+      {
+       "score": "2-1",
+       "p": 0.098
+      },
+      {
+       "score": "1-1",
+       "p": 0.095
+      },
+      {
+       "score": "2-0",
+       "p": 0.085
+      }
+     ],
+     "confidence": {
+      "value": 0.854,
+      "source": "model_probability",
+      "bucket": "85-90"
+     },
+     "market_probability": 0.756,
+     "ev": 0.076,
+     "odds_seen": {
+      "value": 1.26,
+      "bookmaker": "Pinnacle",
+      "captured_at": "2026-10-20T19:55:51+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 85,4 % pour « Plus de 1,5 buts » contre 75,6 % pour le marché.",
+      "Buts attendus (modèle) : 2,20 – 1,15.",
+      "Candidat EV max écarté : Plus de 2,5 buts (65,1 %, cote 1,83, EV +19,1 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif X 9h45 : Wolves–Portsmouth : Portsmouth en crise de blessures, un attaquant incertain (Express & Star). Rien contre Plus de 1,5 en SKIP."
+      ],
+      "checked_at": "2026-10-20T09:43+02:00",
+      "sources": [
+       "https://x.com/ExpressandStar/status/2112379909041508796",
+       "https://x.com/pompeylive/status/2112395147124076566"
+      ]
+     },
+     "team_samples": {
+      "home": 7,
+      "away": 89
+     },
+     "history_cross": {
+      "home": {
+       "n": 7,
+       "origin": "down",
+       "from_league_id": 39,
+       "n_other": 69,
+       "weight_own": 0.583
+      },
+      "text_fr": "Historique complété avec la division précédente (relégué)"
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
