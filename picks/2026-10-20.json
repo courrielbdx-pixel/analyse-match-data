@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-20T09:52:06+02:00",
+ "generated_at": "2026-10-20T09:59:38+02:00",
  "date": "2026-10-20",
  "picks": [
   {
@@ -12445,8 +12445,10 @@
       "selection": "1X",
       "label_fr": "VfB Stuttgart ou nul (1N)"
      },
-     "label": "TICKET",
-     "skip_reasons_fr": [],
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "Critères dc-v1 remplis pour ce pick, mais le ticket verrouillé du match reste « Moins de 3,5 buts » (pas de second ticket)"
+     ],
      "model_probability": 0.589,
      "probabilities": {
       "1X2": {
@@ -12622,7 +12624,8 @@
         "detail_fr": null
        }
       ]
-     }
+     },
+     "raw_label": "TICKET"
     },
     {
      "reading_id": "1635738-r3",
@@ -12636,8 +12639,10 @@
       "selection": "1X",
       "label_fr": "VfB Stuttgart ou nul (1N)"
      },
-     "label": "TICKET",
-     "skip_reasons_fr": [],
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "Critères dc-v1 remplis pour ce pick, mais le ticket verrouillé du match reste « Moins de 3,5 buts » (pas de second ticket)"
+     ],
      "model_probability": 0.589,
      "probabilities": {
       "1X2": {
@@ -12820,12 +12825,13 @@
         "detail_fr": null
        }
       ]
-     }
+     },
+     "raw_label": "TICKET"
     }
    ],
    "cancelled": true,
-   "cancel_reason_fr": "écart modèle/marché 7,0 pts > 5",
-   "cancel_label_fr": "Annulé (relecture 9h)"
+   "cancel_reason_fr": "la proba du modèle n'a pas bougé (61,7 % pour Moins de 3,5 buts), seule la cote a changé : passée de 1,73 à 1,81, le marché n'y croit plus qu'à 54,7 %, donc l'écart modèle/marché atteint 7,0 points, au-delà du plafond de 5 points",
+   "cancel_label_fr": "Annulé — info de dernière heure"
   },
   {
    "fixture_id": 1549832,
