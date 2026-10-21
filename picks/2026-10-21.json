@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-21T15:54:34+02:00",
+ "generated_at": "2026-10-21T18:00:24+02:00",
  "date": "2026-10-21",
  "picks": [
   {
@@ -14897,6 +14897,238 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-10-21T10:00:14+02:00"
+    },
+    {
+     "reading_id": "1635647-r5",
+     "timestamp": "2026-10-21T18:00:19+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "inter-competitions",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.741,
+      "market_probability": 0.745,
+      "odds": 1.3,
+      "bookmaker": "1xBet"
+     },
+     "value_pick": {
+      "market": "OU2.5",
+      "selection": "under",
+      "label_fr": "Moins de 2,5 buts",
+      "model_probability": 0.456,
+      "market_probability": 0.382,
+      "odds": 2.57,
+      "bookmaker": "Betano",
+      "ev": 0.172
+     },
+     "skip_reasons_fr": [
+      "EV −8,4 % < 5 %"
+     ],
+     "model_probability": 0.783,
+     "probabilities": {
+      "1X2": {
+       "1": 0.392,
+       "X": 0.259,
+       "2": 0.349
+      },
+      "DC": {
+       "1X": 0.651,
+       "X2": 0.608,
+       "12": 0.741
+      },
+      "OU1.5": {
+       "over": 0.783,
+       "under": 0.217
+      },
+      "OU2.5": {
+       "over": 0.544,
+       "under": 0.456
+      },
+      "OU3.5": {
+       "over": 0.321,
+       "under": 0.679
+      },
+      "BTTS": {
+       "yes": 0.582,
+       "no": 0.418
+      },
+      "BTTS_O2.5": {
+       "yes": 0.461
+      },
+      "1X_O1.5": {
+       "yes": 0.509
+      },
+      "1X_O2.5": {
+       "yes": 0.325
+      },
+      "1X_U3.5": {
+       "yes": 0.444
+      },
+      "1X_BTTS": {
+       "yes": 0.4
+      },
+      "X2_O1.5": {
+       "yes": 0.471
+      },
+      "X2_O2.5": {
+       "yes": 0.294
+      },
+      "X2_U3.5": {
+       "yes": 0.419
+      },
+      "X2_BTTS": {
+       "yes": 0.379
+      },
+      "12_O1.5": {
+       "yes": 0.586
+      },
+      "12_O2.5": {
+       "yes": 0.469
+      },
+      "12_U3.5": {
+       "yes": 0.495
+      },
+      "12_BTTS": {
+       "yes": 0.385
+      },
+      "HT1X2": {
+       "1": 0.311,
+       "X": 0.405,
+       "2": 0.284
+      }
+     },
+     "expected_goals": {
+      "home": 1.48,
+      "away": 1.38
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.122
+      },
+      {
+       "score": "2-1",
+       "p": 0.086
+      },
+      {
+       "score": "1-2",
+       "p": 0.081
+      }
+     ],
+     "confidence": {
+      "value": 0.783,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.813,
+     "ev": -0.084,
+     "odds_seen": {
+      "value": 1.17,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-21T18:00:19+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 78,3 % pour « Plus de 1,5 buts » contre 81,3 % pour le marché.",
+      "Buts attendus (modèle) : 1,48 – 1,38.",
+      "Candidat EV max écarté : Moins de 3,5 buts (67,9 %, cote 1,69, EV +14,8 %)."
+     ],
+     "web_check": {
+      "status": "contradiction",
+      "items_fr": [
+       "Vérif X 21h45 : Como–Manchester United (ticket N2) : conférence de Carrick, Benjamin Šeško blessé (gravité connue d'ici la fin de semaine, présence à Côme non confirmée), Luke Shaw toujours absent, Harry Amass titulaire à gauche. United sans victoire en 6 matchs. Absence de Šeško non prise en compte par le modèle, mais pas de forfait officiel : rien d'assez net pour annuler, à revoir aux compos.",
+       "Côté Como : liste des convoqués publiée par le club, aucune absence signalée par Fàbregas.",
+       "Vérif X 9h45 : Manchester United arrive à Côme avec une longue liste d'absents : Martínez, Rashford, Mainoo, Shaw et Heaven absents de l'entraînement mardi, Yoro suspendu, Šeško, Dorgu et Ugarte blessés. Défense très diminuée, United sans victoire en 6 matchs : cela va contre le N2 (Nul ou Manchester United).",
+       "Alerte météo orange (fortes pluies) sur Côme : risque de report signalé.",
+       "Vérif X 15h45 : match toujours maintenu malgré l'alerte orange pluie (Como optimiste sur la pelouse, Carrick serein) ; Šeško redouté absent jusqu'à quatre mois (tibia). Ticket déjà annulé, rien de nouveau à appliquer."
+      ],
+      "checked_at": "2026-10-21T15:51+02:00",
+      "sources": [
+       "https://x.com/ChrisWheelerDM/status/2112626035691057161",
+       "https://x.com/samuelluckhurst/status/2112611131667677646",
+       "https://x.com/utdreport/status/2112604168108257497",
+       "https://x.com/Como_1907/status/2112616590487486872",
+       "https://x.com/i/trending/2112715831192809555",
+       "https://x.com/PitchsideWorld/status/2112543235616678268",
+       "https://x.com/yobagkar/status/2112609753142829540",
+       "https://x.com/i/trending/2112111885667729898",
+       "https://x.com/i/trending/2112831575490740447",
+       "https://x.com/i/trending/2112871173138878685"
+      ]
+     },
+     "team_samples": {
+      "home": 83,
+      "away": 98
+     },
+     "ticket_recheck": {
+      "ticket_reading_id": "1635647-r1",
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou Manchester United (N2)",
+      "model_probability": 0.608,
+      "market_probability": 0.598,
+      "odds": 1.63,
+      "bookmaker": "1xBet",
+      "ev": -0.01,
+      "still_ok": false,
+      "reasons_fr": [
+       "EV −1,0 % < 5 %"
+      ]
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ],
    "cancelled": true,
@@ -14905,7 +15137,7 @@
   },
   {
    "fixture_id": 1635684,
-   "final_reading_id": "1635684-r3",
+   "final_reading_id": "1635684-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -15503,6 +15735,211 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-10-21T12:59:16+02:00"
+    },
+    {
+     "reading_id": "1635684-r4",
+     "timestamp": "2026-10-21T18:00:22+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "inter-competitions",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Lille ou nul (1N)",
+      "model_probability": 0.756,
+      "market_probability": 0.694,
+      "odds": 1.39,
+      "bookmaker": "Marathonbet"
+     },
+     "value_pick": {
+      "market": "OU2.5",
+      "selection": "under",
+      "label_fr": "Moins de 2,5 buts",
+      "model_probability": 0.486,
+      "market_probability": 0.427,
+      "odds": 2.34,
+      "bookmaker": "1xBet",
+      "ev": 0.137
+     },
+     "skip_reasons_fr": [
+      "EV −6,3 % < 5 %"
+     ],
+     "model_probability": 0.762,
+     "probabilities": {
+      "1X2": {
+       "1": 0.502,
+       "X": 0.254,
+       "2": 0.244
+      },
+      "DC": {
+       "1X": 0.756,
+       "X2": 0.498,
+       "12": 0.746
+      },
+      "OU1.5": {
+       "over": 0.762,
+       "under": 0.238
+      },
+      "OU2.5": {
+       "over": 0.514,
+       "under": 0.486
+      },
+      "OU3.5": {
+       "over": 0.293,
+       "under": 0.707
+      },
+      "BTTS": {
+       "yes": 0.539,
+       "no": 0.461
+      },
+      "BTTS_O2.5": {
+       "yes": 0.418
+      },
+      "1X_O1.5": {
+       "yes": 0.583
+      },
+      "1X_O2.5": {
+       "yes": 0.374
+      },
+      "1X_U3.5": {
+       "yes": 0.527
+      },
+      "1X_BTTS": {
+       "yes": 0.417
+      },
+      "X2_O1.5": {
+       "yes": 0.362
+      },
+      "X2_O2.5": {
+       "yes": 0.204
+      },
+      "X2_U3.5": {
+       "yes": 0.371
+      },
+      "X2_BTTS": {
+       "yes": 0.306
+      },
+      "12_O1.5": {
+       "yes": 0.578
+      },
+      "12_O2.5": {
+       "yes": 0.451
+      },
+      "12_U3.5": {
+       "yes": 0.516
+      },
+      "12_BTTS": {
+       "yes": 0.354
+      },
+      "HT1X2": {
+       "1": 0.375,
+       "X": 0.41,
+       "2": 0.215
+      }
+     },
+     "expected_goals": {
+      "home": 1.65,
+      "away": 1.08
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.121
+      },
+      {
+       "score": "1-0",
+       "p": 0.103
+      },
+      {
+       "score": "2-1",
+       "p": 0.096
+      }
+     ],
+     "confidence": {
+      "value": 0.762,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.789,
+     "ev": -0.063,
+     "odds_seen": {
+      "value": 1.23,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-21T18:00:22+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 76,2 % pour « Plus de 1,5 buts » contre 78,9 % pour le marché.",
+      "Buts attendus (modèle) : 1,65 – 1,08.",
+      "Candidat EV max écarté : Victoire Lille (1) (50,2 %, cote 2,26, EV +13,5 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif X 12h45 : Lille–Galatasaray : Rafael Leão absent du groupe de Galatasaray (blessé), Singo présent ; Berke Özer de retour dans les cages du LOSC. Rien contre le SKIP."
+      ],
+      "sources": [
+       "https://x.com/Galatasaray_FR_/status/2112529478106964131",
+       "https://x.com/LePetitLillois_/status/2112562876137279809"
+      ],
+      "checked_at": "2026-10-21T12:52+02:00"
+     },
+     "team_samples": {
+      "home": 94,
+      "away": 91
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
