@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-21T06:54:49+02:00",
+ "generated_at": "2026-10-21T07:17:57+02:00",
  "settled": [
   {
    "fixture_id": 1492403,
@@ -13813,20 +13813,50 @@
     "label": "SKIP",
     "outcome": "won"
    }
+  },
+  {
+   "fixture_id": 1551005,
+   "date": "2026-10-21",
+   "kickoff": "2026-10-21T05:00:00+02:00",
+   "league": {
+    "name": "Liga MX",
+    "country": "Mexique"
+   },
+   "region": "ameriques",
+   "method_version": "dc-v1",
+   "reading_id": "1551005-r4",
+   "trigger": "soir",
+   "lineups_confirmed": false,
+   "market": "OU2.5",
+   "selection": "over",
+   "label_fr": "Plus de 2,5 buts",
+   "label": "TICKET",
+   "model_probability": 0.57,
+   "confidence_bucket": "55-60",
+   "odds": 1.87,
+   "bookmaker": "Betano",
+   "final_score": "0-2",
+   "outcome": "lost",
+   "pl_units": -1.0,
+   "matin": {
+    "selection": "over",
+    "label": "SKIP",
+    "outcome": "won"
+   }
   }
  ],
  "aggregates": {
   "dc-v1": {
    "TICKET": {
-    "n": 3,
+    "n": 4,
     "won": 0,
-    "lost": 3,
+    "lost": 4,
     "void": 0,
     "no_odds": 0,
     "hit_rate": 0.0,
-    "pl_units": -3.0,
+    "pl_units": -4.0,
     "roi": -1.0,
-    "avg_odds": 1.85
+    "avg_odds": 1.86
    },
    "SKIP": {
     "n": 447,
@@ -14080,6 +14110,15 @@
      "won": 10,
      "lost": 1,
      "pl_units": 0.94,
+     "league": "Liga MX",
+     "country": "Mexique"
+    },
+    {
+     "label": "TICKET",
+     "n": 1,
+     "won": 0,
+     "lost": 1,
+     "pl_units": -1.0,
      "league": "Liga MX",
      "country": "Mexique"
     },
@@ -14598,6 +14637,14 @@
      "pl_units": 1.48
     },
     {
+     "market": "OU2.5",
+     "label": "TICKET",
+     "n": 1,
+     "won": 0,
+     "lost": 1,
+     "pl_units": -1.0
+    },
+    {
      "market": "OU3.5",
      "label": "ANNULE",
      "n": 1,
@@ -14655,9 +14702,9 @@
     {
      "bucket": "55-60",
      "label": "TICKET",
-     "n": 2,
+     "n": 3,
      "won": 0,
-     "lost": 2
+     "lost": 3
     },
     {
      "bucket": "60-65",
@@ -14904,6 +14951,14 @@
      "won": 4,
      "lost": 3,
      "pl_units": -2.1
+    },
+    {
+     "date": "2026-10-21",
+     "label": "TICKET",
+     "n": 1,
+     "won": 0,
+     "lost": 1,
+     "pl_units": -1.0
     }
    ],
    "by_week": [
@@ -14954,6 +15009,14 @@
      "won": 48,
      "lost": 13,
      "pl_units": -3.49
+    },
+    {
+     "week": "2026-W43",
+     "label": "TICKET",
+     "n": 1,
+     "won": 0,
+     "lost": 1,
+     "pl_units": -1.0
     }
    ],
    "by_trigger": [
@@ -15023,17 +15086,17 @@
     {
      "trigger": "soir",
      "label": "TICKET",
-     "n": 1,
+     "n": 2,
      "won": 0,
-     "lost": 1
+     "lost": 2
     }
    ],
    "calibration": [
     {
      "bucket": "55-60",
-     "n": 11,
-     "mean_predicted": 0.572,
-     "observed": 0.273
+     "n": 12,
+     "mean_predicted": 0.571,
+     "observed": 0.25
     },
     {
      "bucket": "60-65",
@@ -15395,6 +15458,19 @@
     "odds": 1.84,
     "closing_odds": 1.86,
     "clv": -0.0108,
+    "outcome": "lost"
+   },
+   {
+    "date": "2026-10-21",
+    "league": {
+     "name": "Liga MX",
+     "country": "Mexique"
+    },
+    "label": "TICKET",
+    "label_fr": "Plus de 2,5 buts",
+    "odds": 1.87,
+    "closing_odds": null,
+    "clv": null,
     "outcome": "lost"
    }
   ],
@@ -15775,10 +15851,10 @@
  "kelly": {
   "tickets": {
    "start": 100.0,
-   "bank": 94.45,
-   "bets": 3,
+   "bank": 92.66,
+   "bets": 4,
    "zero_stake": 0,
-   "roi_bank": -0.0555,
+   "roi_bank": -0.0734,
    "curve": [
     {
      "date": "2026-10-13",
@@ -15794,6 +15870,11 @@
      "date": "2026-10-18",
      "stake": 1.77,
      "bank": 94.45
+    },
+    {
+     "date": "2026-10-21",
+     "stake": 1.79,
+     "bank": 92.66
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
