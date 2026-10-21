@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-21T19:01:23+02:00",
+ "generated_at": "2026-10-21T20:39:34+02:00",
  "settled": [
   {
    "fixture_id": 1492403,
@@ -14173,6 +14173,67 @@
     "label": "SKIP",
     "outcome": "won"
    }
+  },
+  {
+   "fixture_id": 1635647,
+   "date": "2026-10-21",
+   "kickoff": "2026-10-21T18:45:00+02:00",
+   "league": {
+    "name": "UEFA Champions League",
+    "country": "Europe"
+   },
+   "region": "uefa",
+   "method_version": "dc-v1",
+   "reading_id": "1635647-r1",
+   "trigger": "releco",
+   "lineups_confirmed": false,
+   "market": "DC",
+   "selection": "X2",
+   "label_fr": "Nul ou Manchester United (N2)",
+   "label": "ANNULE",
+   "cancel_reason_fr": "la proba du modèle n'a pas bougé (61 % pour Nul ou Manchester United), ce sont les infos X/web qui l'annulent : United arrive à Côme avec une longue liste d'absents (Martínez, Rashford, Mainoo, Shaw, Heaven absents de l'entraînement, Yoro suspendu, Šeško, Dorgu et Ugarte blessés), ce que le modèle ne prend pas en compte",
+   "model_probability": 0.608,
+   "confidence_bucket": "60-65",
+   "odds": 1.73,
+   "bookmaker": "1xBet",
+   "final_score": "4-1",
+   "outcome": "lost",
+   "pl_units": -1.0,
+   "matin": {
+    "selection": "X2",
+    "label": "TICKET",
+    "outcome": "lost"
+   }
+  },
+  {
+   "fixture_id": 1635684,
+   "date": "2026-10-21",
+   "kickoff": "2026-10-21T18:45:00+02:00",
+   "league": {
+    "name": "UEFA Champions League",
+    "country": "Europe"
+   },
+   "region": "uefa",
+   "method_version": "dc-v1",
+   "reading_id": "1635684-r4",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "OU1.5",
+   "selection": "over",
+   "label_fr": "Plus de 1,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.762,
+   "confidence_bucket": "75-80",
+   "odds": 1.23,
+   "bookmaker": "Betano",
+   "final_score": "2-4",
+   "outcome": "won",
+   "pl_units": 0.23,
+   "matin": {
+    "selection": "over",
+    "label": "SKIP",
+    "outcome": "won"
+   }
   }
  ],
  "aggregates": {
@@ -14189,13 +14250,13 @@
     "avg_odds": 1.86
    },
    "SKIP": {
-    "n": 457,
-    "won": 371,
+    "n": 458,
+    "won": 372,
     "lost": 86,
     "void": 0,
     "no_odds": 2,
     "hit_rate": 0.812,
-    "pl_units": -12.9,
+    "pl_units": -12.67,
     "roi": -0.028,
     "avg_odds": 1.21
    },
@@ -14823,19 +14884,19 @@
     },
     {
      "label": "ANNULE",
-     "n": 1,
+     "n": 2,
      "won": 1,
-     "lost": 0,
-     "pl_units": 0.73,
+     "lost": 1,
+     "pl_units": -0.27,
      "league": "UEFA Champions League",
      "country": "Europe"
     },
     {
      "label": "SKIP",
-     "n": 25,
-     "won": 21,
+     "n": 26,
+     "won": 22,
      "lost": 4,
-     "pl_units": -1.12,
+     "pl_units": -0.89,
      "league": "UEFA Champions League",
      "country": "Europe"
     },
@@ -14914,10 +14975,10 @@
     {
      "market": "DC",
      "label": "ANNULE",
-     "n": 2,
+     "n": 3,
      "won": 2,
-     "lost": 0,
-     "pl_units": 1.5
+     "lost": 1,
+     "pl_units": 0.5
     },
     {
      "market": "DC",
@@ -14946,10 +15007,10 @@
     {
      "market": "OU1.5",
      "label": "SKIP",
-     "n": 211,
-     "won": 169,
+     "n": 212,
+     "won": 170,
      "lost": 42,
-     "pl_units": -11.7
+     "pl_units": -11.47
     },
     {
      "market": "OU2.5",
@@ -15048,9 +15109,9 @@
     {
      "bucket": "60-65",
      "label": "ANNULE",
-     "n": 1,
+     "n": 2,
      "won": 1,
-     "lost": 0
+     "lost": 1
     },
     {
      "bucket": "60-65",
@@ -15097,8 +15158,8 @@
     {
      "bucket": "75-80",
      "label": "SKIP",
-     "n": 143,
-     "won": 111,
+     "n": 144,
+     "won": 112,
      "lost": 32
     },
     {
@@ -15285,11 +15346,19 @@
     },
     {
      "date": "2026-10-21",
+     "label": "ANNULE",
+     "n": 1,
+     "won": 0,
+     "lost": 1,
+     "pl_units": -1.0
+    },
+    {
+     "date": "2026-10-21",
      "label": "SKIP",
-     "n": 17,
-     "won": 11,
+     "n": 18,
+     "won": 12,
      "lost": 6,
-     "pl_units": -3.46
+     "pl_units": -3.23
     },
     {
      "date": "2026-10-21",
@@ -15336,18 +15405,18 @@
     {
      "week": "2026-W43",
      "label": "ANNULE",
-     "n": 1,
+     "n": 2,
      "won": 1,
-     "lost": 0,
-     "pl_units": 0.73
+     "lost": 1,
+     "pl_units": -0.27
     },
     {
      "week": "2026-W43",
      "label": "SKIP",
-     "n": 71,
-     "won": 55,
+     "n": 72,
+     "won": 56,
      "lost": 16,
-     "pl_units": -4.85
+     "pl_units": -4.62
     },
     {
      "week": "2026-W43",
@@ -15362,8 +15431,8 @@
     {
      "trigger": "compo",
      "label": "SKIP",
-     "n": 342,
-     "won": 280,
+     "n": 343,
+     "won": 281,
      "lost": 62
     },
     {
@@ -15397,9 +15466,9 @@
     {
      "trigger": "releco",
      "label": "ANNULE",
-     "n": 6,
+     "n": 7,
      "won": 3,
-     "lost": 3
+     "lost": 4
     },
     {
      "trigger": "releco",
@@ -15439,9 +15508,9 @@
     },
     {
      "bucket": "60-65",
-     "n": 8,
-     "mean_predicted": 0.622,
-     "observed": 0.625
+     "n": 9,
+     "mean_predicted": 0.621,
+     "observed": 0.556
     },
     {
      "bucket": "65-70",
@@ -15457,9 +15526,9 @@
     },
     {
      "bucket": "75-80",
-     "n": 143,
+     "n": 144,
      "mean_predicted": 0.774,
-     "observed": 0.776
+     "observed": 0.778
     },
     {
      "bucket": "80-85",
@@ -15605,7 +15674,7 @@
      "prob": 0.608,
      "odds": 1.73,
      "bookmaker": "1xBet",
-     "outcome": null,
+     "outcome": "void",
      "cancelled": true,
      "cancel_reason_fr": "la proba du modèle n'a pas bougé (61 % pour Nul ou Manchester United), ce sont les infos X/web qui l'annulent : United arrive à Côme avec une longue liste d'absents (Martínez, Rashford, Mainoo, Shaw, Heaven absents de l'entraînement, Yoro suspendu, Šeško, Dorgu et Ugarte blessés), ce que le modèle ne prend pas en compte"
     }
@@ -15613,18 +15682,18 @@
    "total_odds": 3.22,
    "model_probability": 0.344,
    "ev": 0.105,
-   "outcome": null,
-   "pl_units": null
+   "outcome": "won",
+   "pl_units": 0.86
   }
  ],
  "combines_aggregate": {
   "n": 3,
-  "settled": 2,
-  "won": 0,
+  "settled": 3,
+  "won": 1,
   "lost": 2,
-  "hit_rate": 0.0,
-  "pl_units": -2.0,
-  "roi": -1.0
+  "hit_rate": 0.333,
+  "pl_units": -1.14,
+  "roi": -0.38
  },
  "fun_aggregate": {
   "played": 9,
@@ -15636,31 +15705,31 @@
  "bilan_start": "2026-10-13",
  "skip_lines": {
   "probable": {
-   "n": 457,
-   "won": 371,
+   "n": 458,
+   "won": 372,
    "hit_rate": 0.812,
-   "with_odds": 455,
+   "with_odds": 456,
    "avg_odds": 1.21,
-   "profit_eur": -12.9,
+   "profit_eur": -12.67,
    "roi": -0.028
   },
   "resultat": {
-   "n": 290,
+   "n": 291,
    "won": 229,
-   "hit_rate": 0.79,
-   "with_odds": 290,
+   "hit_rate": 0.787,
+   "with_odds": 291,
    "avg_odds": 1.28,
-   "profit_eur": 1.19,
-   "roi": 0.004
+   "profit_eur": 0.19,
+   "roi": 0.001
   },
   "valeur": {
-   "n": 436,
+   "n": 437,
    "won": 199,
-   "hit_rate": 0.456,
-   "with_odds": 436,
+   "hit_rate": 0.455,
+   "with_odds": 437,
    "avg_odds": 2.23,
-   "profit_eur": -7.36,
-   "roi": -0.017
+   "profit_eur": -8.36,
+   "roi": -0.019
   }
  },
  "clv": {
@@ -15673,27 +15742,27 @@
    "se": 0.0035
   },
   "probable": {
-   "n": 412,
+   "n": 413,
    "mean_clv": 0.0002,
    "beat_close": 0.034,
    "beat_n": 14,
-   "same_n": 389,
+   "same_n": 390,
    "se": 0.0003
   },
   "resultat": {
-   "n": 261,
+   "n": 262,
    "mean_clv": 0.0005,
    "beat_close": 0.034,
    "beat_n": 9,
-   "same_n": 246,
+   "same_n": 247,
    "se": 0.0003
   },
   "valeur": {
-   "n": 396,
+   "n": 397,
    "mean_clv": 0.0006,
    "beat_close": 0.111,
    "beat_n": 44,
-   "same_n": 329,
+   "same_n": 330,
    "se": 0.0008
   },
   "tickets_list": [
@@ -15829,36 +15898,6 @@
    }
   ],
   "recent": [
-   {
-    "date": "2026-10-20",
-    "match": "Deportivo Pereira – Chico",
-    "fixture_id": 1549832,
-    "label_fr": "Moins de 3,5 buts",
-    "line": "probable",
-    "odds": 1.23,
-    "closing_odds": 1.22,
-    "clv": 0.0082
-   },
-   {
-    "date": "2026-10-20",
-    "match": "Deportivo Pereira – Chico",
-    "fixture_id": 1549832,
-    "label_fr": "Deportivo Pereira ou nul (1N)",
-    "line": "resultat",
-    "odds": 1.35,
-    "closing_odds": 1.34,
-    "clv": 0.0075
-   },
-   {
-    "date": "2026-10-20",
-    "match": "Deportivo Pereira – Chico",
-    "fixture_id": 1549832,
-    "label_fr": "Moins de 2,5 buts",
-    "line": "valeur",
-    "odds": 1.65,
-    "closing_odds": 1.62,
-    "clv": 0.0185
-   },
    {
     "date": "2026-10-21",
     "match": "Millonarios – Once Caldas",
@@ -16128,6 +16167,36 @@
     "odds": 2.62,
     "closing_odds": 2.62,
     "clv": 0.0
+   },
+   {
+    "date": "2026-10-21",
+    "match": "Lille – Galatasaray",
+    "fixture_id": 1635684,
+    "label_fr": "Plus de 1,5 buts",
+    "line": "probable",
+    "odds": 1.23,
+    "closing_odds": 1.23,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-21",
+    "match": "Lille – Galatasaray",
+    "fixture_id": 1635684,
+    "label_fr": "Lille ou nul (1N)",
+    "line": "resultat",
+    "odds": 1.39,
+    "closing_odds": 1.39,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-21",
+    "match": "Lille – Galatasaray",
+    "fixture_id": 1635684,
+    "label_fr": "Moins de 2,5 buts",
+    "line": "valeur",
+    "odds": 2.34,
+    "closing_odds": 2.34,
+    "clv": 0.0
    }
   ]
  },
@@ -16185,6 +16254,15 @@
    "final_score": "1-1",
    "outcome": "won",
    "cancel_reason_fr": "la proba du modèle n'a pas bougé (61,7 % pour Moins de 3,5 buts), seule la cote a changé : passée de 1,73 à 1,81, le marché n'y croit plus qu'à 54,7 %, donc l'écart modèle/marché atteint 7,0 points, au-delà du plafond de 5 points"
+  },
+  {
+   "date": "2026-10-21",
+   "fixture_id": 1635647,
+   "label_fr": "Nul ou Manchester United (N2)",
+   "odds": 1.73,
+   "final_score": "4-1",
+   "outcome": "lost",
+   "cancel_reason_fr": "la proba du modèle n'a pas bougé (61 % pour Nul ou Manchester United), ce sont les infos X/web qui l'annulent : United arrive à Côme avec une longue liste d'absents (Martínez, Rashford, Mainoo, Shaw, Heaven absents de l'entraînement, Yoro suspendu, Šeško, Dorgu et Ugarte blessés), ce que le modèle ne prend pas en compte"
   }
  ],
  "late": {
@@ -16277,7 +16355,7 @@
    "start": 100.0,
    "bank": 92.61,
    "bets": 137,
-   "zero_stake": 318,
+   "zero_stake": 319,
    "roi_bank": -0.0739,
    "curve": [
     {
@@ -16970,10 +17048,10 @@
   },
   "resultat": {
    "start": 100.0,
-   "bank": 98.07,
-   "bets": 44,
+   "bank": 96.11,
+   "bets": 45,
    "zero_stake": 246,
-   "roi_bank": -0.0193,
+   "roi_bank": -0.0389,
    "curve": [
     {
      "date": "2026-10-13",
@@ -17194,22 +17272,22 @@
      "date": "2026-10-21",
      "stake": 1.25,
      "bank": 98.07
+    },
+    {
+     "date": "2026-10-21",
+     "stake": 1.96,
+     "bank": 96.11
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
   },
   "valeur": {
    "start": 100.0,
-   "bank": 69.52,
-   "bets": 435,
+   "bank": 68.13,
+   "bets": 436,
    "zero_stake": 1,
-   "roi_bank": -0.3048,
+   "roi_bank": -0.3187,
    "curve": [
-    {
-     "date": "2026-10-18",
-     "stake": 1.08,
-     "bank": 66.35
-    },
     {
      "date": "2026-10-18",
      "stake": 0.75,
@@ -18204,6 +18282,11 @@
      "date": "2026-10-21",
      "stake": 0.52,
      "bank": 69.52
+    },
+    {
+     "date": "2026-10-21",
+     "stake": 1.39,
+     "bank": 68.13
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
