@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-21T14:15:54+02:00",
+ "generated_at": "2026-10-21T14:42:00+02:00",
  "settled": [
   {
    "fixture_id": 1492403,
@@ -14113,19 +14113,49 @@
     "label": "SKIP",
     "outcome": "won"
    }
+  },
+  {
+   "fixture_id": 1556108,
+   "date": "2026-10-21",
+   "kickoff": "2026-10-21T12:30:00+02:00",
+   "league": {
+    "name": "J1 League",
+    "country": "Japon"
+   },
+   "region": "asie_oceanie",
+   "method_version": "dc-v1",
+   "reading_id": "1556108-r1",
+   "trigger": "releco",
+   "lineups_confirmed": false,
+   "market": "OU2.5",
+   "selection": "over",
+   "label_fr": "Plus de 2,5 buts",
+   "label": "TICKET",
+   "model_probability": 0.565,
+   "confidence_bucket": "55-60",
+   "odds": 1.86,
+   "bookmaker": "SBO",
+   "final_score": "3-2",
+   "outcome": "won",
+   "pl_units": 0.86,
+   "matin": {
+    "selection": "1X",
+    "label": "SKIP",
+    "outcome": "won"
+   }
   }
  ],
  "aggregates": {
   "dc-v1": {
    "TICKET": {
-    "n": 4,
-    "won": 0,
+    "n": 5,
+    "won": 1,
     "lost": 4,
     "void": 0,
     "no_odds": 0,
-    "hit_rate": 0.0,
-    "pl_units": -4.0,
-    "roi": -1.0,
+    "hit_rate": 0.2,
+    "pl_units": -3.14,
+    "roi": -0.628,
     "avg_odds": 1.86
    },
    "SKIP": {
@@ -14326,6 +14356,15 @@
      "won": 13,
      "lost": 6,
      "pl_units": -3.15,
+     "league": "J1 League",
+     "country": "Japon"
+    },
+    {
+     "label": "TICKET",
+     "n": 1,
+     "won": 1,
+     "lost": 0,
+     "pl_units": 0.86,
      "league": "J1 League",
      "country": "Japon"
     },
@@ -14909,10 +14948,10 @@
     {
      "market": "OU2.5",
      "label": "TICKET",
-     "n": 1,
-     "won": 0,
+     "n": 2,
+     "won": 1,
      "lost": 1,
-     "pl_units": -1.0
+     "pl_units": -0.14
     },
     {
      "market": "OU3.5",
@@ -14972,8 +15011,8 @@
     {
      "bucket": "55-60",
      "label": "TICKET",
-     "n": 3,
-     "won": 0,
+     "n": 4,
+     "won": 1,
      "lost": 3
     },
     {
@@ -15225,10 +15264,10 @@
     {
      "date": "2026-10-21",
      "label": "TICKET",
-     "n": 1,
-     "won": 0,
+     "n": 2,
+     "won": 1,
      "lost": 1,
-     "pl_units": -1.0
+     "pl_units": -0.14
     }
    ],
    "by_week": [
@@ -15283,10 +15322,10 @@
     {
      "week": "2026-W43",
      "label": "TICKET",
-     "n": 1,
-     "won": 0,
+     "n": 2,
+     "won": 1,
      "lost": 1,
-     "pl_units": -1.0
+     "pl_units": -0.14
     }
    ],
    "by_trigger": [
@@ -15342,8 +15381,8 @@
     {
      "trigger": "releco",
      "label": "TICKET",
-     "n": 1,
-     "won": 0,
+     "n": 2,
+     "won": 1,
      "lost": 1
     },
     {
@@ -15364,9 +15403,9 @@
    "calibration": [
     {
      "bucket": "55-60",
-     "n": 12,
+     "n": 13,
      "mean_predicted": 0.571,
-     "observed": 0.25
+     "observed": 0.308
     },
     {
      "bucket": "60-65",
@@ -15521,7 +15560,7 @@
      "prob": 0.565,
      "odds": 1.86,
      "bookmaker": "SBO",
-     "outcome": null
+     "outcome": "won"
     },
     {
      "fixture_id": 1635647,
@@ -15596,12 +15635,12 @@
  },
  "clv": {
   "tickets": {
-   "n": 3,
-   "mean_clv": -0.0089,
+   "n": 4,
+   "mean_clv": -0.0067,
    "beat_close": 0.0,
    "beat_n": 0,
-   "same_n": 1,
-   "se": 0.0038
+   "same_n": 2,
+   "se": 0.0035
   },
   "probable": {
    "n": 411,
@@ -15744,6 +15783,19 @@
     "closing_odds": null,
     "clv": null,
     "outcome": "lost"
+   },
+   {
+    "date": "2026-10-21",
+    "league": {
+     "name": "J1 League",
+     "country": "Japon"
+    },
+    "label": "TICKET",
+    "label_fr": "Plus de 2,5 buts",
+    "odds": 1.86,
+    "closing_odds": 1.86,
+    "clv": 0.0,
+    "outcome": "won"
    }
   ],
   "recent": [
@@ -16123,10 +16175,10 @@
  "kelly": {
   "tickets": {
    "start": 100.0,
-   "bank": 92.66,
-   "bets": 4,
+   "bank": 93.84,
+   "bets": 5,
    "zero_stake": 0,
-   "roi_bank": -0.0734,
+   "roi_bank": -0.0616,
    "curve": [
     {
      "date": "2026-10-13",
@@ -16147,6 +16199,11 @@
      "date": "2026-10-21",
      "stake": 1.79,
      "bank": 92.66
+    },
+    {
+     "date": "2026-10-21",
+     "stake": 1.37,
+     "bank": 93.84
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
