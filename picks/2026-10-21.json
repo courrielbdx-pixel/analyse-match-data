@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-21T18:00:24+02:00",
+ "generated_at": "2026-10-21T18:36:04+02:00",
  "date": "2026-10-21",
  "picks": [
   {
@@ -15945,7 +15945,7 @@
   },
   {
    "fixture_id": 1570389,
-   "final_reading_id": "1570389-r3",
+   "final_reading_id": "1570389-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -16543,6 +16543,211 @@
      },
      "releco_count": 3,
      "first_timestamp": "2026-10-21T10:00:16+02:00"
+    },
+    {
+     "reading_id": "1570389-r4",
+     "timestamp": "2026-10-21T18:36:02+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "xg0.5",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.75,
+      "market_probability": 0.713,
+      "odds": 1.36,
+      "bookmaker": "1xBet"
+     },
+     "value_pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Levante ou nul (1N)",
+      "model_probability": 0.637,
+      "market_probability": 0.551,
+      "odds": 1.76,
+      "bookmaker": "SBO",
+      "ev": 0.121
+     },
+     "skip_reasons_fr": [
+      "EV +2,0 % < 5 %",
+      "Écart modèle/marché 5,2 pts > 5"
+     ],
+     "model_probability": 0.767,
+     "probabilities": {
+      "1X2": {
+       "1": 0.387,
+       "X": 0.25,
+       "2": 0.363
+      },
+      "DC": {
+       "1X": 0.637,
+       "X2": 0.613,
+       "12": 0.75
+      },
+      "OU1.5": {
+       "over": 0.767,
+       "under": 0.233
+      },
+      "OU2.5": {
+       "over": 0.53,
+       "under": 0.47
+      },
+      "OU3.5": {
+       "over": 0.307,
+       "under": 0.693
+      },
+      "BTTS": {
+       "yes": 0.566,
+       "no": 0.434
+      },
+      "BTTS_O2.5": {
+       "yes": 0.448
+      },
+      "1X_O1.5": {
+       "yes": 0.489
+      },
+      "1X_O2.5": {
+       "yes": 0.309
+      },
+      "1X_U3.5": {
+       "yes": 0.442
+      },
+      "1X_BTTS": {
+       "yes": 0.384
+      },
+      "X2_O1.5": {
+       "yes": 0.469
+      },
+      "X2_O2.5": {
+       "yes": 0.293
+      },
+      "X2_U3.5": {
+       "yes": 0.428
+      },
+      "X2_BTTS": {
+       "yes": 0.373
+      },
+      "12_O1.5": {
+       "yes": 0.577
+      },
+      "12_O2.5": {
+       "yes": 0.457
+      },
+      "12_U3.5": {
+       "yes": 0.515
+      },
+      "12_BTTS": {
+       "yes": 0.375
+      },
+      "HT1X2": {
+       "1": 0.302,
+       "X": 0.41,
+       "2": 0.288
+      }
+     },
+     "expected_goals": {
+      "home": 1.42,
+      "away": 1.37
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.118
+      },
+      {
+       "score": "1-0",
+       "p": 0.088
+      },
+      {
+       "score": "2-1",
+       "p": 0.085
+      }
+     ],
+     "confidence": {
+      "value": 0.767,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.715,
+     "ev": 0.02,
+     "odds_seen": {
+      "value": 1.33,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-21T18:36:02+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 76,7 % pour « Plus de 1,5 buts » contre 71,5 % pour le marché.",
+      "Buts attendus (modèle) : 1,42 – 1,37.",
+      "Candidat EV max écarté : Levante ou nul (1N) (63,7 %, cote 1,76, EV +12,1 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif X 15h45 : Levante–Athletic : convocatoire officielle d'Athletic (23 joueurs), match confirmé 20h au Ciutat de València ; aucune absence notable signalée. Rien contre Levante ou nul (1N)."
+      ],
+      "checked_at": "2026-10-21T15:51+02:00",
+      "sources": [
+       "https://x.com/AthleticClub/status/2112820944557240428"
+      ]
+     },
+     "team_samples": {
+      "home": 44,
+      "away": 72
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "api"
     }
    ],
    "skip_check": {
