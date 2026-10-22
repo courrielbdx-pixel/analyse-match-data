@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-22T12:59:23+02:00",
+ "generated_at": "2026-10-22T14:52:38+02:00",
  "date": "2026-10-22",
  "picks": [
   {
@@ -7252,8 +7252,8 @@
   },
   {
    "fixture_id": 1603065,
-   "final_reading_id": "1603065-r3",
-   "decision": "SKIP",
+   "final_reading_id": "1603065-r4",
+   "decision": "TARDIF",
    "readings": [
     {
      "reading_id": "1603065-r1",
@@ -7827,13 +7827,189 @@
        }
       ]
      }
+    },
+    {
+     "reading_id": "1603065-r4",
+     "timestamp": "2026-10-22T14:52:36+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU2.5",
+      "selection": "under",
+      "label_fr": "Moins de 2,5 buts"
+     },
+     "label": "TICKET",
+     "skip_reasons_fr": [],
+     "model_probability": 0.551,
+     "probabilities": {
+      "1X2": {
+       "1": 0.365,
+       "X": 0.315,
+       "2": 0.32
+      },
+      "DC": {
+       "1X": 0.68,
+       "X2": 0.635,
+       "12": 0.685
+      },
+      "OU1.5": {
+       "over": 0.728,
+       "under": 0.272
+      },
+      "OU2.5": {
+       "over": 0.449,
+       "under": 0.551
+      },
+      "OU3.5": {
+       "over": 0.236,
+       "under": 0.764
+      },
+      "BTTS": {
+       "yes": 0.524,
+       "no": 0.476
+      },
+      "BTTS_O2.5": {
+       "yes": 0.374
+      },
+      "1X_O1.5": {
+       "yes": 0.487
+      },
+      "1X_O2.5": {
+       "yes": 0.267
+      },
+      "1X_U3.5": {
+       "yes": 0.525
+      },
+      "1X_BTTS": {
+       "yes": 0.375
+      },
+      "X2_O1.5": {
+       "yes": 0.45
+      },
+      "X2_O2.5": {
+       "yes": 0.24
+      },
+      "X2_U3.5": {
+       "yes": 0.496
+      },
+      "X2_BTTS": {
+       "yes": 0.358
+      },
+      "12_O1.5": {
+       "yes": 0.52
+      },
+      "12_O2.5": {
+       "yes": 0.39
+      },
+      "12_U3.5": {
+       "yes": 0.507
+      },
+      "12_BTTS": {
+       "yes": 0.315
+      },
+      "HT1X2": {
+       "1": 0.293,
+       "X": 0.441,
+       "2": 0.266
+      }
+     },
+     "expected_goals": {
+      "home": 1.28,
+      "away": 1.19
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.151
+      },
+      {
+       "score": "0-0",
+       "p": 0.106
+      },
+      {
+       "score": "1-0",
+       "p": 0.086
+      }
+     ],
+     "confidence": {
+      "value": 0.551,
+      "source": "model_probability",
+      "bucket": "55-60"
+     },
+     "market_probability": 0.508,
+     "ev": 0.064,
+     "odds_seen": {
+      "value": 1.93,
+      "bookmaker": "Pinnacle",
+      "captured_at": "2026-10-22T14:52:36+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 55,1 % pour « Moins de 2,5 buts » contre 50,8 % pour le marché.",
+      "Buts attendus (modèle) : 1,28 – 1,19.",
+      "Tous les critères dc-v1 sont remplis (EV +6,4 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Al-Hazm–Al-Fayha : aucune absence ni info contraire trouvée sur X (Thmanyah Sports, 16:40 heure de Riyad)."
+      ],
+      "checked_at": "2026-10-22T12:46+02:00"
+     },
+     "team_samples": {
+      "home": 44,
+      "away": 44
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": true,
+      "reason_fr": "Nouvelle lecture : compos officielles publiées."
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "late_ticket": true,
+     "lineups_source": "espn"
     }
-   ],
-   "skip_check": {
-    "status": "confirmed",
-    "rule_fr": "EV 4,8% (< 5 %)",
-    "checked_at": "2026-10-22T12:44:21+02:00"
-   }
+   ]
   },
   {
    "fixture_id": 1636434,
