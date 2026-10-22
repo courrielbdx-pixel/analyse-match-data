@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-22T10:19:43+02:00",
+ "generated_at": "2026-10-22T18:01:44+02:00",
  "settled": [
   {
    "fixture_id": 1492403,
@@ -14804,6 +14804,36 @@
     "label": "SKIP",
     "outcome": "won"
    }
+  },
+  {
+   "fixture_id": 1603065,
+   "date": "2026-10-22",
+   "kickoff": "2026-10-22T15:40:00+02:00",
+   "league": {
+    "name": "Saudi Pro League",
+    "country": "Arabie saoudite"
+   },
+   "region": "asie_oceanie",
+   "method_version": "dc-v1",
+   "reading_id": "1603065-r4",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "OU2.5",
+   "selection": "under",
+   "label_fr": "Moins de 2,5 buts",
+   "label": "TARDIF",
+   "model_probability": 0.551,
+   "confidence_bucket": "55-60",
+   "odds": 1.93,
+   "bookmaker": "Pinnacle",
+   "final_score": "2-2",
+   "outcome": "lost",
+   "pl_units": -1.0,
+   "matin": {
+    "selection": "under",
+    "label": "SKIP",
+    "outcome": "lost"
+   }
   }
  ],
  "aggregates": {
@@ -15327,6 +15357,15 @@
      "country": "Arabie saoudite"
     },
     {
+     "label": "TARDIF",
+     "n": 1,
+     "won": 0,
+     "lost": 1,
+     "pl_units": -1.0,
+     "league": "Saudi Pro League",
+     "country": "Arabie saoudite"
+    },
+    {
      "label": "SKIP",
      "n": 7,
      "won": 7,
@@ -15627,10 +15666,10 @@
     {
      "market": "OU2.5",
      "label": "TARDIF",
-     "n": 2,
+     "n": 3,
      "won": 2,
-     "lost": 0,
-     "pl_units": 1.48
+     "lost": 1,
+     "pl_units": 0.48
     },
     {
      "market": "OU2.5",
@@ -15691,9 +15730,9 @@
     {
      "bucket": "55-60",
      "label": "TARDIF",
-     "n": 2,
+     "n": 3,
      "won": 1,
-     "lost": 1
+     "lost": 2
     },
     {
      "bucket": "55-60",
@@ -15975,10 +16014,10 @@
     {
      "date": "2026-10-22",
      "label": "TARDIF",
-     "n": 1,
+     "n": 2,
      "won": 0,
-     "lost": 1,
-     "pl_units": -1.0
+     "lost": 2,
+     "pl_units": -2.0
     },
     {
      "date": "2026-10-22",
@@ -16041,10 +16080,10 @@
     {
      "week": "2026-W43",
      "label": "TARDIF",
-     "n": 1,
+     "n": 2,
      "won": 0,
-     "lost": 1,
-     "pl_units": -1.0
+     "lost": 2,
+     "pl_units": -2.0
     },
     {
      "week": "2026-W43",
@@ -16066,9 +16105,9 @@
     {
      "trigger": "compo",
      "label": "TARDIF",
-     "n": 5,
+     "n": 6,
      "won": 4,
-     "lost": 1
+     "lost": 2
     },
     {
      "trigger": "manuel",
@@ -16137,9 +16176,9 @@
    "calibration": [
     {
      "bucket": "55-60",
-     "n": 15,
-     "mean_predicted": 0.571,
-     "observed": 0.267
+     "n": 16,
+     "mean_predicted": 0.57,
+     "observed": 0.25
     },
     {
      "bucket": "60-65",
@@ -16601,6 +16640,19 @@
     "closing_odds": null,
     "clv": null,
     "outcome": "lost"
+   },
+   {
+    "date": "2026-10-22",
+    "league": {
+     "name": "Saudi Pro League",
+     "country": "Arabie saoudite"
+    },
+    "label": "TARDIF",
+    "label_fr": "Moins de 2,5 buts",
+    "odds": 1.93,
+    "closing_odds": 1.93,
+    "clv": 0.0,
+    "outcome": "lost"
    }
   ],
   "recent": [
@@ -16972,17 +17024,17 @@
   }
  ],
  "late": {
-  "n": 6,
+  "n": 7,
   "won": 4,
-  "hit_rate": 0.667,
-  "pl_units": 0.98,
-  "roi": 0.163,
+  "hit_rate": 0.571,
+  "pl_units": -0.02,
+  "roi": -0.003,
   "clv": {
-   "n": 5,
+   "n": 6,
    "mean_clv": 0.0,
    "beat_close": 0.0,
    "beat_n": 0,
-   "same_n": 5,
+   "same_n": 6,
    "se": 0.0
   }
  },
@@ -17029,10 +17081,10 @@
   },
   "tardifs": {
    "start": 100.0,
-   "bank": 101.47,
-   "bets": 6,
+   "bank": 99.74,
+   "bets": 7,
    "zero_stake": 0,
-   "roi_bank": 0.0147,
+   "roi_bank": -0.0026,
    "curve": [
     {
      "date": "2026-10-16",
@@ -17063,6 +17115,11 @@
      "date": "2026-10-22",
      "stake": 2.07,
      "bank": 101.47
+    },
+    {
+     "date": "2026-10-22",
+     "stake": 1.73,
+     "bank": 99.74
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
