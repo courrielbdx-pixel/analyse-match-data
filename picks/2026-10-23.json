@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-23T20:20:51+02:00",
+ "generated_at": "2026-10-23T20:34:23+02:00",
  "date": "2026-10-23",
  "picks": [
   {
@@ -39161,7 +39161,7 @@
   },
   {
    "fixture_id": 1492790,
-   "final_reading_id": "1492790-r3",
+   "final_reading_id": "1492790-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -39725,6 +39725,195 @@
      },
      "releco_count": 4,
      "first_timestamp": "2026-10-23T09:52:36+02:00"
+    },
+    {
+     "reading_id": "1492790-r4",
+     "timestamp": "2026-10-23T20:34:21+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Shamrock Rovers ou nul (1N)"
+     },
+     "label": "SKIP",
+     "value_pick": {
+      "market": "12_U3.5",
+      "selection": "yes",
+      "label_fr": "Pas de nul (12) & −3,5 buts",
+      "model_probability": 0.53,
+      "market_probability": 0.452,
+      "odds": 1.95,
+      "bookmaker": "Bet365",
+      "ev": 0.032
+     },
+     "skip_reasons_fr": [
+      "EV −7,3 % < 5 %"
+     ],
+     "model_probability": 0.9,
+     "probabilities": {
+      "1X2": {
+       "1": 0.683,
+       "X": 0.217,
+       "2": 0.1
+      },
+      "DC": {
+       "1X": 0.9,
+       "X2": 0.317,
+       "12": 0.783
+      },
+      "OU1.5": {
+       "over": 0.766,
+       "under": 0.234
+      },
+      "OU2.5": {
+       "over": 0.51,
+       "under": 0.49
+      },
+      "OU3.5": {
+       "over": 0.289,
+       "under": 0.711
+      },
+      "BTTS": {
+       "yes": 0.438,
+       "no": 0.562
+      },
+      "BTTS_O2.5": {
+       "yes": 0.335
+      },
+      "1X_O1.5": {
+       "yes": 0.699
+      },
+      "1X_O2.5": {
+       "yes": 0.458
+      },
+      "1X_U3.5": {
+       "yes": 0.629
+      },
+      "1X_BTTS": {
+       "yes": 0.39
+      },
+      "X2_O1.5": {
+       "yes": 0.207
+      },
+      "X2_O2.5": {
+       "yes": 0.089
+      },
+      "X2_U3.5": {
+       "yes": 0.263
+      },
+      "X2_BTTS": {
+       "yes": 0.188
+      },
+      "12_O1.5": {
+       "yes": 0.627
+      },
+      "12_O2.5": {
+       "yes": 0.474
+      },
+      "12_U3.5": {
+       "yes": 0.53
+      },
+      "12_BTTS": {
+       "yes": 0.299
+      },
+      "HT1X2": {
+       "1": 0.496,
+       "X": 0.385,
+       "2": 0.119
+      }
+     },
+     "expected_goals": {
+      "home": 2.04,
+      "away": 0.67
+     },
+     "top_scores": [
+      {
+       "score": "2-0",
+       "p": 0.138
+      },
+      {
+       "score": "1-0",
+       "p": 0.123
+      },
+      {
+       "score": "1-1",
+       "p": 0.103
+      }
+     ],
+     "confidence": {
+      "value": 0.9,
+      "source": "model_probability",
+      "bucket": "90-95"
+     },
+     "market_probability": 0.942,
+     "ev": -0.073,
+     "odds_seen": {
+      "value": 1.03,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-23T20:34:21+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 90,0 % pour « Shamrock Rovers ou nul (1N) » contre 94,2 % pour le marché.",
+      "Buts attendus (modèle) : 2,04 – 0,67.",
+      "Candidat EV max écarté : Moins de 3,5 buts (71,1 %, cote 1,70, EV +20,8 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 70,
+      "away": 70
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "api"
     }
    ]
   },
