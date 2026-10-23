@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-23T22:10:31+02:00",
+ "generated_at": "2026-10-23T22:15:58+02:00",
  "date": "2026-10-23",
  "picks": [
   {
@@ -42887,7 +42887,7 @@
   },
   {
    "fixture_id": 1639798,
-   "final_reading_id": "1639798-r3",
+   "final_reading_id": "1639798-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -43489,6 +43489,209 @@
        }
       ]
      }
+    },
+    {
+     "reading_id": "1639798-r4",
+     "timestamp": "2026-10-23T22:15:56+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Independiente del Valle ou nul (1N)",
+      "model_probability": 0.791,
+      "market_probability": 0.811,
+      "odds": 1.19,
+      "bookmaker": "Betano"
+     },
+     "value_pick": {
+      "market": "OU2.5",
+      "selection": "over",
+      "label_fr": "Plus de 2,5 buts",
+      "model_probability": 0.619,
+      "market_probability": 0.54,
+      "odds": 1.77,
+      "bookmaker": "Pinnacle",
+      "ev": 0.096
+     },
+     "skip_reasons_fr": [
+      "EV +3,7 % < 5 %",
+      "Écart modèle/marché 7,4 pts > 5"
+     ],
+     "model_probability": 0.829,
+     "probabilities": {
+      "1X2": {
+       "1": 0.578,
+       "X": 0.213,
+       "2": 0.209
+      },
+      "DC": {
+       "1X": 0.791,
+       "X2": 0.422,
+       "12": 0.787
+      },
+      "OU1.5": {
+       "over": 0.829,
+       "under": 0.171
+      },
+      "OU2.5": {
+       "over": 0.619,
+       "under": 0.381
+      },
+      "OU3.5": {
+       "over": 0.397,
+       "under": 0.603
+      },
+      "BTTS": {
+       "yes": 0.597,
+       "no": 0.403
+      },
+      "BTTS_O2.5": {
+       "yes": 0.499
+      },
+      "1X_O1.5": {
+       "yes": 0.667
+      },
+      "1X_O2.5": {
+       "yes": 0.484
+      },
+      "1X_U3.5": {
+       "yes": 0.464
+      },
+      "1X_BTTS": {
+       "yes": 0.476
+      },
+      "X2_O1.5": {
+       "yes": 0.334
+      },
+      "X2_O2.5": {
+       "yes": 0.21
+      },
+      "X2_U3.5": {
+       "yes": 0.279
+      },
+      "X2_BTTS": {
+       "yes": 0.293
+      },
+      "12_O1.5": {
+       "yes": 0.658
+      },
+      "12_O2.5": {
+       "yes": 0.545
+      },
+      "12_U3.5": {
+       "yes": 0.464
+      },
+      "12_BTTS": {
+       "yes": 0.425
+      },
+      "HT1X2": {
+       "1": 0.434,
+       "X": 0.367,
+       "2": 0.199
+      }
+     },
+     "expected_goals": {
+      "home": 2.04,
+      "away": 1.15
+     },
+     "top_scores": [
+      {
+       "score": "2-1",
+       "p": 0.098
+      },
+      {
+       "score": "1-1",
+       "p": 0.097
+      },
+      {
+       "score": "2-0",
+       "p": 0.085
+      }
+     ],
+     "confidence": {
+      "value": 0.829,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.755,
+     "ev": 0.037,
+     "odds_seen": {
+      "value": 1.25,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-23T22:15:56+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 82,9 % pour « Plus de 1,5 buts » contre 75,5 % pour le marché.",
+      "Buts attendus (modèle) : 2,04 – 1,15.",
+      "Candidat EV max écarté : Plus de 2,5 buts (61,9 %, cote 1,77, EV +9,6 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Rien de notable trouvé sur X (vérif du matin).",
+       "Recheck compo (21h45) : compo d'U. Católica publiée, rien de contraire au Plus de 2,5 buts."
+      ],
+      "checked_at": "2026-10-23T09:53:00+02:00"
+     },
+     "team_samples": {
+      "home": 72,
+      "away": 73
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ],
    "skip_check": {
