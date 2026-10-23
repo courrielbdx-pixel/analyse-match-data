@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-23T10:17:41+02:00",
+ "generated_at": "2026-10-23T12:56:35+02:00",
  "settled": [
   {
    "fixture_id": 1492403,
@@ -15916,6 +15916,36 @@
     "label": "SKIP",
     "outcome": "won"
    }
+  },
+  {
+   "fixture_id": 1593686,
+   "date": "2026-10-23",
+   "kickoff": "2026-10-23T11:00:00+02:00",
+   "league": {
+    "name": "A-League",
+    "country": "Australie"
+   },
+   "region": "asie_oceanie",
+   "method_version": "dc-v1",
+   "reading_id": "1593686-r4",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "DC",
+   "selection": "X2",
+   "label_fr": "Nul ou Perth Glory (N2)",
+   "label": "TARDIF",
+   "model_probability": 0.629,
+   "confidence_bucket": "60-65",
+   "odds": 1.67,
+   "bookmaker": "Betano",
+   "final_score": "2-1",
+   "outcome": "lost",
+   "pl_units": -1.0,
+   "matin": {
+    "selection": "under",
+    "label": "SKIP",
+    "outcome": "won"
+   }
   }
  ],
  "aggregates": {
@@ -15994,6 +16024,15 @@
      "won": 3,
      "lost": 2,
      "pl_units": -1.46,
+     "league": "A-League",
+     "country": "Australie"
+    },
+    {
+     "label": "TARDIF",
+     "n": 1,
+     "won": 0,
+     "lost": 1,
+     "pl_units": -1.0,
      "league": "A-League",
      "country": "Australie"
     },
@@ -16717,10 +16756,10 @@
     {
      "market": "DC",
      "label": "TARDIF",
-     "n": 1,
+     "n": 2,
      "won": 1,
-     "lost": 0,
-     "pl_units": 0.8
+     "lost": 1,
+     "pl_units": -0.2
     },
     {
      "market": "DC",
@@ -16849,9 +16888,9 @@
     {
      "bucket": "60-65",
      "label": "TARDIF",
-     "n": 4,
+     "n": 5,
      "won": 3,
-     "lost": 1
+     "lost": 2
     },
     {
      "bucket": "60-65",
@@ -17133,6 +17172,14 @@
      "won": 2,
      "lost": 0,
      "pl_units": 0.14
+    },
+    {
+     "date": "2026-10-23",
+     "label": "TARDIF",
+     "n": 1,
+     "won": 0,
+     "lost": 1,
+     "pl_units": -1.0
     }
    ],
    "by_week": [
@@ -17187,10 +17234,10 @@
     {
      "week": "2026-W43",
      "label": "TARDIF",
-     "n": 2,
+     "n": 3,
      "won": 0,
-     "lost": 2,
-     "pl_units": -2.0
+     "lost": 3,
+     "pl_units": -3.0
     },
     {
      "week": "2026-W43",
@@ -17212,9 +17259,9 @@
     {
      "trigger": "compo",
      "label": "TARDIF",
-     "n": 6,
+     "n": 7,
      "won": 4,
-     "lost": 2
+     "lost": 3
     },
     {
      "trigger": "manuel",
@@ -17289,9 +17336,9 @@
     },
     {
      "bucket": "60-65",
-     "n": 9,
+     "n": 10,
      "mean_predicted": 0.621,
-     "observed": 0.556
+     "observed": 0.5
     },
     {
      "bucket": "65-70",
@@ -17803,6 +17850,19 @@
     "closing_odds": 1.93,
     "clv": 0.0,
     "outcome": "lost"
+   },
+   {
+    "date": "2026-10-23",
+    "league": {
+     "name": "A-League",
+     "country": "Australie"
+    },
+    "label": "TARDIF",
+    "label_fr": "Nul ou Perth Glory (N2)",
+    "odds": 1.67,
+    "closing_odds": 1.67,
+    "clv": 0.0,
+    "outcome": "lost"
    }
   ],
   "recent": [
@@ -18192,17 +18252,17 @@
   }
  ],
  "late": {
-  "n": 7,
+  "n": 8,
   "won": 4,
-  "hit_rate": 0.571,
-  "pl_units": -0.02,
-  "roi": -0.003,
+  "hit_rate": 0.5,
+  "pl_units": -1.02,
+  "roi": -0.128,
   "clv": {
-   "n": 6,
+   "n": 7,
    "mean_clv": 0.0,
    "beat_close": 0.0,
    "beat_n": 0,
-   "same_n": 6,
+   "same_n": 7,
    "se": 0.0
   }
  },
@@ -18249,10 +18309,10 @@
   },
   "tardifs": {
    "start": 100.0,
-   "bank": 99.74,
-   "bets": 7,
+   "bank": 97.86,
+   "bets": 8,
    "zero_stake": 0,
-   "roi_bank": -0.0026,
+   "roi_bank": -0.0214,
    "curve": [
     {
      "date": "2026-10-16",
@@ -18288,6 +18348,11 @@
      "date": "2026-10-22",
      "stake": 1.73,
      "bank": 99.74
+    },
+    {
+     "date": "2026-10-23",
+     "stake": 1.88,
+     "bank": 97.86
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
