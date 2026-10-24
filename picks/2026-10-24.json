@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-24T18:19:13+02:00",
+ "generated_at": "2026-10-24T18:39:13+02:00",
  "date": "2026-10-24",
  "picks": [
   {
@@ -109392,7 +109392,7 @@
   },
   {
    "fixture_id": 1576509,
-   "final_reading_id": "1576509-r3",
+   "final_reading_id": "1576509-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -109984,6 +109984,204 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-10-24T13:00:35+02:00"
+    },
+    {
+     "reading_id": "1576509-r4",
+     "timestamp": "2026-10-24T18:39:06+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU3.5",
+      "selection": "under",
+      "label_fr": "Moins de 3,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.733,
+      "market_probability": 0.718,
+      "odds": 1.33,
+      "bookmaker": "Bet365"
+     },
+     "value_pick": {
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou Penafiel (N2)",
+      "model_probability": 0.622,
+      "market_probability": 0.531,
+      "odds": 1.8,
+      "bookmaker": "Betano",
+      "ev": 0.12
+     },
+     "skip_reasons_fr": [
+      "Écart modèle/marché 8,2 pts > 5"
+     ],
+     "model_probability": 0.827,
+     "probabilities": {
+      "1X2": {
+       "1": 0.378,
+       "X": 0.267,
+       "2": 0.355
+      },
+      "DC": {
+       "1X": 0.645,
+       "X2": 0.622,
+       "12": 0.733
+      },
+      "OU1.5": {
+       "over": 0.623,
+       "under": 0.377
+      },
+      "OU2.5": {
+       "over": 0.367,
+       "under": 0.633
+      },
+      "OU3.5": {
+       "over": 0.173,
+       "under": 0.827
+      },
+      "BTTS": {
+       "yes": 0.423,
+       "no": 0.577
+      },
+      "BTTS_O2.5": {
+       "yes": 0.302
+      },
+      "1X_O1.5": {
+       "yes": 0.403
+      },
+      "1X_O2.5": {
+       "yes": 0.212
+      },
+      "1X_U3.5": {
+       "yes": 0.533
+      },
+      "1X_BTTS": {
+       "yes": 0.298
+      },
+      "X2_O1.5": {
+       "yes": 0.385
+      },
+      "X2_O2.5": {
+       "yes": 0.2
+      },
+      "X2_U3.5": {
+       "yes": 0.516
+      },
+      "X2_BTTS": {
+       "yes": 0.291
+      },
+      "12_O1.5": {
+       "yes": 0.457
+      },
+      "12_O2.5": {
+       "yes": 0.322
+      },
+      "12_U3.5": {
+       "yes": 0.604
+      },
+      "12_BTTS": {
+       "yes": 0.257
+      },
+      "HT1X2": {
+       "1": 0.269,
+       "X": 0.475,
+       "2": 0.255
+      }
+     },
+     "expected_goals": {
+      "home": 1.1,
+      "away": 1.06
+     },
+     "top_scores": [
+      {
+       "score": "1-0",
+       "p": 0.14
+      },
+      {
+       "score": "0-1",
+       "p": 0.135
+      },
+      {
+       "score": "1-1",
+       "p": 0.121
+      }
+     ],
+     "confidence": {
+      "value": 0.827,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.745,
+     "ev": 0.058,
+     "odds_seen": {
+      "value": 1.28,
+      "bookmaker": "Pinnacle",
+      "captured_at": "2026-10-24T18:39:06+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 82,7 % pour « Moins de 3,5 buts » contre 74,5 % pour le marché.",
+      "Buts attendus (modèle) : 1,10 – 1,06.",
+      "Candidat EV max écarté : Nul ou Penafiel (N2) (62,2 %, cote 1,80, EV +12,0 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 43,
+      "away": 41
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "api"
     }
    ]
   },
