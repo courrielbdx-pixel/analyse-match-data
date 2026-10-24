@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-24T13:22:07+02:00",
+ "generated_at": "2026-10-24T13:38:24+02:00",
  "date": "2026-10-24",
  "picks": [
   {
@@ -24867,7 +24867,7 @@
   },
   {
    "fixture_id": 1526011,
-   "final_reading_id": "1526011-r3",
+   "final_reading_id": "1526011-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -25411,6 +25411,185 @@
        }
       ]
      }
+    },
+    {
+     "reading_id": "1526011-r4",
+     "timestamp": "2026-10-24T13:38:12+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU2.5",
+      "selection": "over",
+      "label_fr": "Plus de 2,5 buts"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "Ticket tardif non publié : moins de 30 min avant le coup d'envoi"
+     ],
+     "model_probability": 0.601,
+     "probabilities": {
+      "1X2": {
+       "1": 0.135,
+       "X": 0.175,
+       "2": 0.69
+      },
+      "DC": {
+       "1X": 0.31,
+       "X2": 0.865,
+       "12": 0.825
+      },
+      "OU1.5": {
+       "over": 0.812,
+       "under": 0.188
+      },
+      "OU2.5": {
+       "over": 0.601,
+       "under": 0.399
+      },
+      "OU3.5": {
+       "over": 0.377,
+       "under": 0.623
+      },
+      "BTTS": {
+       "yes": 0.513,
+       "no": 0.487
+      },
+      "BTTS_O2.5": {
+       "yes": 0.431
+      },
+      "1X_O1.5": {
+       "yes": 0.226
+      },
+      "1X_O2.5": {
+       "yes": 0.127
+      },
+      "1X_U3.5": {
+       "yes": 0.225
+      },
+      "1X_BTTS": {
+       "yes": 0.203
+      },
+      "X2_O1.5": {
+       "yes": 0.721
+      },
+      "X2_O2.5": {
+       "yes": 0.526
+      },
+      "X2_U3.5": {
+       "yes": 0.521
+      },
+      "X2_BTTS": {
+       "yes": 0.444
+      },
+      "12_O1.5": {
+       "yes": 0.678
+      },
+      "12_O2.5": {
+       "yes": 0.548
+      },
+      "12_U3.5": {
+       "yes": 0.5
+      },
+      "12_BTTS": {
+       "yes": 0.378
+      },
+      "HT1X2": {
+       "1": 0.14,
+       "X": 0.356,
+       "2": 0.504
+      }
+     },
+     "expected_goals": {
+      "home": 0.86,
+      "away": 2.24
+     },
+     "top_scores": [
+      {
+       "score": "0-2",
+       "p": 0.112
+      },
+      {
+       "score": "0-1",
+       "p": 0.105
+      },
+      {
+       "score": "1-2",
+       "p": 0.097
+      }
+     ],
+     "confidence": {
+      "value": 0.601,
+      "source": "model_probability",
+      "bucket": "60-65"
+     },
+     "market_probability": 0.555,
+     "ev": 0.069,
+     "odds_seen": {
+      "value": 1.78,
+      "bookmaker": "SBO",
+      "captured_at": "2026-10-24T13:38:12+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 60,1 % pour « Plus de 2,5 buts » contre 55,5 % pour le marché.",
+      "Buts attendus (modèle) : 0,86 – 2,24.",
+      "Tous les critères dc-v1 sont remplis (EV +6,9 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 55,
+      "away": 54
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": true,
+      "reason_fr": "Nouvelle lecture : compos officielles publiées."
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "api"
     }
    ]
   },
