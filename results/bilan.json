@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-24T17:16:24+02:00",
+ "generated_at": "2026-10-24T17:31:55+02:00",
  "settled": [
   {
    "fixture_id": 1492403,
@@ -19483,30 +19483,150 @@
     "label": "SKIP",
     "outcome": "lost"
    }
+  },
+  {
+   "fixture_id": 1551130,
+   "date": "2026-10-24",
+   "kickoff": "2026-10-24T15:30:00+02:00",
+   "league": {
+    "name": "First League",
+    "country": "Bulgarie"
+   },
+   "region": "europe",
+   "method_version": "dc-v1",
+   "reading_id": "1551130-r1",
+   "trigger": "releco",
+   "lineups_confirmed": false,
+   "market": "OU2.5",
+   "selection": "under",
+   "label_fr": "Moins de 2,5 buts",
+   "label": "TICKET",
+   "model_probability": 0.554,
+   "confidence_bucket": "55-60",
+   "odds": 1.9,
+   "bookmaker": "Pinnacle",
+   "final_score": "1-1",
+   "outcome": "won",
+   "pl_units": 0.9,
+   "matin": {
+    "selection": "X2",
+    "label": "TICKET",
+    "outcome": "won"
+   }
+  },
+  {
+   "fixture_id": 1551584,
+   "date": "2026-10-24",
+   "kickoff": "2026-10-24T15:30:00+02:00",
+   "league": {
+    "name": "Super Liga",
+    "country": "Slovaquie"
+   },
+   "region": "europe",
+   "method_version": "dc-v1",
+   "reading_id": "1551584-r3",
+   "trigger": "releco",
+   "lineups_confirmed": false,
+   "market": "DC",
+   "selection": "12",
+   "label_fr": "Pas de nul (12)",
+   "label": "SKIP",
+   "model_probability": 0.769,
+   "confidence_bucket": "75-80",
+   "odds": 1.29,
+   "bookmaker": "William Hill",
+   "final_score": "1-4",
+   "outcome": "won",
+   "pl_units": 0.29,
+   "matin": {
+    "selection": "12",
+    "label": "SKIP",
+    "outcome": "won"
+   }
+  },
+  {
+   "fixture_id": 1551586,
+   "date": "2026-10-24",
+   "kickoff": "2026-10-24T15:30:00+02:00",
+   "league": {
+    "name": "Super Liga",
+    "country": "Slovaquie"
+   },
+   "region": "europe",
+   "method_version": "dc-v1",
+   "reading_id": "1551586-r3",
+   "trigger": "releco",
+   "lineups_confirmed": false,
+   "market": "DC",
+   "selection": "1X",
+   "label_fr": "Slovan Bratislava ou nul (1N)",
+   "label": "SKIP",
+   "model_probability": 0.89,
+   "confidence_bucket": "85-90",
+   "odds": 1.11,
+   "bookmaker": "Betano",
+   "final_score": "2-2",
+   "outcome": "won",
+   "pl_units": 0.11,
+   "matin": {
+    "selection": "1X",
+    "label": "SKIP",
+    "outcome": "won"
+   }
+  },
+  {
+   "fixture_id": 1575199,
+   "date": "2026-10-24",
+   "kickoff": "2026-10-24T15:30:00+02:00",
+   "league": {
+    "name": "Bundesliga",
+    "country": "Allemagne"
+   },
+   "region": "europe",
+   "method_version": "dc-v1",
+   "reading_id": "1575199-r4",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "OU1.5",
+   "selection": "over",
+   "label_fr": "Plus de 1,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.808,
+   "confidence_bucket": "80-85",
+   "odds": 1.16,
+   "bookmaker": "Betano",
+   "final_score": "1-1",
+   "outcome": "won",
+   "pl_units": 0.16,
+   "matin": {
+    "selection": "over",
+    "label": "SKIP",
+    "outcome": "won"
+   }
   }
  ],
  "aggregates": {
   "dc-v1": {
    "TICKET": {
-    "n": 8,
-    "won": 2,
+    "n": 9,
+    "won": 3,
     "lost": 6,
     "void": 0,
     "no_odds": 0,
-    "hit_rate": 0.25,
-    "pl_units": -4.31,
-    "roi": -0.539,
-    "avg_odds": 1.85
+    "hit_rate": 0.333,
+    "pl_units": -3.41,
+    "roi": -0.379,
+    "avg_odds": 1.86
    },
    "SKIP": {
-    "n": 621,
-    "won": 499,
+    "n": 624,
+    "won": 502,
     "lost": 121,
     "void": 1,
     "no_odds": 3,
-    "hit_rate": 0.805,
-    "pl_units": -16.15,
-    "roi": -0.026,
+    "hit_rate": 0.806,
+    "pl_units": -15.59,
+    "roi": -0.025,
     "avg_odds": 1.22
    },
    "by_league": [
@@ -19602,10 +19722,10 @@
     },
     {
      "label": "SKIP",
-     "n": 5,
-     "won": 2,
+     "n": 6,
+     "won": 3,
      "lost": 3,
-     "pl_units": -2.83,
+     "pl_units": -2.67,
      "league": "Bundesliga",
      "country": "Allemagne"
     },
@@ -19732,6 +19852,15 @@
      "won": 2,
      "lost": 0,
      "pl_units": 0.62,
+     "league": "First League",
+     "country": "Bulgarie"
+    },
+    {
+     "label": "TICKET",
+     "n": 1,
+     "won": 1,
+     "lost": 0,
+     "pl_units": 0.9,
      "league": "First League",
      "country": "Bulgarie"
     },
@@ -20187,10 +20316,10 @@
     },
     {
      "label": "SKIP",
-     "n": 6,
-     "won": 5,
+     "n": 8,
+     "won": 7,
      "lost": 1,
-     "pl_units": 0.08,
+     "pl_units": 0.48,
      "league": "Super Liga",
      "country": "Slovaquie"
     },
@@ -20374,10 +20503,10 @@
     {
      "market": "DC",
      "label": "SKIP",
-     "n": 224,
-     "won": 182,
+     "n": 226,
+     "won": 184,
      "lost": 41,
-     "pl_units": -4.79
+     "pl_units": -4.39
     },
     {
      "market": "DC",
@@ -20398,10 +20527,10 @@
     {
      "market": "OU1.5",
      "label": "SKIP",
-     "n": 285,
-     "won": 227,
+     "n": 286,
+     "won": 228,
      "lost": 58,
-     "pl_units": -15.94
+     "pl_units": -15.78
     },
     {
      "market": "OU2.5",
@@ -20430,10 +20559,10 @@
     {
      "market": "OU2.5",
      "label": "TICKET",
-     "n": 2,
-     "won": 1,
+     "n": 3,
+     "won": 2,
      "lost": 1,
-     "pl_units": -0.14
+     "pl_units": 0.76
     },
     {
      "market": "OU3.5",
@@ -20493,8 +20622,8 @@
     {
      "bucket": "55-60",
      "label": "TICKET",
-     "n": 7,
-     "won": 2,
+     "n": 8,
+     "won": 3,
      "lost": 5
     },
     {
@@ -20549,22 +20678,22 @@
     {
      "bucket": "75-80",
      "label": "SKIP",
-     "n": 204,
-     "won": 158,
+     "n": 205,
+     "won": 159,
      "lost": 46
     },
     {
      "bucket": "80-85",
      "label": "SKIP",
-     "n": 192,
-     "won": 151,
+     "n": 193,
+     "won": 152,
      "lost": 41
     },
     {
      "bucket": "85-90",
      "label": "SKIP",
-     "n": 99,
-     "won": 88,
+     "n": 100,
+     "won": 89,
      "lost": 11
     },
     {
@@ -20826,10 +20955,10 @@
     {
      "date": "2026-10-24",
      "label": "SKIP",
-     "n": 65,
-     "won": 50,
+     "n": 68,
+     "won": 53,
      "lost": 15,
-     "pl_units": -2.03
+     "pl_units": -1.47
     },
     {
      "date": "2026-10-24",
@@ -20842,10 +20971,10 @@
     {
      "date": "2026-10-24",
      "label": "TICKET",
-     "n": 1,
-     "won": 1,
+     "n": 2,
+     "won": 2,
      "lost": 0,
-     "pl_units": 0.83
+     "pl_units": 1.73
     }
    ],
    "by_week": [
@@ -20892,10 +21021,10 @@
     {
      "week": "2026-W43",
      "label": "SKIP",
-     "n": 235,
-     "won": 183,
+     "n": 238,
+     "won": 186,
      "lost": 51,
-     "pl_units": -8.1
+     "pl_units": -7.54
     },
     {
      "week": "2026-W43",
@@ -20908,18 +21037,18 @@
     {
      "week": "2026-W43",
      "label": "TICKET",
-     "n": 5,
-     "won": 2,
+     "n": 6,
+     "won": 3,
      "lost": 3,
-     "pl_units": -1.31
+     "pl_units": -0.41
     }
    ],
    "by_trigger": [
     {
      "trigger": "compo",
      "label": "SKIP",
-     "n": 451,
-     "won": 365,
+     "n": 452,
+     "won": 366,
      "lost": 85
     },
     {
@@ -20960,8 +21089,8 @@
     {
      "trigger": "releco",
      "label": "SKIP",
-     "n": 76,
-     "won": 63,
+     "n": 78,
+     "won": 65,
      "lost": 13
     },
     {
@@ -20974,8 +21103,8 @@
     {
      "trigger": "releco",
      "label": "TICKET",
-     "n": 4,
-     "won": 2,
+     "n": 5,
+     "won": 3,
      "lost": 2
     },
     {
@@ -20996,9 +21125,9 @@
    "calibration": [
     {
      "bucket": "55-60",
-     "n": 25,
-     "mean_predicted": 0.571,
-     "observed": 0.4
+     "n": 26,
+     "mean_predicted": 0.57,
+     "observed": 0.423
     },
     {
      "bucket": "60-65",
@@ -21020,21 +21149,21 @@
     },
     {
      "bucket": "75-80",
-     "n": 204,
+     "n": 205,
      "mean_predicted": 0.774,
-     "observed": 0.775
+     "observed": 0.776
     },
     {
      "bucket": "80-85",
-     "n": 192,
+     "n": 193,
      "mean_predicted": 0.824,
-     "observed": 0.786
+     "observed": 0.788
     },
     {
      "bucket": "85-90",
-     "n": 99,
+     "n": 100,
      "mean_predicted": 0.873,
-     "observed": 0.889
+     "observed": 0.89
     },
     {
      "bucket": "90-95",
@@ -21299,14 +21428,14 @@
      "prob": 0.554,
      "odds": 1.9,
      "bookmaker": "Pinnacle",
-     "outcome": null
+     "outcome": "won"
     }
    ],
    "total_odds": 3.48,
    "model_probability": 0.319,
    "ev": 0.11,
-   "outcome": null,
-   "pl_units": null
+   "outcome": "won",
+   "pl_units": 2.48
   },
   {
    "date": "2026-10-25",
@@ -21352,12 +21481,12 @@
  ],
  "combines_aggregate": {
   "n": 7,
-  "settled": 4,
-  "won": 1,
+  "settled": 5,
+  "won": 2,
   "lost": 3,
-  "hit_rate": 0.25,
-  "pl_units": -2.14,
-  "roi": -0.535
+  "hit_rate": 0.4,
+  "pl_units": 0.34,
+  "roi": 0.068
  },
  "fun_aggregate": {
   "played": 12,
@@ -21369,64 +21498,64 @@
  "bilan_start": "2026-10-13",
  "skip_lines": {
   "probable": {
-   "n": 620,
-   "won": 499,
-   "hit_rate": 0.805,
-   "with_odds": 617,
+   "n": 623,
+   "won": 502,
+   "hit_rate": 0.806,
+   "with_odds": 620,
    "avg_odds": 1.22,
-   "profit_eur": -16.15,
-   "roi": -0.026
+   "profit_eur": -15.59,
+   "roi": -0.025
   },
   "resultat": {
-   "n": 392,
-   "won": 301,
+   "n": 393,
+   "won": 302,
    "hit_rate": 0.768,
-   "with_odds": 392,
+   "with_odds": 393,
    "avg_odds": 1.28,
-   "profit_eur": -9.37,
-   "roi": -0.024
+   "profit_eur": -9.08,
+   "roi": -0.023
   },
   "valeur": {
-   "n": 588,
-   "won": 262,
-   "hit_rate": 0.446,
-   "with_odds": 588,
+   "n": 591,
+   "won": 263,
+   "hit_rate": 0.445,
+   "with_odds": 591,
    "avg_odds": 2.22,
-   "profit_eur": -28.03,
+   "profit_eur": -28.24,
    "roi": -0.048
   }
  },
  "clv": {
   "tickets": {
-   "n": 5,
-   "mean_clv": -0.0054,
+   "n": 6,
+   "mean_clv": -0.0053,
    "beat_close": 0.0,
    "beat_n": 0,
    "same_n": 3,
-   "se": 0.003
+   "se": 0.0025
   },
   "probable": {
-   "n": 536,
+   "n": 539,
    "mean_clv": 0.0003,
    "beat_close": 0.035,
    "beat_n": 19,
-   "same_n": 504,
+   "same_n": 506,
    "se": 0.0003
   },
   "resultat": {
-   "n": 338,
+   "n": 339,
    "mean_clv": 0.0003,
-   "beat_close": 0.033,
+   "beat_close": 0.032,
    "beat_n": 11,
-   "same_n": 318,
+   "same_n": 319,
    "se": 0.0003
   },
   "valeur": {
-   "n": 512,
+   "n": 515,
    "mean_clv": 0.0013,
-   "beat_close": 0.105,
-   "beat_n": 54,
-   "same_n": 431,
+   "beat_close": 0.107,
+   "beat_n": 55,
+   "same_n": 433,
    "se": 0.0008
   },
   "tickets_list": [
@@ -21676,79 +21805,22 @@
     "closing_odds": 1.72,
     "clv": 0.0,
     "outcome": "lost"
+   },
+   {
+    "date": "2026-10-24",
+    "league": {
+     "name": "First League",
+     "country": "Bulgarie"
+    },
+    "label": "TICKET",
+    "label_fr": "Moins de 2,5 buts",
+    "odds": 1.9,
+    "closing_odds": 1.91,
+    "clv": -0.0052,
+    "outcome": "won"
    }
   ],
   "recent": [
-   {
-    "date": "2026-10-24",
-    "match": "Cagliari – Bologna",
-    "fixture_id": 1550158,
-    "label_fr": "Victoire Bologna (2)",
-    "line": "valeur",
-    "odds": 2.78,
-    "closing_odds": 2.78,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-24",
-    "match": "Como – Sassuolo",
-    "fixture_id": 1550159,
-    "label_fr": "Como ou nul (1N)",
-    "line": "probable",
-    "odds": 1.16,
-    "closing_odds": 1.16,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-24",
-    "match": "Como – Sassuolo",
-    "fixture_id": 1550159,
-    "label_fr": "Les deux équipes ne marquent pas",
-    "line": "valeur",
-    "odds": 2.62,
-    "closing_odds": 2.62,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-24",
-    "match": "Zbrojovka Brno – Bohemians 1905",
-    "fixture_id": 1560049,
-    "label_fr": "Zbrojovka Brno ou nul (1N)",
-    "line": "probable",
-    "odds": 1.39,
-    "closing_odds": 1.39,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-24",
-    "match": "Zbrojovka Brno – Bohemians 1905",
-    "fixture_id": 1560049,
-    "label_fr": "Mi-temps : nul (MT N)",
-    "line": "valeur",
-    "odds": 2.29,
-    "closing_odds": 2.29,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-24",
-    "match": "Teplice – Artis",
-    "fixture_id": 1560055,
-    "label_fr": "Teplice ou nul (1N)",
-    "line": "probable",
-    "odds": 1.25,
-    "closing_odds": 1.25,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-10-24",
-    "match": "Teplice – Artis",
-    "fixture_id": 1560055,
-    "label_fr": "Victoire Teplice (1)",
-    "line": "valeur",
-    "odds": 1.85,
-    "closing_odds": 1.85,
-    "clv": 0.0
-   },
    {
     "date": "2026-10-24",
     "match": "Zlin – Sigma Olomouc",
@@ -21978,6 +22050,76 @@
     "odds": 2.17,
     "closing_odds": 2.17,
     "clv": 0.0
+   },
+   {
+    "date": "2026-10-24",
+    "match": "Zemplín Michalovce – Podbrezová",
+    "fixture_id": 1551584,
+    "label_fr": "Pas de nul (12)",
+    "line": "probable",
+    "odds": 1.29,
+    "closing_odds": 1.3,
+    "clv": -0.0077
+   },
+   {
+    "date": "2026-10-24",
+    "match": "Zemplín Michalovce – Podbrezová",
+    "fixture_id": 1551584,
+    "label_fr": "Les deux équipes ne marquent pas",
+    "line": "valeur",
+    "odds": 2.55,
+    "closing_odds": 2.5,
+    "clv": 0.02
+   },
+   {
+    "date": "2026-10-24",
+    "match": "Slovan Bratislava – Dukla Banská Bystrica",
+    "fixture_id": 1551586,
+    "label_fr": "Slovan Bratislava ou nul (1N)",
+    "line": "probable",
+    "odds": 1.11,
+    "closing_odds": 1.11,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-24",
+    "match": "Slovan Bratislava – Dukla Banská Bystrica",
+    "fixture_id": 1551586,
+    "label_fr": "Les deux équipes ne marquent pas",
+    "line": "valeur",
+    "odds": 2.1,
+    "closing_odds": 2.1,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-24",
+    "match": "FC Augsburg – Union Berlin",
+    "fixture_id": 1575199,
+    "label_fr": "Plus de 1,5 buts",
+    "line": "probable",
+    "odds": 1.16,
+    "closing_odds": 1.16,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-24",
+    "match": "FC Augsburg – Union Berlin",
+    "fixture_id": 1575199,
+    "label_fr": "FC Augsburg ou nul (1N)",
+    "line": "resultat",
+    "odds": 1.29,
+    "closing_odds": 1.29,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-10-24",
+    "match": "FC Augsburg – Union Berlin",
+    "fixture_id": 1575199,
+    "label_fr": "Moins de 2,5 buts",
+    "line": "valeur",
+    "odds": 2.79,
+    "closing_odds": 2.79,
+    "clv": 0.0
    }
   ]
  },
@@ -22091,10 +22233,10 @@
  "kelly": {
   "tickets": {
    "start": 100.0,
-   "bank": 91.77,
-   "bets": 8,
+   "bank": 92.97,
+   "bets": 9,
    "zero_stake": 0,
-   "roi_bank": -0.0823,
+   "roi_bank": -0.0703,
    "curve": [
     {
      "date": "2026-10-13",
@@ -22135,6 +22277,11 @@
      "date": "2026-10-24",
      "stake": 1.47,
      "bank": 91.77
+    },
+    {
+     "date": "2026-10-24",
+     "stake": 1.34,
+     "bank": 92.97
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
@@ -22208,7 +22355,7 @@
    "start": 100.0,
    "bank": 89.27,
    "bets": 199,
-   "zero_stake": 419,
+   "zero_stake": 422,
    "roi_bank": -0.1073,
    "curve": [
     {
@@ -23213,7 +23360,7 @@
    "start": 100.0,
    "bank": 92.89,
    "bets": 62,
-   "zero_stake": 330,
+   "zero_stake": 331,
    "roi_bank": -0.0711,
    "curve": [
     {
@@ -23531,26 +23678,11 @@
   },
   "valeur": {
    "start": 100.0,
-   "bank": 42.71,
-   "bets": 588,
+   "bank": 42.92,
+   "bets": 591,
    "zero_stake": 1,
-   "roi_bank": -0.5729,
+   "roi_bank": -0.5708,
    "curve": [
-    {
-     "date": "2026-10-19",
-     "stake": 1.24,
-     "bank": 63.68
-    },
-    {
-     "date": "2026-10-19",
-     "stake": 0.87,
-     "bank": 64.83
-    },
-    {
-     "date": "2026-10-19",
-     "stake": 1.3,
-     "bank": 65.77
-    },
     {
      "date": "2026-10-19",
      "stake": 1.32,
@@ -24535,6 +24667,21 @@
      "date": "2026-10-24",
      "stake": 0.54,
      "bank": 42.71
+    },
+    {
+     "date": "2026-10-24",
+     "stake": 0.74,
+     "bank": 41.97
+    },
+    {
+     "date": "2026-10-24",
+     "stake": 0.54,
+     "bank": 41.43
+    },
+    {
+     "date": "2026-10-24",
+     "stake": 0.83,
+     "bank": 42.92
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
