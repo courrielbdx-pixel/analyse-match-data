@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-24T11:54:48+02:00",
+ "generated_at": "2026-10-24T12:13:16+02:00",
  "date": "2026-10-24",
  "picks": [
   {
@@ -19237,8 +19237,8 @@
   },
   {
    "fixture_id": 1576212,
-   "final_reading_id": "1576212-r2",
-   "decision": "SKIP",
+   "final_reading_id": "1576212-r3",
+   "decision": "TARDIF",
    "readings": [
     {
      "reading_id": "1576212-r1",
@@ -19611,6 +19611,184 @@
        }
       ]
      }
+    },
+    {
+     "reading_id": "1576212-r3",
+     "timestamp": "2026-10-24T12:13:13+02:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "1X2",
+      "selection": "1",
+      "label_fr": "Victoire 1. FC Magdeburg (1)"
+     },
+     "label": "TICKET",
+     "skip_reasons_fr": [],
+     "model_probability": 0.564,
+     "probabilities": {
+      "1X2": {
+       "1": 0.564,
+       "X": 0.205,
+       "2": 0.231
+      },
+      "DC": {
+       "1X": 0.769,
+       "X2": 0.436,
+       "12": 0.795
+      },
+      "OU1.5": {
+       "over": 0.885,
+       "under": 0.115
+      },
+      "OU2.5": {
+       "over": 0.712,
+       "under": 0.288
+      },
+      "OU3.5": {
+       "over": 0.502,
+       "under": 0.498
+      },
+      "BTTS": {
+       "yes": 0.682,
+       "no": 0.318
+      },
+      "BTTS_O2.5": {
+       "yes": 0.598
+      },
+      "1X_O1.5": {
+       "yes": 0.687
+      },
+      "1X_O2.5": {
+       "yes": 0.539
+      },
+      "1X_U3.5": {
+       "yes": 0.371
+      },
+      "1X_BTTS": {
+       "yes": 0.526
+      },
+      "X2_O1.5": {
+       "yes": 0.375
+      },
+      "X2_O2.5": {
+       "yes": 0.266
+      },
+      "X2_U3.5": {
+       "yes": 0.239
+      },
+      "X2_BTTS": {
+       "yes": 0.333
+      },
+      "12_O1.5": {
+       "yes": 0.708
+      },
+      "12_O2.5": {
+       "yes": 0.619
+      },
+      "12_U3.5": {
+       "yes": 0.385
+      },
+      "12_BTTS": {
+       "yes": 0.505
+      },
+      "HT1X2": {
+       "1": 0.438,
+       "X": 0.338,
+       "2": 0.224
+      }
+     },
+     "expected_goals": {
+      "home": 2.27,
+      "away": 1.42
+     },
+     "top_scores": [
+      {
+       "score": "2-1",
+       "p": 0.092
+      },
+      {
+       "score": "1-1",
+       "p": 0.084
+      },
+      {
+       "score": "3-1",
+       "p": 0.069
+      }
+     ],
+     "confidence": {
+      "value": 0.564,
+      "source": "model_probability",
+      "bucket": "55-60"
+     },
+     "market_probability": 0.522,
+     "ev": 0.054,
+     "odds_seen": {
+      "value": 1.87,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-24T12:13:13+02:00"
+     },
+     "reasoning_fr": [
+      "Modèle 56,4 % pour « Victoire 1. FC Magdeburg (1) » contre 52,2 % pour le marché.",
+      "Buts attendus (modèle) : 2,27 – 1,42.",
+      "Tous les critères dc-v1 sont remplis (EV +5,4 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 42,
+      "away": 42
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": true,
+      "reason_fr": "Nouvelle lecture : compos officielles publiées."
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "late_ticket": true,
+     "lineups_source": "espn"
     }
    ]
   },
