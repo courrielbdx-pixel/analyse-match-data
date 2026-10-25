@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-25T22:03:49+01:00",
+ "generated_at": "2026-10-25T22:39:32+01:00",
  "date": "2026-10-25",
  "picks": [
   {
@@ -116339,7 +116339,7 @@
   },
   {
    "fixture_id": 1493206,
-   "final_reading_id": "1493206-r3",
+   "final_reading_id": "1493206-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -116906,6 +116906,196 @@
        }
       ]
      }
+    },
+    {
+     "reading_id": "1493206-r4",
+     "timestamp": "2026-10-25T22:39:27+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "River Plate ou nul (1N)"
+     },
+     "label": "SKIP",
+     "value_pick": {
+      "market": "OU2.5",
+      "selection": "under",
+      "label_fr": "Moins de 2,5 buts",
+      "model_probability": 0.576,
+      "market_probability": 0.518,
+      "odds": 1.86,
+      "bookmaker": "Pinnacle",
+      "ev": 0.071
+     },
+     "skip_reasons_fr": [
+      "EV −9,6 % < 5 %",
+      "Écart modèle/marché 6,9 pts > 5"
+     ],
+     "model_probability": 0.793,
+     "probabilities": {
+      "1X2": {
+       "1": 0.513,
+       "X": 0.28,
+       "2": 0.207
+      },
+      "DC": {
+       "1X": 0.793,
+       "X2": 0.487,
+       "12": 0.72
+      },
+      "OU1.5": {
+       "over": 0.696,
+       "under": 0.304
+      },
+      "OU2.5": {
+       "over": 0.424,
+       "under": 0.576
+      },
+      "OU3.5": {
+       "over": 0.216,
+       "under": 0.784
+      },
+      "BTTS": {
+       "yes": 0.462,
+       "no": 0.538
+      },
+      "BTTS_O2.5": {
+       "yes": 0.33
+      },
+      "1X_O1.5": {
+       "yes": 0.56
+      },
+      "1X_O2.5": {
+       "yes": 0.323
+      },
+      "1X_U3.5": {
+       "yes": 0.615
+      },
+      "1X_BTTS": {
+       "yes": 0.373
+      },
+      "X2_O1.5": {
+       "yes": 0.313
+      },
+      "X2_O2.5": {
+       "yes": 0.147
+      },
+      "X2_U3.5": {
+       "yes": 0.403
+      },
+      "X2_BTTS": {
+       "yes": 0.266
+      },
+      "12_O1.5": {
+       "yes": 0.519
+      },
+      "12_O2.5": {
+       "yes": 0.378
+      },
+      "12_U3.5": {
+       "yes": 0.55
+      },
+      "12_BTTS": {
+       "yes": 0.284
+      },
+      "HT1X2": {
+       "1": 0.373,
+       "X": 0.443,
+       "2": 0.185
+      }
+     },
+     "expected_goals": {
+      "home": 1.51,
+      "away": 0.87
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.131
+      },
+      {
+       "score": "1-0",
+       "p": 0.13
+      },
+      {
+       "score": "2-0",
+       "p": 0.106
+      }
+     ],
+     "confidence": {
+      "value": 0.793,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.862,
+     "ev": -0.096,
+     "odds_seen": {
+      "value": 1.14,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-25T22:39:27+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 79,3 % pour « River Plate ou nul (1N) » contre 86,2 % pour le marché.",
+      "Buts attendus (modèle) : 1,51 – 0,87.",
+      "Candidat EV max écarté : Moins de 2,5 buts (57,6 %, cote 1,86, EV +7,1 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 68,
+      "away": 68
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
