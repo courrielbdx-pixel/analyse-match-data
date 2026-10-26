@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-26T21:17:34+01:00",
+ "generated_at": "2026-10-26T21:35:38+01:00",
  "date": "2026-10-26",
  "picks": [
   {
@@ -23710,7 +23710,7 @@
   },
   {
    "fixture_id": 1505544,
-   "final_reading_id": "1505544-r2",
+   "final_reading_id": "1505544-r3",
    "decision": "SKIP",
    "readings": [
     {
@@ -24089,6 +24089,198 @@
      },
      "releco_count": 4,
      "first_timestamp": "2026-10-26T09:51:21+01:00"
+    },
+    {
+     "reading_id": "1505544-r3",
+     "timestamp": "2026-10-26T21:35:36+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Universidad de Chile ou nul (1N)"
+     },
+     "label": "SKIP",
+     "value_pick": {
+      "market": "1X2",
+      "selection": "1",
+      "label_fr": "Victoire Universidad de Chile (1)",
+      "model_probability": 0.655,
+      "market_probability": 0.569,
+      "odds": 1.7,
+      "bookmaker": "Betano",
+      "ev": 0.113
+     },
+     "skip_reasons_fr": [
+      "EV +2,3 % < 5 %"
+     ],
+     "model_probability": 0.846,
+     "probabilities": {
+      "1X2": {
+       "1": 0.655,
+       "X": 0.191,
+       "2": 0.154
+      },
+      "DC": {
+       "1X": 0.846,
+       "X2": 0.345,
+       "12": 0.809
+      },
+      "OU1.5": {
+       "over": 0.744,
+       "under": 0.256
+      },
+      "OU2.5": {
+       "over": 0.51,
+       "under": 0.49
+      },
+      "OU3.5": {
+       "over": 0.289,
+       "under": 0.711
+      },
+      "BTTS": {
+       "yes": 0.454,
+       "no": 0.546
+      },
+      "BTTS_O2.5": {
+       "yes": 0.364
+      },
+      "1X_O1.5": {
+       "yes": 0.652
+      },
+      "1X_O2.5": {
+       "yes": 0.438
+      },
+      "1X_U3.5": {
+       "yes": 0.584
+      },
+      "1X_BTTS": {
+       "yes": 0.389
+      },
+      "X2_O1.5": {
+       "yes": 0.227
+      },
+      "X2_O2.5": {
+       "yes": 0.117
+      },
+      "X2_U3.5": {
+       "yes": 0.273
+      },
+      "X2_BTTS": {
+       "yes": 0.201
+      },
+      "12_O1.5": {
+       "yes": 0.609
+      },
+      "12_O2.5": {
+       "yes": 0.465
+      },
+      "12_U3.5": {
+       "yes": 0.564
+      },
+      "12_BTTS": {
+       "yes": 0.319
+      },
+      "HT1X2": {
+       "1": 0.462,
+       "X": 0.395,
+       "2": 0.143
+      }
+     },
+     "expected_goals": {
+      "home": 1.93,
+      "away": 0.78
+     },
+     "top_scores": [
+      {
+       "score": "1-0",
+       "p": 0.138
+      },
+      {
+       "score": "2-0",
+       "p": 0.124
+      },
+      {
+       "score": "2-1",
+       "p": 0.097
+      }
+     ],
+     "confidence": {
+      "value": 0.846,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.797,
+     "ev": 0.023,
+     "odds_seen": {
+      "value": 1.21,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-26T21:35:36+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 84,6 % pour « Universidad de Chile ou nul (1N) » contre 79,7 % pour le marché.",
+      "Buts attendus (modèle) : 1,93 – 0,78.",
+      "Candidat EV max écarté : Les deux équipes ne marquent pas (54,6 %, cote 2,30, EV +25,5 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif 9h45 : aucune info fiable notable trouvée (absences, report)."
+      ],
+      "checked_at": "2026-10-26T09:50:00+01:00"
+     },
+     "team_samples": {
+      "home": 54,
+      "away": 53
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
