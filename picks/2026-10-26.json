@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-26T12:55:41+01:00",
+ "generated_at": "2026-10-26T15:47:29+01:00",
  "date": "2026-10-26",
  "picks": [
   {
@@ -6394,7 +6394,7 @@
   },
   {
    "fixture_id": 1509204,
-   "final_reading_id": "1509204-r3",
+   "final_reading_id": "1509204-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -6988,6 +6988,207 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-10-26T09:51:15+01:00"
+    },
+    {
+     "reading_id": "1509204-r4",
+     "timestamp": "2026-10-26T15:47:25+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.728,
+      "market_probability": 0.748,
+      "odds": 1.25,
+      "bookmaker": "William Hill"
+     },
+     "value_pick": {
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou Torpedo Kutaisi (N2)",
+      "model_probability": 0.545,
+      "market_probability": 0.477,
+      "odds": 2.05,
+      "bookmaker": "BetVictor",
+      "ev": 0.117
+     },
+     "skip_reasons_fr": [
+      "EV −10,6 % < 5 %"
+     ],
+     "model_probability": 0.751,
+     "probabilities": {
+      "1X2": {
+       "1": 0.455,
+       "X": 0.272,
+       "2": 0.273
+      },
+      "DC": {
+       "1X": 0.727,
+       "X2": 0.545,
+       "12": 0.728
+      },
+      "OU1.5": {
+       "over": 0.751,
+       "under": 0.249
+      },
+      "OU2.5": {
+       "over": 0.495,
+       "under": 0.505
+      },
+      "OU3.5": {
+       "over": 0.276,
+       "under": 0.724
+      },
+      "BTTS": {
+       "yes": 0.538,
+       "no": 0.462
+      },
+      "BTTS_O2.5": {
+       "yes": 0.408
+      },
+      "1X_O1.5": {
+       "yes": 0.549
+      },
+      "1X_O2.5": {
+       "yes": 0.338
+      },
+      "1X_U3.5": {
+       "yes": 0.523
+      },
+      "1X_BTTS": {
+       "yes": 0.404
+      },
+      "X2_O1.5": {
+       "yes": 0.395
+      },
+      "X2_O2.5": {
+       "yes": 0.22
+      },
+      "X2_U3.5": {
+       "yes": 0.41
+      },
+      "X2_BTTS": {
+       "yes": 0.327
+      },
+      "12_O1.5": {
+       "yes": 0.558
+      },
+      "12_O2.5": {
+       "yes": 0.432
+      },
+      "12_U3.5": {
+       "yes": 0.516
+      },
+      "12_BTTS": {
+       "yes": 0.345
+      },
+      "HT1X2": {
+       "1": 0.346,
+       "X": 0.42,
+       "2": 0.234
+      }
+     },
+     "expected_goals": {
+      "home": 1.52,
+      "away": 1.13
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.13
+      },
+      {
+       "score": "1-0",
+       "p": 0.099
+      },
+      {
+       "score": "2-1",
+       "p": 0.092
+      }
+     ],
+     "confidence": {
+      "value": 0.751,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.762,
+     "ev": -0.106,
+     "odds_seen": {
+      "value": 1.19,
+      "bookmaker": "Marathonbet",
+      "captured_at": "2026-10-26T15:47:25+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 75,1 % pour « Plus de 1,5 buts » contre 76,2 % pour le marché.",
+      "Buts attendus (modèle) : 1,52 – 1,13.",
+      "Candidat EV max écarté : Nul ou Torpedo Kutaisi (N2) (54,5 %, cote 2,05, EV +11,7 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif 9h45 : aucune info fiable notable trouvée (absences, report)."
+      ],
+      "checked_at": "2026-10-26T09:50:00+01:00"
+     },
+     "team_samples": {
+      "home": 65,
+      "away": 65
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "api"
     }
    ],
    "skip_check": {
@@ -6998,7 +7199,7 @@
   },
   {
    "fixture_id": 1551129,
-   "final_reading_id": "1551129-r4",
+   "final_reading_id": "1551129-r5",
    "decision": "SKIP",
    "readings": [
     {
@@ -7746,6 +7947,198 @@
        }
       ]
      }
+    },
+    {
+     "reading_id": "1551129-r5",
+     "timestamp": "2026-10-26T15:47:26+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Lokomotiv Plovdiv ou nul (1N)"
+     },
+     "label": "SKIP",
+     "value_pick": {
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou Slavia Sofia (N2)",
+      "model_probability": 0.656,
+      "market_probability": 0.564,
+      "odds": 1.75,
+      "bookmaker": "SBO",
+      "ev": 0.148
+     },
+     "skip_reasons_fr": [
+      "EV −6,7 % < 5 %"
+     ],
+     "model_probability": 0.707,
+     "probabilities": {
+      "1X2": {
+       "1": 0.344,
+       "X": 0.363,
+       "2": 0.293
+      },
+      "DC": {
+       "1X": 0.707,
+       "X2": 0.656,
+       "12": 0.637
+      },
+      "OU1.5": {
+       "over": 0.504,
+       "under": 0.496
+      },
+      "OU2.5": {
+       "over": 0.233,
+       "under": 0.767
+      },
+      "OU3.5": {
+       "over": 0.088,
+       "under": 0.912
+      },
+      "BTTS": {
+       "yes": 0.327,
+       "no": 0.673
+      },
+      "BTTS_O2.5": {
+       "yes": 0.187
+      },
+      "1X_O1.5": {
+       "yes": 0.351
+      },
+      "1X_O2.5": {
+       "yes": 0.138
+      },
+      "1X_U3.5": {
+       "yes": 0.647
+      },
+      "1X_BTTS": {
+       "yes": 0.251
+      },
+      "X2_O1.5": {
+       "yes": 0.317
+      },
+      "X2_O2.5": {
+       "yes": 0.119
+      },
+      "X2_U3.5": {
+       "yes": 0.604
+      },
+      "X2_BTTS": {
+       "yes": 0.24
+      },
+      "12_O1.5": {
+       "yes": 0.34
+      },
+      "12_O2.5": {
+       "yes": 0.209
+      },
+      "12_U3.5": {
+       "yes": 0.574
+      },
+      "12_BTTS": {
+       "yes": 0.163
+      },
+      "HT1X2": {
+       "1": 0.243,
+       "X": 0.544,
+       "2": 0.213
+      }
+     },
+     "expected_goals": {
+      "home": 0.88,
+      "away": 0.79
+     },
+     "top_scores": [
+      {
+       "score": "0-0",
+       "p": 0.199
+      },
+      {
+       "score": "1-0",
+       "p": 0.157
+      },
+      {
+       "score": "0-1",
+       "p": 0.14
+      }
+     ],
+     "confidence": {
+      "value": 0.707,
+      "source": "model_probability",
+      "bucket": "70-75"
+     },
+     "market_probability": 0.736,
+     "ev": -0.067,
+     "odds_seen": {
+      "value": 1.32,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-26T15:47:26+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 70,7 % pour « Lokomotiv Plovdiv ou nul (1N) » contre 73,6 % pour le marché.",
+      "Buts attendus (modèle) : 0,88 – 0,79.",
+      "Candidat EV max écarté : Moins de 2,5 buts (76,7 %, cote 1,57, EV +20,4 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif 9h45 : aucune info fiable notable trouvée (absences, report)."
+      ],
+      "checked_at": "2026-10-26T09:50:00+01:00"
+     },
+     "team_samples": {
+      "home": 47,
+      "away": 48
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "api"
     }
    ]
   },
