@@ -1,11 +1,11 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-27T07:02:05+01:00",
+ "generated_at": "2026-10-27T09:53:54+01:00",
  "date": "2026-10-28",
  "picks": [
   {
    "fixture_id": 1549727,
-   "final_reading_id": "1549727-r1",
+   "final_reading_id": "1549727-r2",
    "decision": "SKIP",
    "readings": [
     {
@@ -200,12 +200,209 @@
        }
       ]
      }
+    },
+    {
+     "reading_id": "1549727-r2",
+     "timestamp": "2026-10-27T09:53:53+01:00",
+     "trigger": "releco",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": false,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.731,
+      "market_probability": 0.694,
+      "odds": 1.36,
+      "bookmaker": "William Hill"
+     },
+     "value_pick": {
+      "market": "OU2.5",
+      "selection": "over",
+      "label_fr": "Plus de 2,5 buts",
+      "model_probability": 0.518,
+      "market_probability": 0.435,
+      "odds": 2.21,
+      "bookmaker": "Pinnacle",
+      "ev": 0.144
+     },
+     "skip_reasons_fr": [
+      "Écart modèle/marché 8,4 pts > 5"
+     ],
+     "model_probability": 0.767,
+     "probabilities": {
+      "1X2": {
+       "1": 0.411,
+       "X": 0.269,
+       "2": 0.32
+      },
+      "DC": {
+       "1X": 0.68,
+       "X2": 0.589,
+       "12": 0.731
+      },
+      "OU1.5": {
+       "over": 0.767,
+       "under": 0.233
+      },
+      "OU2.5": {
+       "over": 0.518,
+       "under": 0.482
+      },
+      "OU3.5": {
+       "over": 0.296,
+       "under": 0.704
+      },
+      "BTTS": {
+       "yes": 0.562,
+       "no": 0.438
+      },
+      "BTTS_O2.5": {
+       "yes": 0.435
+      },
+      "1X_O1.5": {
+       "yes": 0.521
+      },
+      "1X_O2.5": {
+       "yes": 0.324
+      },
+      "1X_U3.5": {
+       "yes": 0.478
+      },
+      "1X_BTTS": {
+       "yes": 0.4
+      },
+      "X2_O1.5": {
+       "yes": 0.443
+      },
+      "X2_O2.5": {
+       "yes": 0.264
+      },
+      "X2_U3.5": {
+       "yes": 0.424
+      },
+      "X2_BTTS": {
+       "yes": 0.36
+      },
+      "12_O1.5": {
+       "yes": 0.57
+      },
+      "12_O2.5": {
+       "yes": 0.448
+      },
+      "12_U3.5": {
+       "yes": 0.505
+      },
+      "12_BTTS": {
+       "yes": 0.365
+      },
+      "HT1X2": {
+       "1": 0.321,
+       "X": 0.414,
+       "2": 0.265
+      }
+     },
+     "expected_goals": {
+      "home": 1.47,
+      "away": 1.27
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.128
+      },
+      {
+       "score": "2-1",
+       "p": 0.089
+      },
+      {
+       "score": "1-0",
+       "p": 0.087
+      }
+     ],
+     "confidence": {
+      "value": 0.767,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.683,
+     "ev": 0.066,
+     "odds_seen": {
+      "value": 1.39,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-27T09:53:53+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 76,7 % pour « Plus de 1,5 buts » contre 68,3 % pour le marché.",
+      "Buts attendus (modèle) : 1,47 – 1,27.",
+      "Candidat EV max écarté : Plus de 2,5 buts (51,8 %, cote 2,21, EV +14,4 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 34,
+      "away": 74
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     }
     }
    ]
   },
   {
    "fixture_id": 1549726,
-   "final_reading_id": "1549726-r1",
+   "final_reading_id": "1549726-r2",
    "decision": "SKIP",
    "readings": [
     {
@@ -351,6 +548,194 @@
       "away": 94
      },
      "change_from_previous": null,
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     }
+    },
+    {
+     "reading_id": "1549726-r2",
+     "timestamp": "2026-10-27T09:53:53+01:00",
+     "trigger": "releco",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": false,
+     "pick": {
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou Junior (N2)"
+     },
+     "label": "SKIP",
+     "value_pick": {
+      "market": "1X2",
+      "selection": "2",
+      "label_fr": "Victoire Junior (2)",
+      "model_probability": 0.519,
+      "market_probability": 0.424,
+      "odds": 2.25,
+      "bookmaker": "Betano",
+      "ev": 0.168
+     },
+     "skip_reasons_fr": [
+      "Écart modèle/marché 8,2 pts > 5"
+     ],
+     "model_probability": 0.791,
+     "probabilities": {
+      "1X2": {
+       "1": 0.209,
+       "X": 0.272,
+       "2": 0.519
+      },
+      "DC": {
+       "1X": 0.481,
+       "X2": 0.791,
+       "12": 0.728
+      },
+      "OU1.5": {
+       "over": 0.703,
+       "under": 0.297
+      },
+      "OU2.5": {
+       "over": 0.435,
+       "under": 0.565
+      },
+      "OU3.5": {
+       "over": 0.225,
+       "under": 0.775
+      },
+      "BTTS": {
+       "yes": 0.467,
+       "no": 0.533
+      },
+      "BTTS_O2.5": {
+       "yes": 0.339
+      },
+      "1X_O1.5": {
+       "yes": 0.313
+      },
+      "1X_O2.5": {
+       "yes": 0.151
+      },
+      "1X_U3.5": {
+       "yes": 0.394
+      },
+      "1X_BTTS": {
+       "yes": 0.266
+      },
+      "X2_O1.5": {
+       "yes": 0.565
+      },
+      "X2_O2.5": {
+       "yes": 0.332
+      },
+      "X2_U3.5": {
+       "yes": 0.605
+      },
+      "X2_BTTS": {
+       "yes": 0.377
+      },
+      "12_O1.5": {
+       "yes": 0.527
+      },
+      "12_O2.5": {
+       "yes": 0.387
+      },
+      "12_U3.5": {
+       "yes": 0.551
+      },
+      "12_BTTS": {
+       "yes": 0.292
+      },
+      "HT1X2": {
+       "1": 0.186,
+       "X": 0.438,
+       "2": 0.376
+      }
+     },
+     "expected_goals": {
+      "home": 0.88,
+      "away": 1.54
+     },
+     "top_scores": [
+      {
+       "score": "0-1",
+       "p": 0.13
+      },
+      {
+       "score": "1-1",
+       "p": 0.128
+      },
+      {
+       "score": "0-2",
+       "p": 0.105
+      }
+     ],
+     "confidence": {
+      "value": 0.791,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.709,
+     "ev": 0.084,
+     "odds_seen": {
+      "value": 1.37,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-27T09:53:53+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 79,1 % pour « Nul ou Junior (N2) » contre 70,9 % pour le marché.",
+      "Buts attendus (modèle) : 0,88 – 1,54.",
+      "Candidat EV max écarté : Victoire Junior (2) (51,9 %, cote 2,25, EV +16,8 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 74,
+      "away": 94
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
      "coherence_check": {
       "passed": true,
       "checks": [
