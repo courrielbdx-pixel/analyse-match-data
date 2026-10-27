@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-27T13:18:41+01:00",
+ "generated_at": "2026-10-27T15:39:46+01:00",
  "date": "2026-10-27",
  "picks": [
   {
@@ -3541,7 +3541,7 @@
   },
   {
    "fixture_id": 1551125,
-   "final_reading_id": "1551125-r3",
+   "final_reading_id": "1551125-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -4109,6 +4109,199 @@
      },
      "releco_count": 3,
      "first_timestamp": "2026-10-26T18:59:48+01:00"
+    },
+    {
+     "reading_id": "1551125-r4",
+     "timestamp": "2026-10-27T15:39:44+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Cherno More Varna ou nul (1N)"
+     },
+     "label": "SKIP",
+     "value_pick": {
+      "market": "OU2.5",
+      "selection": "over",
+      "label_fr": "Plus de 2,5 buts",
+      "model_probability": 0.475,
+      "market_probability": 0.438,
+      "odds": 2.2,
+      "bookmaker": "Bet365",
+      "ev": 0.046
+     },
+     "skip_reasons_fr": [
+      "EV −1,2 % < 5 %"
+     ],
+     "model_probability": 0.817,
+     "probabilities": {
+      "1X2": {
+       "1": 0.559,
+       "X": 0.257,
+       "2": 0.183
+      },
+      "DC": {
+       "1X": 0.817,
+       "X2": 0.441,
+       "12": 0.743
+      },
+      "OU1.5": {
+       "over": 0.737,
+       "under": 0.263
+      },
+      "OU2.5": {
+       "over": 0.475,
+       "under": 0.525
+      },
+      "OU3.5": {
+       "over": 0.259,
+       "under": 0.741
+      },
+      "BTTS": {
+       "yes": 0.486,
+       "no": 0.514
+      },
+      "BTTS_O2.5": {
+       "yes": 0.364
+      },
+      "1X_O1.5": {
+       "yes": 0.611
+      },
+      "1X_O2.5": {
+       "yes": 0.379
+      },
+      "1X_U3.5": {
+       "yes": 0.596
+      },
+      "1X_BTTS": {
+       "yes": 0.4
+      },
+      "X2_O1.5": {
+       "yes": 0.298
+      },
+      "X2_O2.5": {
+       "yes": 0.146
+      },
+      "X2_U3.5": {
+       "yes": 0.353
+      },
+      "X2_BTTS": {
+       "yes": 0.258
+      },
+      "12_O1.5": {
+       "yes": 0.565
+      },
+      "12_O2.5": {
+       "yes": 0.425
+      },
+      "12_U3.5": {
+       "yes": 0.534
+      },
+      "12_BTTS": {
+       "yes": 0.314
+      },
+      "HT1X2": {
+       "1": 0.408,
+       "X": 0.418,
+       "2": 0.174
+      }
+     },
+     "expected_goals": {
+      "home": 1.7,
+      "away": 0.88
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.122
+      },
+      {
+       "score": "1-0",
+       "p": 0.12
+      },
+      {
+       "score": "2-0",
+       "p": 0.11
+      }
+     ],
+     "confidence": {
+      "value": 0.817,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.813,
+     "ev": -0.012,
+     "odds_seen": {
+      "value": 1.21,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-27T15:39:44+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 81,7 % pour « Cherno More Varna ou nul (1N) » contre 81,3 % pour le marché.",
+      "Buts attendus (modèle) : 1,70 – 0,88.",
+      "Candidat EV max écarté : Plus de 1,5 buts (73,7 %, cote 1,39, EV +2,4 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [],
+      "sources": [
+       "x.com search"
+      ],
+      "checked_at": "2026-10-27T12:46:27+01:00"
+     },
+     "team_samples": {
+      "home": 47,
+      "away": 49
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "api"
     }
    ]
   },
