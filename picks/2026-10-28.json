@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-28T09:57:10+01:00",
+ "generated_at": "2026-10-28T11:40:26+01:00",
  "date": "2026-10-28",
  "picks": [
   {
@@ -1580,7 +1580,7 @@
   },
   {
    "fixture_id": 1525936,
-   "final_reading_id": "1525936-r3",
+   "final_reading_id": "1525936-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -2112,6 +2112,185 @@
        }
       ]
      }
+    },
+    {
+     "reading_id": "1525936-r4",
+     "timestamp": "2026-10-28T11:40:23+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou Dinamo Minsk (N2)"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "EV −10,8 % < 5 %"
+     ],
+     "model_probability": 0.866,
+     "probabilities": {
+      "1X2": {
+       "1": 0.134,
+       "X": 0.184,
+       "2": 0.682
+      },
+      "DC": {
+       "1X": 0.318,
+       "X2": 0.866,
+       "12": 0.816
+      },
+      "OU1.5": {
+       "over": 0.78,
+       "under": 0.22
+      },
+      "OU2.5": {
+       "over": 0.552,
+       "under": 0.448
+      },
+      "OU3.5": {
+       "over": 0.329,
+       "under": 0.671
+      },
+      "BTTS": {
+       "yes": 0.475,
+       "no": 0.525
+      },
+      "BTTS_O2.5": {
+       "yes": 0.388
+      },
+      "1X_O1.5": {
+       "yes": 0.219
+      },
+      "1X_O2.5": {
+       "yes": 0.114
+      },
+      "1X_U3.5": {
+       "yes": 0.245
+      },
+      "1X_BTTS": {
+       "yes": 0.196
+      },
+      "X2_O1.5": {
+       "yes": 0.694
+      },
+      "X2_O2.5": {
+       "yes": 0.484
+      },
+      "X2_U3.5": {
+       "yes": 0.564
+      },
+      "X2_BTTS": {
+       "yes": 0.413
+      },
+      "12_O1.5": {
+       "yes": 0.646
+      },
+      "12_O2.5": {
+       "yes": 0.506
+      },
+      "12_U3.5": {
+       "yes": 0.533
+      },
+      "12_BTTS": {
+       "yes": 0.341
+      },
+      "HT1X2": {
+       "1": 0.135,
+       "X": 0.374,
+       "2": 0.49
+      }
+     },
+     "expected_goals": {
+      "home": 0.79,
+      "away": 2.1
+     },
+     "top_scores": [
+      {
+       "score": "0-2",
+       "p": 0.122
+      },
+      {
+       "score": "0-1",
+       "p": 0.121
+      },
+      {
+       "score": "1-2",
+       "p": 0.097
+      }
+     ],
+     "confidence": {
+      "value": 0.866,
+      "source": "model_probability",
+      "bucket": "85-90"
+     },
+     "market_probability": 0.894,
+     "ev": -0.108,
+     "odds_seen": {
+      "value": 1.03,
+      "bookmaker": "Marathonbet",
+      "captured_at": "2026-10-28T11:40:23+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 86,6 % pour « Nul ou Dinamo Minsk (N2) » contre 89,4 % pour le marché.",
+      "Buts attendus (modèle) : 0,79 – 2,10.",
+      "Candidat EV max écarté : Moins de 3,5 buts (67,1 %, cote 1,43, EV −4,0 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 27,
+      "away": 55
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "api"
     }
    ]
   },
