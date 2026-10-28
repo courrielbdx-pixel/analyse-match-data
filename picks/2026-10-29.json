@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-28T09:57:10+01:00",
+ "generated_at": "2026-10-28T12:56:56+01:00",
  "date": "2026-10-29",
  "picks": [
   {
@@ -395,7 +395,7 @@
     },
     {
      "reading_id": "1490571-r2",
-     "timestamp": "2026-10-28T09:57:06+01:00",
+     "timestamp": "2026-10-28T12:56:53+01:00",
      "trigger": "releco",
      "method_version": "dc-v1",
      "model_variant": "buts",
@@ -530,7 +530,7 @@
      "odds_seen": {
       "value": 1.07,
       "bookmaker": "Betano",
-      "captured_at": "2026-10-28T09:57:06+01:00"
+      "captured_at": "2026-10-28T12:56:53+01:00"
      },
      "reasoning_fr": [
       "Modèle 96,3 % pour « Plus de 1,5 buts » contre 89,8 % pour le marché.",
@@ -589,7 +589,9 @@
         "detail_fr": null
        }
       ]
-     }
+     },
+     "releco_count": 2,
+     "first_timestamp": "2026-10-28T09:57:06+01:00"
     }
    ]
   },
@@ -1569,7 +1571,7 @@
     },
     {
      "reading_id": "1490575-r2",
-     "timestamp": "2026-10-28T09:57:07+01:00",
+     "timestamp": "2026-10-28T12:56:54+01:00",
      "trigger": "releco",
      "method_version": "dc-v1",
      "model_variant": "buts",
@@ -1694,12 +1696,12 @@
      "odds_seen": {
       "value": 1.34,
       "bookmaker": "Betano",
-      "captured_at": "2026-10-28T09:57:07+01:00"
+      "captured_at": "2026-10-28T12:56:54+01:00"
      },
      "reasoning_fr": [
       "Modèle 76,3 % pour « Toronto FC ou nul (1N) » contre 73,0 % pour le marché.",
       "Buts attendus (modèle) : 1,66 – 1,05.",
-      "Candidat EV max écarté : Moins de 3,5 buts (71,1 %, cote 1,63, EV +16,0 %)."
+      "Candidat EV max écarté : Moins de 3,5 buts (71,1 %, cote 1,66, EV +18,1 %)."
      ],
      "web_check": {
       "status": "non_fait",
@@ -1753,7 +1755,9 @@
         "detail_fr": null
        }
       ]
-     }
+     },
+     "releco_count": 2,
+     "first_timestamp": "2026-10-28T09:57:07+01:00"
     }
    ]
   },
@@ -1948,7 +1952,7 @@
     },
     {
      "reading_id": "1505537-r2",
-     "timestamp": "2026-10-28T09:57:07+01:00",
+     "timestamp": "2026-10-28T12:56:54+01:00",
      "trigger": "releco",
      "method_version": "dc-v1",
      "model_variant": "buts",
@@ -1964,13 +1968,14 @@
       "selection": "over",
       "label_fr": "Plus de 2,5 buts",
       "model_probability": 0.602,
-      "market_probability": 0.547,
-      "odds": 1.79,
+      "market_probability": 0.537,
+      "odds": 1.81,
       "bookmaker": "Pinnacle",
-      "ev": 0.077
+      "ev": 0.089
      },
      "skip_reasons_fr": [
-      "EV +1,9 % < 5 %"
+      "EV +1,9 % < 5 %",
+      "Écart modèle/marché 5,2 pts > 5"
      ],
      "model_probability": 0.815,
      "probabilities": {
@@ -2068,17 +2073,17 @@
       "source": "model_probability",
       "bucket": "80-85"
      },
-     "market_probability": 0.767,
+     "market_probability": 0.763,
      "ev": 0.019,
      "odds_seen": {
       "value": 1.25,
       "bookmaker": "Bet365",
-      "captured_at": "2026-10-28T09:57:07+01:00"
+      "captured_at": "2026-10-28T12:56:54+01:00"
      },
      "reasoning_fr": [
-      "Modèle 81,5 % pour « Pas de nul (12) » contre 76,7 % pour le marché.",
+      "Modèle 81,5 % pour « Pas de nul (12) » contre 76,3 % pour le marché.",
       "Buts attendus (modèle) : 2,09 – 1,02.",
-      "Candidat EV max écarté : Plus de 2,5 buts (60,2 %, cote 1,79, EV +7,7 %)."
+      "Candidat EV max écarté : Plus de 2,5 buts (60,2 %, cote 1,81, EV +8,9 %)."
      ],
      "web_check": {
       "status": "non_fait",
@@ -2132,7 +2137,9 @@
         "detail_fr": null
        }
       ]
-     }
+     },
+     "releco_count": 2,
+     "first_timestamp": "2026-10-28T09:57:07+01:00"
     }
    ],
    "skip_check": {
@@ -2743,7 +2750,7 @@
   {
    "fixture_id": 1490578,
    "final_reading_id": "1490578-r1",
-   "decision": "TICKET",
+   "decision": "ANNULE",
    "readings": [
     {
      "reading_id": "1490578-r1",
@@ -3110,8 +3117,228 @@
        }
       ]
      }
+    },
+    {
+     "reading_id": "1490578-r3",
+     "timestamp": "2026-10-28T12:56:54+01:00",
+     "trigger": "releco",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": false,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.812,
+      "market_probability": 0.804,
+      "odds": 1.19,
+      "bookmaker": "Betano"
+     },
+     "value_pick": {
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou Orlando City SC (N2)",
+      "model_probability": 0.413,
+      "market_probability": 0.389,
+      "odds": 2.5,
+      "bookmaker": "Betano",
+      "ev": 0.033
+     },
+     "skip_reasons_fr": [
+      "EV −0,7 % < 5 %"
+     ],
+     "model_probability": 0.919,
+     "probabilities": {
+      "1X2": {
+       "1": 0.587,
+       "X": 0.188,
+       "2": 0.226
+      },
+      "DC": {
+       "1X": 0.774,
+       "X2": 0.413,
+       "12": 0.812
+      },
+      "OU1.5": {
+       "over": 0.919,
+       "under": 0.081
+      },
+      "OU2.5": {
+       "over": 0.78,
+       "under": 0.22
+      },
+      "OU3.5": {
+       "over": 0.591,
+       "under": 0.409
+      },
+      "BTTS": {
+       "yes": 0.733,
+       "no": 0.267
+      },
+      "BTTS_O2.5": {
+       "yes": 0.666
+      },
+      "1X_O1.5": {
+       "yes": 0.717
+      },
+      "1X_O2.5": {
+       "yes": 0.598
+      },
+      "1X_U3.5": {
+       "yes": 0.304
+      },
+      "1X_BTTS": {
+       "yes": 0.567
+      },
+      "X2_O1.5": {
+       "yes": 0.372
+      },
+      "X2_O2.5": {
+       "yes": 0.285
+      },
+      "X2_U3.5": {
+       "yes": 0.19
+      },
+      "X2_BTTS": {
+       "yes": 0.335
+      },
+      "12_O1.5": {
+       "yes": 0.75
+      },
+      "12_O2.5": {
+       "yes": 0.677
+      },
+      "12_U3.5": {
+       "yes": 0.324
+      },
+      "12_BTTS": {
+       "yes": 0.563
+      },
+      "HT1X2": {
+       "1": 0.46,
+       "X": 0.313,
+       "2": 0.226
+      }
+     },
+     "expected_goals": {
+      "home": 2.55,
+      "away": 1.57
+     },
+     "top_scores": [
+      {
+       "score": "2-1",
+       "p": 0.083
+      },
+      {
+       "score": "3-1",
+       "p": 0.07
+      },
+      {
+       "score": "1-1",
+       "p": 0.067
+      }
+     ],
+     "confidence": {
+      "value": 0.919,
+      "source": "model_probability",
+      "bucket": "90-95"
+     },
+     "market_probability": 0.89,
+     "ev": -0.007,
+     "odds_seen": {
+      "value": 1.08,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-28T12:56:54+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 91,9 % pour « Plus de 1,5 buts » contre 89,0 % pour le marché.",
+      "Buts attendus (modèle) : 2,55 – 1,57.",
+      "Candidat EV max écarté : Plus de 3,5 buts (59,1 %, cote 1,74, EV +2,8 %)."
+     ],
+     "web_check": {
+      "status": "info",
+      "items_fr": [
+       "Vérif 9h45 : Ticket Plus de 3,5 buts : Chicago sans Mbokazi et D'Avilla (suspendus), Lod et Rogers (blessés), André Franco incertain ; Orlando sans Atuesta (suspendu), Jansson, Dorsey et Spicer (rapport officiel MLS). Absences surtout défensives, rien qui contredise le pick."
+      ],
+      "checked_at": "2026-10-28T09:46:12+01:00",
+      "x_reads": 1,
+      "source": "https://www.mlssoccer.com/news/mls-player-status-report-matchday-33-wednesday-october-28"
+     },
+     "team_samples": {
+      "home": 64,
+      "away": 66
+     },
+     "ticket_recheck": {
+      "ticket_reading_id": "1490578-r1",
+      "market": "OU3.5",
+      "selection": "over",
+      "label_fr": "Plus de 3,5 buts",
+      "model_probability": 0.591,
+      "market_probability": 0.566,
+      "odds": 1.74,
+      "bookmaker": "SBO",
+      "ev": 0.028,
+      "still_ok": false,
+      "reasons_fr": [
+       "EV +2,8 % < 5 %"
+      ]
+     },
+     "change_from_previous": {
+      "pick_changed": true,
+      "label_changed": true,
+      "reason_fr": "Nouvelle lecture : cote 1,80 → 1,08."
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     }
     }
-   ]
+   ],
+   "cancelled": true,
+   "cancel_reason_fr": "EV +2,8 % < 5 %",
+   "cancel_label_fr": "Annulé (relecture 12h)"
   },
   {
    "fixture_id": 1490579,
@@ -3704,7 +3931,7 @@
     },
     {
      "reading_id": "1490581-r2",
-     "timestamp": "2026-10-28T09:57:08+01:00",
+     "timestamp": "2026-10-28T12:56:54+01:00",
      "trigger": "releco",
      "method_version": "dc-v1",
      "model_variant": "buts",
@@ -3720,19 +3947,19 @@
       "selection": "12",
       "label_fr": "Pas de nul (12)",
       "model_probability": 0.78,
-      "market_probability": 0.774,
-      "odds": 1.23,
+      "market_probability": 0.764,
+      "odds": 1.24,
       "bookmaker": "Betano"
      },
      "value_pick": {
-      "market": "OU3.5",
-      "selection": "under",
-      "label_fr": "Moins de 3,5 buts",
-      "model_probability": 0.565,
-      "market_probability": 0.533,
-      "odds": 1.81,
+      "market": "1X2",
+      "selection": "1",
+      "label_fr": "Victoire St. Louis City (1)",
+      "model_probability": 0.534,
+      "market_probability": 0.504,
+      "odds": 1.93,
       "bookmaker": "Pinnacle",
-      "ev": 0.023
+      "ev": 0.03
      },
      "skip_reasons_fr": [
       "EV −2,8 % < 5 %"
@@ -3833,17 +4060,17 @@
       "source": "model_probability",
       "bucket": "85-90"
      },
-     "market_probability": 0.849,
+     "market_probability": 0.842,
      "ev": -0.028,
      "odds_seen": {
       "value": 1.14,
-      "bookmaker": "Betano",
-      "captured_at": "2026-10-28T09:57:08+01:00"
+      "bookmaker": "Pinnacle",
+      "captured_at": "2026-10-28T12:56:54+01:00"
      },
      "reasoning_fr": [
-      "Modèle 85,3 % pour « Plus de 1,5 buts » contre 84,9 % pour le marché.",
+      "Modèle 85,3 % pour « Plus de 1,5 buts » contre 84,2 % pour le marché.",
       "Buts attendus (modèle) : 2,03 – 1,34.",
-      "Candidat EV max écarté : Moins de 3,5 buts (56,5 %, cote 1,81, EV +2,3 %)."
+      "Candidat EV max écarté : Victoire St, Louis City (1) (53,4 %, cote 1.93, EV +3,0 %)."
      ],
      "web_check": {
       "status": "non_fait",
@@ -3897,7 +4124,9 @@
         "detail_fr": null
        }
       ]
-     }
+     },
+     "releco_count": 2,
+     "first_timestamp": "2026-10-28T09:57:08+01:00"
     }
    ],
    "skip_check": {
@@ -4096,7 +4325,7 @@
     },
     {
      "reading_id": "1492431-r2",
-     "timestamp": "2026-10-28T09:57:08+01:00",
+     "timestamp": "2026-10-28T12:56:55+01:00",
      "trigger": "releco",
      "method_version": "dc-v1",
      "model_variant": "buts",
@@ -4221,7 +4450,7 @@
      "odds_seen": {
       "value": 1.31,
       "bookmaker": "Betano",
-      "captured_at": "2026-10-28T09:57:08+01:00"
+      "captured_at": "2026-10-28T12:56:55+01:00"
      },
      "reasoning_fr": [
       "Modèle 77,2 % pour « Bahia ou nul (1N) » contre 73,9 % pour le marché.",
@@ -4280,7 +4509,9 @@
         "detail_fr": null
        }
       ]
-     }
+     },
+     "releco_count": 2,
+     "first_timestamp": "2026-10-28T09:57:08+01:00"
     }
    ]
   },
@@ -4884,7 +5115,7 @@
     },
     {
      "reading_id": "1490582-r2",
-     "timestamp": "2026-10-28T09:57:08+01:00",
+     "timestamp": "2026-10-28T12:56:55+01:00",
      "trigger": "releco",
      "method_version": "dc-v1",
      "model_variant": "buts",
@@ -4900,19 +5131,19 @@
       "selection": "1X",
       "label_fr": "Vancouver Whitecaps ou nul (1N)",
       "model_probability": 0.807,
-      "market_probability": 0.838,
-      "odds": 1.17,
-      "bookmaker": "Bet365"
+      "market_probability": 0.842,
+      "odds": 1.15,
+      "bookmaker": "Betano"
      },
      "value_pick": {
       "market": "OU3.5",
       "selection": "under",
       "label_fr": "Moins de 3,5 buts",
       "model_probability": 0.564,
-      "market_probability": 0.482,
-      "odds": 2.03,
-      "bookmaker": "Pinnacle",
-      "ev": 0.145
+      "market_probability": 0.495,
+      "odds": 1.98,
+      "bookmaker": "Betano",
+      "ev": 0.117
      },
      "skip_reasons_fr": [
       "EV −5,3 % < 5 %"
@@ -5013,17 +5244,17 @@
       "source": "model_probability",
       "bucket": "85-90"
      },
-     "market_probability": 0.875,
+     "market_probability": 0.866,
      "ev": -0.053,
      "odds_seen": {
       "value": 1.11,
-      "bookmaker": "Betano",
-      "captured_at": "2026-10-28T09:57:08+01:00"
+      "bookmaker": "Pinnacle",
+      "captured_at": "2026-10-28T12:56:55+01:00"
      },
      "reasoning_fr": [
-      "Modèle 85,3 % pour « Plus de 1,5 buts » contre 87,5 % pour le marché.",
+      "Modèle 85,3 % pour « Plus de 1,5 buts » contre 86,6 % pour le marché.",
       "Buts attendus (modèle) : 2,20 – 1,18.",
-      "Candidat EV max écarté : Moins de 3,5 buts (56,4 %, cote 2,03, EV +14,5 %)."
+      "Candidat EV max écarté : Moins de 3,5 buts (56,4 %, cote 1,98, EV +11,7 %)."
      ],
      "web_check": {
       "status": "non_fait",
@@ -5077,9 +5308,15 @@
         "detail_fr": null
        }
       ]
-     }
+     },
+     "releco_count": 2,
+     "first_timestamp": "2026-10-28T09:57:08+01:00"
     }
-   ]
+   ],
+   "skip_check": {
+    "status": "pending",
+    "rule_fr": "écart 6,9% (> 5 pts)"
+   }
   },
   {
    "fixture_id": 1490583,
@@ -5472,7 +5709,7 @@
     },
     {
      "reading_id": "1490584-r2",
-     "timestamp": "2026-10-28T09:57:08+01:00",
+     "timestamp": "2026-10-28T12:56:55+01:00",
      "trigger": "releco",
      "method_version": "dc-v1",
      "model_variant": "buts",
@@ -5488,22 +5725,22 @@
       "selection": "12",
       "label_fr": "Pas de nul (12)",
       "model_probability": 0.773,
-      "market_probability": 0.742,
+      "market_probability": 0.739,
       "odds": 1.28,
-      "bookmaker": "Bet365"
+      "bookmaker": "Betano"
      },
      "value_pick": {
-      "market": "1X2",
+      "market": "HT1X2",
       "selection": "1",
-      "label_fr": "Victoire San Jose Earthquakes (1)",
-      "model_probability": 0.527,
-      "market_probability": 0.432,
-      "odds": 2.21,
-      "bookmaker": "Pinnacle",
-      "ev": 0.165
+      "label_fr": "Mi-temps : San Jose Earthquakes mène (MT 1)",
+      "model_probability": 0.403,
+      "market_probability": 0.337,
+      "odds": 2.82,
+      "bookmaker": "Betano",
+      "ev": 0.136
      },
      "skip_reasons_fr": [
-      "EV −0,9 % < 5 %"
+      "EV −0,1 % < 5 %"
      ],
      "model_probability": 0.833,
      "probabilities": {
@@ -5601,17 +5838,17 @@
       "source": "model_probability",
       "bucket": "80-85"
      },
-     "market_probability": 0.807,
-     "ev": -0.009,
+     "market_probability": 0.796,
+     "ev": -0.001,
      "odds_seen": {
-      "value": 1.19,
-      "bookmaker": "Betano",
-      "captured_at": "2026-10-28T09:57:08+01:00"
+      "value": 1.2,
+      "bookmaker": "Pinnacle",
+      "captured_at": "2026-10-28T12:56:55+01:00"
      },
      "reasoning_fr": [
-      "Modèle 83,3 % pour « Plus de 1,5 buts » contre 80,7 % pour le marché.",
+      "Modèle 83,3 % pour « Plus de 1,5 buts » contre 79,6 % pour le marché.",
       "Buts attendus (modèle) : 1,94 – 1,27.",
-      "Candidat EV max écarté : Victoire San Jose Earthquakes (1) (52,7 %, cote 2,21, EV +16,5 %)."
+      "Candidat EV max écarté : Victoire San Jose Earthquakes (1) (52,7 %, cote 2,31, EV +21,7 %)."
      ],
      "web_check": {
       "status": "non_fait",
@@ -5665,7 +5902,9 @@
         "detail_fr": null
        }
       ]
-     }
+     },
+     "releco_count": 2,
+     "first_timestamp": "2026-10-28T09:57:08+01:00"
     }
    ]
   },
