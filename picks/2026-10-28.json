@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-28T19:59:01+01:00",
+ "generated_at": "2026-10-28T20:19:36+01:00",
  "date": "2026-10-28",
  "picks": [
   {
@@ -17957,7 +17957,7 @@
   },
   {
    "fixture_id": 1550171,
-   "final_reading_id": "1550171-r3",
+   "final_reading_id": "1550171-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -18526,12 +18526,206 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-10-28T09:57:02+01:00"
+    },
+    {
+     "reading_id": "1550171-r4",
+     "timestamp": "2026-10-28T20:19:30+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "xg0.5",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou Juventus (N2)"
+     },
+     "label": "SKIP",
+     "value_pick": {
+      "market": "OU2.5",
+      "selection": "over",
+      "label_fr": "Plus de 2,5 buts",
+      "model_probability": 0.437,
+      "market_probability": 0.394,
+      "odds": 2.54,
+      "bookmaker": "1xBet",
+      "ev": 0.11
+     },
+     "skip_reasons_fr": [
+      "EV −4,8 % < 5 %"
+     ],
+     "model_probability": 0.794,
+     "probabilities": {
+      "1X2": {
+       "1": 0.206,
+       "X": 0.249,
+       "2": 0.545
+      },
+      "DC": {
+       "1X": 0.455,
+       "X2": 0.794,
+       "12": 0.751
+      },
+      "OU1.5": {
+       "over": 0.695,
+       "under": 0.305
+      },
+      "OU2.5": {
+       "over": 0.437,
+       "under": 0.563
+      },
+      "OU3.5": {
+       "over": 0.227,
+       "under": 0.773
+      },
+      "BTTS": {
+       "yes": 0.453,
+       "no": 0.547
+      },
+      "BTTS_O2.5": {
+       "yes": 0.336
+      },
+      "1X_O1.5": {
+       "yes": 0.291
+      },
+      "1X_O2.5": {
+       "yes": 0.143
+      },
+      "1X_U3.5": {
+       "yes": 0.373
+      },
+      "1X_BTTS": {
+       "yes": 0.247
+      },
+      "X2_O1.5": {
+       "yes": 0.566
+      },
+      "X2_O2.5": {
+       "yes": 0.341
+      },
+      "X2_U3.5": {
+       "yes": 0.603
+      },
+      "X2_BTTS": {
+       "yes": 0.368
+      },
+      "12_O1.5": {
+       "yes": 0.532
+      },
+      "12_O2.5": {
+       "yes": 0.391
+      },
+      "12_U3.5": {
+       "yes": 0.571
+      },
+      "12_BTTS": {
+       "yes": 0.29
+      },
+      "HT1X2": {
+       "1": 0.178,
+       "X": 0.436,
+       "2": 0.387
+      }
+     },
+     "expected_goals": {
+      "home": 0.85,
+      "away": 1.57
+     },
+     "top_scores": [
+      {
+       "score": "0-1",
+       "p": 0.141
+      },
+      {
+       "score": "1-1",
+       "p": 0.116
+      },
+      {
+       "score": "0-2",
+       "p": 0.109
+      }
+     ],
+     "confidence": {
+      "value": 0.794,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.812,
+     "ev": -0.048,
+     "odds_seen": {
+      "value": 1.2,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-28T20:19:30+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 79,4 % pour « Nul ou Juventus (N2) » contre 81,2 % pour le marché.",
+      "Buts attendus (modèle) : 0,85 – 1,57.",
+      "Candidat EV max écarté : Plus de 1,5 buts (69,5 %, cote 1,47, EV +2,1 %)."
+     ],
+     "web_check": {
+      "status": "info",
+      "items_fr": [
+       "Vérif 9h45 : Juventus toujours sans Yildiz, Locatelli, Thuram et Conceição ; tandem Woltemade-Kolo Muani (la Repubblica)."
+      ],
+      "checked_at": "2026-10-28T09:46:12+01:00",
+      "x_reads": 0,
+      "source": "https://www.repubblica.it/sport/calcio/serie-a/2026/10/28/news/genoa_juventus_monza_napoli_dove_vedere_tv_formazioni-425679914/"
+     },
+     "team_samples": {
+      "home": 72,
+      "away": 72
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
   {
    "fixture_id": 1550172,
-   "final_reading_id": "1550172-r3",
+   "final_reading_id": "1550172-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -19102,6 +19296,200 @@
      },
      "releco_count": 4,
      "first_timestamp": "2026-10-28T09:57:03+01:00"
+    },
+    {
+     "reading_id": "1550172-r4",
+     "timestamp": "2026-10-28T20:19:31+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "xg0.5",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou Napoli (N2)"
+     },
+     "label": "SKIP",
+     "value_pick": {
+      "market": "1X2",
+      "selection": "2",
+      "label_fr": "Victoire Napoli (2)",
+      "model_probability": 0.619,
+      "market_probability": 0.562,
+      "odds": 1.71,
+      "bookmaker": "Pinnacle",
+      "ev": 0.059
+     },
+     "skip_reasons_fr": [
+      "EV +0,3 % < 5 %"
+     ],
+     "model_probability": 0.829,
+     "probabilities": {
+      "1X2": {
+       "1": 0.171,
+       "X": 0.21,
+       "2": 0.619
+      },
+      "DC": {
+       "1X": 0.381,
+       "X2": 0.829,
+       "12": 0.79
+      },
+      "OU1.5": {
+       "over": 0.776,
+       "under": 0.224
+      },
+      "OU2.5": {
+       "over": 0.544,
+       "under": 0.456
+      },
+      "OU3.5": {
+       "over": 0.321,
+       "under": 0.679
+      },
+      "BTTS": {
+       "yes": 0.509,
+       "no": 0.491
+      },
+      "BTTS_O2.5": {
+       "yes": 0.41
+      },
+      "1X_O1.5": {
+       "yes": 0.271
+      },
+      "1X_O2.5": {
+       "yes": 0.148
+      },
+      "1X_U3.5": {
+       "yes": 0.286
+      },
+      "1X_BTTS": {
+       "yes": 0.238
+      },
+      "X2_O1.5": {
+       "yes": 0.66
+      },
+      "X2_O2.5": {
+       "yes": 0.451
+      },
+      "X2_U3.5": {
+       "yes": 0.548
+      },
+      "X2_BTTS": {
+       "yes": 0.426
+      },
+      "12_O1.5": {
+       "yes": 0.622
+      },
+      "12_O2.5": {
+       "yes": 0.489
+      },
+      "12_U3.5": {
+       "yes": 0.524
+      },
+      "12_BTTS": {
+       "yes": 0.355
+      },
+      "HT1X2": {
+       "1": 0.164,
+       "X": 0.387,
+       "2": 0.449
+      }
+     },
+     "expected_goals": {
+      "home": 0.91,
+      "away": 1.95
+     },
+     "top_scores": [
+      {
+       "score": "0-1",
+       "p": 0.114
+      },
+      {
+       "score": "0-2",
+       "p": 0.109
+      },
+      {
+       "score": "1-1",
+       "p": 0.1
+      }
+     ],
+     "confidence": {
+      "value": 0.829,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.799,
+     "ev": 0.003,
+     "odds_seen": {
+      "value": 1.21,
+      "bookmaker": "Marathonbet",
+      "captured_at": "2026-10-28T20:19:31+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 82,9 % pour « Nul ou Napoli (N2) » contre 79,9 % pour le marché.",
+      "Buts attendus (modèle) : 0,91 – 1,95.",
+      "Candidat EV max écarté : Victoire Napoli (2) (61,9 %, cote 1,71, EV +5,9 %)."
+     ],
+     "web_check": {
+      "status": "info",
+      "items_fr": [
+       "Vérif 9h45 : Napoli sans Spinazzola ; Allegri suspendu (Landucci sur le banc), retour de Rrahmani (la Repubblica)."
+      ],
+      "checked_at": "2026-10-28T09:46:12+01:00",
+      "x_reads": 0,
+      "source": "https://www.repubblica.it/sport/calcio/serie-a/2026/10/28/news/genoa_juventus_monza_napoli_dove_vedere_tv_formazioni-425679914/"
+     },
+     "team_samples": {
+      "home": 34,
+      "away": 72
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
@@ -25386,7 +25774,7 @@
   },
   {
    "fixture_id": 1556691,
-   "final_reading_id": "1556691-r3",
+   "final_reading_id": "1556691-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -25982,12 +26370,215 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-10-28T09:57:05+01:00"
+    },
+    {
+     "reading_id": "1556691-r4",
+     "timestamp": "2026-10-28T20:19:32+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.748,
+      "market_probability": 0.751,
+      "odds": 1.25,
+      "bookmaker": "Marathonbet"
+     },
+     "value_pick": {
+      "market": "1X_BTTS",
+      "selection": "yes",
+      "label_fr": "Heart Of Midlothian ou nul (1N) & les deux marquent",
+      "model_probability": 0.425,
+      "market_probability": 0.326,
+      "odds": 2.68,
+      "bookmaker": "Bet365",
+      "ev": 0.136
+     },
+     "skip_reasons_fr": [
+      "EV −4,1 % < 5 %"
+     ],
+     "model_probability": 0.799,
+     "probabilities": {
+      "1X2": {
+       "1": 0.434,
+       "X": 0.252,
+       "2": 0.314
+      },
+      "DC": {
+       "1X": 0.686,
+       "X2": 0.566,
+       "12": 0.748
+      },
+      "OU1.5": {
+       "over": 0.799,
+       "under": 0.201
+      },
+      "OU2.5": {
+       "over": 0.567,
+       "under": 0.433
+      },
+      "OU3.5": {
+       "over": 0.343,
+       "under": 0.657
+      },
+      "BTTS": {
+       "yes": 0.596,
+       "no": 0.404
+      },
+      "BTTS_O2.5": {
+       "yes": 0.479
+      },
+      "1X_O1.5": {
+       "yes": 0.55
+      },
+      "1X_O2.5": {
+       "yes": 0.365
+      },
+      "1X_U3.5": {
+       "yes": 0.448
+      },
+      "1X_BTTS": {
+       "yes": 0.425
+      },
+      "X2_O1.5": {
+       "yes": 0.444
+      },
+      "X2_O2.5": {
+       "yes": 0.28
+      },
+      "X2_U3.5": {
+       "yes": 0.382
+      },
+      "X2_BTTS": {
+       "yes": 0.367
+      },
+      "12_O1.5": {
+       "yes": 0.604
+      },
+      "12_O2.5": {
+       "yes": 0.489
+      },
+      "12_U3.5": {
+       "yes": 0.483
+      },
+      "12_BTTS": {
+       "yes": 0.401
+      },
+      "HT1X2": {
+       "1": 0.339,
+       "X": 0.396,
+       "2": 0.265
+      }
+     },
+     "expected_goals": {
+      "home": 1.61,
+      "away": 1.34
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.117
+      },
+      {
+       "score": "2-1",
+       "p": 0.091
+      },
+      {
+       "score": "1-0",
+       "p": 0.079
+      }
+     ],
+     "confidence": {
+      "value": 0.799,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.796,
+     "ev": -0.041,
+     "odds_seen": {
+      "value": 1.2,
+      "bookmaker": "Pinnacle",
+      "captured_at": "2026-10-28T20:19:32+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 79,9 % pour « Plus de 1,5 buts » contre 79,6 % pour le marché.",
+      "Buts attendus (modèle) : 1,61 – 1,34.",
+      "Candidat EV max écarté : Heart Of Midlothian ou nul (1N) (68,6 %, cote 1,95, EV +33,7 %)."
+     ],
+     "web_check": {
+      "status": "info",
+      "items_fr": [
+       "Vérif 9h45 : Hearts sans Harry Milne (croisés, saison terminée), Findlay et Borchgrevink (BBC) ; Rangers sans Shankland, Chermiti, McCrorie, Devlin et Yokota."
+      ],
+      "checked_at": "2026-10-28T09:46:12+01:00",
+      "x_reads": 0,
+      "source": "https://www.bbc.co.uk/sport/football/articles/c6gr8zzewz5ko"
+     },
+     "team_samples": {
+      "home": 48,
+      "away": 48
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
   {
    "fixture_id": 1640388,
-   "final_reading_id": "1640388-r3",
+   "final_reading_id": "1640388-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -26577,6 +27168,205 @@
        }
       ]
      }
+    },
+    {
+     "reading_id": "1640388-r4",
+     "timestamp": "2026-10-28T20:19:32+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "inter-competitions",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.779,
+      "market_probability": 0.747,
+      "odds": 1.3,
+      "bookmaker": "Marathonbet"
+     },
+     "value_pick": {
+      "market": "1X2",
+      "selection": "1",
+      "label_fr": "Victoire Liverpool (1)",
+      "model_probability": 0.498,
+      "market_probability": 0.426,
+      "odds": 2.29,
+      "bookmaker": "Pinnacle",
+      "ev": 0.141
+     },
+     "skip_reasons_fr": [
+      "EV +1,9 % < 5 %",
+      "Écart modèle/marché 5,0 pts > 5"
+     ],
+     "model_probability": 0.871,
+     "probabilities": {
+      "1X2": {
+       "1": 0.498,
+       "X": 0.221,
+       "2": 0.28
+      },
+      "DC": {
+       "1X": 0.72,
+       "X2": 0.502,
+       "12": 0.779
+      },
+      "OU1.5": {
+       "over": 0.871,
+       "under": 0.129
+      },
+      "OU2.5": {
+       "over": 0.686,
+       "under": 0.314
+      },
+      "OU3.5": {
+       "over": 0.471,
+       "under": 0.529
+      },
+      "BTTS": {
+       "yes": 0.679,
+       "no": 0.321
+      },
+      "BTTS_O2.5": {
+       "yes": 0.586
+      },
+      "1X_O1.5": {
+       "yes": 0.631
+      },
+      "1X_O2.5": {
+       "yes": 0.478
+      },
+      "1X_U3.5": {
+       "yes": 0.373
+      },
+      "1X_BTTS": {
+       "yes": 0.496
+      },
+      "X2_O1.5": {
+       "yes": 0.429
+      },
+      "X2_O2.5": {
+       "yes": 0.304
+      },
+      "X2_U3.5": {
+       "yes": 0.281
+      },
+      "X2_BTTS": {
+       "yes": 0.371
+      },
+      "12_O1.5": {
+       "yes": 0.683
+      },
+      "12_O2.5": {
+       "yes": 0.59
+      },
+      "12_U3.5": {
+       "yes": 0.404
+      },
+      "12_BTTS": {
+       "yes": 0.49
+      },
+      "HT1X2": {
+       "1": 0.393,
+       "X": 0.352,
+       "2": 0.255
+      }
+     },
+     "expected_goals": {
+      "home": 2.04,
+      "away": 1.5
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.093
+      },
+      {
+       "score": "2-1",
+       "p": 0.091
+      },
+      {
+       "score": "2-2",
+       "p": 0.068
+      }
+     ],
+     "confidence": {
+      "value": 0.871,
+      "source": "model_probability",
+      "bucket": "85-90"
+     },
+     "market_probability": 0.821,
+     "ev": 0.019,
+     "odds_seen": {
+      "value": 1.17,
+      "bookmaker": "Pinnacle",
+      "captured_at": "2026-10-28T20:19:32+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 87,1 % pour « Plus de 1,5 buts » contre 82,1 % pour le marché.",
+      "Buts attendus (modèle) : 2,04 – 1,50.",
+      "Candidat EV max écarté : Plus de 2,5 buts (68,6 %, cote 1,56, EV +7,0 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 112,
+      "away": 112
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
