@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-28T11:40:26+01:00",
+ "generated_at": "2026-10-28T12:33:37+01:00",
  "date": "2026-10-28",
  "picks": [
   {
@@ -2296,7 +2296,7 @@
   },
   {
    "fixture_id": 1525938,
-   "final_reading_id": "1525938-r3",
+   "final_reading_id": "1525938-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -2892,6 +2892,209 @@
        }
       ]
      }
+    },
+    {
+     "reading_id": "1525938-r4",
+     "timestamp": "2026-10-28T12:33:36+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU3.5",
+      "selection": "under",
+      "label_fr": "Moins de 3,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.727,
+      "market_probability": 0.704,
+      "odds": 1.34,
+      "bookmaker": "1xBet"
+     },
+     "value_pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "FC Isloch Minsk R. ou nul (1N)",
+      "model_probability": 0.612,
+      "market_probability": 0.517,
+      "odds": 1.92,
+      "bookmaker": "Marathonbet",
+      "ev": 0.176
+     },
+     "skip_reasons_fr": [
+      "EV −3,0 % < 5 %"
+     ],
+     "model_probability": 0.808,
+     "probabilities": {
+      "1X2": {
+       "1": 0.339,
+       "X": 0.273,
+       "2": 0.388
+      },
+      "DC": {
+       "1X": 0.612,
+       "X2": 0.661,
+       "12": 0.727
+      },
+      "OU1.5": {
+       "over": 0.652,
+       "under": 0.348
+      },
+      "OU2.5": {
+       "over": 0.392,
+       "under": 0.608
+      },
+      "OU3.5": {
+       "over": 0.192,
+       "under": 0.808
+      },
+      "BTTS": {
+       "yes": 0.45,
+       "no": 0.55
+      },
+      "BTTS_O2.5": {
+       "yes": 0.324
+      },
+      "1X_O1.5": {
+       "yes": 0.394
+      },
+      "1X_O2.5": {
+       "yes": 0.207
+      },
+      "1X_U3.5": {
+       "yes": 0.499
+      },
+      "1X_BTTS": {
+       "yes": 0.304
+      },
+      "X2_O1.5": {
+       "yes": 0.433
+      },
+      "X2_O2.5": {
+       "yes": 0.234
+      },
+      "X2_U3.5": {
+       "yes": 0.534
+      },
+      "X2_BTTS": {
+       "yes": 0.321
+      },
+      "12_O1.5": {
+       "yes": 0.477
+      },
+      "12_O2.5": {
+       "yes": 0.344
+      },
+      "12_U3.5": {
+       "yes": 0.584
+      },
+      "12_BTTS": {
+       "yes": 0.275
+      },
+      "HT1X2": {
+       "1": 0.253,
+       "X": 0.464,
+       "2": 0.283
+      }
+     },
+     "expected_goals": {
+      "home": 1.08,
+      "away": 1.18
+     },
+     "top_scores": [
+      {
+       "score": "0-1",
+       "p": 0.13
+      },
+      {
+       "score": "1-1",
+       "p": 0.126
+      },
+      {
+       "score": "1-0",
+       "p": 0.12
+      }
+     ],
+     "confidence": {
+      "value": 0.808,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.761,
+     "ev": -0.03,
+     "odds_seen": {
+      "value": 1.2,
+      "bookmaker": "Marathonbet",
+      "captured_at": "2026-10-28T12:33:36+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 80,8 % pour « Moins de 3,5 buts » contre 76,1 % pour le marché.",
+      "Buts attendus (modèle) : 1,08 – 1,18.",
+      "Candidat EV max écarté : FC Isloch Minsk R, ou nul (1N) (61,2 %, cote 1.92, EV +17,6 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif 9h45 : Match bien maintenu à 15h locale (sport5.by) : Isloch doit gagner pour rester dans la course au titre, sur 6-0 et 4-2 ; ML Vitebsk sur 5 victoires. Rien qui contredise le 1N."
+      ],
+      "checked_at": "2026-10-28T09:46:12+01:00",
+      "x_reads": 0,
+      "source": "https://sport5.by/news/football/belarus/ML-Vitebsk-mozhet-otkrepit-Isloch-ot-borby-za-trofey-anons-perenesennykh-matchey-BVL/"
+     },
+     "team_samples": {
+      "home": 55,
+      "away": 55
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "api"
     }
    ],
    "skip_check": {
