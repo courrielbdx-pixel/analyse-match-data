@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-28T19:20:54+01:00",
+ "generated_at": "2026-10-28T19:40:33+01:00",
  "date": "2026-10-28",
  "picks": [
   {
@@ -15542,7 +15542,7 @@
   },
   {
    "fixture_id": 1601575,
-   "final_reading_id": "1601575-r3",
+   "final_reading_id": "1601575-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -16100,6 +16100,198 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-10-28T09:57:00+01:00",
+     "history_insufficient": {
+      "home": 46,
+      "away": 8,
+      "min": 20,
+      "label_fr": "Historique insuffisant",
+      "text_fr": "⚠️ Historique insuffisant (46 / 8 matchs)"
+     }
+    },
+    {
+     "reading_id": "1601575-r4",
+     "timestamp": "2026-10-28T19:40:18+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Carrarese ou nul (1N)"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "⚠️ Historique insuffisant (46 / 8 matchs)",
+      "Écart modèle/marché 9,8 pts > 5",
+      "Échantillon insuffisant (8 matchs < 20)"
+     ],
+     "model_probability": 0.838,
+     "probabilities": {
+      "1X2": {
+       "1": 0.606,
+       "X": 0.232,
+       "2": 0.162
+      },
+      "DC": {
+       "1X": 0.838,
+       "X2": 0.394,
+       "12": 0.768
+      },
+      "OU1.5": {
+       "over": 0.806,
+       "under": 0.194
+      },
+      "OU2.5": {
+       "over": 0.568,
+       "under": 0.432
+      },
+      "OU3.5": {
+       "over": 0.344,
+       "under": 0.656
+      },
+      "BTTS": {
+       "yes": 0.544,
+       "no": 0.456
+      },
+      "BTTS_O2.5": {
+       "yes": 0.434
+      },
+      "1X_O1.5": {
+       "yes": 0.682
+      },
+      "1X_O2.5": {
+       "yes": 0.468
+      },
+      "1X_U3.5": {
+       "yes": 0.538
+      },
+      "1X_BTTS": {
+       "yes": 0.454
+      },
+      "X2_O1.5": {
+       "yes": 0.293
+      },
+      "X2_O2.5": {
+       "yes": 0.159
+      },
+      "X2_U3.5": {
+       "yes": 0.29
+      },
+      "X2_BTTS": {
+       "yes": 0.259
+      },
+      "12_O1.5": {
+       "yes": 0.637
+      },
+      "12_O2.5": {
+       "yes": 0.509
+      },
+      "12_U3.5": {
+       "yes": 0.483
+      },
+      "12_BTTS": {
+       "yes": 0.375
+      },
+      "HT1X2": {
+       "1": 0.452,
+       "X": 0.379,
+       "2": 0.169
+      }
+     },
+     "expected_goals": {
+      "home": 2.0,
+      "away": 0.96
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.11
+      },
+      {
+       "score": "2-0",
+       "p": 0.104
+      },
+      {
+       "score": "2-1",
+       "p": 0.099
+      }
+     ],
+     "confidence": {
+      "value": 0.838,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.74,
+     "ev": 0.072,
+     "odds_seen": {
+      "value": 1.28,
+      "bookmaker": "Bet365",
+      "captured_at": "2026-10-28T19:40:18+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 83,8 % pour « Carrarese ou nul (1N) » contre 74,0 % pour le marché.",
+      "Buts attendus (modèle) : 2,00 – 0,96.",
+      "Candidat EV max écarté : Victoire Carrarese (1) (60,6 %, cote 2,15, EV +30,3 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif 9h45 : Carrarese-Arezzo : rien de notable."
+      ],
+      "checked_at": "2026-10-28T09:46:12+01:00",
+      "x_reads": 0
+     },
+     "team_samples": {
+      "home": 46,
+      "away": 8
+     },
+     "change_from_previous": {
+      "pick_changed": true,
+      "label_changed": false,
+      "reason_fr": "Nouvelle lecture : compos officielles publiées, cote 1,35 → 1,28."
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn",
      "history_insufficient": {
       "home": 46,
       "away": 8,
@@ -16958,7 +17150,7 @@
   },
   {
    "fixture_id": 1640575,
-   "final_reading_id": "1640575-r3",
+   "final_reading_id": "1640575-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -17553,6 +17745,208 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-10-28T09:57:01+01:00"
+    },
+    {
+     "reading_id": "1640575-r4",
+     "timestamp": "2026-10-28T19:40:18+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "inter-competitions",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.77,
+      "market_probability": 0.778,
+      "odds": 1.24,
+      "bookmaker": "Marathonbet"
+     },
+     "value_pick": {
+      "market": "OU3.5",
+      "selection": "under",
+      "label_fr": "Moins de 3,5 buts",
+      "model_probability": 0.618,
+      "market_probability": 0.542,
+      "odds": 1.78,
+      "bookmaker": "Marathonbet",
+      "ev": 0.101
+     },
+     "skip_reasons_fr": [
+      "EV −6,1 % < 5 %"
+     ],
+     "model_probability": 0.823,
+     "probabilities": {
+      "1X2": {
+       "1": 0.536,
+       "X": 0.23,
+       "2": 0.234
+      },
+      "DC": {
+       "1X": 0.766,
+       "X2": 0.464,
+       "12": 0.77
+      },
+      "OU1.5": {
+       "over": 0.823,
+       "under": 0.177
+      },
+      "OU2.5": {
+       "over": 0.605,
+       "under": 0.395
+      },
+      "OU3.5": {
+       "over": 0.382,
+       "under": 0.618
+      },
+      "BTTS": {
+       "yes": 0.602,
+       "no": 0.398
+      },
+      "BTTS_O2.5": {
+       "yes": 0.497
+      },
+      "1X_O1.5": {
+       "yes": 0.638
+      },
+      "1X_O2.5": {
+       "yes": 0.452
+      },
+      "1X_U3.5": {
+       "yes": 0.464
+      },
+      "1X_BTTS": {
+       "yes": 0.467
+      },
+      "X2_O1.5": {
+       "yes": 0.367
+      },
+      "X2_O2.5": {
+       "yes": 0.23
+      },
+      "X2_U3.5": {
+       "yes": 0.308
+      },
+      "X2_BTTS": {
+       "yes": 0.317
+      },
+      "12_O1.5": {
+       "yes": 0.641
+      },
+      "12_O2.5": {
+       "yes": 0.528
+      },
+      "12_U3.5": {
+       "yes": 0.465
+      },
+      "12_BTTS": {
+       "yes": 0.42
+      },
+      "HT1X2": {
+       "1": 0.407,
+       "X": 0.376,
+       "2": 0.217
+      }
+     },
+     "expected_goals": {
+      "home": 1.92,
+      "away": 1.21
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.106
+      },
+      {
+       "score": "2-1",
+       "p": 0.098
+      },
+      {
+       "score": "2-0",
+       "p": 0.081
+      }
+     ],
+     "confidence": {
+      "value": 0.823,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.843,
+     "ev": -0.061,
+     "odds_seen": {
+      "value": 1.14,
+      "bookmaker": "Pinnacle",
+      "captured_at": "2026-10-28T19:40:18+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 82,3 % pour « Plus de 1,5 buts » contre 84,3 % pour le marché.",
+      "Buts attendus (modèle) : 1,92 – 1,21.",
+      "Candidat EV max écarté : Moins de 3,5 buts (61,8 %, cote 1,78, EV +10,1 %)."
+     ],
+     "web_check": {
+      "status": "info",
+      "items_fr": [
+       "Vérif 18h45 : Man City sans Haaland, Dias, Gvardiol, Anderson ni Donnarumma (repos, Rulli au but, Samba probable en pointe). Brighton : Struijk absent, Kadioglu et Chema Andrés incertains, Wieffer et Minteh de retour dans le groupe."
+      ],
+      "checked_at": "2026-10-28T18:46:00+01:00",
+      "x_reads": 1
+     },
+     "team_samples": {
+      "home": 116,
+      "away": 90
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ],
    "skip_check": {
