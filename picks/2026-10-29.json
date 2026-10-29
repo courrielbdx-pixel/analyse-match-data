@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-29T20:19:35+01:00",
+ "generated_at": "2026-10-29T21:53:09+01:00",
  "date": "2026-10-29",
  "picks": [
   {
@@ -15380,7 +15380,7 @@
   },
   {
    "fixture_id": 1492430,
-   "final_reading_id": "1492430-r2",
+   "final_reading_id": "1492430-r3",
    "decision": "SKIP",
    "readings": [
     {
@@ -15779,6 +15779,208 @@
      },
      "releco_count": 4,
      "first_timestamp": "2026-10-29T10:00:52+01:00"
+    },
+    {
+     "reading_id": "1492430-r3",
+     "timestamp": "2026-10-29T21:52:52+01:00",
+     "trigger": "releco",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": false,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.717,
+      "market_probability": 0.732,
+      "odds": 1.31,
+      "bookmaker": "1xBet"
+     },
+     "value_pick": {
+      "market": "OU2.5",
+      "selection": "under",
+      "label_fr": "Moins de 2,5 buts",
+      "model_probability": 0.534,
+      "market_probability": 0.44,
+      "odds": 2.27,
+      "bookmaker": "Betano",
+      "ev": 0.213
+     },
+     "skip_reasons_fr": [
+      "EV −8,9 % < 5 %"
+     ],
+     "model_probability": 0.729,
+     "probabilities": {
+      "1X2": {
+       "1": 0.415,
+       "X": 0.283,
+       "2": 0.302
+      },
+      "DC": {
+       "1X": 0.698,
+       "X2": 0.585,
+       "12": 0.717
+      },
+      "OU1.5": {
+       "over": 0.729,
+       "under": 0.271
+      },
+      "OU2.5": {
+       "over": 0.466,
+       "under": 0.534
+      },
+      "OU3.5": {
+       "over": 0.25,
+       "under": 0.75
+      },
+      "BTTS": {
+       "yes": 0.522,
+       "no": 0.478
+      },
+      "BTTS_O2.5": {
+       "yes": 0.387
+      },
+      "1X_O1.5": {
+       "yes": 0.509
+      },
+      "1X_O2.5": {
+       "yes": 0.298
+      },
+      "1X_U3.5": {
+       "yes": 0.523
+      },
+      "1X_BTTS": {
+       "yes": 0.381
+      },
+      "X2_O1.5": {
+       "yes": 0.415
+      },
+      "X2_O2.5": {
+       "yes": 0.228
+      },
+      "X2_U3.5": {
+       "yes": 0.45
+      },
+      "X2_BTTS": {
+       "yes": 0.336
+      },
+      "12_O1.5": {
+       "yes": 0.534
+      },
+      "12_O2.5": {
+       "yes": 0.406
+      },
+      "12_U3.5": {
+       "yes": 0.527
+      },
+      "12_BTTS": {
+       "yes": 0.326
+      },
+      "HT1X2": {
+       "1": 0.318,
+       "X": 0.433,
+       "2": 0.249
+      }
+     },
+     "expected_goals": {
+      "home": 1.39,
+      "away": 1.15
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.135
+      },
+      {
+       "score": "1-0",
+       "p": 0.101
+      },
+      {
+       "score": "0-0",
+       "p": 0.088
+      }
+     ],
+     "confidence": {
+      "value": 0.729,
+      "source": "model_probability",
+      "bucket": "70-75"
+     },
+     "market_probability": 0.778,
+     "ev": -0.089,
+     "odds_seen": {
+      "value": 1.25,
+      "bookmaker": "Bet365",
+      "captured_at": "2026-10-29T21:52:52+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 72,9 % pour « Plus de 1,5 buts » contre 77,8 % pour le marché.",
+      "Buts attendus (modèle) : 1,39 – 1,15.",
+      "Candidat EV max écarté : Moins de 2,5 buts (53,4 %, cote 2,27, EV +21,3 %)."
+     ],
+     "web_check": {
+      "status": "info",
+      "items_fr": [
+       "Vérif 12h45 : Atlético-MG sans Vitor Hugo (suspendu), Fred, Cuello, Cassierra, Borbas, Tressoldi (blessés) ; Domínguez devrait faire tourner avant la demi-finale de Copa do Brasil contre Grêmio dimanche (Lodi, Bernard sur le banc). Cruzeiro sans Pec, Sinisterra, Felipe Morais. La rotation de l'Atlético affaiblit la ligne Valeur Victoire Atlético-MG ; rien contre Moins de 3,5 buts."
+      ],
+      "checked_at": "2026-10-29T12:50:00+01:00",
+      "x_reads": 0,
+      "source": "https://ge.globo.com/mg/futebol/brasileirao-serie-a/noticia/2026/10/29/atletico-mg-x-cruzeiro-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml"
+     },
+     "team_samples": {
+      "home": 70,
+      "away": 70
+     },
+     "change_from_previous": {
+      "pick_changed": true,
+      "label_changed": false,
+      "reason_fr": "Nouvelle lecture : cote 1,44 → 1,25."
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     }
     }
    ]
   }
