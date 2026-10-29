@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-29T18:17:51+01:00",
+ "generated_at": "2026-10-29T18:32:41+01:00",
  "date": "2026-10-29",
  "picks": [
   {
@@ -12413,7 +12413,7 @@
   },
   {
    "fixture_id": 1494320,
-   "final_reading_id": "1494320-r2",
+   "final_reading_id": "1494320-r3",
    "decision": "SKIP",
    "readings": [
     {
@@ -12814,6 +12814,210 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-10-29T12:59:15+01:00"
+    },
+    {
+     "reading_id": "1494320-r3",
+     "timestamp": "2026-10-29T18:32:40+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.759,
+      "market_probability": 0.729,
+      "odds": 1.3,
+      "bookmaker": "William Hill"
+     },
+     "value_pick": {
+      "market": "1X2",
+      "selection": "2",
+      "label_fr": "Victoire Mjallby AIF (2)",
+      "model_probability": 0.499,
+      "market_probability": 0.41,
+      "odds": 2.32,
+      "bookmaker": "Pinnacle",
+      "ev": 0.157
+     },
+     "skip_reasons_fr": [
+      "EV +2,1 % < 5 %",
+      "Écart modèle/marché 5,7 pts > 5"
+     ],
+     "model_probability": 0.816,
+     "probabilities": {
+      "1X2": {
+       "1": 0.261,
+       "X": 0.241,
+       "2": 0.499
+      },
+      "DC": {
+       "1X": 0.501,
+       "X2": 0.739,
+       "12": 0.759
+      },
+      "OU1.5": {
+       "over": 0.816,
+       "under": 0.184
+      },
+      "OU2.5": {
+       "over": 0.592,
+       "under": 0.408
+      },
+      "OU3.5": {
+       "over": 0.369,
+       "under": 0.631
+      },
+      "BTTS": {
+       "yes": 0.604,
+       "no": 0.396
+      },
+      "BTTS_O2.5": {
+       "yes": 0.493
+      },
+      "1X_O1.5": {
+       "yes": 0.397
+      },
+      "1X_O2.5": {
+       "yes": 0.249
+      },
+      "1X_U3.5": {
+       "yes": 0.335
+      },
+      "1X_BTTS": {
+       "yes": 0.338
+      },
+      "X2_O1.5": {
+       "yes": 0.609
+      },
+      "X2_O2.5": {
+       "yes": 0.422
+      },
+      "X2_U3.5": {
+       "yes": 0.46
+      },
+      "X2_BTTS": {
+       "yes": 0.455
+      },
+      "12_O1.5": {
+       "yes": 0.627
+      },
+      "12_O2.5": {
+       "yes": 0.514
+      },
+      "12_U3.5": {
+       "yes": 0.469
+      },
+      "12_BTTS": {
+       "yes": 0.415
+      },
+      "HT1X2": {
+       "1": 0.234,
+       "X": 0.383,
+       "2": 0.383
+      }
+     },
+     "expected_goals": {
+      "home": 1.26,
+      "away": 1.81
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.111
+      },
+      {
+       "score": "1-2",
+       "p": 0.096
+      },
+      {
+       "score": "0-1",
+       "p": 0.079
+      }
+     ],
+     "confidence": {
+      "value": 0.816,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.759,
+     "ev": 0.021,
+     "odds_seen": {
+      "value": 1.25,
+      "bookmaker": "Pinnacle",
+      "captured_at": "2026-10-29T18:32:40+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 81,6 % pour « Plus de 1,5 buts » contre 75,9 % pour le marché.",
+      "Buts attendus (modèle) : 1,26 – 1,81.",
+      "Candidat EV max écarté : Plus de 2,5 buts (59,2 %, cote 1,83, EV +8,4 %)."
+     ],
+     "web_check": {
+      "status": "info",
+      "items_fr": [
+       "Vérif 12h45 : Örgryte sans Lagerlund, Svensson, Abukar, Ugwo et Alm (groupe officiel), rotation annoncée par Holmberg ; Mjällby sans Stavitski ni Dalsgaard, 9 matchs sans victoire. Plutôt défavorable à la ligne Valeur Victoire Mjällby, rien contre Plus de 1,5 buts."
+      ],
+      "checked_at": "2026-10-29T12:50:00+01:00",
+      "x_reads": 0,
+      "source": "https://oisfotboll.se/2026/10/29/truppen-mot-mjallby-aif/"
+     },
+     "team_samples": {
+      "home": 27,
+      "away": 55
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
