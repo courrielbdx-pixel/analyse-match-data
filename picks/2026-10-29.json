@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-29T19:59:12+01:00",
+ "generated_at": "2026-10-29T20:19:35+01:00",
  "date": "2026-10-29",
  "picks": [
   {
@@ -14174,7 +14174,7 @@
   },
   {
    "fixture_id": 1550169,
-   "final_reading_id": "1550169-r2",
+   "final_reading_id": "1550169-r3",
    "decision": "SKIP",
    "readings": [
     {
@@ -14574,6 +14574,210 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-10-29T10:00:49+01:00"
+    },
+    {
+     "reading_id": "1550169-r3",
+     "timestamp": "2026-10-29T20:19:33+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "xg0.5",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.755,
+      "market_probability": 0.74,
+      "odds": 1.31,
+      "bookmaker": "1xBet"
+     },
+     "value_pick": {
+      "market": "HT1X2",
+      "selection": "X",
+      "label_fr": "Mi-temps : nul (MT N)",
+      "model_probability": 0.41,
+      "market_probability": 0.382,
+      "odds": 2.61,
+      "bookmaker": "Pinnacle",
+      "ev": 0.071
+     },
+     "skip_reasons_fr": [
+      "EV −11,6 % < 5 %",
+      "Écart modèle/marché 6,7 pts > 5"
+     ],
+     "model_probability": 0.762,
+     "probabilities": {
+      "1X2": {
+       "1": 0.299,
+       "X": 0.245,
+       "2": 0.456
+      },
+      "DC": {
+       "1X": 0.544,
+       "X2": 0.701,
+       "12": 0.755
+      },
+      "OU1.5": {
+       "over": 0.762,
+       "under": 0.238
+      },
+      "OU2.5": {
+       "over": 0.525,
+       "under": 0.475
+      },
+      "OU3.5": {
+       "over": 0.302,
+       "under": 0.698
+      },
+      "BTTS": {
+       "yes": 0.553,
+       "no": 0.447
+      },
+      "BTTS_O2.5": {
+       "yes": 0.437
+      },
+      "1X_O1.5": {
+       "yes": 0.406
+      },
+      "1X_O2.5": {
+       "yes": 0.244
+      },
+      "1X_U3.5": {
+       "yes": 0.39
+      },
+      "1X_BTTS": {
+       "yes": 0.334
+      },
+      "X2_O1.5": {
+       "yes": 0.542
+      },
+      "X2_O2.5": {
+       "yes": 0.35
+      },
+      "X2_U3.5": {
+       "yes": 0.483
+      },
+      "X2_BTTS": {
+       "yes": 0.404
+      },
+      "12_O1.5": {
+       "yes": 0.577
+      },
+      "12_O2.5": {
+       "yes": 0.455
+      },
+      "12_U3.5": {
+       "yes": 0.522
+      },
+      "12_BTTS": {
+       "yes": 0.368
+      },
+      "HT1X2": {
+       "1": 0.246,
+       "X": 0.41,
+       "2": 0.344
+      }
+     },
+     "expected_goals": {
+      "home": 1.21,
+      "away": 1.56
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.116
+      },
+      {
+       "score": "0-1",
+       "p": 0.1
+      },
+      {
+       "score": "1-2",
+       "p": 0.092
+      }
+     ],
+     "confidence": {
+      "value": 0.762,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.829,
+     "ev": -0.116,
+     "odds_seen": {
+      "value": 1.16,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-29T20:19:33+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 76,2 % pour « Plus de 1,5 buts » contre 82,9 % pour le marché.",
+      "Buts attendus (modèle) : 1,21 – 1,56.",
+      "Candidat EV max écarté : Moins de 3,5 buts (69,8 %, cote 1,81, EV +26,3 %)."
+     ],
+     "web_check": {
+      "status": "info",
+      "items_fr": [
+       "Vérif 9h45 : Atalanta récupère Scalvini et Kamaldeen dans la liste des convoqués (Di Marzio). Rien qui contredise."
+      ],
+      "checked_at": "2026-10-29T09:50:00+01:00",
+      "x_reads": 1,
+      "source": "https://x.com/DiMarzio/status/2115463155669254485"
+     },
+     "team_samples": {
+      "home": 72,
+      "away": 72
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
