@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-29T22:07:36+01:00",
+ "generated_at": "2026-10-29T23:16:29+01:00",
  "date": "2026-10-30",
  "picks": [
   {
@@ -1369,6 +1369,206 @@
        }
       ]
      },
+     "raw_label": "TICKET"
+    },
+    {
+     "reading_id": "1492439-r8",
+     "timestamp": "2026-10-29T23:16:27+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU2.5",
+      "selection": "over",
+      "label_fr": "Plus de 2,5 buts"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "Critères dc-v1 remplis pour ce pick, mais le ticket verrouillé du match reste « Victoire Flamengo (2) » (pas de second ticket)"
+     ],
+     "model_probability": 0.559,
+     "probabilities": {
+      "1X2": {
+       "1": 0.203,
+       "X": 0.239,
+       "2": 0.558
+      },
+      "DC": {
+       "1X": 0.442,
+       "X2": 0.797,
+       "12": 0.761
+      },
+      "OU1.5": {
+       "over": 0.796,
+       "under": 0.204
+      },
+      "OU2.5": {
+       "over": 0.559,
+       "under": 0.441
+      },
+      "OU3.5": {
+       "over": 0.335,
+       "under": 0.665
+      },
+      "BTTS": {
+       "yes": 0.558,
+       "no": 0.442
+      },
+      "BTTS_O2.5": {
+       "yes": 0.444
+      },
+      "1X_O1.5": {
+       "yes": 0.332
+      },
+      "1X_O2.5": {
+       "yes": 0.189
+      },
+      "1X_U3.5": {
+       "yes": 0.32
+      },
+      "1X_BTTS": {
+       "yes": 0.288
+      },
+      "X2_O1.5": {
+       "yes": 0.643
+      },
+      "X2_O2.5": {
+       "yes": 0.435
+      },
+      "X2_U3.5": {
+       "yes": 0.52
+      },
+      "X2_BTTS": {
+       "yes": 0.448
+      },
+      "12_O1.5": {
+       "yes": 0.618
+      },
+      "12_O2.5": {
+       "yes": 0.494
+      },
+      "12_U3.5": {
+       "yes": 0.49
+      },
+      "12_BTTS": {
+       "yes": 0.379
+      },
+      "HT1X2": {
+       "1": 0.194,
+       "X": 0.389,
+       "2": 0.417
+      }
+     },
+     "expected_goals": {
+      "home": 1.05,
+      "away": 1.87
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.113
+      },
+      {
+       "score": "1-2",
+       "p": 0.099
+      },
+      {
+       "score": "0-2",
+       "p": 0.094
+      }
+     ],
+     "confidence": {
+      "value": 0.559,
+      "source": "model_probability",
+      "bucket": "55-60"
+     },
+     "market_probability": 0.514,
+     "ev": 0.067,
+     "odds_seen": {
+      "value": 1.91,
+      "bookmaker": "Pinnacle",
+      "captured_at": "2026-10-29T23:16:27+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 55,9 % pour « Plus de 2,5 buts » contre 51,4 % pour le marché.",
+      "Buts attendus (modèle) : 1,05 – 1,87.",
+      "Tous les critères dc-v1 sont remplis (EV +6,7 %)."
+     ],
+     "web_check": {
+      "status": "info",
+      "items_fr": [
+       "Vérif 9h45 : Vasco change son trio offensif (Marino, Colidio, Brenner) et Pumita titulaire à droite (Venê Casagrande). Rien contre la victoire de Flamengo.",
+       "Vérif 15h45 : Vasco-Flamengo : XI probable de Flamengo complet (Rossi ; Varela, Léo Ortiz, Léo Pereira, Alex Sandro ; Pulgar, Jorginho, Arrascaeta ; Plata, Samuel Lino, Pedro), pas de nouvelle absence signalée. Ticket maintenu.",
+       "Vérif 18h45 : Vasco avec Léo Jardim (malade mercredi mais apte) et Gabriel Pereira titulaire en défense (Venê Casagrande). Rien qui contredise le ticket Flamengo."
+      ],
+      "checked_at": "2026-10-29T15:45:00+01:00",
+      "x_reads": 3,
+      "source": "https://x.com/venecasagrande/status/2115724921066389836"
+     },
+     "team_samples": {
+      "home": 69,
+      "away": 70
+     },
+     "ticket_recheck": {
+      "ticket_reading_id": "1492439-r1",
+      "market": "1X2",
+      "selection": "2",
+      "label_fr": "Victoire Flamengo (2)",
+      "model_probability": 0.558,
+      "market_probability": 0.508,
+      "odds": 1.91,
+      "bookmaker": "Betano",
+      "ev": 0.065,
+      "still_ok": true,
+      "reasons_fr": []
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn",
      "raw_label": "TICKET"
     }
    ]
