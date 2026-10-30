@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-30T15:19:15+01:00",
+ "generated_at": "2026-10-30T15:40:26+01:00",
  "date": "2026-10-30",
  "picks": [
   {
@@ -6410,7 +6410,7 @@
   },
   {
    "fixture_id": 1526015,
-   "final_reading_id": "1526015-r3",
+   "final_reading_id": "1526015-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -6976,12 +6976,201 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-10-30T09:58:35+01:00"
+    },
+    {
+     "reading_id": "1526015-r4",
+     "timestamp": "2026-10-30T15:40:23+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)"
+     },
+     "label": "SKIP",
+     "value_pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Arsenal ou nul (1N)",
+      "model_probability": 0.656,
+      "market_probability": 0.591,
+      "odds": 1.57,
+      "bookmaker": "Marathonbet",
+      "ev": 0.03
+     },
+     "skip_reasons_fr": [
+      "EV −6,3 % < 5 %"
+     ],
+     "model_probability": 0.705,
+     "probabilities": {
+      "1X2": {
+       "1": 0.361,
+       "X": 0.295,
+       "2": 0.344
+      },
+      "DC": {
+       "1X": 0.656,
+       "X2": 0.639,
+       "12": 0.705
+      },
+      "OU1.5": {
+       "over": 0.577,
+       "under": 0.423
+      },
+      "OU2.5": {
+       "over": 0.314,
+       "under": 0.686
+      },
+      "OU3.5": {
+       "over": 0.137,
+       "under": 0.863
+      },
+      "BTTS": {
+       "yes": 0.384,
+       "no": 0.616
+      },
+      "BTTS_O2.5": {
+       "yes": 0.256
+      },
+      "1X_O1.5": {
+       "yes": 0.376
+      },
+      "1X_O2.5": {
+       "yes": 0.179
+      },
+      "1X_U3.5": {
+       "yes": 0.568
+      },
+      "1X_BTTS": {
+       "yes": 0.276
+      },
+      "X2_O1.5": {
+       "yes": 0.364
+      },
+      "X2_O2.5": {
+       "yes": 0.171
+      },
+      "X2_U3.5": {
+       "yes": 0.555
+      },
+      "X2_BTTS": {
+       "yes": 0.271
+      },
+      "12_O1.5": {
+       "yes": 0.413
+      },
+      "12_O2.5": {
+       "yes": 0.278
+      },
+      "12_U3.5": {
+       "yes": 0.604
+      },
+      "12_BTTS": {
+       "yes": 0.22
+      },
+      "HT1X2": {
+       "1": 0.255,
+       "X": 0.5,
+       "2": 0.245
+      }
+     },
+     "expected_goals": {
+      "home": 1.0,
+      "away": 0.97
+     },
+     "top_scores": [
+      {
+       "score": "1-0",
+       "p": 0.148
+      },
+      {
+       "score": "0-1",
+       "p": 0.144
+      },
+      {
+       "score": "0-0",
+       "p": 0.132
+      }
+     ],
+     "confidence": {
+      "value": 0.705,
+      "source": "model_probability",
+      "bucket": "70-75"
+     },
+     "market_probability": 0.706,
+     "ev": -0.063,
+     "odds_seen": {
+      "value": 1.33,
+      "bookmaker": "Marathonbet",
+      "captured_at": "2026-10-30T15:40:23+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 70,5 % pour « Pas de nul (12) » contre 70,6 % pour le marché.",
+      "Buts attendus (modèle) : 1,00 – 0,97.",
+      "Candidat EV max écarté : Les deux équipes ne marquent pas (61,6 %, cote 1,88, EV +15,9 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 56,
+      "away": 56
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "api"
     }
    ]
   },
   {
    "fixture_id": 1551140,
-   "final_reading_id": "1551140-r3",
+   "final_reading_id": "1551140-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -7552,6 +7741,200 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-10-30T09:58:36+01:00"
+    },
+    {
+     "reading_id": "1551140-r4",
+     "timestamp": "2026-10-30T15:40:24+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "CSKA 1948 ou nul (1N)"
+     },
+     "label": "SKIP",
+     "value_pick": {
+      "market": "1X2",
+      "selection": "1",
+      "label_fr": "Victoire CSKA 1948 (1)",
+      "model_probability": 0.737,
+      "market_probability": 0.659,
+      "odds": 1.46,
+      "bookmaker": "Pinnacle",
+      "ev": 0.076
+     },
+     "skip_reasons_fr": [
+      "EV +3,3 % < 5 %"
+     ],
+     "model_probability": 0.914,
+     "probabilities": {
+      "1X2": {
+       "1": 0.737,
+       "X": 0.177,
+       "2": 0.086
+      },
+      "DC": {
+       "1X": 0.914,
+       "X2": 0.263,
+       "12": 0.823
+      },
+      "OU1.5": {
+       "over": 0.811,
+       "under": 0.189
+      },
+      "OU2.5": {
+       "over": 0.582,
+       "under": 0.418
+      },
+      "OU3.5": {
+       "over": 0.358,
+       "under": 0.642
+      },
+      "BTTS": {
+       "yes": 0.456,
+       "no": 0.544
+      },
+      "BTTS_O2.5": {
+       "yes": 0.372
+      },
+      "1X_O1.5": {
+       "yes": 0.752
+      },
+      "1X_O2.5": {
+       "yes": 0.535
+      },
+      "1X_U3.5": {
+       "yes": 0.573
+      },
+      "1X_BTTS": {
+       "yes": 0.412
+      },
+      "X2_O1.5": {
+       "yes": 0.181
+      },
+      "X2_O2.5": {
+       "yes": 0.085
+      },
+      "X2_U3.5": {
+       "yes": 0.208
+      },
+      "X2_BTTS": {
+       "yes": 0.166
+      },
+      "12_O1.5": {
+       "yes": 0.689
+      },
+      "12_O2.5": {
+       "yes": 0.545
+      },
+      "12_U3.5": {
+       "yes": 0.502
+      },
+      "12_BTTS": {
+       "yes": 0.334
+      },
+      "HT1X2": {
+       "1": 0.542,
+       "X": 0.349,
+       "2": 0.108
+      }
+     },
+     "expected_goals": {
+      "home": 2.34,
+      "away": 0.69
+     },
+     "top_scores": [
+      {
+       "score": "2-0",
+       "p": 0.132
+      },
+      {
+       "score": "1-0",
+       "p": 0.107
+      },
+      {
+       "score": "3-0",
+       "p": 0.103
+      }
+     ],
+     "confidence": {
+      "value": 0.914,
+      "source": "model_probability",
+      "bucket": "90-95"
+     },
+     "market_probability": 0.866,
+     "ev": 0.033,
+     "odds_seen": {
+      "value": 1.13,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-30T15:40:24+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 91,4 % pour « CSKA 1948 ou nul (1N) » contre 86,6 % pour le marché.",
+      "Buts attendus (modèle) : 2,34 – 0,69.",
+      "Candidat EV max écarté : Victoire CSKA 1948 (1) (73,7 %, cote 1,46, EV +7,6 %)."
+     ],
+     "web_check": {
+      "items_fr": [
+       "Vérif 9h45 : CSKA 1948-Spartak Varna : CSKA 1948 4e (25 pts), Spartak 7e (13 pts), rien de notable côté effectifs."
+      ],
+      "status": "ok",
+      "checked_at": "2026-10-30T09:55:00+01:00",
+      "x_reads": 0,
+      "source": "https://sportal.bg/news-2026102915480005101"
+     },
+     "team_samples": {
+      "home": 48,
+      "away": 49
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "api"
     }
    ]
   },
