@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-30T18:14:09+01:00",
+ "generated_at": "2026-10-30T18:35:34+01:00",
  "date": "2026-10-30",
  "picks": [
   {
@@ -17173,7 +17173,7 @@
   },
   {
    "fixture_id": 1552801,
-   "final_reading_id": "1552801-r3",
+   "final_reading_id": "1552801-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -17742,6 +17742,200 @@
      },
      "releco_count": 3,
      "first_timestamp": "2026-10-30T09:58:37+01:00"
+    },
+    {
+     "reading_id": "1552801-r4",
+     "timestamp": "2026-10-30T18:35:30+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "xg0.5",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou Paris Saint Germain (N2)"
+     },
+     "label": "SKIP",
+     "value_pick": {
+      "market": "OU3.5",
+      "selection": "under",
+      "label_fr": "Moins de 3,5 buts",
+      "model_probability": 0.616,
+      "market_probability": 0.518,
+      "odds": 1.91,
+      "bookmaker": "1xBet",
+      "ev": 0.176
+     },
+     "skip_reasons_fr": [
+      "EV −6,0 % < 5 %"
+     ],
+     "model_probability": 0.855,
+     "probabilities": {
+      "1X2": {
+       "1": 0.145,
+       "X": 0.194,
+       "2": 0.661
+      },
+      "DC": {
+       "1X": 0.339,
+       "X2": 0.855,
+       "12": 0.806
+      },
+      "OU1.5": {
+       "over": 0.823,
+       "under": 0.177
+      },
+      "OU2.5": {
+       "over": 0.608,
+       "under": 0.392
+      },
+      "OU3.5": {
+       "over": 0.384,
+       "under": 0.616
+      },
+      "BTTS": {
+       "yes": 0.542,
+       "no": 0.458
+      },
+      "BTTS_O2.5": {
+       "yes": 0.451
+      },
+      "1X_O1.5": {
+       "yes": 0.255
+      },
+      "1X_O2.5": {
+       "yes": 0.145
+      },
+      "1X_U3.5": {
+       "yes": 0.241
+      },
+      "1X_BTTS": {
+       "yes": 0.229
+      },
+      "X2_O1.5": {
+       "yes": 0.716
+      },
+      "X2_O2.5": {
+       "yes": 0.52
+      },
+      "X2_U3.5": {
+       "yes": 0.511
+      },
+      "X2_BTTS": {
+       "yes": 0.462
+      },
+      "12_O1.5": {
+       "yes": 0.674
+      },
+      "12_O2.5": {
+       "yes": 0.55
+      },
+      "12_U3.5": {
+       "yes": 0.48
+      },
+      "12_BTTS": {
+       "yes": 0.393
+      },
+      "HT1X2": {
+       "1": 0.153,
+       "X": 0.358,
+       "2": 0.488
+      }
+     },
+     "expected_goals": {
+      "home": 0.93,
+      "away": 2.21
+     },
+     "top_scores": [
+      {
+       "score": "0-2",
+       "p": 0.105
+      },
+      {
+       "score": "1-2",
+       "p": 0.098
+      },
+      {
+       "score": "0-1",
+       "p": 0.094
+      }
+     ],
+     "confidence": {
+      "value": 0.855,
+      "source": "model_probability",
+      "bucket": "85-90"
+     },
+     "market_probability": 0.885,
+     "ev": -0.06,
+     "odds_seen": {
+      "value": 1.1,
+      "bookmaker": "1xBet",
+      "captured_at": "2026-10-30T18:35:30+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 85,5 % pour « Nul ou Paris Saint Germain (N2) » contre 88,5 % pour le marché.",
+      "Buts attendus (modèle) : 0,93 – 2,21.",
+      "Candidat EV max écarté : Moins de 3,5 buts (61,6 %, cote 1,91, EV +17,6 %)."
+     ],
+     "web_check": {
+      "items_fr": [
+       "Vérif 9h45 : Le Havre-PSG : PSG sans Marquinhos, Nuno Mendes, Dembélé, Kvaratskhelia (opéré), Godts incertain (naissance), rotation probable ; Le Havre lanterne rouge (2 pts). Rien contre Nul ou PSG."
+      ],
+      "status": "info",
+      "checked_at": "2026-10-30T09:55:00+01:00",
+      "x_reads": 0,
+      "source": "https://www.vipsg.fr/ligue1-psg/le-havre-psg-quatre-absents-majeurs-godts-incertain-le-point-sur-les-forfaits-299585/"
+     },
+     "team_samples": {
+      "home": 64,
+      "away": 64
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
