@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-30T20:15:35+01:00",
+ "generated_at": "2026-10-30T20:34:25+01:00",
  "date": "2026-10-30",
  "picks": [
   {
@@ -30667,7 +30667,7 @@
   },
   {
    "fixture_id": 1558670,
-   "final_reading_id": "1558670-r3",
+   "final_reading_id": "1558670-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -31263,6 +31263,209 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-10-30T09:58:41+01:00"
+    },
+    {
+     "reading_id": "1558670-r4",
+     "timestamp": "2026-10-30T20:34:18+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou Club Brugge KV (N2)",
+      "model_probability": 0.791,
+      "market_probability": 0.872,
+      "odds": 1.11,
+      "bookmaker": "Betano"
+     },
+     "value_pick": {
+      "market": "OU3.5",
+      "selection": "under",
+      "label_fr": "Moins de 3,5 buts",
+      "model_probability": 0.596,
+      "market_probability": 0.524,
+      "odds": 1.86,
+      "bookmaker": "Pinnacle",
+      "ev": 0.109
+     },
+     "skip_reasons_fr": [
+      "EV −4,5 % < 5 %"
+     ],
+     "model_probability": 0.837,
+     "probabilities": {
+      "1X2": {
+       "1": 0.209,
+       "X": 0.221,
+       "2": 0.57
+      },
+      "DC": {
+       "1X": 0.43,
+       "X2": 0.791,
+       "12": 0.779
+      },
+      "OU1.5": {
+       "over": 0.837,
+       "under": 0.163
+      },
+      "OU2.5": {
+       "over": 0.626,
+       "under": 0.374
+      },
+      "OU3.5": {
+       "over": 0.404,
+       "under": 0.596
+      },
+      "BTTS": {
+       "yes": 0.608,
+       "no": 0.392
+      },
+      "BTTS_O2.5": {
+       "yes": 0.507
+      },
+      "1X_O1.5": {
+       "yes": 0.344
+      },
+      "1X_O2.5": {
+       "yes": 0.216
+      },
+      "1X_U3.5": {
+       "yes": 0.281
+      },
+      "1X_BTTS": {
+       "yes": 0.301
+      },
+      "X2_O1.5": {
+       "yes": 0.67
+      },
+      "X2_O2.5": {
+       "yes": 0.486
+      },
+      "X2_U3.5": {
+       "yes": 0.46
+      },
+      "X2_BTTS": {
+       "yes": 0.483
+      },
+      "12_O1.5": {
+       "yes": 0.661
+      },
+      "12_O2.5": {
+       "yes": 0.55
+      },
+      "12_U3.5": {
+       "yes": 0.451
+      },
+      "12_BTTS": {
+       "yes": 0.432
+      },
+      "HT1X2": {
+       "1": 0.203,
+       "X": 0.365,
+       "2": 0.432
+      }
+     },
+     "expected_goals": {
+      "home": 1.18,
+      "away": 2.05
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.1
+      },
+      {
+       "score": "1-2",
+       "p": 0.098
+      },
+      {
+       "score": "0-2",
+       "p": 0.083
+      }
+     ],
+     "confidence": {
+      "value": 0.837,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.853,
+     "ev": -0.045,
+     "odds_seen": {
+      "value": 1.14,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-30T20:34:18+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 83,7 % pour « Plus de 1,5 buts » contre 85,3 % pour le marché.",
+      "Buts attendus (modèle) : 1,18 – 2,05.",
+      "Candidat EV max écarté : Moins de 3,5 buts (59,6 %, cote 1,86, EV +10,9 %)."
+     ],
+     "web_check": {
+      "items_fr": [
+       "Vérif 9h45 : Zulte-Bruges : Bruges au complet sauf Ordóñez ; Zulte sans Asare, Diakité, Paugain. Rien qui contredise."
+      ],
+      "status": "ok",
+      "checked_at": "2026-10-30T09:55:00+01:00",
+      "x_reads": 0,
+      "source": "https://www.voetbalflitsen.be/nieuws/club-brugge-trekt-naar-zulte-waregem-met-nagenoeg-volledige-kern-enkel-ordonez-ontbreekt"
+     },
+     "team_samples": {
+      "home": 43,
+      "away": 75
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
@@ -34984,7 +35187,7 @@
   },
   {
    "fixture_id": 1575531,
-   "final_reading_id": "1575531-r3",
+   "final_reading_id": "1575531-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -35553,6 +35756,200 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-10-30T09:58:42+01:00"
+    },
+    {
+     "reading_id": "1575531-r4",
+     "timestamp": "2026-10-30T20:34:21+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou Sporting CP (N2)"
+     },
+     "label": "SKIP",
+     "value_pick": {
+      "market": "OU3.5",
+      "selection": "over",
+      "label_fr": "Plus de 3,5 buts",
+      "model_probability": 0.437,
+      "market_probability": 0.399,
+      "odds": 2.58,
+      "bookmaker": "Pinnacle",
+      "ev": 0.127
+     },
+     "skip_reasons_fr": [
+      "EV −1,6 % < 5 %"
+     ],
+     "model_probability": 0.919,
+     "probabilities": {
+      "1X2": {
+       "1": 0.081,
+       "X": 0.141,
+       "2": 0.778
+      },
+      "DC": {
+       "1X": 0.222,
+       "X2": 0.919,
+       "12": 0.859
+      },
+      "OU1.5": {
+       "over": 0.851,
+       "under": 0.149
+      },
+      "OU2.5": {
+       "over": 0.656,
+       "under": 0.344
+      },
+      "OU3.5": {
+       "over": 0.437,
+       "under": 0.563
+      },
+      "BTTS": {
+       "yes": 0.485,
+       "no": 0.515
+      },
+      "BTTS_O2.5": {
+       "yes": 0.419
+      },
+      "1X_O1.5": {
+       "yes": 0.162
+      },
+      "1X_O2.5": {
+       "yes": 0.087
+      },
+      "1X_U3.5": {
+       "yes": 0.162
+      },
+      "1X_BTTS": {
+       "yes": 0.15
+      },
+      "X2_O1.5": {
+       "yes": 0.795
+      },
+      "X2_O2.5": {
+       "yes": 0.61
+      },
+      "X2_U3.5": {
+       "yes": 0.502
+      },
+      "X2_BTTS": {
+       "yes": 0.442
+      },
+      "12_O1.5": {
+       "yes": 0.744
+      },
+      "12_O2.5": {
+       "yes": 0.616
+      },
+      "12_U3.5": {
+       "yes": 0.463
+      },
+      "12_BTTS": {
+       "yes": 0.378
+      },
+      "HT1X2": {
+       "1": 0.103,
+       "X": 0.316,
+       "2": 0.58
+      }
+     },
+     "expected_goals": {
+      "home": 0.74,
+      "away": 2.64
+     },
+     "top_scores": [
+      {
+       "score": "0-2",
+       "p": 0.119
+      },
+      {
+       "score": "0-3",
+       "p": 0.105
+      },
+      {
+       "score": "0-1",
+       "p": 0.09
+      }
+     ],
+     "confidence": {
+      "value": 0.919,
+      "source": "model_probability",
+      "bucket": "90-95"
+     },
+     "market_probability": 0.905,
+     "ev": -0.016,
+     "odds_seen": {
+      "value": 1.07,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-30T20:34:21+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 91,9 % pour « Nul ou Sporting CP (N2) » contre 90,5 % pour le marché.",
+      "Buts attendus (modèle) : 0,74 – 2,64.",
+      "Candidat EV max écarté : Plus de 2,5 buts (65,6 %, cote 1,62, EV +6,3 %)."
+     ],
+     "web_check": {
+      "items_fr": [
+       "Vérif 9h45 : Casa Pia-Sporting : Sporting sans Debast, Zalazar, Nuno Santos ; Casa Pia sans André Gomes. Rien contre Nul ou Sporting."
+      ],
+      "status": "info",
+      "checked_at": "2026-10-30T09:55:00+01:00",
+      "x_reads": 0,
+      "source": "https://www.zerozero.pt/noticias/casa-pia-ac-x-sporting-antevisao-ausencias-e-onzes-provaveis/1244789"
+     },
+     "team_samples": {
+      "home": 66,
+      "away": 66
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
