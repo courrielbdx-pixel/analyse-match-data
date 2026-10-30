@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-30T17:37:06+01:00",
+ "generated_at": "2026-10-30T17:59:53+01:00",
  "date": "2026-10-30",
  "picks": [
   {
@@ -12775,7 +12775,7 @@
   },
   {
    "fixture_id": 1576215,
-   "final_reading_id": "1576215-r4",
+   "final_reading_id": "1576215-r5",
    "decision": "SKIP",
    "readings": [
     {
@@ -13537,6 +13537,209 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-10-30T12:57:17+01:00"
+    },
+    {
+     "reading_id": "1576215-r5",
+     "timestamp": "2026-10-30T17:59:48+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Arminia Bielefeld ou nul (1N)",
+      "model_probability": 0.783,
+      "market_probability": 0.743,
+      "odds": 1.3,
+      "bookmaker": "Betano"
+     },
+     "value_pick": {
+      "market": "1X2",
+      "selection": "1",
+      "label_fr": "Victoire Arminia Bielefeld (1)",
+      "model_probability": 0.555,
+      "market_probability": 0.482,
+      "odds": 2.0,
+      "bookmaker": "Dafabet",
+      "ev": 0.11
+     },
+     "skip_reasons_fr": [
+      "EV +1,0 % < 5 %"
+     ],
+     "model_probability": 0.802,
+     "probabilities": {
+      "1X2": {
+       "1": 0.555,
+       "X": 0.228,
+       "2": 0.217
+      },
+      "DC": {
+       "1X": 0.783,
+       "X2": 0.445,
+       "12": 0.772
+      },
+      "OU1.5": {
+       "over": 0.802,
+       "under": 0.198
+      },
+      "OU2.5": {
+       "over": 0.575,
+       "under": 0.425
+      },
+      "OU3.5": {
+       "over": 0.351,
+       "under": 0.649
+      },
+      "BTTS": {
+       "yes": 0.569,
+       "no": 0.431
+      },
+      "BTTS_O2.5": {
+       "yes": 0.462
+      },
+      "1X_O1.5": {
+       "yes": 0.638
+      },
+      "1X_O2.5": {
+       "yes": 0.442
+      },
+      "1X_U3.5": {
+       "yes": 0.496
+      },
+      "1X_BTTS": {
+       "yes": 0.451
+      },
+      "X2_O1.5": {
+       "yes": 0.339
+      },
+      "X2_O2.5": {
+       "yes": 0.202
+      },
+      "X2_U3.5": {
+       "yes": 0.312
+      },
+      "X2_BTTS": {
+       "yes": 0.294
+      },
+      "12_O1.5": {
+       "yes": 0.626
+      },
+      "12_O2.5": {
+       "yes": 0.506
+      },
+      "12_U3.5": {
+       "yes": 0.49
+      },
+      "12_BTTS": {
+       "yes": 0.394
+      },
+      "HT1X2": {
+       "1": 0.414,
+       "X": 0.384,
+       "2": 0.201
+      }
+     },
+     "expected_goals": {
+      "home": 1.89,
+      "away": 1.1
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.107
+      },
+      {
+       "score": "2-1",
+       "p": 0.099
+      },
+      {
+       "score": "1-0",
+       "p": 0.093
+      }
+     ],
+     "confidence": {
+      "value": 0.802,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.771,
+     "ev": 0.01,
+     "odds_seen": {
+      "value": 1.26,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-30T17:59:48+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 80,2 % pour « Plus de 1,5 buts » contre 77,1 % pour le marché.",
+      "Buts attendus (modèle) : 1,89 – 1,10.",
+      "Candidat EV max écarté : Victoire Arminia Bielefeld (1) (55,5 %, cote 2,00, EV +11,0 %)."
+     ],
+     "web_check": {
+      "items_fr": [
+       "Vérif 9h45 : Bielefeld-Braunschweig : Braunschweig sans Entrup, Tempelmann, Koutsidis, Di Benedetto ; Bielefeld sans absent signalé. Rien qui contredise."
+      ],
+      "status": "info",
+      "checked_at": "2026-10-30T09:55:00+01:00",
+      "x_reads": 0,
+      "source": "https://www.tipico.de/wett-tipps/sportwetten-news/arminia-bielefeld-vs-eintracht-braunschweig-voraussichtliche-aufstellungen"
+     },
+     "team_samples": {
+      "home": 43,
+      "away": 43
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ],
    "skip_check": {
@@ -13547,7 +13750,7 @@
   },
   {
    "fixture_id": 1576216,
-   "final_reading_id": "1576216-r3",
+   "final_reading_id": "1576216-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -14106,6 +14309,199 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-10-30T09:58:37+01:00",
+     "history_insufficient": {
+      "home": 9,
+      "away": 43,
+      "min": 20,
+      "label_fr": "Historique insuffisant",
+      "text_fr": "⚠️ Historique insuffisant (9 / 43 matchs)"
+     }
+    },
+    {
+     "reading_id": "1576216-r4",
+     "timestamp": "2026-10-30T17:59:49+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "⚠️ Historique insuffisant (9 / 43 matchs)",
+      "EV −7,3 % < 5 %",
+      "Échantillon insuffisant (9 matchs < 20)"
+     ],
+     "model_probability": 0.806,
+     "probabilities": {
+      "1X2": {
+       "1": 0.509,
+       "X": 0.235,
+       "2": 0.255
+      },
+      "DC": {
+       "1X": 0.745,
+       "X2": 0.491,
+       "12": 0.765
+      },
+      "OU1.5": {
+       "over": 0.806,
+       "under": 0.194
+      },
+      "OU2.5": {
+       "over": 0.582,
+       "under": 0.418
+      },
+      "OU3.5": {
+       "over": 0.358,
+       "under": 0.642
+      },
+      "BTTS": {
+       "yes": 0.59,
+       "no": 0.41
+      },
+      "BTTS_O2.5": {
+       "yes": 0.481
+      },
+      "1X_O1.5": {
+       "yes": 0.608
+      },
+      "1X_O2.5": {
+       "yes": 0.42
+      },
+      "1X_U3.5": {
+       "yes": 0.469
+      },
+      "1X_BTTS": {
+       "yes": 0.449
+      },
+      "X2_O1.5": {
+       "yes": 0.383
+      },
+      "X2_O2.5": {
+       "yes": 0.238
+      },
+      "X2_U3.5": {
+       "yes": 0.333
+      },
+      "X2_BTTS": {
+       "yes": 0.326
+      },
+      "12_O1.5": {
+       "yes": 0.622
+      },
+      "12_O2.5": {
+       "yes": 0.507
+      },
+      "12_U3.5": {
+       "yes": 0.482
+      },
+      "12_BTTS": {
+       "yes": 0.406
+      },
+      "HT1X2": {
+       "1": 0.386,
+       "X": 0.386,
+       "2": 0.227
+      }
+     },
+     "expected_goals": {
+      "home": 1.8,
+      "away": 1.22
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.109
+      },
+      {
+       "score": "2-1",
+       "p": 0.097
+      },
+      {
+       "score": "1-0",
+       "p": 0.086
+      }
+     ],
+     "confidence": {
+      "value": 0.806,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.834,
+     "ev": -0.073,
+     "odds_seen": {
+      "value": 1.15,
+      "bookmaker": "Betano",
+      "captured_at": "2026-10-30T17:59:49+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 80,6 % pour « Plus de 1,5 buts » contre 83,4 % pour le marché.",
+      "Buts attendus (modèle) : 1,80 – 1,22.",
+      "Candidat EV max écarté : Victoire Energie Cottbus (1) (50,9 %, cote 3,17, EV +61,5 %)."
+     ],
+     "web_check": {
+      "items_fr": [
+       "Vérif 9h45 : Cottbus-Bochum : Cottbus avec beaucoup d'absents (Engelhardt, Guttau, Borgmann, Butler, Hannemann, Hofmann, Bittencourt, Pelivan) ; Bochum sans Drakas, Mbom, Cokaj, Strompf, Olsen."
+      ],
+      "status": "info",
+      "checked_at": "2026-10-30T09:55:00+01:00",
+      "x_reads": 0,
+      "source": "https://fussball-nachschlagewerk.de/liga/2-bundesliga/energie-cottbus-gegen-vfl-bochum-vorschau-prognose-uebertragung-2-bundesliga/"
+     },
+     "team_samples": {
+      "home": 9,
+      "away": 43
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn",
      "history_insufficient": {
       "home": 9,
       "away": 43,
