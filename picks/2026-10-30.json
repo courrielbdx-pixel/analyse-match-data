@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-10-30T18:35:34+01:00",
+ "generated_at": "2026-10-30T18:51:49+01:00",
  "date": "2026-10-30",
  "picks": [
   {
@@ -19749,8 +19749,8 @@
   },
   {
    "fixture_id": 1561956,
-   "final_reading_id": "1561956-r4",
-   "decision": "SKIP",
+   "final_reading_id": "1561956-r5",
+   "decision": "TARDIF",
    "readings": [
     {
      "reading_id": "1561956-r1",
@@ -20518,6 +20518,184 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-10-30T12:57:18+01:00"
+    },
+    {
+     "reading_id": "1561956-r5",
+     "timestamp": "2026-10-30T18:51:46+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou TSV Hartberg (N2)"
+     },
+     "label": "TICKET",
+     "skip_reasons_fr": [],
+     "model_probability": 0.665,
+     "probabilities": {
+      "1X2": {
+       "1": 0.335,
+       "X": 0.277,
+       "2": 0.388
+      },
+      "DC": {
+       "1X": 0.612,
+       "X2": 0.665,
+       "12": 0.723
+      },
+      "OU1.5": {
+       "over": 0.77,
+       "under": 0.23
+      },
+      "OU2.5": {
+       "over": 0.517,
+       "under": 0.483
+      },
+      "OU3.5": {
+       "over": 0.296,
+       "under": 0.704
+      },
+      "BTTS": {
+       "yes": 0.567,
+       "no": 0.433
+      },
+      "BTTS_O2.5": {
+       "yes": 0.436
+      },
+      "1X_O1.5": {
+       "yes": 0.464
+      },
+      "1X_O2.5": {
+       "yes": 0.276
+      },
+      "1X_U3.5": {
+       "yes": 0.44
+      },
+      "1X_BTTS": {
+       "yes": 0.373
+      },
+      "X2_O1.5": {
+       "yes": 0.509
+      },
+      "X2_O2.5": {
+       "yes": 0.311
+      },
+      "X2_U3.5": {
+       "yes": 0.471
+      },
+      "X2_BTTS": {
+       "yes": 0.396
+      },
+      "12_O1.5": {
+       "yes": 0.568
+      },
+      "12_O2.5": {
+       "yes": 0.447
+      },
+      "12_U3.5": {
+       "yes": 0.497
+      },
+      "12_BTTS": {
+       "yes": 0.365
+      },
+      "HT1X2": {
+       "1": 0.277,
+       "X": 0.415,
+       "2": 0.309
+      }
+     },
+     "expected_goals": {
+      "home": 1.32,
+      "away": 1.43
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.132
+      },
+      {
+       "score": "1-2",
+       "p": 0.086
+      },
+      {
+       "score": "0-1",
+       "p": 0.081
+      }
+     ],
+     "confidence": {
+      "value": 0.665,
+      "source": "model_probability",
+      "bucket": "65-70"
+     },
+     "market_probability": 0.619,
+     "ev": 0.117,
+     "odds_seen": {
+      "value": 1.68,
+      "bookmaker": "SBO",
+      "captured_at": "2026-10-30T18:51:46+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 66,5 % pour « Nul ou TSV Hartberg (N2) » contre 61,9 % pour le marché.",
+      "Buts attendus (modèle) : 1,32 – 1,43.",
+      "Tous les critères dc-v1 sont remplis (EV +11,7 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 42,
+      "away": 42
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": true,
+      "reason_fr": "Nouvelle lecture : compos officielles publiées."
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "late_ticket": true,
+     "lineups_source": "espn"
     }
    ]
   },
