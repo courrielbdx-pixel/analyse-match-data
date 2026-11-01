@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-01T23:39:01+01:00",
+ "generated_at": "2026-11-01T23:55:52+01:00",
  "date": "2026-11-02",
  "picks": [
   {
@@ -1600,7 +1600,7 @@
   },
   {
    "fixture_id": 1549848,
-   "final_reading_id": "1549848-r3",
+   "final_reading_id": "1549848-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -2134,6 +2134,185 @@
        }
       ]
      }
+    },
+    {
+     "reading_id": "1549848-r4",
+     "timestamp": "2026-11-01T23:55:50+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Independiente Medellin ou nul (1N)"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "EV −1,4 % < 5 %"
+     ],
+     "model_probability": 0.858,
+     "probabilities": {
+      "1X2": {
+       "1": 0.635,
+       "X": 0.223,
+       "2": 0.142
+      },
+      "DC": {
+       "1X": 0.858,
+       "X2": 0.365,
+       "12": 0.777
+      },
+      "OU1.5": {
+       "over": 0.768,
+       "under": 0.232
+      },
+      "OU2.5": {
+       "over": 0.521,
+       "under": 0.479
+      },
+      "OU3.5": {
+       "over": 0.299,
+       "under": 0.701
+      },
+      "BTTS": {
+       "yes": 0.482,
+       "no": 0.518
+      },
+      "BTTS_O2.5": {
+       "yes": 0.376
+      },
+      "1X_O1.5": {
+       "yes": 0.671
+      },
+      "1X_O2.5": {
+       "yes": 0.444
+      },
+      "1X_U3.5": {
+       "yes": 0.589
+      },
+      "1X_BTTS": {
+       "yes": 0.413
+      },
+      "X2_O1.5": {
+       "yes": 0.25
+      },
+      "X2_O2.5": {
+       "yes": 0.123
+      },
+      "X2_U3.5": {
+       "yes": 0.288
+      },
+      "X2_BTTS": {
+       "yes": 0.222
+      },
+      "12_O1.5": {
+       "yes": 0.615
+      },
+      "12_O2.5": {
+       "yes": 0.473
+      },
+      "12_U3.5": {
+       "yes": 0.526
+      },
+      "12_BTTS": {
+       "yes": 0.329
+      },
+      "HT1X2": {
+       "1": 0.462,
+       "X": 0.391,
+       "2": 0.147
+      }
+     },
+     "expected_goals": {
+      "home": 1.95,
+      "away": 0.81
+     },
+     "top_scores": [
+      {
+       "score": "2-0",
+       "p": 0.12
+      },
+      {
+       "score": "1-0",
+       "p": 0.118
+      },
+      {
+       "score": "1-1",
+       "p": 0.106
+      }
+     ],
+     "confidence": {
+      "value": 0.858,
+      "source": "model_probability",
+      "bucket": "85-90"
+     },
+     "market_probability": 0.848,
+     "ev": -0.014,
+     "odds_seen": {
+      "value": 1.15,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-01T23:55:50+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 85,8 % pour « Independiente Medellin ou nul (1N) » contre 84,8 % pour le marché.",
+      "Buts attendus (modèle) : 1,95 – 0,81.",
+      "Candidat EV max écarté : Victoire Independiente Medellin (1) (63,5 %, cote 1,57, EV −0,3 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 89,
+      "away": 75
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
