@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-01T19:33:05+01:00",
+ "generated_at": "2026-11-01T19:57:14+01:00",
  "date": "2026-11-01",
  "picks": [
   {
@@ -107746,7 +107746,7 @@
   },
   {
    "fixture_id": 1552805,
-   "final_reading_id": "1552805-r3",
+   "final_reading_id": "1552805-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -108344,6 +108344,211 @@
      },
      "releco_count": 4,
      "first_timestamp": "2026-11-01T09:53:42+01:00"
+    },
+    {
+     "reading_id": "1552805-r4",
+     "timestamp": "2026-11-01T19:57:11+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "xg0.5",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.777,
+      "market_probability": 0.762,
+      "odds": 1.27,
+      "bookmaker": "1xBet"
+     },
+     "value_pick": {
+      "market": "1X2",
+      "selection": "1",
+      "label_fr": "Victoire Marseille (1)",
+      "model_probability": 0.525,
+      "market_probability": 0.497,
+      "odds": 1.96,
+      "bookmaker": "Dafabet",
+      "ev": 0.028
+     },
+     "skip_reasons_fr": [
+      "EV −2,8 % < 5 %"
+     ],
+     "model_probability": 0.838,
+     "probabilities": {
+      "1X2": {
+       "1": 0.525,
+       "X": 0.223,
+       "2": 0.252
+      },
+      "DC": {
+       "1X": 0.748,
+       "X2": 0.475,
+       "12": 0.777
+      },
+      "OU1.5": {
+       "over": 0.838,
+       "under": 0.162
+      },
+      "OU2.5": {
+       "over": 0.632,
+       "under": 0.368
+      },
+      "OU3.5": {
+       "over": 0.411,
+       "under": 0.589
+      },
+      "BTTS": {
+       "yes": 0.627,
+       "no": 0.373
+      },
+      "BTTS_O2.5": {
+       "yes": 0.527
+      },
+      "1X_O1.5": {
+       "yes": 0.635
+      },
+      "1X_O2.5": {
+       "yes": 0.461
+      },
+      "1X_U3.5": {
+       "yes": 0.431
+      },
+      "1X_BTTS": {
+       "yes": 0.476
+      },
+      "X2_O1.5": {
+       "yes": 0.387
+      },
+      "X2_O2.5": {
+       "yes": 0.254
+      },
+      "X2_U3.5": {
+       "yes": 0.299
+      },
+      "X2_BTTS": {
+       "yes": 0.334
+      },
+      "12_O1.5": {
+       "yes": 0.655
+      },
+      "12_O2.5": {
+       "yes": 0.549
+      },
+      "12_U3.5": {
+       "yes": 0.449
+      },
+      "12_BTTS": {
+       "yes": 0.444
+      },
+      "HT1X2": {
+       "1": 0.402,
+       "X": 0.368,
+       "2": 0.23
+      }
+     },
+     "expected_goals": {
+      "home": 1.96,
+      "away": 1.3
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.1
+      },
+      {
+       "score": "2-1",
+       "p": 0.096
+      },
+      {
+       "score": "2-0",
+       "p": 0.074
+      }
+     ],
+     "confidence": {
+      "value": 0.838,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.826,
+     "ev": -0.028,
+     "odds_seen": {
+      "value": 1.16,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-01T19:57:11+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 83,8 % pour « Plus de 1,5 buts » contre 82,6 % pour le marché.",
+      "Buts attendus (modèle) : 1,96 – 1,30.",
+      "Candidat EV max écarté : Victoire Marseille (1) (52,5 %, cote 1,96, EV +2,8 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif 9h45 : OM sans Abdallah et Cornelius, gros doute sur Gouiri ; Toulouse sans Messali."
+      ],
+      "checked_at": "2026-11-01T09:49:01+01:00",
+      "sources": [
+       "https://www.sport.fr/football/ligue-1-compos-probables-pour-om-toulouse-dimanche-a-20h45-avec-un-gros-doute-autour-de-gouiri-1495417.shtm"
+      ],
+      "x_reads": 1
+     },
+     "team_samples": {
+      "home": 64,
+      "away": 64
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
