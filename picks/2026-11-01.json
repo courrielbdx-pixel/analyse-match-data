@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-01T06:58:23+01:00",
+ "generated_at": "2026-11-01T07:40:38+01:00",
  "date": "2026-11-01",
  "picks": [
   {
@@ -8340,7 +8340,7 @@
   },
   {
    "fixture_id": 1556125,
-   "final_reading_id": "1556125-r3",
+   "final_reading_id": "1556125-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -8906,6 +8906,195 @@
        }
       ]
      }
+    },
+    {
+     "reading_id": "1556125-r4",
+     "timestamp": "2026-11-01T07:40:36+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Machida Zelvia ou nul (1N)"
+     },
+     "label": "SKIP",
+     "value_pick": {
+      "market": "1X2",
+      "selection": "1",
+      "label_fr": "Victoire Machida Zelvia (1)",
+      "model_probability": 0.638,
+      "market_probability": 0.577,
+      "odds": 1.76,
+      "bookmaker": "SBO",
+      "ev": 0.123
+     },
+     "skip_reasons_fr": [
+      "EV +2,8 % < 5 %"
+     ],
+     "model_probability": 0.849,
+     "probabilities": {
+      "1X2": {
+       "1": 0.638,
+       "X": 0.211,
+       "2": 0.151
+      },
+      "DC": {
+       "1X": 0.849,
+       "X2": 0.362,
+       "12": 0.789
+      },
+      "OU1.5": {
+       "over": 0.803,
+       "under": 0.197
+      },
+      "OU2.5": {
+       "over": 0.573,
+       "under": 0.427
+      },
+      "OU3.5": {
+       "over": 0.349,
+       "under": 0.651
+      },
+      "BTTS": {
+       "yes": 0.527,
+       "no": 0.473
+      },
+      "BTTS_O2.5": {
+       "yes": 0.427
+      },
+      "1X_O1.5": {
+       "yes": 0.694
+      },
+      "1X_O2.5": {
+       "yes": 0.485
+      },
+      "1X_U3.5": {
+       "yes": 0.539
+      },
+      "1X_BTTS": {
+       "yes": 0.447
+      },
+      "X2_O1.5": {
+       "yes": 0.265
+      },
+      "X2_O2.5": {
+       "yes": 0.144
+      },
+      "X2_U3.5": {
+       "yes": 0.267
+      },
+      "X2_BTTS": {
+       "yes": 0.236
+      },
+      "12_O1.5": {
+       "yes": 0.648
+      },
+      "12_O2.5": {
+       "yes": 0.518
+      },
+      "12_U3.5": {
+       "yes": 0.495
+      },
+      "12_BTTS": {
+       "yes": 0.371
+      },
+      "HT1X2": {
+       "1": 0.47,
+       "X": 0.373,
+       "2": 0.157
+      }
+     },
+     "expected_goals": {
+      "home": 2.08,
+      "away": 0.91
+     },
+     "top_scores": [
+      {
+       "score": "2-0",
+       "p": 0.109
+      },
+      {
+       "score": "1-1",
+       "p": 0.1
+      },
+      {
+       "score": "1-0",
+       "p": 0.1
+      }
+     ],
+     "confidence": {
+      "value": 0.849,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.814,
+     "ev": 0.028,
+     "odds_seen": {
+      "value": 1.21,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-01T07:40:36+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 84,9 % pour « Machida Zelvia ou nul (1N) » contre 81,4 % pour le marché.",
+      "Buts attendus (modèle) : 2,08 – 0,91.",
+      "Candidat EV max écarté : Victoire Machida Zelvia (1) (63,8 %, cote 1,76, EV +12,3 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 32,
+      "away": 32
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "api"
     }
    ]
   },
