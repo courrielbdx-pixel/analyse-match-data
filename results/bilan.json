@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-01T07:59:11+01:00",
+ "generated_at": "2026-11-01T08:18:44+01:00",
  "settled": [
   {
    "fixture_id": 1492403,
@@ -37461,29 +37461,89 @@
     "label": "SKIP",
     "outcome": "won"
    }
+  },
+  {
+   "fixture_id": 1556121,
+   "date": "2026-11-01",
+   "kickoff": "2026-11-01T06:00:00+01:00",
+   "league": {
+    "name": "J1 League",
+    "country": "Japon"
+   },
+   "region": "asie_oceanie",
+   "method_version": "dc-v1",
+   "reading_id": "1556121-r1",
+   "trigger": "matin",
+   "lineups_confirmed": false,
+   "market": "BTTS",
+   "selection": "yes",
+   "label_fr": "Les deux équipes marquent",
+   "label": "TICKET",
+   "model_probability": 0.552,
+   "confidence_bucket": "55-60",
+   "odds": 1.91,
+   "bookmaker": "Bet365",
+   "final_score": "3-0",
+   "outcome": "lost",
+   "pl_units": -1.0,
+   "matin": {
+    "selection": "yes",
+    "label": "TICKET",
+    "outcome": "lost"
+   }
+  },
+  {
+   "fixture_id": 1556129,
+   "date": "2026-11-01",
+   "kickoff": "2026-11-01T06:00:00+01:00",
+   "league": {
+    "name": "J1 League",
+    "country": "Japon"
+   },
+   "region": "asie_oceanie",
+   "method_version": "dc-v1",
+   "reading_id": "1556129-r3",
+   "trigger": "soir",
+   "lineups_confirmed": false,
+   "market": "OU3.5",
+   "selection": "under",
+   "label_fr": "Moins de 3,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.793,
+   "confidence_bucket": "75-80",
+   "odds": 1.27,
+   "bookmaker": "Pinnacle",
+   "final_score": "1-2",
+   "outcome": "won",
+   "pl_units": 0.27,
+   "matin": {
+    "selection": "under",
+    "label": "SKIP",
+    "outcome": "won"
+   }
   }
  ],
  "aggregates": {
   "dc-v1": {
    "TICKET": {
-    "n": 19,
+    "n": 20,
     "won": 10,
-    "lost": 9,
+    "lost": 10,
     "void": 0,
     "no_odds": 0,
-    "hit_rate": 0.526,
-    "pl_units": -0.3,
-    "roi": -0.016,
-    "avg_odds": 1.85
+    "hit_rate": 0.5,
+    "pl_units": -1.3,
+    "roi": -0.065,
+    "avg_odds": 1.86
    },
    "SKIP": {
-    "n": 1194,
-    "won": 973,
+    "n": 1195,
+    "won": 974,
     "lost": 219,
     "void": 2,
     "no_odds": 7,
     "hit_rate": 0.816,
-    "pl_units": -15.63,
+    "pl_units": -15.36,
     "roi": -0.013,
     "avg_odds": 1.22
    },
@@ -37760,19 +37820,19 @@
     },
     {
      "label": "SKIP",
-     "n": 35,
-     "won": 26,
+     "n": 36,
+     "won": 27,
      "lost": 9,
-     "pl_units": -3.52,
+     "pl_units": -3.25,
      "league": "J1 League",
      "country": "Japon"
     },
     {
      "label": "TICKET",
-     "n": 2,
+     "n": 3,
      "won": 2,
-     "lost": 0,
-     "pl_units": 1.73,
+     "lost": 1,
+     "pl_units": 0.73,
      "league": "J1 League",
      "country": "Japon"
     },
@@ -38557,6 +38617,14 @@
      "pl_units": -1.0
     },
     {
+     "market": "BTTS",
+     "label": "TICKET",
+     "n": 1,
+     "won": 0,
+     "lost": 1,
+     "pl_units": -1.0
+    },
+    {
      "market": "DC",
      "label": "ANNULE",
      "n": 8,
@@ -38639,10 +38707,10 @@
     {
      "market": "OU3.5",
      "label": "SKIP",
-     "n": 204,
-     "won": 157,
+     "n": 205,
+     "won": 158,
      "lost": 47,
-     "pl_units": -3.32
+     "pl_units": -3.05
     },
     {
      "market": "OU3.5",
@@ -38686,9 +38754,9 @@
     {
      "bucket": "55-60",
      "label": "TICKET",
-     "n": 17,
+     "n": 18,
      "won": 10,
-     "lost": 7
+     "lost": 8
     },
     {
      "bucket": "60-65",
@@ -38749,8 +38817,8 @@
     {
      "bucket": "75-80",
      "label": "SKIP",
-     "n": 372,
-     "won": 291,
+     "n": 373,
+     "won": 292,
      "lost": 81
     },
     {
@@ -39202,10 +39270,18 @@
     {
      "date": "2026-11-01",
      "label": "SKIP",
-     "n": 10,
-     "won": 10,
+     "n": 11,
+     "won": 11,
      "lost": 0,
-     "pl_units": 2.23
+     "pl_units": 2.5
+    },
+    {
+     "date": "2026-11-01",
+     "label": "TICKET",
+     "n": 1,
+     "won": 0,
+     "lost": 1,
+     "pl_units": -1.0
     }
    ],
    "by_week": [
@@ -39284,10 +39360,10 @@
     {
      "week": "2026-W44",
      "label": "SKIP",
-     "n": 335,
-     "won": 284,
+     "n": 336,
+     "won": 285,
      "lost": 50,
-     "pl_units": 10.17
+     "pl_units": 10.44
     },
     {
      "week": "2026-W44",
@@ -39300,10 +39376,10 @@
     {
      "week": "2026-W44",
      "label": "TICKET",
-     "n": 6,
+     "n": 7,
      "won": 4,
-     "lost": 2,
-     "pl_units": 1.57
+     "lost": 3,
+     "pl_units": 0.57
     }
    ],
    "by_trigger": [
@@ -39352,9 +39428,9 @@
     {
      "trigger": "matin",
      "label": "TICKET",
-     "n": 4,
+     "n": 5,
      "won": 2,
-     "lost": 2
+     "lost": 3
     },
     {
      "trigger": "releco",
@@ -39387,8 +39463,8 @@
     {
      "trigger": "soir",
      "label": "SKIP",
-     "n": 136,
-     "won": 110,
+     "n": 137,
+     "won": 111,
      "lost": 26
     },
     {
@@ -39402,9 +39478,9 @@
    "calibration": [
     {
      "bucket": "55-60",
-     "n": 46,
-     "mean_predicted": 0.571,
-     "observed": 0.543
+     "n": 47,
+     "mean_predicted": 0.57,
+     "observed": 0.532
     },
     {
      "bucket": "60-65",
@@ -39426,9 +39502,9 @@
     },
     {
      "bucket": "75-80",
-     "n": 372,
+     "n": 373,
      "mean_predicted": 0.775,
-     "observed": 0.782
+     "observed": 0.783
     },
     {
      "bucket": "80-85",
@@ -39877,24 +39953,24 @@
      "prob": 0.552,
      "odds": 1.91,
      "bookmaker": "Bet365",
-     "outcome": null
+     "outcome": "lost"
     }
    ],
    "total_odds": 3.5,
    "model_probability": 0.322,
    "ev": 0.125,
-   "outcome": null,
-   "pl_units": null
+   "outcome": "lost",
+   "pl_units": -1.0
   }
  ],
  "combines_aggregate": {
   "n": 10,
-  "settled": 8,
+  "settled": 9,
   "won": 4,
-  "lost": 4,
-  "hit_rate": 0.5,
-  "pl_units": 1.12,
-  "roi": 0.14
+  "lost": 5,
+  "hit_rate": 0.444,
+  "pl_units": 0.12,
+  "roi": 0.013
  },
  "fun_aggregate": {
   "played": 20,
@@ -39906,31 +39982,31 @@
  "bilan_start": "2026-10-13",
  "skip_lines": {
   "probable": {
-   "n": 1192,
-   "won": 973,
+   "n": 1193,
+   "won": 974,
    "hit_rate": 0.816,
-   "with_odds": 1185,
+   "with_odds": 1186,
    "avg_odds": 1.22,
-   "profit_eur": -15.63,
+   "profit_eur": -15.36,
    "roi": -0.013
   },
   "resultat": {
-   "n": 738,
+   "n": 739,
    "won": 556,
-   "hit_rate": 0.753,
-   "with_odds": 738,
+   "hit_rate": 0.752,
+   "with_odds": 739,
    "avg_odds": 1.28,
-   "profit_eur": -29.77,
-   "roi": -0.04
+   "profit_eur": -30.77,
+   "roi": -0.042
   },
   "valeur": {
-   "n": 1137,
+   "n": 1138,
    "won": 507,
    "hit_rate": 0.446,
-   "with_odds": 1137,
+   "with_odds": 1138,
    "avg_odds": 2.21,
-   "profit_eur": -54.56,
-   "roi": -0.048
+   "profit_eur": -55.56,
+   "roi": -0.049
   }
  },
  "clv": {
@@ -39967,19 +40043,6 @@
    "se": 0.0005
   },
   "tickets_list": [
-   {
-    "date": "2026-10-18",
-    "league": {
-     "name": "LaLiga",
-     "country": "Espagne"
-    },
-    "label": "TICKET",
-    "label_fr": "Moins de 3,5 buts",
-    "odds": 1.84,
-    "closing_odds": 1.86,
-    "clv": -0.0108,
-    "outcome": "lost"
-   },
    {
     "date": "2026-10-21",
     "league": {
@@ -40356,6 +40419,19 @@
     "closing_odds": 1.69,
     "clv": 0.0,
     "outcome": "won"
+   },
+   {
+    "date": "2026-11-01",
+    "league": {
+     "name": "J1 League",
+     "country": "Japon"
+    },
+    "label": "TICKET",
+    "label_fr": "Les deux équipes marquent",
+    "odds": 1.91,
+    "closing_odds": null,
+    "clv": null,
+    "outcome": "lost"
    }
   ],
   "recent": [
@@ -40843,10 +40919,10 @@
  "kelly": {
   "tickets": {
    "start": 100.0,
-   "bank": 96.67,
-   "bets": 19,
+   "bank": 95.23,
+   "bets": 20,
    "zero_stake": 0,
-   "roi_bank": -0.0333,
+   "roi_bank": -0.0477,
    "curve": [
     {
      "date": "2026-10-13",
@@ -40942,6 +41018,11 @@
      "date": "2026-10-31",
      "stake": 1.86,
      "bank": 96.67
+    },
+    {
+     "date": "2026-11-01",
+     "stake": 1.44,
+     "bank": 95.23
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
@@ -41048,16 +41129,11 @@
   },
   "probable": {
    "start": 100.0,
-   "bank": 78.72,
-   "bets": 406,
+   "bank": 78.86,
+   "bets": 407,
    "zero_stake": 781,
-   "roi_bank": -0.2128,
+   "roi_bank": -0.2114,
    "curve": [
-    {
-     "date": "2026-10-24",
-     "stake": 1.81,
-     "bank": 90.76
-    },
     {
      "date": "2026-10-24",
      "stake": 1.82,
@@ -42052,16 +42128,21 @@
      "date": "2026-11-01",
      "stake": 1.57,
      "bank": 78.72
+    },
+    {
+     "date": "2026-11-01",
+     "stake": 0.52,
+     "bank": 78.86
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
   },
   "resultat": {
    "start": 100.0,
-   "bank": 96.31,
-   "bets": 121,
+   "bank": 94.38,
+   "bets": 122,
    "zero_stake": 617,
-   "roi_bank": -0.0369,
+   "roi_bank": -0.0562,
    "curve": [
     {
      "date": "2026-10-13",
@@ -42667,22 +42748,22 @@
      "date": "2026-11-01",
      "stake": 1.91,
      "bank": 96.31
+    },
+    {
+     "date": "2026-11-01",
+     "stake": 1.93,
+     "bank": 94.38
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
   },
   "valeur": {
    "start": 100.0,
-   "bank": 24.88,
-   "bets": 1136,
+   "bank": 24.4,
+   "bets": 1137,
    "zero_stake": 2,
-   "roi_bank": -0.7512,
+   "roi_bank": -0.756,
    "curve": [
-    {
-     "date": "2026-10-30",
-     "stake": 0.67,
-     "bank": 34.68
-    },
     {
      "date": "2026-10-30",
      "stake": 0.69,
@@ -43677,6 +43758,11 @@
      "date": "2026-11-01",
      "stake": 0.51,
      "bank": 24.88
+    },
+    {
+     "date": "2026-11-01",
+     "stake": 0.48,
+     "bank": 24.4
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
