@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-01T10:37:01+01:00",
+ "generated_at": "2026-11-01T11:00:25+01:00",
  "settled": [
   {
    "fixture_id": 1492403,
@@ -37611,20 +37611,50 @@
     "label": "SKIP",
     "outcome": "won"
    }
+  },
+  {
+   "fixture_id": 1593697,
+   "date": "2026-11-01",
+   "kickoff": "2026-11-01T09:00:00+01:00",
+   "league": {
+    "name": "A-League",
+    "country": "Australie"
+   },
+   "region": "asie_oceanie",
+   "method_version": "dc-v1",
+   "reading_id": "1593697-r1",
+   "trigger": "releco",
+   "lineups_confirmed": false,
+   "market": "DC",
+   "selection": "X2",
+   "label_fr": "Nul ou Adelaide United (N2)",
+   "label": "TICKET",
+   "model_probability": 0.687,
+   "confidence_bucket": "65-70",
+   "odds": 1.53,
+   "bookmaker": "Betano",
+   "final_score": "4-0",
+   "outcome": "lost",
+   "pl_units": -1.0,
+   "matin": {
+    "selection": "over",
+    "label": "SKIP",
+    "outcome": "won"
+   }
   }
  ],
  "aggregates": {
   "dc-v1": {
    "TICKET": {
-    "n": 20,
+    "n": 21,
     "won": 10,
-    "lost": 10,
+    "lost": 11,
     "void": 0,
     "no_odds": 0,
-    "hit_rate": 0.5,
-    "pl_units": -1.3,
-    "roi": -0.065,
-    "avg_odds": 1.86
+    "hit_rate": 0.476,
+    "pl_units": -2.3,
+    "roi": -0.11,
+    "avg_odds": 1.84
    },
    "SKIP": {
     "n": 1198,
@@ -37703,6 +37733,15 @@
     },
     {
      "label": "TARDIF",
+     "n": 1,
+     "won": 0,
+     "lost": 1,
+     "pl_units": -1.0,
+     "league": "A-League",
+     "country": "Australie"
+    },
+    {
+     "label": "TICKET",
      "n": 1,
      "won": 0,
      "lost": 1,
@@ -38741,10 +38780,10 @@
     {
      "market": "DC",
      "label": "TICKET",
-     "n": 7,
+     "n": 8,
      "won": 2,
-     "lost": 5,
-     "pl_units": -3.26
+     "lost": 6,
+     "pl_units": -4.26
     },
     {
      "market": "OU1.5",
@@ -38896,6 +38935,13 @@
      "n": 1,
      "won": 1,
      "lost": 0
+    },
+    {
+     "bucket": "65-70",
+     "label": "TICKET",
+     "n": 1,
+     "won": 0,
+     "lost": 1
     },
     {
      "bucket": "70-75",
@@ -39368,10 +39414,10 @@
     {
      "date": "2026-11-01",
      "label": "TICKET",
-     "n": 1,
+     "n": 2,
      "won": 0,
-     "lost": 1,
-     "pl_units": -1.0
+     "lost": 2,
+     "pl_units": -2.0
     }
    ],
    "by_week": [
@@ -39466,10 +39512,10 @@
     {
      "week": "2026-W44",
      "label": "TICKET",
-     "n": 7,
+     "n": 8,
      "won": 4,
-     "lost": 3,
-     "pl_units": 0.57
+     "lost": 4,
+     "pl_units": -0.43
     }
    ],
    "by_trigger": [
@@ -39546,9 +39592,9 @@
     {
      "trigger": "releco",
      "label": "TICKET",
-     "n": 11,
+     "n": 12,
      "won": 7,
-     "lost": 4
+     "lost": 5
     },
     {
      "trigger": "soir",
@@ -39580,9 +39626,9 @@
     },
     {
      "bucket": "65-70",
-     "n": 28,
-     "mean_predicted": 0.684,
-     "observed": 0.714
+     "n": 29,
+     "mean_predicted": 0.685,
+     "observed": 0.69
     },
     {
      "bucket": "70-75",
@@ -40101,12 +40147,12 @@
  },
  "clv": {
   "tickets": {
-   "n": 13,
-   "mean_clv": -0.0041,
-   "beat_close": 0.0,
-   "beat_n": 0,
+   "n": 14,
+   "mean_clv": -0.0023,
+   "beat_close": 0.071,
+   "beat_n": 1,
    "same_n": 7,
-   "se": 0.0014
+   "se": 0.0021
   },
   "probable": {
    "n": 1018,
@@ -40133,19 +40179,6 @@
    "se": 0.0005
   },
   "tickets_list": [
-   {
-    "date": "2026-10-21",
-    "league": {
-     "name": "Liga MX",
-     "country": "Mexique"
-    },
-    "label": "TICKET",
-    "label_fr": "Plus de 2,5 buts",
-    "odds": 1.87,
-    "closing_odds": null,
-    "clv": null,
-    "outcome": "lost"
-   },
    {
     "date": "2026-10-21",
     "league": {
@@ -40521,6 +40554,19 @@
     "odds": 1.91,
     "closing_odds": null,
     "clv": null,
+    "outcome": "lost"
+   },
+   {
+    "date": "2026-11-01",
+    "league": {
+     "name": "A-League",
+     "country": "Australie"
+    },
+    "label": "TICKET",
+    "label_fr": "Nul ou Adelaide United (N2)",
+    "odds": 1.53,
+    "closing_odds": 1.5,
+    "clv": 0.02,
     "outcome": "lost"
    }
   ],
@@ -41009,10 +41055,10 @@
  "kelly": {
   "tickets": {
    "start": 100.0,
-   "bank": 95.23,
-   "bets": 20,
+   "bank": 93.33,
+   "bets": 21,
    "zero_stake": 0,
-   "roi_bank": -0.0477,
+   "roi_bank": -0.0667,
    "curve": [
     {
      "date": "2026-10-13",
@@ -41113,6 +41159,11 @@
      "date": "2026-11-01",
      "stake": 1.44,
      "bank": 95.23
+    },
+    {
+     "date": "2026-11-01",
+     "stake": 1.9,
+     "bank": 93.33
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"

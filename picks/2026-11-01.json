@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-01T10:37:01+01:00",
+ "generated_at": "2026-11-01T11:00:25+01:00",
  "date": "2026-11-01",
  "picks": [
   {
@@ -14024,7 +14024,7 @@
   },
   {
    "fixture_id": 1584448,
-   "final_reading_id": "1584448-r3",
+   "final_reading_id": "1584448-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -14576,6 +14576,194 @@
        }
       ]
      },
+     "history_insufficient": {
+      "home": 9,
+      "away": 43,
+      "min": 20,
+      "label_fr": "Historique insuffisant",
+      "text_fr": "⚠️ Historique insuffisant (9 / 43 matchs)"
+     }
+    },
+    {
+     "reading_id": "1584448-r4",
+     "timestamp": "2026-11-01T11:00:17+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Amed ou nul (1N)"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "⚠️ Historique insuffisant (9 / 43 matchs)",
+      "EV +1,1 % < 5 %",
+      "Échantillon insuffisant (9 matchs < 20)"
+     ],
+     "model_probability": 0.945,
+     "probabilities": {
+      "1X2": {
+       "1": 0.812,
+       "X": 0.133,
+       "2": 0.055
+      },
+      "DC": {
+       "1X": 0.945,
+       "X2": 0.188,
+       "12": 0.867
+      },
+      "OU1.5": {
+       "over": 0.877,
+       "under": 0.123
+      },
+      "OU2.5": {
+       "over": 0.691,
+       "under": 0.309
+      },
+      "OU3.5": {
+       "over": 0.477,
+       "under": 0.523
+      },
+      "BTTS": {
+       "yes": 0.477,
+       "no": 0.523
+      },
+      "BTTS_O2.5": {
+       "yes": 0.414
+      },
+      "1X_O1.5": {
+       "yes": 0.835
+      },
+      "1X_O2.5": {
+       "yes": 0.655
+      },
+      "1X_U3.5": {
+       "yes": 0.483
+      },
+      "1X_BTTS": {
+       "yes": 0.443
+      },
+      "X2_O1.5": {
+       "yes": 0.14
+      },
+      "X2_O2.5": {
+       "yes": 0.071
+      },
+      "X2_U3.5": {
+       "yes": 0.139
+      },
+      "X2_BTTS": {
+       "yes": 0.132
+      },
+      "12_O1.5": {
+       "yes": 0.779
+      },
+      "12_O2.5": {
+       "yes": 0.656
+      },
+      "12_U3.5": {
+       "yes": 0.425
+      },
+      "12_BTTS": {
+       "yes": 0.379
+      },
+      "HT1X2": {
+       "1": 0.619,
+       "X": 0.293,
+       "2": 0.088
+      }
+     },
+     "expected_goals": {
+      "home": 2.87,
+      "away": 0.69
+     },
+     "top_scores": [
+      {
+       "score": "2-0",
+       "p": 0.117
+      },
+      {
+       "score": "3-0",
+       "p": 0.112
+      },
+      {
+       "score": "2-1",
+       "p": 0.081
+      }
+     ],
+     "confidence": {
+      "value": 0.945,
+      "source": "model_probability",
+      "bucket": "90-95"
+     },
+     "market_probability": 0.915,
+     "ev": 0.011,
+     "odds_seen": {
+      "value": 1.07,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-01T11:00:17+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 94,5 % pour « Amed ou nul (1N) » contre 91,5 % pour le marché.",
+      "Buts attendus (modèle) : 2,87 – 0,69.",
+      "Candidat EV max écarté : Plus de 2,5 buts (69,1 %, cote 1,65, EV +13,9 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 9,
+      "away": 43
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn",
      "history_insufficient": {
       "home": 9,
       "away": 43,
