@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-02T22:12:57+01:00",
+ "generated_at": "2026-11-02T22:19:52+01:00",
  "date": "2026-11-02",
  "picks": [
   {
@@ -37234,7 +37234,7 @@
   },
   {
    "fixture_id": 1493215,
-   "final_reading_id": "1493215-r3",
+   "final_reading_id": "1493215-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -37839,6 +37839,211 @@
        }
       ]
      }
+    },
+    {
+     "reading_id": "1493215-r4",
+     "timestamp": "2026-11-02T22:19:50+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU3.5",
+      "selection": "under",
+      "label_fr": "Moins de 3,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.701,
+      "market_probability": 0.706,
+      "odds": 1.36,
+      "bookmaker": "Bet365"
+     },
+     "value_pick": {
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou Independiente (N2)",
+      "model_probability": 0.629,
+      "market_probability": 0.569,
+      "odds": 1.7,
+      "bookmaker": "Betano",
+      "ev": 0.069
+     },
+     "skip_reasons_fr": [
+      "EV +0,4 % < 5 %"
+     ],
+     "model_probability": 0.79,
+     "probabilities": {
+      "1X2": {
+       "1": 0.371,
+       "X": 0.299,
+       "2": 0.33
+      },
+      "DC": {
+       "1X": 0.67,
+       "X2": 0.629,
+       "12": 0.701
+      },
+      "OU1.5": {
+       "over": 0.689,
+       "under": 0.311
+      },
+      "OU2.5": {
+       "over": 0.416,
+       "under": 0.584
+      },
+      "OU3.5": {
+       "over": 0.21,
+       "under": 0.79
+      },
+      "BTTS": {
+       "yes": 0.485,
+       "no": 0.515
+      },
+      "BTTS_O2.5": {
+       "yes": 0.344
+      },
+      "1X_O1.5": {
+       "yes": 0.457
+      },
+      "1X_O2.5": {
+       "yes": 0.246
+      },
+      "1X_U3.5": {
+       "yes": 0.532
+      },
+      "1X_BTTS": {
+       "yes": 0.347
+      },
+      "X2_O1.5": {
+       "yes": 0.425
+      },
+      "X2_O2.5": {
+       "yes": 0.223
+      },
+      "X2_U3.5": {
+       "yes": 0.504
+      },
+      "X2_BTTS": {
+       "yes": 0.332
+      },
+      "12_O1.5": {
+       "yes": 0.495
+      },
+      "12_O2.5": {
+       "yes": 0.363
+      },
+      "12_U3.5": {
+       "yes": 0.544
+      },
+      "12_BTTS": {
+       "yes": 0.292
+      },
+      "HT1X2": {
+       "1": 0.285,
+       "X": 0.454,
+       "2": 0.261
+      }
+     },
+     "expected_goals": {
+      "home": 1.21,
+      "away": 1.13
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.141
+      },
+      {
+       "score": "1-0",
+       "p": 0.107
+      },
+      {
+       "score": "0-0",
+       "p": 0.105
+      }
+     ],
+     "confidence": {
+      "value": 0.79,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.756,
+     "ev": 0.004,
+     "odds_seen": {
+      "value": 1.27,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-02T22:19:50+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 79,0 % pour « Moins de 3,5 buts » contre 75,6 % pour le marché.",
+      "Buts attendus (modèle) : 1,21 – 1,13.",
+      "Candidat EV max écarté : Nul ou Independiente (N2) (62,9 %, cote 1,70, EV +6,9 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif 9h45 : Defensa sans Souto, Damián Fernández (suspendu) ; Independiente sans Marcone (suspendu)."
+      ],
+      "checked_at": "2026-11-02T09:50:54+01:00",
+      "sources": [
+       "https://www.zerozero.com.ar/noticias/defensa-y-justicia-vs-independiente-previa-ausencias-y-probables-alineaciones-titulares-primera-division-argentina-02-11/1247307"
+      ],
+      "x_reads": 0
+     },
+     "team_samples": {
+      "home": 62,
+      "away": 66
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
