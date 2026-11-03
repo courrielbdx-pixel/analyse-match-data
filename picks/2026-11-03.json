@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-03T17:51:33+01:00",
+ "generated_at": "2026-11-03T18:20:44+01:00",
  "date": "2026-11-03",
  "picks": [
   {
@@ -5583,8 +5583,8 @@
   },
   {
    "fixture_id": 1494327,
-   "final_reading_id": "1494327-r4",
-   "decision": "SKIP",
+   "final_reading_id": "1494327-r5",
+   "decision": "TARDIF",
    "readings": [
     {
      "reading_id": "1494327-r1",
@@ -6348,13 +6348,198 @@
        }
       ]
      }
+    },
+    {
+     "reading_id": "1494327-r5",
+     "timestamp": "2026-11-03T18:20:42+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU3.5",
+      "selection": "under",
+      "label_fr": "Moins de 3,5 buts"
+     },
+     "label": "TICKET",
+     "skip_reasons_fr": [],
+     "model_probability": 0.58,
+     "probabilities": {
+      "1X2": {
+       "1": 0.749,
+       "X": 0.16,
+       "2": 0.092
+      },
+      "DC": {
+       "1X": 0.908,
+       "X2": 0.251,
+       "12": 0.84
+      },
+      "OU1.5": {
+       "over": 0.845,
+       "under": 0.155
+      },
+      "OU2.5": {
+       "over": 0.641,
+       "under": 0.359
+      },
+      "OU3.5": {
+       "over": 0.42,
+       "under": 0.58
+      },
+      "BTTS": {
+       "yes": 0.502,
+       "no": 0.498
+      },
+      "BTTS_O2.5": {
+       "yes": 0.426
+      },
+      "1X_O1.5": {
+       "yes": 0.779
+      },
+      "1X_O2.5": {
+       "yes": 0.587
+      },
+      "1X_U3.5": {
+       "yes": 0.511
+      },
+      "1X_BTTS": {
+       "yes": 0.451
+      },
+      "X2_O1.5": {
+       "yes": 0.186
+      },
+      "X2_O2.5": {
+       "yes": 0.099
+      },
+      "X2_U3.5": {
+       "yes": 0.183
+      },
+      "X2_BTTS": {
+       "yes": 0.171
+      },
+      "12_O1.5": {
+       "yes": 0.725
+      },
+      "12_O2.5": {
+       "yes": 0.597
+      },
+      "12_U3.5": {
+       "yes": 0.465
+      },
+      "12_BTTS": {
+       "yes": 0.382
+      },
+      "HT1X2": {
+       "1": 0.557,
+       "X": 0.328,
+       "2": 0.114
+      }
+     },
+     "expected_goals": {
+      "home": 2.52,
+      "away": 0.78
+     },
+     "top_scores": [
+      {
+       "score": "2-0",
+       "p": 0.117
+      },
+      {
+       "score": "3-0",
+       "p": 0.098
+      },
+      {
+       "score": "2-1",
+       "p": 0.091
+      }
+     ],
+     "confidence": {
+      "value": 0.58,
+      "source": "model_probability",
+      "bucket": "55-60"
+     },
+     "market_probability": 0.537,
+     "ev": 0.101,
+     "odds_seen": {
+      "value": 1.9,
+      "bookmaker": "SBO",
+      "captured_at": "2026-11-03T18:20:42+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 58,0 % pour « Moins de 3,5 buts » contre 53,7 % pour le marché.",
+      "Buts attendus (modèle) : 2,52 – 0,78.",
+      "Tous les critères dc-v1 sont remplis (EV +10,1 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif 9h45 : Sirius sans Liimatta (saison terminée) et Soumah (suspendu) ; Uneken proche d'un retour. Halmstad sans absences signalées. Rien qui contredise Moins de 3,5 buts.",
+       "Midi ~12h50 : Liimatta (saison) et Soumah (suspendu) toujours absents ; Uneken proche retour (truppe possible, titularisation incertaine). Pas de nouvelle absence Halmstad signalée ; compte Sirius = matchday/billets, pas de compos. Rien contre Moins de 3,5 buts.",
+       "Aprem ~15h45 : Liimatta (saison) et Soumah (suspendu) toujours absents ; Uneken proche comeback (Engelmark/UNT) sans confirmation de titularisation. Pas de compos officielles. Rien contre Moins de 3,5 buts."
+      ],
+      "checked_at": "2026-11-03T15:48:33+01:00",
+      "x_reads": 2,
+      "sources": [
+       "https://www.fotbollskanalen.se/artiklar/allsvenskan/uneken-kan-gora-comeback-mot-halmstad",
+       "https://bollsvenskan.se/soumah-avstangd-simon-sandberg-aktuell-for-start-mot-halmstad-hemma-forlustfri-i-arets-starter-3-1-0/",
+       "https://hurbra.se/jesper-uneken-halmstad-3-november-2026/",
+       "https://x.com/siriusfotboll"
+      ]
+     },
+     "team_samples": {
+      "home": 56,
+      "away": 56
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": true,
+      "reason_fr": "Nouvelle lecture : compos officielles publiées."
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "late_ticket": true,
+     "lineups_source": "espn"
     }
-   ],
-   "skip_check": {
-    "status": "confirmed",
-    "rule_fr": "écart 7,4% (> 5 pts)",
-    "checked_at": "2026-11-03T15:48:33+01:00"
-   }
+   ]
   },
   {
    "fixture_id": 1563240,
