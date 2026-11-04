@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-04T20:00:01+01:00",
+ "generated_at": "2026-11-04T20:52:35+01:00",
  "settled": [
   {
    "fixture_id": 1492403,
@@ -43673,6 +43673,67 @@
     "label": "SKIP",
     "outcome": "won"
    }
+  },
+  {
+   "fixture_id": 1635606,
+   "date": "2026-11-04",
+   "kickoff": "2026-11-04T18:45:00+01:00",
+   "league": {
+    "name": "UEFA Champions League",
+    "country": "Europe"
+   },
+   "region": "uefa",
+   "method_version": "dc-v1",
+   "reading_id": "1635606-r4",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "OU1.5",
+   "selection": "over",
+   "label_fr": "Plus de 1,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.813,
+   "confidence_bucket": "80-85",
+   "odds": 1.09,
+   "bookmaker": "Betano",
+   "final_score": "2-3",
+   "outcome": "won",
+   "pl_units": 0.09,
+   "matin": {
+    "selection": "over",
+    "label": "SKIP",
+    "outcome": "won"
+   }
+  },
+  {
+   "fixture_id": 1635658,
+   "date": "2026-11-04",
+   "kickoff": "2026-11-04T18:45:00+01:00",
+   "league": {
+    "name": "UEFA Champions League",
+    "country": "Europe"
+   },
+   "region": "uefa",
+   "method_version": "dc-v1",
+   "reading_id": "1635658-r1",
+   "trigger": "releco",
+   "lineups_confirmed": false,
+   "market": "OU3.5",
+   "selection": "under",
+   "label_fr": "Moins de 3,5 buts",
+   "label": "ANNULE",
+   "cancel_reason_fr": "la cote est passée de 1,84 à 1,92 (proba modèle quasi inchangée 58,0 → 57,9 %), écart modèle/marché 6,9 pts > 5",
+   "model_probability": 0.58,
+   "confidence_bucket": "55-60",
+   "odds": 1.84,
+   "bookmaker": "1xBet",
+   "final_score": "3-2",
+   "outcome": "lost",
+   "pl_units": -1.0,
+   "matin": {
+    "selection": "over",
+    "label": "SKIP",
+    "outcome": "won"
+   }
   }
  ],
  "aggregates": {
@@ -43689,13 +43750,13 @@
     "avg_odds": 1.84
    },
    "SKIP": {
-    "n": 1395,
-    "won": 1135,
+    "n": 1396,
+    "won": 1136,
     "lost": 257,
     "void": 3,
     "no_odds": 8,
-    "hit_rate": 0.815,
-    "pl_units": -17.02,
+    "hit_rate": 0.816,
+    "pl_units": -16.93,
     "roi": -0.012,
     "avg_odds": 1.22
    },
@@ -44674,19 +44735,19 @@
     },
     {
      "label": "ANNULE",
-     "n": 3,
+     "n": 4,
      "won": 1,
-     "lost": 2,
-     "pl_units": -1.27,
+     "lost": 3,
+     "pl_units": -2.27,
      "league": "UEFA Champions League",
      "country": "Europe"
     },
     {
      "label": "SKIP",
-     "n": 41,
-     "won": 32,
+     "n": 42,
+     "won": 33,
      "lost": 9,
-     "pl_units": -4.78,
+     "pl_units": -4.69,
      "league": "UEFA Champions League",
      "country": "Europe"
     },
@@ -44847,10 +44908,10 @@
     {
      "market": "OU1.5",
      "label": "SKIP",
-     "n": 606,
-     "won": 493,
+     "n": 607,
+     "won": 494,
      "lost": 113,
-     "pl_units": -19.13
+     "pl_units": -19.04
     },
     {
      "market": "OU2.5",
@@ -44887,10 +44948,10 @@
     {
      "market": "OU3.5",
      "label": "ANNULE",
-     "n": 3,
+     "n": 4,
      "won": 2,
-     "lost": 1,
-     "pl_units": 0.53
+     "lost": 2,
+     "pl_units": -0.47
     },
     {
      "market": "OU3.5",
@@ -44921,9 +44982,9 @@
     {
      "bucket": "55-60",
      "label": "ANNULE",
-     "n": 12,
+     "n": 13,
      "won": 4,
-     "lost": 8
+     "lost": 9
     },
     {
      "bucket": "55-60",
@@ -45019,8 +45080,8 @@
     {
      "bucket": "80-85",
      "label": "SKIP",
-     "n": 421,
-     "won": 338,
+     "n": 422,
+     "won": 339,
      "lost": 83
     },
     {
@@ -45520,11 +45581,19 @@
     },
     {
      "date": "2026-11-04",
+     "label": "ANNULE",
+     "n": 1,
+     "won": 0,
+     "lost": 1,
+     "pl_units": -1.0
+    },
+    {
+     "date": "2026-11-04",
      "label": "SKIP",
-     "n": 4,
-     "won": 4,
+     "n": 5,
+     "won": 5,
      "lost": 0,
-     "pl_units": 1.15
+     "pl_units": 1.24
     }
    ],
    "by_week": [
@@ -45627,18 +45696,18 @@
     {
      "week": "2026-W45",
      "label": "ANNULE",
-     "n": 1,
+     "n": 2,
      "won": 0,
-     "lost": 1,
-     "pl_units": -1.0
+     "lost": 2,
+     "pl_units": -2.0
     },
     {
      "week": "2026-W45",
      "label": "SKIP",
-     "n": 76,
-     "won": 60,
+     "n": 77,
+     "won": 61,
      "lost": 15,
-     "pl_units": -1.19
+     "pl_units": -1.1
     },
     {
      "week": "2026-W45",
@@ -45653,8 +45722,8 @@
     {
      "trigger": "compo",
      "label": "SKIP",
-     "n": 1034,
-     "won": 842,
+     "n": 1035,
+     "won": 843,
      "lost": 189
     },
     {
@@ -45702,9 +45771,9 @@
     {
      "trigger": "releco",
      "label": "ANNULE",
-     "n": 17,
+     "n": 18,
      "won": 5,
-     "lost": 12
+     "lost": 13
     },
     {
      "trigger": "releco",
@@ -45745,9 +45814,9 @@
    "calibration": [
     {
      "bucket": "55-60",
-     "n": 50,
+     "n": 51,
      "mean_predicted": 0.571,
-     "observed": 0.54
+     "observed": 0.529
     },
     {
      "bucket": "60-65",
@@ -45775,8 +45844,8 @@
     },
     {
      "bucket": "80-85",
-     "n": 421,
-     "mean_predicted": 0.825,
+     "n": 422,
+     "mean_predicted": 0.824,
      "observed": 0.803
     },
     {
@@ -46249,31 +46318,31 @@
  "bilan_start": "2026-10-13",
  "skip_lines": {
   "probable": {
-   "n": 1392,
-   "won": 1135,
-   "hit_rate": 0.815,
-   "with_odds": 1384,
+   "n": 1393,
+   "won": 1136,
+   "hit_rate": 0.816,
+   "with_odds": 1385,
    "avg_odds": 1.22,
-   "profit_eur": -17.02,
+   "profit_eur": -16.93,
    "roi": -0.012
   },
   "resultat": {
-   "n": 844,
-   "won": 640,
-   "hit_rate": 0.758,
-   "with_odds": 844,
+   "n": 845,
+   "won": 641,
+   "hit_rate": 0.759,
+   "with_odds": 845,
    "avg_odds": 1.28,
-   "profit_eur": -27.84,
-   "roi": -0.033
+   "profit_eur": -27.22,
+   "roi": -0.032
   },
   "valeur": {
-   "n": 1330,
+   "n": 1331,
    "won": 597,
    "hit_rate": 0.449,
-   "with_odds": 1330,
+   "with_odds": 1331,
    "avg_odds": 2.21,
-   "profit_eur": -53.7,
-   "roi": -0.04
+   "profit_eur": -54.7,
+   "roi": -0.041
   }
  },
  "clv": {
@@ -46286,26 +46355,26 @@
    "se": 0.0021
   },
   "probable": {
-   "n": 1205,
+   "n": 1206,
    "mean_clv": 0.0002,
    "beat_close": 0.029,
    "beat_n": 35,
-   "same_n": 1144,
+   "same_n": 1145,
    "se": 0.0001
   },
   "resultat": {
-   "n": 722,
+   "n": 723,
    "mean_clv": 0.0002,
    "beat_close": 0.032,
    "beat_n": 23,
-   "same_n": 684,
+   "same_n": 685,
    "se": 0.0001
   },
   "valeur": {
-   "n": 1158,
+   "n": 1159,
    "mean_clv": 0.0009,
-   "beat_close": 0.089,
-   "beat_n": 103,
+   "beat_close": 0.09,
+   "beat_n": 104,
    "same_n": 991,
    "se": 0.0004
   },
@@ -46704,36 +46773,6 @@
   "recent": [
    {
     "date": "2026-11-03",
-    "match": "Bodo/Glimt – Lille",
-    "fixture_id": 1635640,
-    "label_fr": "Nul ou Lille (N2)",
-    "line": "valeur",
-    "odds": 2.32,
-    "closing_odds": 2.36,
-    "clv": -0.0169
-   },
-   {
-    "date": "2026-11-03",
-    "match": "Feyenoord – Inter",
-    "fixture_id": 1635662,
-    "label_fr": "Plus de 1,5 buts",
-    "line": "probable",
-    "odds": 1.13,
-    "closing_odds": 1.13,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-11-03",
-    "match": "Feyenoord – Inter",
-    "fixture_id": 1635662,
-    "label_fr": "Pas de nul (12)",
-    "line": "resultat",
-    "odds": 1.26,
-    "closing_odds": 1.26,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-11-03",
     "match": "Feyenoord – Inter",
     "fixture_id": 1635662,
     "label_fr": "Feyenoord ou nul (1N)",
@@ -47001,6 +47040,36 @@
     "odds": 2.84,
     "closing_odds": 2.65,
     "clv": 0.0717
+   },
+   {
+    "date": "2026-11-04",
+    "match": "AEK Athens FC – Real Madrid",
+    "fixture_id": 1635606,
+    "label_fr": "Plus de 1,5 buts",
+    "line": "probable",
+    "odds": 1.09,
+    "closing_odds": 1.09,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-11-04",
+    "match": "AEK Athens FC – Real Madrid",
+    "fixture_id": 1635606,
+    "label_fr": "Les deux équipes marquent",
+    "line": "resultat",
+    "odds": 1.62,
+    "closing_odds": 1.62,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-11-04",
+    "match": "AEK Athens FC – Real Madrid",
+    "fixture_id": 1635606,
+    "label_fr": "Pas de nul (12) & −3,5 buts",
+    "line": "valeur",
+    "odds": 2.27,
+    "closing_odds": 2.2698412698412698,
+    "clv": 0.0001
    }
   ]
  },
@@ -47184,6 +47253,15 @@
    "final_score": "0-2",
    "outcome": "lost",
    "cancel_reason_fr": "la cote est passée de 1,52 (Betano) à 1,44 (Pinnacle), donc EV +0,1 % < 5 % ; probabilité du modèle inchangée (69,5 %)"
+  },
+  {
+   "date": "2026-11-04",
+   "fixture_id": 1635658,
+   "label_fr": "Moins de 3,5 buts",
+   "odds": 1.84,
+   "final_score": "3-2",
+   "outcome": "lost",
+   "cancel_reason_fr": "la cote est passée de 1,84 à 1,92 (proba modèle quasi inchangée 58,0 → 57,9 %), écart modèle/marché 6,9 pts > 5"
   }
  ],
  "late": {
@@ -47431,7 +47509,7 @@
    "start": 100.0,
    "bank": 77.67,
    "bets": 481,
-   "zero_stake": 906,
+   "zero_stake": 907,
    "roi_bank": -0.2233,
    "curve": [
     {
@@ -48441,7 +48519,7 @@
    "start": 100.0,
    "bank": 92.37,
    "bets": 138,
-   "zero_stake": 706,
+   "zero_stake": 707,
    "roi_bank": -0.0763,
    "curve": [
     {
@@ -49139,16 +49217,11 @@
   },
   "valeur": {
    "start": 100.0,
-   "bank": 23.96,
-   "bets": 1330,
+   "bank": 23.62,
+   "bets": 1331,
    "zero_stake": 2,
-   "roi_bank": -0.7604,
+   "roi_bank": -0.7638,
    "curve": [
-    {
-     "date": "2026-11-01",
-     "stake": 0.5,
-     "bank": 26.16
-    },
     {
      "date": "2026-11-01",
      "stake": 0.49,
@@ -50143,6 +50216,11 @@
      "date": "2026-11-04",
      "stake": 0.46,
      "bank": 23.96
+    },
+    {
+     "date": "2026-11-04",
+     "stake": 0.34,
+     "bank": 23.62
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
