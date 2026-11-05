@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-05T15:54:29+01:00",
+ "generated_at": "2026-11-05T17:57:31+01:00",
  "date": "2026-11-05",
  "picks": [
   {
@@ -3027,7 +3027,7 @@
   },
   {
    "fixture_id": 1636208,
-   "final_reading_id": "1636208-r3",
+   "final_reading_id": "1636208-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -3632,12 +3632,222 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-11-05T10:00:16+01:00"
+    },
+    {
+     "reading_id": "1636208-r4",
+     "timestamp": "2026-11-05T17:57:11+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "inter-competitions",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.737,
+      "market_probability": 0.824,
+      "odds": 1.17,
+      "bookmaker": "Marathonbet"
+     },
+     "value_pick": {
+      "market": "HT1X2",
+      "selection": "X",
+      "label_fr": "Mi-temps : nul (MT N)",
+      "model_probability": 0.419,
+      "market_probability": 0.343,
+      "odds": 2.92,
+      "bookmaker": "Pinnacle",
+      "ev": 0.225
+     },
+     "skip_reasons_fr": [
+      "EV −13,2 % < 5 %",
+      "Écart modèle/marché 8,0 pts > 5"
+     ],
+     "model_probability": 0.748,
+     "probabilities": {
+      "1X2": {
+       "1": 0.468,
+       "X": 0.263,
+       "2": 0.269
+      },
+      "DC": {
+       "1X": 0.731,
+       "X2": 0.532,
+       "12": 0.737
+      },
+      "OU1.5": {
+       "over": 0.748,
+       "under": 0.252
+      },
+      "OU2.5": {
+       "over": 0.496,
+       "under": 0.504
+      },
+      "OU3.5": {
+       "over": 0.277,
+       "under": 0.723
+      },
+      "BTTS": {
+       "yes": 0.533,
+       "no": 0.467
+      },
+      "BTTS_O2.5": {
+       "yes": 0.408
+      },
+      "1X_O1.5": {
+       "yes": 0.552
+      },
+      "1X_O2.5": {
+       "yes": 0.343
+      },
+      "1X_U3.5": {
+       "yes": 0.523
+      },
+      "1X_BTTS": {
+       "yes": 0.402
+      },
+      "X2_O1.5": {
+       "yes": 0.384
+      },
+      "X2_O2.5": {
+       "yes": 0.216
+      },
+      "X2_U3.5": {
+       "yes": 0.4
+      },
+      "X2_BTTS": {
+       "yes": 0.319
+      },
+      "12_O1.5": {
+       "yes": 0.56
+      },
+      "12_O2.5": {
+       "yes": 0.433
+      },
+      "12_U3.5": {
+       "yes": 0.523
+      },
+      "12_BTTS": {
+       "yes": 0.345
+      },
+      "HT1X2": {
+       "1": 0.351,
+       "X": 0.419,
+       "2": 0.229
+      }
+     },
+     "expected_goals": {
+      "home": 1.54,
+      "away": 1.11
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.125
+      },
+      {
+       "score": "1-0",
+       "p": 0.103
+      },
+      {
+       "score": "2-1",
+       "p": 0.093
+      }
+     ],
+     "confidence": {
+      "value": 0.748,
+      "source": "model_probability",
+      "bucket": "70-75"
+     },
+     "market_probability": 0.828,
+     "ev": -0.132,
+     "odds_seen": {
+      "value": 1.16,
+      "bookmaker": "Pinnacle",
+      "captured_at": "2026-11-05T17:57:11+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 74,8 % pour « Plus de 1,5 buts » contre 82,8 % pour le marché.",
+      "Buts attendus (modèle) : 1,54 – 1,11.",
+      "Candidat EV max écarté : Nul ou Ferencvarosi TC (N2) (53,2 %, cote 3,45, EV +83,7 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif 9h45 (1re du jour) : Milan–Ferencváros (UEL, KO 18:45). @acmilan matchday San Siro ; Amorim évoque rotations / chaque match comme un derby (médias). Pas d’annonce d’absence clé nouvelle fiable ce matin. Pas de contradiction vs MT N.",
+       "Vérif 15h45 : Milan–Ferencváros — Gazzetta/Football Italia : rotation Amorim attendue ; Maignan suspendu (Torriani) ; Tomori/Loftus-Cheek/Saelemaekers/Gabbia/Chukwueze/P.Terracciano (+Pavlovic cité) out. De Winter/Musah/Rabiot/Ramos pressentis. Pas de contradiction claire vs MT N."
+      ],
+      "checked_at": "2026-11-05T09:45:00+01:00",
+      "x_reads": 1,
+      "sources": [
+       "https://x.com/acmilan/status/2118055685183180991"
+      ],
+      "updated_at": "2026-11-05T15:51:31+01:00",
+      "source": "https://football-italia.net/europa-league-milan-v-ferencvaros-line-ups-tv/",
+      "last_check": "2026-11-05T15:51:31+01:00"
+     },
+     "team_samples": {
+      "home": 97,
+      "away": 103
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
   {
    "fixture_id": 1636211,
-   "final_reading_id": "1636211-r3",
+   "final_reading_id": "1636211-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -4233,13 +4443,216 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-11-05T10:00:18+01:00"
+    },
+    {
+     "reading_id": "1636211-r4",
+     "timestamp": "2026-11-05T17:57:14+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "inter-competitions",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.746,
+      "market_probability": 0.752,
+      "odds": 1.28,
+      "bookmaker": "1xBet"
+     },
+     "value_pick": {
+      "market": "OU2.5",
+      "selection": "under",
+      "label_fr": "Moins de 2,5 buts",
+      "model_probability": 0.449,
+      "market_probability": 0.365,
+      "odds": 2.71,
+      "bookmaker": "Pinnacle",
+      "ev": 0.216
+     },
+     "skip_reasons_fr": [
+      "EV −7,8 % < 5 %"
+     ],
+     "model_probability": 0.788,
+     "probabilities": {
+      "1X2": {
+       "1": 0.445,
+       "X": 0.254,
+       "2": 0.301
+      },
+      "DC": {
+       "1X": 0.699,
+       "X2": 0.555,
+       "12": 0.746
+      },
+      "OU1.5": {
+       "over": 0.788,
+       "under": 0.212
+      },
+      "OU2.5": {
+       "over": 0.551,
+       "under": 0.449
+      },
+      "OU3.5": {
+       "over": 0.328,
+       "under": 0.672
+      },
+      "BTTS": {
+       "yes": 0.582,
+       "no": 0.418
+      },
+      "BTTS_O2.5": {
+       "yes": 0.463
+      },
+      "1X_O1.5": {
+       "yes": 0.554
+      },
+      "1X_O2.5": {
+       "yes": 0.363
+      },
+      "1X_U3.5": {
+       "yes": 0.466
+      },
+      "1X_BTTS": {
+       "yes": 0.422
+      },
+      "X2_O1.5": {
+       "yes": 0.428
+      },
+      "X2_O2.5": {
+       "yes": 0.263
+      },
+      "X2_U3.5": {
+       "yes": 0.385
+      },
+      "X2_BTTS": {
+       "yes": 0.354
+      },
+      "12_O1.5": {
+       "yes": 0.595
+      },
+      "12_O2.5": {
+       "yes": 0.477
+      },
+      "12_U3.5": {
+       "yes": 0.493
+      },
+      "12_BTTS": {
+       "yes": 0.389
+      },
+      "HT1X2": {
+       "1": 0.344,
+       "X": 0.401,
+       "2": 0.255
+      }
+     },
+     "expected_goals": {
+      "home": 1.61,
+      "away": 1.28
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.119
+      },
+      {
+       "score": "2-1",
+       "p": 0.092
+      },
+      {
+       "score": "1-0",
+       "p": 0.085
+      }
+     ],
+     "confidence": {
+      "value": 0.788,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.828,
+     "ev": -0.078,
+     "odds_seen": {
+      "value": 1.17,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-05T17:57:14+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 78,8 % pour « Plus de 1,5 buts » contre 82,8 % pour le marché.",
+      "Buts attendus (modèle) : 1,61 – 1,28.",
+      "Candidat EV max écarté : Moins de 3,5 buts (67,2 %, cote 1,71, EV +14,9 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif 9h45 (1re du jour) : Anderlecht–Red Bull Salzburg. Aucune info fiable (compte club / journaliste reconnu) d’absence de dernière minute ou rotation extrême trouvée ce matin. Pas de contradiction vs Moins de 2,5 buts."
+      ],
+      "checked_at": "2026-11-05T09:45:00+01:00",
+      "x_reads": 0,
+      "sources": []
+     },
+     "team_samples": {
+      "home": 111,
+      "away": 89
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
   {
    "fixture_id": 1636254,
-   "final_reading_id": "1636254-r4",
-   "decision": "SKIP",
+   "final_reading_id": "1636254-r5",
+   "decision": "TARDIF",
    "readings": [
     {
      "reading_id": "1636254-r1",
@@ -5051,17 +5464,206 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-11-05T12:54:12+01:00"
+    },
+    {
+     "reading_id": "1636254-r5",
+     "timestamp": "2026-11-05T17:57:14+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "inter-competitions",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "1X2",
+      "selection": "1",
+      "label_fr": "Victoire Crystal Palace (1)"
+     },
+     "label": "TICKET",
+     "skip_reasons_fr": [],
+     "model_probability": 0.556,
+     "probabilities": {
+      "1X2": {
+       "1": 0.556,
+       "X": 0.223,
+       "2": 0.221
+      },
+      "DC": {
+       "1X": 0.779,
+       "X2": 0.444,
+       "12": 0.777
+      },
+      "OU1.5": {
+       "over": 0.834,
+       "under": 0.166
+      },
+      "OU2.5": {
+       "over": 0.622,
+       "under": 0.378
+      },
+      "OU3.5": {
+       "over": 0.4,
+       "under": 0.6
+      },
+      "BTTS": {
+       "yes": 0.609,
+       "no": 0.391
+      },
+      "BTTS_O2.5": {
+       "yes": 0.508
+      },
+      "1X_O1.5": {
+       "yes": 0.658
+      },
+      "1X_O2.5": {
+       "yes": 0.475
+      },
+      "1X_U3.5": {
+       "yes": 0.456
+      },
+      "1X_BTTS": {
+       "yes": 0.479
+      },
+      "X2_O1.5": {
+       "yes": 0.355
+      },
+      "X2_O2.5": {
+       "yes": 0.224
+      },
+      "X2_U3.5": {
+       "yes": 0.29
+      },
+      "X2_BTTS": {
+       "yes": 0.309
+      },
+      "12_O1.5": {
+       "yes": 0.655
+      },
+      "12_O2.5": {
+       "yes": 0.545
+      },
+      "12_U3.5": {
+       "yes": 0.455
+      },
+      "12_BTTS": {
+       "yes": 0.431
+      },
+      "HT1X2": {
+       "1": 0.422,
+       "X": 0.368,
+       "2": 0.209
+      }
+     },
+     "expected_goals": {
+      "home": 2.01,
+      "away": 1.2
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.101
+      },
+      {
+       "score": "2-1",
+       "p": 0.098
+      },
+      {
+       "score": "2-0",
+       "p": 0.081
+      }
+     ],
+     "confidence": {
+      "value": 0.556,
+      "source": "model_probability",
+      "bucket": "55-60"
+     },
+     "market_probability": 0.511,
+     "ev": 0.063,
+     "odds_seen": {
+      "value": 1.91,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-05T17:57:14+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 55,6 % pour « Victoire Crystal Palace (1) » contre 51,1 % pour le marché.",
+      "Buts attendus (modèle) : 2,01 – 1,20.",
+      "Tous les critères dc-v1 sont remplis (EV +6,3 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif 21h45 (1re du jour) : Crystal Palace–Hoffenheim (UEL, KO 05/11 18:45). Pierre Sage (via Ben Dinnery) : Timber et Strand Larsen de retour / disponibles ; Mateta dispo en Europe malgré ban PL 3 matches ; Tomiyasu hors jusqu’après trêve ; Radi genou long terme (connu). Hoffenheim : Hranac opéré (déjà absent). Pas de contradiction vs Victoire Palace.",
+       "Vérif 9h45 (matin) : Crystal Palace–Hoffenheim — rien de nouveau fiable depuis 21h45 : Mateta dispo UEL (appel PL rejeté, Ben Dinnery) ; Timber/Strand Larsen de retour (Sage). Pas de contradiction vs Victoire Palace.",
+       "Vérif midi 12h45 : Crystal Palace–Hoffenheim — rien de nouveau fiable vs matin. Mateta dispo UEL (BBC) ; Timber/Strand Larsen de retour (Sage/cpfc.co.uk). @CPFC matchday. Pas de contradiction vs Victoire Palace.",
+       "Vérif 15h45 : Crystal Palace–Hoffenheim — rien de nouveau fiable vs midi. @CPFC matchday uniquement (pas de compos officielles encore). Sage/BBC/cpfc.co.uk : Mateta dispo UEL ; Timber/Strand Larsen de retour ; Sarr/Tomiyasu/Riad out. Hoffenheim : Hranac opéré (connu). Pas de contradiction vs Victoire Palace."
+      ],
+      "checked_at": "2026-11-05T12:45:00+01:00",
+      "x_reads": 8,
+      "sources": [
+       "https://x.com/BenDinnery/status/2117987920208343538",
+       "https://www.bbc.com/sport/football/articles/ck62ymvldygjo",
+       "https://www.cpfc.co.uk/news/first-team/team-news-updates-on-timber-strand-larsen/",
+       "https://x.com/CPFC/status/2118281022685266203"
+      ],
+      "updated_at": "2026-11-05T15:51:31+01:00",
+      "source": "https://www.bbc.com/sport/football/articles/ck62ymvldygjo",
+      "last_check": "2026-11-05T15:51:31+01:00"
+     },
+     "team_samples": {
+      "home": 109,
+      "away": 80
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": true,
+      "reason_fr": "Nouvelle lecture : compos officielles publiées."
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "late_ticket": true,
+     "lineups_source": "espn"
     }
-   ],
-   "skip_check": {
-    "status": "confirmed",
-    "rule_fr": "écart 6,5% (> 5 pts)",
-    "checked_at": "2026-11-05T15:51:34+01:00"
-   }
+   ]
   },
   {
    "fixture_id": 1636286,
-   "final_reading_id": "1636286-r3",
+   "final_reading_id": "1636286-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -5632,12 +6234,206 @@
      },
      "releco_count": 3,
      "first_timestamp": "2026-11-05T10:00:19+01:00"
+    },
+    {
+     "reading_id": "1636286-r4",
+     "timestamp": "2026-11-05T17:57:15+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "inter-competitions",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Levski Sofia ou nul (1N)"
+     },
+     "label": "SKIP",
+     "value_pick": {
+      "market": "1X2",
+      "selection": "1",
+      "label_fr": "Victoire Levski Sofia (1)",
+      "model_probability": 0.548,
+      "market_probability": 0.464,
+      "odds": 2.08,
+      "bookmaker": "Dafabet",
+      "ev": 0.141
+     },
+     "skip_reasons_fr": [
+      "Écart modèle/marché 7,3 pts > 5"
+     ],
+     "model_probability": 0.811,
+     "probabilities": {
+      "1X2": {
+       "1": 0.548,
+       "X": 0.262,
+       "2": 0.189
+      },
+      "DC": {
+       "1X": 0.811,
+       "X2": 0.452,
+       "12": 0.738
+      },
+      "OU1.5": {
+       "over": 0.694,
+       "under": 0.306
+      },
+      "OU2.5": {
+       "over": 0.428,
+       "under": 0.572
+      },
+      "OU3.5": {
+       "over": 0.219,
+       "under": 0.781
+      },
+      "BTTS": {
+       "yes": 0.447,
+       "no": 0.553
+      },
+      "BTTS_O2.5": {
+       "yes": 0.325
+      },
+      "1X_O1.5": {
+       "yes": 0.575
+      },
+      "1X_O2.5": {
+       "yes": 0.339
+      },
+      "1X_U3.5": {
+       "yes": 0.624
+      },
+      "1X_BTTS": {
+       "yes": 0.369
+      },
+      "X2_O1.5": {
+       "yes": 0.285
+      },
+      "X2_O2.5": {
+       "yes": 0.132
+      },
+      "X2_U3.5": {
+       "yes": 0.376
+      },
+      "X2_BTTS": {
+       "yes": 0.244
+      },
+      "12_O1.5": {
+       "yes": 0.528
+      },
+      "12_O2.5": {
+       "yes": 0.384
+      },
+      "12_U3.5": {
+       "yes": 0.562
+      },
+      "12_BTTS": {
+       "yes": 0.281
+      },
+      "HT1X2": {
+       "1": 0.392,
+       "X": 0.438,
+       "2": 0.17
+      }
+     },
+     "expected_goals": {
+      "home": 1.57,
+      "away": 0.82
+     },
+     "top_scores": [
+      {
+       "score": "1-0",
+       "p": 0.14
+      },
+      {
+       "score": "1-1",
+       "p": 0.122
+      },
+      {
+       "score": "2-0",
+       "p": 0.114
+      }
+     ],
+     "confidence": {
+      "value": 0.811,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.738,
+     "ev": 0.054,
+     "odds_seen": {
+      "value": 1.3,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-05T17:57:15+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 81,1 % pour « Levski Sofia ou nul (1N) » contre 73,8 % pour le marché.",
+      "Buts attendus (modèle) : 1,57 – 0,82.",
+      "Candidat EV max écarté : Victoire Levski Sofia (1) (54,8 %, cote 2,08, EV +14,1 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif 9h45 (1re du jour) : Levski Sofia–Jagiellonia. Aucune info fiable (compte club / journaliste reconnu) d’absence de dernière minute ou rotation extrême trouvée ce matin. Pas de contradiction vs Moins de 2,5 buts."
+      ],
+      "checked_at": "2026-11-05T09:45:00+01:00",
+      "x_reads": 0,
+      "sources": []
+     },
+     "team_samples": {
+      "home": 89,
+      "away": 97
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
   {
    "fixture_id": 1636289,
-   "final_reading_id": "1636289-r3",
+   "final_reading_id": "1636289-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -6233,12 +7029,215 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-11-05T10:00:19+01:00"
+    },
+    {
+     "reading_id": "1636289-r4",
+     "timestamp": "2026-11-05T17:57:16+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "inter-competitions",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.744,
+      "market_probability": 0.748,
+      "odds": 1.28,
+      "bookmaker": "Marathonbet"
+     },
+     "value_pick": {
+      "market": "OU2.5",
+      "selection": "under",
+      "label_fr": "Moins de 2,5 buts",
+      "model_probability": 0.466,
+      "market_probability": 0.392,
+      "odds": 2.52,
+      "bookmaker": "Pinnacle",
+      "ev": 0.174
+     },
+     "skip_reasons_fr": [
+      "EV −7,6 % < 5 %"
+     ],
+     "model_probability": 0.776,
+     "probabilities": {
+      "1X2": {
+       "1": 0.287,
+       "X": 0.256,
+       "2": 0.456
+      },
+      "DC": {
+       "1X": 0.544,
+       "X2": 0.713,
+       "12": 0.744
+      },
+      "OU1.5": {
+       "over": 0.776,
+       "under": 0.224
+      },
+      "OU2.5": {
+       "over": 0.534,
+       "under": 0.466
+      },
+      "OU3.5": {
+       "over": 0.311,
+       "under": 0.689
+      },
+      "BTTS": {
+       "yes": 0.566,
+       "no": 0.434
+      },
+      "BTTS_O2.5": {
+       "yes": 0.445
+      },
+      "1X_O1.5": {
+       "yes": 0.411
+      },
+      "1X_O2.5": {
+       "yes": 0.245
+      },
+      "1X_U3.5": {
+       "yes": 0.388
+      },
+      "1X_BTTS": {
+       "yes": 0.341
+      },
+      "X2_O1.5": {
+       "yes": 0.557
+      },
+      "X2_O2.5": {
+       "yes": 0.36
+      },
+      "X2_U3.5": {
+       "yes": 0.486
+      },
+      "X2_BTTS": {
+       "yes": 0.417
+      },
+      "12_O1.5": {
+       "yes": 0.584
+      },
+      "12_O2.5": {
+       "yes": 0.464
+      },
+      "12_U3.5": {
+       "yes": 0.503
+      },
+      "12_BTTS": {
+       "yes": 0.375
+      },
+      "HT1X2": {
+       "1": 0.245,
+       "X": 0.406,
+       "2": 0.349
+      }
+     },
+     "expected_goals": {
+      "home": 1.22,
+      "away": 1.6
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.121
+      },
+      {
+       "score": "1-2",
+       "p": 0.093
+      },
+      {
+       "score": "0-1",
+       "p": 0.091
+      }
+     ],
+     "confidence": {
+      "value": 0.776,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.808,
+     "ev": -0.076,
+     "odds_seen": {
+      "value": 1.19,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-05T17:57:16+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 77,6 % pour « Plus de 1,5 buts » contre 80,8 % pour le marché.",
+      "Buts attendus (modèle) : 1,22 – 1,60.",
+      "Candidat EV max écarté : Moins de 3,5 buts (68,9 %, cote 1,62, EV +11,5 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif 9h45 (1re du jour) : Lillestrom–Plzen. Aucune info fiable (compte club / journaliste reconnu) d’absence de dernière minute ou rotation extrême trouvée ce matin. Pas de contradiction vs Moins de 2,5 buts."
+      ],
+      "checked_at": "2026-11-05T09:45:00+01:00",
+      "x_reads": 0,
+      "sources": []
+     },
+     "team_samples": {
+      "home": 33,
+      "away": 98
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
   {
    "fixture_id": 1636302,
-   "final_reading_id": "1636302-r3",
+   "final_reading_id": "1636302-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -6834,12 +7833,215 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-11-05T10:00:20+01:00"
+    },
+    {
+     "reading_id": "1636302-r4",
+     "timestamp": "2026-11-05T17:57:17+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "inter-competitions",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.751,
+      "market_probability": 0.764,
+      "odds": 1.26,
+      "bookmaker": "1xBet"
+     },
+     "value_pick": {
+      "market": "OU2.5",
+      "selection": "under",
+      "label_fr": "Moins de 2,5 buts",
+      "model_probability": 0.424,
+      "market_probability": 0.404,
+      "odds": 2.42,
+      "bookmaker": "1xBet",
+      "ev": 0.026
+     },
+     "skip_reasons_fr": [
+      "EV −3,4 % < 5 %"
+     ],
+     "model_probability": 0.805,
+     "probabilities": {
+      "1X2": {
+       "1": 0.304,
+       "X": 0.249,
+       "2": 0.448
+      },
+      "DC": {
+       "1X": 0.552,
+       "X2": 0.696,
+       "12": 0.751
+      },
+      "OU1.5": {
+       "over": 0.805,
+       "under": 0.195
+      },
+      "OU2.5": {
+       "over": 0.576,
+       "under": 0.424
+      },
+      "OU3.5": {
+       "over": 0.352,
+       "under": 0.648
+      },
+      "BTTS": {
+       "yes": 0.601,
+       "no": 0.399
+      },
+      "BTTS_O2.5": {
+       "yes": 0.486
+      },
+      "1X_O1.5": {
+       "yes": 0.435
+      },
+      "1X_O2.5": {
+       "yes": 0.276
+      },
+      "1X_U3.5": {
+       "yes": 0.37
+      },
+      "1X_BTTS": {
+       "yes": 0.362
+      },
+      "X2_O1.5": {
+       "yes": 0.563
+      },
+      "X2_O2.5": {
+       "yes": 0.379
+      },
+      "X2_U3.5": {
+       "yes": 0.448
+      },
+      "X2_BTTS": {
+       "yes": 0.433
+      },
+      "12_O1.5": {
+       "yes": 0.611
+      },
+      "12_O2.5": {
+       "yes": 0.497
+      },
+      "12_U3.5": {
+       "yes": 0.478
+      },
+      "12_BTTS": {
+       "yes": 0.407
+      },
+      "HT1X2": {
+       "1": 0.259,
+       "X": 0.392,
+       "2": 0.349
+      }
+     },
+     "expected_goals": {
+      "home": 1.33,
+      "away": 1.66
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.115
+      },
+      {
+       "score": "1-2",
+       "p": 0.092
+      },
+      {
+       "score": "0-1",
+       "p": 0.079
+      }
+     ],
+     "confidence": {
+      "value": 0.805,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.805,
+     "ev": -0.034,
+     "odds_seen": {
+      "value": 1.2,
+      "bookmaker": "Pinnacle",
+      "captured_at": "2026-11-05T17:57:17+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 80,5 % pour « Plus de 1,5 buts » contre 80,5 % pour le marché.",
+      "Buts attendus (modèle) : 1,33 – 1,66.",
+      "Candidat EV max écarté : Nul ou Omonia Nicosia (N2) (69,6 %, cote 2,09, EV +45,6 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif 9h45 (1re du jour) : NEC Nijmegen–Omonia Nicosia. Aucune info fiable (compte club / journaliste reconnu) d’absence de dernière minute ou rotation extrême trouvée ce matin. Pas de contradiction vs Moins de 2,5 buts."
+      ],
+      "checked_at": "2026-11-05T09:45:00+01:00",
+      "x_reads": 0,
+      "sources": []
+     },
+     "team_samples": {
+      "home": 83,
+      "away": 100
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
   {
    "fixture_id": 1636319,
-   "final_reading_id": "1636319-r4",
+   "final_reading_id": "1636319-r5",
    "decision": "SKIP",
    "readings": [
     {
@@ -7621,12 +8823,202 @@
        }
       ]
      }
+    },
+    {
+     "reading_id": "1636319-r5",
+     "timestamp": "2026-11-05T17:57:18+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "inter-competitions",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU3.5",
+      "selection": "under",
+      "label_fr": "Moins de 3,5 buts"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "Contrôle de cohérence échoué"
+     ],
+     "model_probability": 0.625,
+     "probabilities": {
+      "1X2": {
+       "1": 0.386,
+       "X": 0.247,
+       "2": 0.367
+      },
+      "DC": {
+       "1X": 0.633,
+       "X2": 0.614,
+       "12": 0.753
+      },
+      "OU1.5": {
+       "over": 0.82,
+       "under": 0.18
+      },
+      "OU2.5": {
+       "over": 0.599,
+       "under": 0.401
+      },
+      "OU3.5": {
+       "over": 0.375,
+       "under": 0.625
+      },
+      "BTTS": {
+       "yes": 0.625,
+       "no": 0.375
+      },
+      "BTTS_O2.5": {
+       "yes": 0.512
+      },
+      "1X_O1.5": {
+       "yes": 0.517
+      },
+      "1X_O2.5": {
+       "yes": 0.349
+      },
+      "1X_U3.5": {
+       "yes": 0.398
+      },
+      "1X_BTTS": {
+       "yes": 0.416
+      },
+      "X2_O1.5": {
+       "yes": 0.501
+      },
+      "X2_O2.5": {
+       "yes": 0.335
+      },
+      "X2_U3.5": {
+       "yes": 0.389
+      },
+      "X2_BTTS": {
+       "yes": 0.407
+      },
+      "12_O1.5": {
+       "yes": 0.622
+      },
+      "12_O2.5": {
+       "yes": 0.514
+      },
+      "12_U3.5": {
+       "yes": 0.463
+      },
+      "12_BTTS": {
+       "yes": 0.427
+      },
+      "HT1X2": {
+       "1": 0.313,
+       "X": 0.386,
+       "2": 0.301
+      }
+     },
+     "expected_goals": {
+      "home": 1.57,
+      "away": 1.53
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.112
+      },
+      {
+       "score": "2-1",
+       "p": 0.085
+      },
+      {
+       "score": "1-2",
+       "p": 0.083
+      }
+     ],
+     "confidence": {
+      "value": 0.625,
+      "source": "model_probability",
+      "bucket": "60-65"
+     },
+     "market_probability": 0.575,
+     "ev": 0.062,
+     "odds_seen": {
+      "value": 1.7,
+      "bookmaker": "1xBet",
+      "captured_at": "2026-11-05T17:57:18+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 62,5 % pour « Moins de 3,5 buts » contre 57,5 % pour le marché.",
+      "Buts attendus (modèle) : 1,57 – 1,53.",
+      "Tous les critères dc-v1 sont remplis (EV +6,2 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif 9h45 (1re du jour) : Real Sociedad–Lyon (UEL, KO 18:45). @OL a publié le groupe convoqué + conf Maciel/Greif. Absences Lyon citées : Openda, Ouédraogo, Šulc, Kango, Morton doute. Sociedad : Odriozola, Beitia, Zakharyan. Pas de contradiction vs N2 & BTTS.",
+       "Vérif 15h45 : Real Sociedad–Lyon — MAJ absences OL (Le Progrès / Made in Foot / Maciel conf) : Niakhaté et Nuamah forfait (alertes musculaires) en plus d’Openda, Ouédraogo, Šulc, Morton. Sociedad : Odriozola, Beitia, Zakharyan out (inchangé). Effet mitigé sur U2.5 (attaque OL allégée vs défense OL fragilisée) — pas de contradiction claire vs Moins de 2,5."
+      ],
+      "checked_at": "2026-11-05T09:45:00+01:00",
+      "x_reads": 1,
+      "sources": [
+       "https://x.com/OL/status/2118010388449251653"
+      ],
+      "updated_at": "2026-11-05T15:51:31+01:00",
+      "source": "https://www.leprogres.fr/sport/2026/11/04/l-ol-sans-niakhate-et-nuamah-face-a-la-real-sociedad",
+      "last_check": "2026-11-05T15:51:31+01:00"
+     },
+     "team_samples": {
+      "home": 102,
+      "away": 99
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": true,
+      "reason_fr": "Nouvelle lecture : compos officielles publiées."
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
   {
    "fixture_id": 1636337,
-   "final_reading_id": "1636337-r3",
+   "final_reading_id": "1636337-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -8222,12 +9614,215 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-11-05T10:00:20+01:00"
+    },
+    {
+     "reading_id": "1636337-r4",
+     "timestamp": "2026-11-05T17:57:18+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "inter-competitions",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou Bournemouth (N2)",
+      "model_probability": 0.771,
+      "market_probability": 0.863,
+      "odds": 1.13,
+      "bookmaker": "Betano"
+     },
+     "value_pick": {
+      "market": "OU2.5",
+      "selection": "under",
+      "label_fr": "Moins de 2,5 buts",
+      "model_probability": 0.426,
+      "market_probability": 0.395,
+      "odds": 2.48,
+      "bookmaker": "Pinnacle",
+      "ev": 0.056
+     },
+     "skip_reasons_fr": [
+      "EV −4,4 % < 5 %"
+     ],
+     "model_probability": 0.803,
+     "probabilities": {
+      "1X2": {
+       "1": 0.229,
+       "X": 0.236,
+       "2": 0.536
+      },
+      "DC": {
+       "1X": 0.464,
+       "X2": 0.771,
+       "12": 0.764
+      },
+      "OU1.5": {
+       "over": 0.803,
+       "under": 0.197
+      },
+      "OU2.5": {
+       "over": 0.574,
+       "under": 0.426
+      },
+      "OU3.5": {
+       "over": 0.35,
+       "under": 0.65
+      },
+      "BTTS": {
+       "yes": 0.577,
+       "no": 0.423
+      },
+      "BTTS_O2.5": {
+       "yes": 0.467
+      },
+      "1X_O1.5": {
+       "yes": 0.357
+      },
+      "1X_O2.5": {
+       "yes": 0.214
+      },
+      "1X_U3.5": {
+       "yes": 0.324
+      },
+      "1X_BTTS": {
+       "yes": 0.307
+      },
+      "X2_O1.5": {
+       "yes": 0.628
+      },
+      "X2_O2.5": {
+       "yes": 0.431
+      },
+      "X2_U3.5": {
+       "yes": 0.491
+      },
+      "X2_BTTS": {
+       "yes": 0.451
+      },
+      "12_O1.5": {
+       "yes": 0.622
+      },
+      "12_O2.5": {
+       "yes": 0.503
+      },
+      "12_U3.5": {
+       "yes": 0.485
+      },
+      "12_BTTS": {
+       "yes": 0.396
+      },
+      "HT1X2": {
+       "1": 0.21,
+       "X": 0.386,
+       "2": 0.403
+      }
+     },
+     "expected_goals": {
+      "home": 1.14,
+      "away": 1.85
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.11
+      },
+      {
+       "score": "1-2",
+       "p": 0.098
+      },
+      {
+       "score": "0-1",
+       "p": 0.089
+      }
+     ],
+     "confidence": {
+      "value": 0.803,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.811,
+     "ev": -0.044,
+     "odds_seen": {
+      "value": 1.19,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-05T17:57:18+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 80,3 % pour « Plus de 1,5 buts » contre 81,1 % pour le marché.",
+      "Buts attendus (modèle) : 1,14 – 1,85.",
+      "Candidat EV max écarté : Moins de 3,5 buts (65,0 %, cote 1,60, EV +4,0 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif 9h45 (1re du jour) : Sparta Praha–Bournemouth. Aucune info fiable (compte club / journaliste reconnu) d’absence de dernière minute ou rotation extrême trouvée ce matin. Pas de contradiction vs Sparta Praha ou nul (1N)."
+      ],
+      "checked_at": "2026-11-05T09:45:00+01:00",
+      "x_reads": 0,
+      "sources": []
+     },
+     "team_samples": {
+      "home": 93,
+      "away": 86
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
   {
    "fixture_id": 1636376,
-   "final_reading_id": "1636376-r3",
+   "final_reading_id": "1636376-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -8814,12 +10409,216 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-11-05T10:00:21+01:00"
+    },
+    {
+     "reading_id": "1636376-r4",
+     "timestamp": "2026-11-05T17:57:19+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "inter-competitions",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou SC Braga (N2)",
+      "model_probability": 0.745,
+      "market_probability": 0.768,
+      "odds": 1.26,
+      "bookmaker": "Betano"
+     },
+     "value_pick": {
+      "market": "OU2.5",
+      "selection": "over",
+      "label_fr": "Plus de 2,5 buts",
+      "model_probability": 0.492,
+      "market_probability": 0.48,
+      "odds": 2.04,
+      "bookmaker": "SBO",
+      "ev": 0.003,
+      "stale_odds": true
+     },
+     "skip_reasons_fr": [
+      "EV −3,1 % < 5 %"
+     ],
+     "model_probability": 0.745,
+     "probabilities": {
+      "1X2": {
+       "1": 0.255,
+       "X": 0.262,
+       "2": 0.483
+      },
+      "DC": {
+       "1X": 0.517,
+       "X2": 0.745,
+       "12": 0.738
+      },
+      "OU1.5": {
+       "over": 0.745,
+       "under": 0.255
+      },
+      "OU2.5": {
+       "over": 0.492,
+       "under": 0.508
+      },
+      "OU3.5": {
+       "over": 0.273,
+       "under": 0.727
+      },
+      "BTTS": {
+       "yes": 0.526,
+       "no": 0.474
+      },
+      "BTTS_O2.5": {
+       "yes": 0.401
+      },
+      "1X_O1.5": {
+       "yes": 0.369
+      },
+      "1X_O2.5": {
+       "yes": 0.203
+      },
+      "1X_U3.5": {
+       "yes": 0.393
+      },
+      "1X_BTTS": {
+       "yes": 0.308
+      },
+      "X2_O1.5": {
+       "yes": 0.562
+      },
+      "X2_O2.5": {
+       "yes": 0.349
+      },
+      "X2_U3.5": {
+       "yes": 0.535
+      },
+      "X2_BTTS": {
+       "yes": 0.403
+      },
+      "12_O1.5": {
+       "yes": 0.56
+      },
+      "12_O2.5": {
+       "yes": 0.431
+      },
+      "12_U3.5": {
+       "yes": 0.526
+      },
+      "12_BTTS": {
+       "yes": 0.34
+      },
+      "HT1X2": {
+       "1": 0.22,
+       "X": 0.42,
+       "2": 0.36
+      }
+     },
+     "expected_goals": {
+      "home": 1.07,
+      "away": 1.57
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.125
+      },
+      {
+       "score": "0-1",
+       "p": 0.107
+      },
+      {
+       "score": "1-2",
+       "p": 0.094
+      }
+     ],
+     "confidence": {
+      "value": 0.745,
+      "source": "model_probability",
+      "bucket": "70-75"
+     },
+     "market_probability": 0.736,
+     "ev": -0.031,
+     "odds_seen": {
+      "value": 1.3,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-05T17:57:19+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 74,5 % pour « Plus de 1,5 buts » contre 73,6 % pour le marché.",
+      "Buts attendus (modèle) : 1,07 – 1,57.",
+      "Candidat EV max écarté : Aarhus ou nul (1N) (51,7 %, cote 1,93, EV −0,2 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif 9h45 (1re du jour) : Aarhus–SC Braga. Aucune info fiable (compte club / journaliste reconnu) d’absence de dernière minute ou rotation extrême trouvée ce matin. Pas de contradiction vs Plus de 2,5 buts."
+      ],
+      "checked_at": "2026-11-05T09:45:00+01:00",
+      "x_reads": 0,
+      "sources": []
+     },
+     "team_samples": {
+      "home": 71,
+      "away": 108
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
   {
    "fixture_id": 1636383,
-   "final_reading_id": "1636383-r3",
+   "final_reading_id": "1636383-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -9383,12 +11182,203 @@
        }
       ]
      }
+    },
+    {
+     "reading_id": "1636383-r4",
+     "timestamp": "2026-11-05T17:57:20+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "inter-competitions",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Atalanta ou nul (1N)"
+     },
+     "label": "SKIP",
+     "value_pick": {
+      "market": "BTTS",
+      "selection": "no",
+      "label_fr": "Les deux équipes ne marquent pas",
+      "model_probability": 0.57,
+      "market_probability": 0.532,
+      "odds": 1.76,
+      "bookmaker": "1xBet",
+      "ev": 0.004,
+      "stale_odds": true
+     },
+     "skip_reasons_fr": [
+      "EV −8,2 % < 5 %",
+      "Écart modèle/marché 6,2 pts > 5"
+     ],
+     "model_probability": 0.891,
+     "probabilities": {
+      "1X2": {
+       "1": 0.689,
+       "X": 0.202,
+       "2": 0.109
+      },
+      "DC": {
+       "1X": 0.891,
+       "X2": 0.311,
+       "12": 0.798
+      },
+      "OU1.5": {
+       "over": 0.756,
+       "under": 0.244
+      },
+      "OU2.5": {
+       "over": 0.508,
+       "under": 0.492
+      },
+      "OU3.5": {
+       "over": 0.287,
+       "under": 0.713
+      },
+      "BTTS": {
+       "yes": 0.43,
+       "no": 0.57
+      },
+      "BTTS_O2.5": {
+       "yes": 0.335
+      },
+      "1X_O1.5": {
+       "yes": 0.688
+      },
+      "1X_O2.5": {
+       "yes": 0.455
+      },
+      "1X_U3.5": {
+       "yes": 0.622
+      },
+      "1X_BTTS": {
+       "yes": 0.381
+      },
+      "X2_O1.5": {
+       "yes": 0.199
+      },
+      "X2_O2.5": {
+       "yes": 0.089
+      },
+      "X2_U3.5": {
+       "yes": 0.256
+      },
+      "X2_BTTS": {
+       "yes": 0.18
+      },
+      "12_O1.5": {
+       "yes": 0.624
+      },
+      "12_O2.5": {
+       "yes": 0.471
+      },
+      "12_U3.5": {
+       "yes": 0.547
+      },
+      "12_BTTS": {
+       "yes": 0.298
+      },
+      "HT1X2": {
+       "1": 0.495,
+       "X": 0.386,
+       "2": 0.119
+      }
+     },
+     "expected_goals": {
+      "home": 2.03,
+      "away": 0.67
+     },
+     "top_scores": [
+      {
+       "score": "2-0",
+       "p": 0.138
+      },
+      {
+       "score": "1-0",
+       "p": 0.132
+      },
+      {
+       "score": "1-1",
+       "p": 0.095
+      }
+     ],
+     "confidence": {
+      "value": 0.891,
+      "source": "model_probability",
+      "bucket": "85-90"
+     },
+     "market_probability": 0.953,
+     "ev": -0.082,
+     "odds_seen": {
+      "value": 1.03,
+      "bookmaker": "BetVictor",
+      "captured_at": "2026-11-05T17:57:20+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 89,1 % pour « Atalanta ou nul (1N) » contre 95,3 % pour le marché.",
+      "Buts attendus (modèle) : 2,03 – 0,67.",
+      "Candidat EV max écarté : Moins de 3,5 buts (71,3 %, cote 2,05, EV +46,1 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 105,
+      "away": 26
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
   {
    "fixture_id": 1636399,
-   "final_reading_id": "1636399-r3",
+   "final_reading_id": "1636399-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -9947,12 +11937,200 @@
       "label_fr": "Historique insuffisant",
       "text_fr": "⚠️ Historique insuffisant (104 / 12 matchs)"
      }
+    },
+    {
+     "reading_id": "1636399-r4",
+     "timestamp": "2026-11-05T17:57:21+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "inter-competitions",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "FK Crvena Zvezda ou nul (1N)"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "⚠️ Historique insuffisant (104 / 12 matchs)",
+      "EV −5,6 % < 5 %",
+      "Échantillon insuffisant (12 matchs < 20)"
+     ],
+     "model_probability": 0.934,
+     "probabilities": {
+      "1X2": {
+       "1": 0.814,
+       "X": 0.12,
+       "2": 0.066
+      },
+      "DC": {
+       "1X": 0.934,
+       "X2": 0.186,
+       "12": 0.88
+      },
+      "OU1.5": {
+       "over": 0.899,
+       "under": 0.101
+      },
+      "OU2.5": {
+       "over": 0.74,
+       "under": 0.26
+      },
+      "OU3.5": {
+       "over": 0.538,
+       "under": 0.462
+      },
+      "BTTS": {
+       "yes": 0.53,
+       "no": 0.47
+      },
+      "BTTS_O2.5": {
+       "yes": 0.476
+      },
+      "1X_O1.5": {
+       "yes": 0.849
+      },
+      "1X_O2.5": {
+       "yes": 0.696
+      },
+      "1X_U3.5": {
+       "yes": 0.417
+      },
+      "1X_BTTS": {
+       "yes": 0.489
+      },
+      "X2_O1.5": {
+       "yes": 0.147
+      },
+      "X2_O2.5": {
+       "yes": 0.086
+      },
+      "X2_U3.5": {
+       "yes": 0.122
+      },
+      "X2_BTTS": {
+       "yes": 0.138
+      },
+      "12_O1.5": {
+       "yes": 0.803
+      },
+      "12_O2.5": {
+       "yes": 0.697
+      },
+      "12_U3.5": {
+       "yes": 0.385
+      },
+      "12_BTTS": {
+       "yes": 0.434
+      },
+      "HT1X2": {
+       "1": 0.624,
+       "X": 0.278,
+       "2": 0.097
+      }
+     },
+     "expected_goals": {
+      "home": 3.05,
+      "away": 0.81
+     },
+     "top_scores": [
+      {
+       "score": "3-0",
+       "p": 0.1
+      },
+      {
+       "score": "2-0",
+       "p": 0.098
+      },
+      {
+       "score": "3-1",
+       "p": 0.081
+      }
+     ],
+     "confidence": {
+      "value": 0.934,
+      "source": "model_probability",
+      "bucket": "90-95"
+     },
+     "market_probability": 0.971,
+     "ev": -0.056,
+     "odds_seen": {
+      "value": 1.01,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-05T17:57:21+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 93,4 % pour « FK Crvena Zvezda ou nul (1N) » contre 97,1 % pour le marché.",
+      "Buts attendus (modèle) : 3,05 – 0,81.",
+      "Candidat EV max écarté : Les deux équipes marquent (53,0 %, cote 2,55, EV +35,3 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 104,
+      "away": 12
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn",
+     "history_insufficient": {
+      "home": 104,
+      "away": 12,
+      "min": 20,
+      "label_fr": "Historique insuffisant",
+      "text_fr": "⚠️ Historique insuffisant (104 / 12 matchs)"
+     }
     }
    ]
   },
   {
    "fixture_id": 1636439,
-   "final_reading_id": "1636439-r3",
+   "final_reading_id": "1636439-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -10524,12 +12702,207 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-11-05T10:00:21+01:00"
+    },
+    {
+     "reading_id": "1636439-r4",
+     "timestamp": "2026-11-05T17:57:22+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "inter-competitions",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)"
+     },
+     "label": "SKIP",
+     "value_pick": {
+      "market": "HT1X2",
+      "selection": "X",
+      "label_fr": "Mi-temps : nul (MT N)",
+      "model_probability": 0.472,
+      "market_probability": 0.408,
+      "odds": 2.37,
+      "bookmaker": "Pinnacle",
+      "ev": 0.119
+     },
+     "skip_reasons_fr": [
+      "EV −12,2 % < 5 %",
+      "Écart modèle/marché 6,3 pts > 5"
+     ],
+     "model_probability": 0.697,
+     "probabilities": {
+      "1X2": {
+       "1": 0.324,
+       "X": 0.303,
+       "2": 0.373
+      },
+      "DC": {
+       "1X": 0.627,
+       "X2": 0.676,
+       "12": 0.697
+      },
+      "OU1.5": {
+       "over": 0.647,
+       "under": 0.353
+      },
+      "OU2.5": {
+       "over": 0.373,
+       "under": 0.627
+      },
+      "OU3.5": {
+       "over": 0.178,
+       "under": 0.822
+      },
+      "BTTS": {
+       "yes": 0.446,
+       "no": 0.554
+      },
+      "BTTS_O2.5": {
+       "yes": 0.307
+      },
+      "1X_O1.5": {
+       "yes": 0.397
+      },
+      "1X_O2.5": {
+       "yes": 0.196
+      },
+      "1X_U3.5": {
+       "yes": 0.522
+      },
+      "1X_BTTS": {
+       "yes": 0.307
+      },
+      "X2_O1.5": {
+       "yes": 0.435
+      },
+      "X2_O2.5": {
+       "yes": 0.222
+      },
+      "X2_U3.5": {
+       "yes": 0.558
+      },
+      "X2_BTTS": {
+       "yes": 0.324
+      },
+      "12_O1.5": {
+       "yes": 0.462
+      },
+      "12_O2.5": {
+       "yes": 0.328
+      },
+      "12_U3.5": {
+       "yes": 0.565
+      },
+      "12_BTTS": {
+       "yes": 0.261
+      },
+      "HT1X2": {
+       "1": 0.249,
+       "X": 0.472,
+       "2": 0.279
+      }
+     },
+     "expected_goals": {
+      "home": 1.04,
+      "away": 1.14
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.139
+      },
+      {
+       "score": "0-1",
+       "p": 0.123
+      },
+      {
+       "score": "0-0",
+       "p": 0.118
+      }
+     ],
+     "confidence": {
+      "value": 0.697,
+      "source": "model_probability",
+      "bucket": "65-70"
+     },
+     "market_probability": 0.76,
+     "ev": -0.122,
+     "odds_seen": {
+      "value": 1.26,
+      "bookmaker": "1xBet",
+      "captured_at": "2026-11-05T17:57:22+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 69,7 % pour « Pas de nul (12) » contre 76,0 % pour le marché.",
+      "Buts attendus (modèle) : 1,04 – 1,14.",
+      "Candidat EV max écarté : KuPS ou nul (1N) (62,7 %, cote 2,28, EV +42,9 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif 9h45 (1re du jour) : KuPS–Gent. Aucune info fiable (compte club / journaliste reconnu) d’absence de dernière minute ou rotation extrême trouvée ce matin. Pas de contradiction vs Mi-temps : nul (MT N)."
+      ],
+      "checked_at": "2026-11-05T09:45:00+01:00",
+      "x_reads": 0,
+      "sources": []
+     },
+     "team_samples": {
+      "home": 89,
+      "away": 97
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
   {
    "fixture_id": 1636444,
-   "final_reading_id": "1636444-r3",
+   "final_reading_id": "1636444-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -11098,12 +13471,202 @@
      },
      "releco_count": 3,
      "first_timestamp": "2026-11-05T10:00:21+01:00"
+    },
+    {
+     "reading_id": "1636444-r4",
+     "timestamp": "2026-11-05T17:57:23+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "inter-competitions",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou HNK Hajduk Split (N2)"
+     },
+     "label": "SKIP",
+     "value_pick": {
+      "market": "BTTS",
+      "selection": "yes",
+      "label_fr": "Les deux équipes marquent",
+      "model_probability": 0.536,
+      "market_probability": 0.468,
+      "odds": 2.0,
+      "bookmaker": "Bet365",
+      "ev": 0.071
+     },
+     "skip_reasons_fr": [
+      "EV −12,6 % < 5 %",
+      "Écart modèle/marché 8,8 pts > 5"
+     ],
+     "model_probability": 0.802,
+     "probabilities": {
+      "1X2": {
+       "1": 0.198,
+       "X": 0.235,
+       "2": 0.566
+      },
+      "DC": {
+       "1X": 0.434,
+       "X2": 0.802,
+       "12": 0.765
+      },
+      "OU1.5": {
+       "over": 0.78,
+       "under": 0.22
+      },
+      "OU2.5": {
+       "over": 0.54,
+       "under": 0.46
+      },
+      "OU3.5": {
+       "over": 0.317,
+       "under": 0.683
+      },
+      "BTTS": {
+       "yes": 0.536,
+       "no": 0.464
+      },
+      "BTTS_O2.5": {
+       "yes": 0.424
+      },
+      "1X_O1.5": {
+       "yes": 0.317
+      },
+      "1X_O2.5": {
+       "yes": 0.176
+      },
+      "1X_U3.5": {
+       "yes": 0.321
+      },
+      "1X_BTTS": {
+       "yes": 0.275
+      },
+      "X2_O1.5": {
+       "yes": 0.636
+      },
+      "X2_O2.5": {
+       "yes": 0.425
+      },
+      "X2_U3.5": {
+       "yes": 0.536
+      },
+      "X2_BTTS": {
+       "yes": 0.434
+      },
+      "12_O1.5": {
+       "yes": 0.607
+      },
+      "12_O2.5": {
+       "yes": 0.479
+      },
+      "12_U3.5": {
+       "yes": 0.509
+      },
+      "12_BTTS": {
+       "yes": 0.363
+      },
+      "HT1X2": {
+       "1": 0.187,
+       "X": 0.395,
+       "2": 0.418
+      }
+     },
+     "expected_goals": {
+      "home": 1.0,
+      "away": 1.84
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.112
+      },
+      {
+       "score": "0-1",
+       "p": 0.103
+      },
+      {
+       "score": "0-2",
+       "p": 0.099
+      }
+     ],
+     "confidence": {
+      "value": 0.802,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.89,
+     "ev": -0.126,
+     "odds_seen": {
+      "value": 1.09,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-05T17:57:23+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 80,2 % pour « Nul ou HNK Hajduk Split (N2) » contre 89,0 % pour le marché.",
+      "Buts attendus (modèle) : 1,00 – 1,84.",
+      "Candidat EV max écarté : Les deux équipes marquent (53,6 %, cote 2,00, EV +7,1 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 24,
+      "away": 86
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
   {
    "fixture_id": 1636448,
-   "final_reading_id": "1636448-r3",
+   "final_reading_id": "1636448-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -11705,12 +14268,219 @@
      },
      "releco_count": 3,
      "first_timestamp": "2026-11-05T10:00:22+01:00"
+    },
+    {
+     "reading_id": "1636448-r4",
+     "timestamp": "2026-11-05T17:57:23+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "inter-competitions",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.763,
+      "market_probability": 0.753,
+      "odds": 1.27,
+      "bookmaker": "1xBet"
+     },
+     "value_pick": {
+      "market": "1X_U3.5",
+      "selection": "yes",
+      "label_fr": "FC Midtjylland ou nul (1N) & −3,5 buts",
+      "model_probability": 0.411,
+      "market_probability": 0.33,
+      "odds": 2.65,
+      "bookmaker": "Bet365",
+      "ev": 0.089
+     },
+     "skip_reasons_fr": [
+      "EV −2,9 % < 5 %"
+     ],
+     "model_probability": 0.837,
+     "probabilities": {
+      "1X2": {
+       "1": 0.461,
+       "X": 0.237,
+       "2": 0.302
+      },
+      "DC": {
+       "1X": 0.698,
+       "X2": 0.539,
+       "12": 0.763
+      },
+      "OU1.5": {
+       "over": 0.837,
+       "under": 0.163
+      },
+      "OU2.5": {
+       "over": 0.627,
+       "under": 0.373
+      },
+      "OU3.5": {
+       "over": 0.405,
+       "under": 0.595
+      },
+      "BTTS": {
+       "yes": 0.639,
+       "no": 0.361
+      },
+      "BTTS_O2.5": {
+       "yes": 0.533
+      },
+      "1X_O1.5": {
+       "yes": 0.587
+      },
+      "1X_O2.5": {
+       "yes": 0.417
+      },
+      "1X_U3.5": {
+       "yes": 0.411
+      },
+      "1X_BTTS": {
+       "yes": 0.458
+      },
+      "X2_O1.5": {
+       "yes": 0.444
+      },
+      "X2_O2.5": {
+       "yes": 0.297
+      },
+      "X2_U3.5": {
+       "yes": 0.334
+      },
+      "X2_BTTS": {
+       "yes": 0.375
+      },
+      "12_O1.5": {
+       "yes": 0.644
+      },
+      "12_O2.5": {
+       "yes": 0.539
+      },
+      "12_U3.5": {
+       "yes": 0.446
+      },
+      "12_BTTS": {
+       "yes": 0.446
+      },
+      "HT1X2": {
+       "1": 0.362,
+       "X": 0.374,
+       "2": 0.263
+      }
+     },
+     "expected_goals": {
+      "home": 1.8,
+      "away": 1.43
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.106
+      },
+      {
+       "score": "2-1",
+       "p": 0.092
+      },
+      {
+       "score": "1-2",
+       "p": 0.073
+      }
+     ],
+     "confidence": {
+      "value": 0.837,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.838,
+     "ev": -0.029,
+     "odds_seen": {
+      "value": 1.16,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-05T17:57:23+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 83,7 % pour « Plus de 1,5 buts » contre 83,8 % pour le marché.",
+      "Buts attendus (modèle) : 1,80 – 1,43.",
+      "Candidat EV max écarté : FC Midtjylland ou nul (1N) (69,8 %, cote 1,70, EV +18,6 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif 9h45 (1re du jour) : FC Midtjylland–Ajax. Aucune info fiable (compte club / journaliste reconnu) d’absence de dernière minute ou rotation extrême trouvée ce matin. Pas de contradiction vs FC Midtjylland ou nul (1N).",
+       "Vérif 15h45 : Midtjylland–Ajax — Ajax (ajax.nl/Goal) : Amrabat, Brandt, Tsygankov, Gaaei, Dolberg, Adingra/Bissouma out ; Blind/Berghuis dispo. FCM (campo.dk) : Maxsø non inscrit UECL ; Olafsson/Jensen/Erlic/Gogorza/Martínez blessés, truppe sinon proche du Nordsjælland. Pas de contradiction vs Midtjylland ou nul (1N)."
+      ],
+      "checked_at": "2026-11-05T09:45:00+01:00",
+      "x_reads": 0,
+      "sources": [],
+      "updated_at": "2026-11-05T15:51:31+01:00",
+      "source": "https://english.ajax.nl/articles/these-21-ajax-players-are-travelling-to-denmark",
+      "last_check": "2026-11-05T15:51:31+01:00"
+     },
+     "team_samples": {
+      "home": 94,
+      "away": 100
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
   {
    "fixture_id": 1636452,
-   "final_reading_id": "1636452-r3",
+   "final_reading_id": "1636452-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -12318,6 +15088,209 @@
      },
      "releco_count": 3,
      "first_timestamp": "2026-11-05T10:00:22+01:00"
+    },
+    {
+     "reading_id": "1636452-r4",
+     "timestamp": "2026-11-05T17:57:24+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "inter-competitions",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU3.5",
+      "selection": "under",
+      "label_fr": "Moins de 3,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.717,
+      "market_probability": 0.717,
+      "odds": 1.35,
+      "bookmaker": "1xBet"
+     },
+     "value_pick": {
+      "market": "OU2.5",
+      "selection": "under",
+      "label_fr": "Moins de 2,5 buts",
+      "model_probability": 0.6,
+      "market_probability": 0.524,
+      "odds": 1.88,
+      "bookmaker": "SBO",
+      "ev": 0.128
+     },
+     "skip_reasons_fr": [
+      "Écart modèle/marché 7,7 pts > 5"
+     ],
+     "model_probability": 0.802,
+     "probabilities": {
+      "1X2": {
+       "1": 0.232,
+       "X": 0.283,
+       "2": 0.485
+      },
+      "DC": {
+       "1X": 0.515,
+       "X2": 0.768,
+       "12": 0.717
+      },
+      "OU1.5": {
+       "over": 0.671,
+       "under": 0.329
+      },
+      "OU2.5": {
+       "over": 0.4,
+       "under": 0.6
+      },
+      "OU3.5": {
+       "over": 0.198,
+       "under": 0.802
+      },
+      "BTTS": {
+       "yes": 0.447,
+       "no": 0.553
+      },
+      "BTTS_O2.5": {
+       "yes": 0.316
+      },
+      "1X_O1.5": {
+       "yes": 0.323
+      },
+      "1X_O2.5": {
+       "yes": 0.152
+      },
+      "1X_U3.5": {
+       "yes": 0.43
+      },
+      "1X_BTTS": {
+       "yes": 0.269
+      },
+      "X2_O1.5": {
+       "yes": 0.523
+      },
+      "X2_O2.5": {
+       "yes": 0.292
+      },
+      "X2_U3.5": {
+       "yes": 0.61
+      },
+      "X2_BTTS": {
+       "yes": 0.355
+      },
+      "12_O1.5": {
+       "yes": 0.495
+      },
+      "12_O2.5": {
+       "yes": 0.355
+      },
+      "12_U3.5": {
+       "yes": 0.564
+      },
+      "12_BTTS": {
+       "yes": 0.271
+      },
+      "HT1X2": {
+       "1": 0.195,
+       "X": 0.455,
+       "2": 0.349
+      }
+     },
+     "expected_goals": {
+      "home": 0.88,
+      "away": 1.4
+     },
+     "top_scores": [
+      {
+       "score": "0-1",
+       "p": 0.137
+      },
+      {
+       "score": "1-1",
+       "p": 0.131
+      },
+      {
+       "score": "0-0",
+       "p": 0.107
+      }
+     ],
+     "confidence": {
+      "value": 0.802,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.725,
+     "ev": 0.075,
+     "odds_seen": {
+      "value": 1.34,
+      "bookmaker": "Pinnacle",
+      "captured_at": "2026-11-05T17:57:24+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 80,2 % pour « Moins de 3,5 buts » contre 72,5 % pour le marché.",
+      "Buts attendus (modèle) : 0,88 – 1,40.",
+      "Candidat EV max écarté : Nul ou Borac Banja Luka (N2) (76,8 %, cote 1,67, EV +28,2 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif 21h45 (1re du jour) : Mjällby–Borac Banja Luka (KO 05/11 18:45). Aucune info fiable club/média reconnu d’absence de dernière minute ou rotation extrême trouvée ; absences API vides. Pas de contradiction vs Moins de 2,5."
+      ],
+      "checked_at": "2026-11-04T21:48:38+01:00",
+      "x_reads": 2,
+      "sources": []
+     },
+     "team_samples": {
+      "home": 66,
+      "away": 89
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ],
    "skip_check": {
@@ -12328,7 +15301,7 @@
   },
   {
    "fixture_id": 1636473,
-   "final_reading_id": "1636473-r3",
+   "final_reading_id": "1636473-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -12929,6 +15902,210 @@
      },
      "releco_count": 3,
      "first_timestamp": "2026-11-05T10:00:23+01:00"
+    },
+    {
+     "reading_id": "1636473-r4",
+     "timestamp": "2026-11-05T17:57:25+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "inter-competitions",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.777,
+      "market_probability": 0.742,
+      "odds": 1.3,
+      "bookmaker": "William Hill"
+     },
+     "value_pick": {
+      "market": "OU3.5",
+      "selection": "over",
+      "label_fr": "Plus de 3,5 buts",
+      "model_probability": 0.498,
+      "market_probability": 0.422,
+      "odds": 2.3,
+      "bookmaker": "1xBet",
+      "ev": 0.146
+     },
+     "skip_reasons_fr": [
+      "EV +3,4 % < 5 %",
+      "Écart modèle/marché 6,5 pts > 5"
+     ],
+     "model_probability": 0.884,
+     "probabilities": {
+      "1X2": {
+       "1": 0.438,
+       "X": 0.223,
+       "2": 0.34
+      },
+      "DC": {
+       "1X": 0.66,
+       "X2": 0.562,
+       "12": 0.777
+      },
+      "OU1.5": {
+       "over": 0.884,
+       "under": 0.116
+      },
+      "OU2.5": {
+       "over": 0.708,
+       "under": 0.292
+      },
+      "OU3.5": {
+       "over": 0.498,
+       "under": 0.502
+      },
+      "BTTS": {
+       "yes": 0.707,
+       "no": 0.293
+      },
+      "BTTS_O2.5": {
+       "yes": 0.617
+      },
+      "1X_O1.5": {
+       "yes": 0.585
+      },
+      "1X_O2.5": {
+       "yes": 0.447
+      },
+      "1X_U3.5": {
+       "yes": 0.329
+      },
+      "1X_BTTS": {
+       "yes": 0.479
+      },
+      "X2_O1.5": {
+       "yes": 0.493
+      },
+      "X2_O2.5": {
+       "yes": 0.366
+      },
+      "X2_U3.5": {
+       "yes": 0.29
+      },
+      "X2_BTTS": {
+       "yes": 0.421
+      },
+      "12_O1.5": {
+       "yes": 0.69
+      },
+      "12_O2.5": {
+       "yes": 0.604
+      },
+      "12_U3.5": {
+       "yes": 0.384
+      },
+      "12_BTTS": {
+       "yes": 0.513
+      },
+      "HT1X2": {
+       "1": 0.357,
+       "X": 0.348,
+       "2": 0.295
+      }
+     },
+     "expected_goals": {
+      "home": 1.95,
+      "away": 1.71
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.089
+      },
+      {
+       "score": "2-1",
+       "p": 0.084
+      },
+      {
+       "score": "1-2",
+       "p": 0.073
+      }
+     ],
+     "confidence": {
+      "value": 0.884,
+      "source": "model_probability",
+      "bucket": "85-90"
+     },
+     "market_probability": 0.819,
+     "ev": 0.034,
+     "odds_seen": {
+      "value": 1.17,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-05T17:57:25+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 88,4 % pour « Plus de 1,5 buts » contre 81,9 % pour le marché.",
+      "Buts attendus (modèle) : 1,95 – 1,71.",
+      "Candidat EV max écarté : Plus de 2,5 buts (70,8 %, cote 1,53, EV +8,4 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif 9h45 (1re du jour) : FC Thun–Heart Of Midlothian. Aucune info fiable (compte club / journaliste reconnu) d’absence de dernière minute ou rotation extrême trouvée ce matin. Pas de contradiction vs Plus de 3,5 buts."
+      ],
+      "checked_at": "2026-11-05T09:45:00+01:00",
+      "x_reads": 0,
+      "sources": []
+     },
+     "team_samples": {
+      "home": 61,
+      "away": 100
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
