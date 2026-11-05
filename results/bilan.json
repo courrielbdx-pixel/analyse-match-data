@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-05T07:02:18+01:00",
+ "generated_at": "2026-11-05T20:36:56+01:00",
  "settled": [
   {
    "fixture_id": 1492403,
@@ -44334,6 +44334,66 @@
     "label": "SKIP",
     "outcome": "won"
    }
+  },
+  {
+   "fixture_id": 1636452,
+   "date": "2026-11-05",
+   "kickoff": "2026-11-05T18:45:00+01:00",
+   "league": {
+    "name": "UEFA Europa Conference League",
+    "country": "Europe"
+   },
+   "region": "uefa",
+   "method_version": "dc-v1",
+   "reading_id": "1636452-r4",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "OU3.5",
+   "selection": "under",
+   "label_fr": "Moins de 3,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.802,
+   "confidence_bucket": "80-85",
+   "odds": 1.34,
+   "bookmaker": "Pinnacle",
+   "final_score": "2-0",
+   "outcome": "won",
+   "pl_units": 0.34,
+   "matin": {
+    "selection": "under",
+    "label": "SKIP",
+    "outcome": "won"
+   }
+  },
+  {
+   "fixture_id": 1636476,
+   "date": "2026-11-05",
+   "kickoff": "2026-11-05T18:45:00+01:00",
+   "league": {
+    "name": "UEFA Europa Conference League",
+    "country": "Europe"
+   },
+   "region": "uefa",
+   "method_version": "dc-v1",
+   "reading_id": "1636476-r4",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "OU1.5",
+   "selection": "over",
+   "label_fr": "Plus de 1,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.831,
+   "confidence_bucket": "80-85",
+   "odds": 1.19,
+   "bookmaker": "Betano",
+   "final_score": "0-1",
+   "outcome": "lost",
+   "pl_units": -1.0,
+   "matin": {
+    "selection": "over",
+    "label": "SKIP",
+    "outcome": "lost"
+   }
   }
  ],
  "aggregates": {
@@ -44350,13 +44410,13 @@
     "avg_odds": 1.84
    },
    "SKIP": {
-    "n": 1416,
-    "won": 1154,
-    "lost": 259,
+    "n": 1418,
+    "won": 1155,
+    "lost": 260,
     "void": 3,
     "no_odds": 8,
-    "hit_rate": 0.817,
-    "pl_units": -15.46,
+    "hit_rate": 0.816,
+    "pl_units": -16.12,
     "roi": -0.011,
     "avg_odds": 1.22
    },
@@ -45362,10 +45422,10 @@
     },
     {
      "label": "SKIP",
-     "n": 29,
-     "won": 23,
-     "lost": 6,
-     "pl_units": -1.67,
+     "n": 31,
+     "won": 24,
+     "lost": 7,
+     "pl_units": -2.33,
      "league": "UEFA Europa Conference League",
      "country": "Europe"
     },
@@ -45508,10 +45568,10 @@
     {
      "market": "OU1.5",
      "label": "SKIP",
-     "n": 619,
+     "n": 620,
      "won": 504,
-     "lost": 115,
-     "pl_units": -19.34
+     "lost": 116,
+     "pl_units": -20.34
     },
     {
      "market": "OU2.5",
@@ -45556,10 +45616,10 @@
     {
      "market": "OU3.5",
      "label": "SKIP",
-     "n": 242,
-     "won": 189,
+     "n": 243,
+     "won": 190,
      "lost": 53,
-     "pl_units": 0.21
+     "pl_units": 0.55
     },
     {
      "market": "OU3.5",
@@ -45680,9 +45740,9 @@
     {
      "bucket": "80-85",
      "label": "SKIP",
-     "n": 430,
-     "won": 347,
-     "lost": 83
+     "n": 432,
+     "won": 348,
+     "lost": 84
     },
     {
      "bucket": "85-90",
@@ -46198,10 +46258,10 @@
     {
      "date": "2026-11-05",
      "label": "SKIP",
-     "n": 5,
-     "won": 3,
-     "lost": 2,
-     "pl_units": -1.34
+     "n": 7,
+     "won": 4,
+     "lost": 3,
+     "pl_units": -2.0
     }
    ],
    "by_week": [
@@ -46312,10 +46372,10 @@
     {
      "week": "2026-W45",
      "label": "SKIP",
-     "n": 97,
-     "won": 79,
-     "lost": 17,
-     "pl_units": 0.37
+     "n": 99,
+     "won": 80,
+     "lost": 18,
+     "pl_units": -0.29
     },
     {
      "week": "2026-W45",
@@ -46330,9 +46390,9 @@
     {
      "trigger": "compo",
      "label": "SKIP",
-     "n": 1049,
-     "won": 857,
-     "lost": 189
+     "n": 1051,
+     "won": 858,
+     "lost": 190
     },
     {
      "trigger": "compo",
@@ -46452,9 +46512,9 @@
     },
     {
      "bucket": "80-85",
-     "n": 430,
+     "n": 432,
      "mean_predicted": 0.824,
-     "observed": 0.807
+     "observed": 0.806
     },
     {
      "bucket": "85-90",
@@ -46918,38 +46978,38 @@
  },
  "fun_aggregate": {
   "played": 24,
-  "settled": 23,
+  "settled": 24,
   "won": 4,
   "stake_eur": 0.1,
-  "pl_eur": -0.07
+  "pl_eur": -0.17
  },
  "bilan_start": "2026-10-13",
  "skip_lines": {
   "probable": {
-   "n": 1413,
-   "won": 1154,
-   "hit_rate": 0.817,
-   "with_odds": 1405,
+   "n": 1415,
+   "won": 1155,
+   "hit_rate": 0.816,
+   "with_odds": 1407,
    "avg_odds": 1.22,
-   "profit_eur": -15.46,
+   "profit_eur": -16.12,
    "roi": -0.011
   },
   "resultat": {
-   "n": 861,
-   "won": 656,
+   "n": 863,
+   "won": 658,
    "hit_rate": 0.762,
-   "with_odds": 861,
+   "with_odds": 863,
    "avg_odds": 1.28,
-   "profit_eur": -24.24,
-   "roi": -0.028
+   "profit_eur": -23.59,
+   "roi": -0.027
   },
   "valeur": {
-   "n": 1351,
-   "won": 605,
+   "n": 1353,
+   "won": 606,
    "hit_rate": 0.448,
-   "with_odds": 1351,
+   "with_odds": 1353,
    "avg_odds": 2.21,
-   "profit_eur": -57.85,
+   "profit_eur": -57.97,
    "roi": -0.043
   }
  },
@@ -46963,27 +47023,27 @@
    "se": 0.0021
   },
   "probable": {
-   "n": 1221,
+   "n": 1223,
    "mean_clv": 0.0002,
    "beat_close": 0.029,
    "beat_n": 35,
-   "same_n": 1158,
+   "same_n": 1160,
    "se": 0.0001
   },
   "resultat": {
-   "n": 734,
+   "n": 736,
    "mean_clv": 0.0002,
    "beat_close": 0.031,
    "beat_n": 23,
-   "same_n": 695,
+   "same_n": 697,
    "se": 0.0001
   },
   "valeur": {
-   "n": 1174,
+   "n": 1176,
    "mean_clv": 0.001,
    "beat_close": 0.089,
    "beat_n": 105,
-   "same_n": 1004,
+   "same_n": 1006,
    "se": 0.0004
   },
   "tickets_list": [
@@ -47381,66 +47441,6 @@
   "recent": [
    {
     "date": "2026-11-04",
-    "match": "Borussia Dortmund – Real Betis",
-    "fixture_id": 1635651,
-    "label_fr": "Plus de 1,5 buts",
-    "line": "probable",
-    "odds": 1.16,
-    "closing_odds": 1.16,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-11-04",
-    "match": "Borussia Dortmund – Real Betis",
-    "fixture_id": 1635651,
-    "label_fr": "Pas de nul (12)",
-    "line": "resultat",
-    "odds": 1.26,
-    "closing_odds": 1.26,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-11-04",
-    "match": "Borussia Dortmund – Real Betis",
-    "fixture_id": 1635651,
-    "label_fr": "Moins de 2,5 buts",
-    "line": "valeur",
-    "odds": 2.75,
-    "closing_odds": 2.75,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-11-04",
-    "match": "FC Porto – Napoli",
-    "fixture_id": 1635656,
-    "label_fr": "FC Porto ou nul (1N)",
-    "line": "probable",
-    "odds": 1.27,
-    "closing_odds": 1.29,
-    "clv": -0.0155
-   },
-   {
-    "date": "2026-11-04",
-    "match": "FC Porto – Napoli",
-    "fixture_id": 1635656,
-    "label_fr": "Moins de 3,5 buts",
-    "line": "valeur",
-    "odds": 1.4,
-    "closing_odds": 1.42,
-    "clv": -0.0141
-   },
-   {
-    "date": "2026-11-04",
-    "match": "Lens – Como",
-    "fixture_id": 1635681,
-    "label_fr": "Plus de 1,5 buts",
-    "line": "probable",
-    "odds": 1.19,
-    "closing_odds": 1.19,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-11-04",
     "match": "Lens – Como",
     "fixture_id": 1635681,
     "label_fr": "Pas de nul (12)",
@@ -47677,6 +47677,66 @@
     "line": "valeur",
     "odds": 1.82,
     "closing_odds": 1.82,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-11-05",
+    "match": "Mjallby AIF – Borac Banja Luka",
+    "fixture_id": 1636452,
+    "label_fr": "Moins de 3,5 buts",
+    "line": "probable",
+    "odds": 1.34,
+    "closing_odds": 1.34,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-11-05",
+    "match": "Mjallby AIF – Borac Banja Luka",
+    "fixture_id": 1636452,
+    "label_fr": "Pas de nul (12)",
+    "line": "resultat",
+    "odds": 1.35,
+    "closing_odds": 1.35,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-11-05",
+    "match": "Mjallby AIF – Borac Banja Luka",
+    "fixture_id": 1636452,
+    "label_fr": "Moins de 2,5 buts",
+    "line": "valeur",
+    "odds": 1.88,
+    "closing_odds": 1.88,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-11-05",
+    "match": "Trabzonspor – SC Freiburg",
+    "fixture_id": 1636476,
+    "label_fr": "Plus de 1,5 buts",
+    "line": "probable",
+    "odds": 1.19,
+    "closing_odds": 1.19,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-11-05",
+    "match": "Trabzonspor – SC Freiburg",
+    "fixture_id": 1636476,
+    "label_fr": "Pas de nul (12)",
+    "line": "resultat",
+    "odds": 1.3,
+    "closing_odds": 1.3,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-11-05",
+    "match": "Trabzonspor – SC Freiburg",
+    "fixture_id": 1636476,
+    "label_fr": "Plus de 2,5 buts",
+    "line": "valeur",
+    "odds": 1.62,
+    "closing_odds": 1.62,
     "clv": 0.0
    }
   ]
@@ -48115,16 +48175,11 @@
   },
   "probable": {
    "start": 100.0,
-   "bank": 79.63,
-   "bets": 486,
-   "zero_stake": 922,
-   "roi_bank": -0.2037,
+   "bank": 80.17,
+   "bets": 487,
+   "zero_stake": 923,
+   "roi_bank": -0.1983,
    "curve": [
-    {
-     "date": "2026-10-26",
-     "stake": 1.65,
-     "bank": 80.66
-    },
     {
      "date": "2026-10-26",
      "stake": 1.59,
@@ -49119,6 +49174,11 @@
      "date": "2026-11-05",
      "stake": 1.58,
      "bank": 79.63
+    },
+    {
+     "date": "2026-11-05",
+     "stake": 1.59,
+     "bank": 80.17
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
@@ -49127,7 +49187,7 @@
    "start": 100.0,
    "bank": 93.59,
    "bets": 140,
-   "zero_stake": 721,
+   "zero_stake": 723,
    "roi_bank": -0.0641,
    "curve": [
     {
@@ -49835,16 +49895,11 @@
   },
   "valeur": {
    "start": 100.0,
-   "bank": 22.05,
-   "bets": 1351,
-   "zero_stake": 2,
-   "roi_bank": -0.7795,
+   "bank": 22.43,
+   "bets": 1352,
+   "zero_stake": 3,
+   "roi_bank": -0.7757,
    "curve": [
-    {
-     "date": "2026-11-01",
-     "stake": 0.49,
-     "bank": 25.1
-    },
     {
      "date": "2026-11-01",
      "stake": 0.5,
@@ -50839,6 +50894,11 @@
      "date": "2026-11-05",
      "stake": 0.43,
      "bank": 22.05
+    },
+    {
+     "date": "2026-11-05",
+     "stake": 0.44,
+     "bank": 22.43
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
