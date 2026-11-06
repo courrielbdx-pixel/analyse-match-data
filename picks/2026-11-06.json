@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-06T22:00:31+01:00",
+ "generated_at": "2026-11-06T22:03:56+01:00",
  "date": "2026-11-06",
  "picks": [
   {
@@ -31761,7 +31761,7 @@
   },
   {
    "fixture_id": 1493235,
-   "final_reading_id": "1493235-r2",
+   "final_reading_id": "1493235-r3",
    "decision": "SKIP",
    "readings": [
     {
@@ -32164,12 +32164,218 @@
      },
      "releco_count": 4,
      "first_timestamp": "2026-11-06T10:00:44+01:00"
+    },
+    {
+     "reading_id": "1493235-r3",
+     "timestamp": "2026-11-06T22:03:53+01:00",
+     "trigger": "soir",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": false,
+     "pick": {
+      "market": "OU3.5",
+      "selection": "under",
+      "label_fr": "Moins de 3,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Independiente ou nul (1N)",
+      "model_probability": 0.798,
+      "market_probability": 0.833,
+      "odds": 1.16,
+      "bookmaker": "Betano"
+     },
+     "value_pick": {
+      "market": "OU1.5",
+      "selection": "under",
+      "label_fr": "Moins de 1,5 buts",
+      "model_probability": 0.498,
+      "market_probability": 0.405,
+      "odds": 2.42,
+      "bookmaker": "Betano",
+      "ev": 0.204
+     },
+     "skip_reasons_fr": [
+      "Écart modèle/marché 7,3 pts > 5"
+     ],
+     "model_probability": 0.913,
+     "probabilities": {
+      "1X2": {
+       "1": 0.448,
+       "X": 0.35,
+       "2": 0.202
+      },
+      "DC": {
+       "1X": 0.798,
+       "X2": 0.552,
+       "12": 0.65
+      },
+      "OU1.5": {
+       "over": 0.502,
+       "under": 0.498
+      },
+      "OU2.5": {
+       "over": 0.232,
+       "under": 0.768
+      },
+      "OU3.5": {
+       "over": 0.087,
+       "under": 0.913
+      },
+      "BTTS": {
+       "yes": 0.305,
+       "no": 0.695
+      },
+      "BTTS_O2.5": {
+       "yes": 0.175
+      },
+      "1X_O1.5": {
+       "yes": 0.408
+      },
+      "1X_O2.5": {
+       "yes": 0.173
+      },
+      "1X_U3.5": {
+       "yes": 0.726
+      },
+      "1X_BTTS": {
+       "yes": 0.254
+      },
+      "X2_O1.5": {
+       "yes": 0.246
+      },
+      "X2_O2.5": {
+       "yes": 0.08
+      },
+      "X2_U3.5": {
+       "yes": 0.516
+      },
+      "X2_BTTS": {
+       "yes": 0.202
+      },
+      "12_O1.5": {
+       "yes": 0.351
+      },
+      "12_O2.5": {
+       "yes": 0.211
+      },
+      "12_U3.5": {
+       "yes": 0.584
+      },
+      "12_BTTS": {
+       "yes": 0.154
+      },
+      "HT1X2": {
+       "1": 0.302,
+       "X": 0.54,
+       "2": 0.158
+      }
+     },
+     "expected_goals": {
+      "home": 1.05,
+      "away": 0.61
+     },
+     "top_scores": [
+      {
+       "score": "0-0",
+       "p": 0.199
+      },
+      {
+       "score": "1-0",
+       "p": 0.191
+      },
+      {
+       "score": "1-1",
+       "p": 0.13
+      }
+     ],
+     "confidence": {
+      "value": 0.913,
+      "source": "model_probability",
+      "bucket": "90-95"
+     },
+     "market_probability": 0.84,
+     "ev": 0.068,
+     "odds_seen": {
+      "value": 1.17,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-06T22:03:53+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 91,3 % pour « Moins de 3,5 buts » contre 84,0 % pour le marché.",
+      "Buts attendus (modèle) : 1,05 – 0,61.",
+      "Candidat EV max écarté : Nul ou Deportivo Riestra (N2) (55,2 %, cote 2,12, EV +17,1 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif 9h45 : Independiente–Deportivo Riestra. Aucune info fiable d’absence dernière minute. Pas de contradiction vs Under 3,5 / MT N.",
+       "Soir ~21h45 : Independiente–Riestra (affiche KO 23h15). Presse (Soy del Rojo) : Montiel suspendu (5 jaunes) ; retour Marcone après suspension ; Mele, Arias, Valdéz, Arrayago, Banegas, Pérez Curci, Meza, Palais, Ávila probables. Compte @Independiente : match day, pas d’XI officiel. Absence Montiel plutôt neutre/favorable aux Unders. Pas de contradiction vs Under 3,5 / MT N."
+      ],
+      "checked_at": "2026-11-06T21:48:56+01:00",
+      "x_reads": 2,
+      "sources": [
+       "https://soydelrojo.com/la-posible-formacion-de-independiente-para-recibir-a-riestra-2/",
+       "https://x.com/Independiente/status/2118804992094027820"
+      ]
+     },
+     "team_samples": {
+      "home": 67,
+      "away": 65
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     }
     }
    ]
   },
   {
    "fixture_id": 1493238,
-   "final_reading_id": "1493238-r2",
+   "final_reading_id": "1493238-r3",
    "decision": "SKIP",
    "readings": [
     {
@@ -32572,12 +32778,218 @@
      },
      "releco_count": 4,
      "first_timestamp": "2026-11-06T10:00:45+01:00"
+    },
+    {
+     "reading_id": "1493238-r3",
+     "timestamp": "2026-11-06T22:03:53+01:00",
+     "trigger": "soir",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": false,
+     "pick": {
+      "market": "OU3.5",
+      "selection": "under",
+      "label_fr": "Moins de 3,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "San Lorenzo ou nul (1N)",
+      "model_probability": 0.762,
+      "market_probability": 0.69,
+      "odds": 1.4,
+      "bookmaker": "Betano"
+     },
+     "value_pick": {
+      "market": "HT1X2",
+      "selection": "X",
+      "label_fr": "Mi-temps : nul (MT N)",
+      "model_probability": 0.55,
+      "market_probability": 0.492,
+      "odds": 1.97,
+      "bookmaker": "Pinnacle",
+      "ev": 0.083
+     },
+     "skip_reasons_fr": [
+      "Écart modèle/marché 10,0 pts > 5"
+     ],
+     "model_probability": 0.919,
+     "probabilities": {
+      "1X2": {
+       "1": 0.399,
+       "X": 0.363,
+       "2": 0.238
+      },
+      "DC": {
+       "1X": 0.762,
+       "X2": 0.601,
+       "12": 0.637
+      },
+      "OU1.5": {
+       "over": 0.489,
+       "under": 0.511
+      },
+      "OU2.5": {
+       "over": 0.221,
+       "under": 0.779
+      },
+      "OU3.5": {
+       "over": 0.081,
+       "under": 0.919
+      },
+      "BTTS": {
+       "yes": 0.307,
+       "no": 0.693
+      },
+      "BTTS_O2.5": {
+       "yes": 0.173
+      },
+      "1X_O1.5": {
+       "yes": 0.375
+      },
+      "1X_O2.5": {
+       "yes": 0.151
+      },
+      "1X_U3.5": {
+       "yes": 0.7
+      },
+      "1X_BTTS": {
+       "yes": 0.249
+      },
+      "X2_O1.5": {
+       "yes": 0.27
+      },
+      "X2_O2.5": {
+       "yes": 0.092
+      },
+      "X2_U3.5": {
+       "yes": 0.561
+      },
+      "X2_BTTS": {
+       "yes": 0.214
+      },
+      "12_O1.5": {
+       "yes": 0.333
+      },
+      "12_O2.5": {
+       "yes": 0.199
+      },
+      "12_U3.5": {
+       "yes": 0.577
+      },
+      "12_BTTS": {
+       "yes": 0.151
+      },
+      "HT1X2": {
+       "1": 0.272,
+       "X": 0.55,
+       "2": 0.179
+      }
+     },
+     "expected_goals": {
+      "home": 0.95,
+      "away": 0.67
+     },
+     "top_scores": [
+      {
+       "score": "0-0",
+       "p": 0.207
+      },
+      {
+       "score": "1-0",
+       "p": 0.18
+      },
+      {
+       "score": "1-1",
+       "p": 0.135
+      }
+     ],
+     "confidence": {
+      "value": 0.919,
+      "source": "model_probability",
+      "bucket": "90-95"
+     },
+     "market_probability": 0.819,
+     "ev": 0.084,
+     "odds_seen": {
+      "value": 1.18,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-06T22:03:53+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 91,9 % pour « Moins de 3,5 buts » contre 81,9 % pour le marché.",
+      "Buts attendus (modèle) : 0,95 – 0,67.",
+      "Candidat EV max écarté : Moins de 1,5 buts (51,1 %, cote 2,60, EV +32,8 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif 9h45 : San Lorenzo–Platense. Aucune info fiable d’absence dernière minute. Pas de contradiction vs Under 3,5 / MT N.",
+       "Soir ~21h45 : San Lorenzo–Platense (affiche KO 23h15). Presse (futbolargentino) : Auzmendi suspendu ; probable Devecchi; Corujo, Arboleda, Amor; Tripichio, Río, Gulli, Rodríguez Pagano, Farías; Cuello, Ladstatter. Compte @SanLorenzo : match day 19.15, pas d’XI officiel. Absence du goleador plutôt favorable Under. Pas de contradiction vs Under 3,5 / MT N."
+      ],
+      "checked_at": "2026-11-06T21:48:56+01:00",
+      "x_reads": 2,
+      "sources": [
+       "https://www.futbolargentino.com/primera-division/noticias/la-formacion-de-san-lorenzo-ante-platense-610347",
+       "https://x.com/SanLorenzo/status/2118780034295157224"
+      ]
+     },
+     "team_samples": {
+      "home": 68,
+      "away": 67
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     }
     }
    ]
   },
   {
    "fixture_id": 1493241,
-   "final_reading_id": "1493241-r2",
+   "final_reading_id": "1493241-r3",
    "decision": "SKIP",
    "readings": [
     {
@@ -32981,6 +33393,212 @@
      },
      "releco_count": 4,
      "first_timestamp": "2026-11-06T10:00:45+01:00"
+    },
+    {
+     "reading_id": "1493241-r3",
+     "timestamp": "2026-11-06T22:03:53+01:00",
+     "trigger": "soir",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": false,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.721,
+      "market_probability": 0.704,
+      "odds": 1.36,
+      "bookmaker": "William Hill"
+     },
+     "value_pick": {
+      "market": "OU2.5",
+      "selection": "over",
+      "label_fr": "Plus de 2,5 buts",
+      "model_probability": 0.492,
+      "market_probability": 0.459,
+      "odds": 2.1,
+      "bookmaker": "Pinnacle",
+      "ev": 0.032
+     },
+     "skip_reasons_fr": [
+      "EV +2,6 % < 5 %"
+     ],
+     "model_probability": 0.749,
+     "probabilities": {
+      "1X2": {
+       "1": 0.359,
+       "X": 0.279,
+       "2": 0.362
+      },
+      "DC": {
+       "1X": 0.638,
+       "X2": 0.641,
+       "12": 0.721
+      },
+      "OU1.5": {
+       "over": 0.749,
+       "under": 0.251
+      },
+      "OU2.5": {
+       "over": 0.492,
+       "under": 0.508
+      },
+      "OU3.5": {
+       "over": 0.273,
+       "under": 0.727
+      },
+      "BTTS": {
+       "yes": 0.546,
+       "no": 0.454
+      },
+      "BTTS_O2.5": {
+       "yes": 0.413
+      },
+      "1X_O1.5": {
+       "yes": 0.473
+      },
+      "1X_O2.5": {
+       "yes": 0.278
+      },
+      "1X_U3.5": {
+       "yes": 0.469
+      },
+      "1X_BTTS": {
+       "yes": 0.372
+      },
+      "X2_O1.5": {
+       "yes": 0.475
+      },
+      "X2_O2.5": {
+       "yes": 0.28
+      },
+      "X2_U3.5": {
+       "yes": 0.471
+      },
+      "X2_BTTS": {
+       "yes": 0.373
+      },
+      "12_O1.5": {
+       "yes": 0.55
+      },
+      "12_O2.5": {
+       "yes": 0.426
+      },
+      "12_U3.5": {
+       "yes": 0.514
+      },
+      "12_BTTS": {
+       "yes": 0.347
+      },
+      "HT1X2": {
+       "1": 0.287,
+       "X": 0.424,
+       "2": 0.289
+      }
+     },
+     "expected_goals": {
+      "home": 1.32,
+      "away": 1.32
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.133
+      },
+      {
+       "score": "0-1",
+       "p": 0.086
+      },
+      {
+       "score": "1-0",
+       "p": 0.085
+      }
+     ],
+     "confidence": {
+      "value": 0.749,
+      "source": "model_probability",
+      "bucket": "70-75"
+     },
+     "market_probability": 0.705,
+     "ev": 0.026,
+     "odds_seen": {
+      "value": 1.37,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-06T22:03:53+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 74,9 % pour « Plus de 1,5 buts » contre 70,5 % pour le marché.",
+      "Buts attendus (modèle) : 1,32 – 1,32.",
+      "Non retenu (EV +2,6 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Vérif 9h45 : Unión Santa Fe–Vélez. Aucune info fiable d’absence dernière minute. Pas de contradiction vs Over 1,5 / valeur Over 2,5.",
+       "Soir ~21h45 : Unión–Vélez (affiche KO 23h15). Probables (santafealdia) : Unión répète XI Newell's (Mansilla; Rubio, Isla, Ludueña, Ayala; Palacios, Mosqueira, Luna Diale, Cuello; Estigarribia, Tarragona). Vélez Marchiori; J. García, Magallán, Silvero, E. Gómez; Robertone, Baeza; Pellegrini, Lanzini, Policella; R. Martínez — Barros Schelotto expulsé banc. Comptes @Velez/@clubaunion : match day, pas d’XI officiel encore. Pas de contradiction vs Over 1,5 / valeur Over 2,5."
+      ],
+      "checked_at": "2026-11-06T21:48:56+01:00",
+      "x_reads": 2,
+      "sources": [
+       "https://santafealdia.com/2026/11/06/union-velez-formacion-madelon-clasificacion-play-off/",
+       "https://x.com/Velez/status/2118801673527214435"
+      ]
+     },
+     "team_samples": {
+      "home": 66,
+      "away": 65
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     }
     }
    ]
   }
