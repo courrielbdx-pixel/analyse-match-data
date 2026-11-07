@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-07T21:57:50+01:00",
+ "generated_at": "2026-11-07T22:07:29+01:00",
  "date": "2026-11-07",
  "picks": [
   {
@@ -136423,7 +136423,7 @@
   },
   {
    "fixture_id": 1639858,
-   "final_reading_id": "1639858-r2",
+   "final_reading_id": "1639858-r3",
    "decision": "SKIP",
    "readings": [
     {
@@ -136819,6 +136819,205 @@
      },
      "releco_count": 5,
      "first_timestamp": "2026-11-07T09:55:23+01:00"
+    },
+    {
+     "reading_id": "1639858-r3",
+     "timestamp": "2026-11-07T22:07:27+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU3.5",
+      "selection": "under",
+      "label_fr": "Moins de 3,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Leones del Norte ou nul (1N)",
+      "model_probability": 0.742,
+      "market_probability": 0.821,
+      "odds": 1.17,
+      "bookmaker": "William Hill"
+     },
+     "value_pick": {
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou Guayaquil City FC (N2)",
+      "model_probability": 0.537,
+      "market_probability": 0.438,
+      "odds": 2.22,
+      "bookmaker": "Betano",
+      "ev": 0.193
+     },
+     "skip_reasons_fr": [
+      "EV +4,2 % < 5 %",
+      "Écart modèle/marché 7,6 pts > 5"
+     ],
+     "model_probability": 0.796,
+     "probabilities": {
+      "1X2": {
+       "1": 0.463,
+       "X": 0.28,
+       "2": 0.258
+      },
+      "DC": {
+       "1X": 0.742,
+       "X2": 0.537,
+       "12": 0.72
+      },
+      "OU1.5": {
+       "over": 0.676,
+       "under": 0.324
+      },
+      "OU2.5": {
+       "over": 0.409,
+       "under": 0.591
+      },
+      "OU3.5": {
+       "over": 0.204,
+       "under": 0.796
+      },
+      "BTTS": {
+       "yes": 0.46,
+       "no": 0.54
+      },
+      "BTTS_O2.5": {
+       "yes": 0.329
+      },
+      "1X_O1.5": {
+       "yes": 0.509
+      },
+      "1X_O2.5": {
+       "yes": 0.286
+      },
+      "1X_U3.5": {
+       "yes": 0.586
+      },
+      "1X_BTTS": {
+       "yes": 0.355
+      },
+      "X2_O1.5": {
+       "yes": 0.346
+      },
+      "X2_O2.5": {
+       "yes": 0.171
+      },
+      "X2_U3.5": {
+       "yes": 0.442
+      },
+      "X2_BTTS": {
+       "yes": 0.283
+      },
+      "12_O1.5": {
+       "yes": 0.497
+      },
+      "12_O2.5": {
+       "yes": 0.361
+      },
+      "12_U3.5": {
+       "yes": 0.564
+      },
+      "12_BTTS": {
+       "yes": 0.281
+      },
+      "HT1X2": {
+       "1": 0.335,
+       "X": 0.454,
+       "2": 0.211
+      }
+     },
+     "expected_goals": {
+      "home": 1.37,
+      "away": 0.95
+     },
+     "top_scores": [
+      {
+       "score": "1-0",
+       "p": 0.132
+      },
+      {
+       "score": "1-1",
+       "p": 0.131
+      },
+      {
+       "score": "0-0",
+       "p": 0.101
+      }
+     ],
+     "confidence": {
+      "value": 0.796,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.72,
+     "ev": 0.042,
+     "odds_seen": {
+      "value": 1.31,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-07T22:07:27+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 79,6 % pour « Moins de 3,5 buts » contre 72,0 % pour le marché.",
+      "Buts attendus (modèle) : 1,37 – 0,95.",
+      "Candidat EV max écarté : Nul ou Guayaquil City FC (N2) (53,7 %, cote 2,22, EV +19,3 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 35,
+      "away": 35
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
