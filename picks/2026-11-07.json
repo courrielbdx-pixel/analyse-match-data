@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-07T08:02:24+01:00",
+ "generated_at": "2026-11-07T08:57:36+01:00",
  "date": "2026-11-07",
  "picks": [
   {
@@ -11821,7 +11821,7 @@
   },
   {
    "fixture_id": 1593700,
-   "final_reading_id": "1593700-r3",
+   "final_reading_id": "1593700-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -12385,6 +12385,196 @@
        }
       ]
      }
+    },
+    {
+     "reading_id": "1593700-r4",
+     "timestamp": "2026-11-07T08:57:35+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Melbourne City ou nul (1N)"
+     },
+     "label": "SKIP",
+     "value_pick": {
+      "market": "OU2.5",
+      "selection": "under",
+      "label_fr": "Moins de 2,5 buts",
+      "model_probability": 0.52,
+      "market_probability": 0.445,
+      "odds": 2.21,
+      "bookmaker": "Pinnacle",
+      "ev": 0.15
+     },
+     "skip_reasons_fr": [
+      "EV +4,4 % < 5 %",
+      "Écart modèle/marché 5,6 pts > 5"
+     ],
+     "model_probability": 0.756,
+     "probabilities": {
+      "1X2": {
+       "1": 0.478,
+       "X": 0.279,
+       "2": 0.244
+      },
+      "DC": {
+       "1X": 0.756,
+       "X2": 0.522,
+       "12": 0.721
+      },
+      "OU1.5": {
+       "over": 0.743,
+       "under": 0.257
+      },
+      "OU2.5": {
+       "over": 0.48,
+       "under": 0.52
+      },
+      "OU3.5": {
+       "over": 0.262,
+       "under": 0.738
+      },
+      "BTTS": {
+       "yes": 0.522,
+       "no": 0.478
+      },
+      "BTTS_O2.5": {
+       "yes": 0.389
+      },
+      "1X_O1.5": {
+       "yes": 0.566
+      },
+      "1X_O2.5": {
+       "yes": 0.343
+      },
+      "1X_U3.5": {
+       "yes": 0.553
+      },
+      "1X_BTTS": {
+       "yes": 0.404
+      },
+      "X2_O1.5": {
+       "yes": 0.369
+      },
+      "X2_O2.5": {
+       "yes": 0.196
+      },
+      "X2_U3.5": {
+       "yes": 0.404
+      },
+      "X2_BTTS": {
+       "yes": 0.31
+      },
+      "12_O1.5": {
+       "yes": 0.552
+      },
+      "12_O2.5": {
+       "yes": 0.421
+      },
+      "12_U3.5": {
+       "yes": 0.518
+      },
+      "12_BTTS": {
+       "yes": 0.331
+      },
+      "HT1X2": {
+       "1": 0.36,
+       "X": 0.424,
+       "2": 0.216
+      }
+     },
+     "expected_goals": {
+      "home": 1.55,
+      "away": 1.04
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.133
+      },
+      {
+       "score": "1-0",
+       "p": 0.104
+      },
+      {
+       "score": "2-1",
+       "p": 0.094
+      }
+     ],
+     "confidence": {
+      "value": 0.756,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.7,
+     "ev": 0.044,
+     "odds_seen": {
+      "value": 1.38,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-07T08:57:35+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 75,6 % pour « Melbourne City ou nul (1N) » contre 70,0 % pour le marché.",
+      "Buts attendus (modèle) : 1,55 – 1,04.",
+      "Candidat EV max écarté : Moins de 2,5 buts (52,0 %, cote 2,21, EV +15,0 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 30,
+      "away": 29
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
