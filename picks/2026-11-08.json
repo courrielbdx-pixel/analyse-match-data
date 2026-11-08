@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-08T11:34:27+01:00",
+ "generated_at": "2026-11-08T12:03:14+01:00",
  "date": "2026-11-08",
  "picks": [
   {
@@ -32030,7 +32030,7 @@
   },
   {
    "fixture_id": 1550193,
-   "final_reading_id": "1550193-r3",
+   "final_reading_id": "1550193-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -32621,6 +32621,204 @@
        }
       ]
      }
+    },
+    {
+     "reading_id": "1550193-r4",
+     "timestamp": "2026-11-08T12:03:07+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "xg0.5",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Napoli ou nul (1N)"
+     },
+     "label": "SKIP",
+     "value_pick": {
+      "market": "1X2",
+      "selection": "1",
+      "label_fr": "Victoire Napoli (1)",
+      "model_probability": 0.493,
+      "market_probability": 0.41,
+      "odds": 2.39,
+      "bookmaker": "1xBet",
+      "ev": 0.177
+     },
+     "skip_reasons_fr": [
+      "Écart modèle/marché 8,6 pts > 5"
+     ],
+     "model_probability": 0.759,
+     "probabilities": {
+      "1X2": {
+       "1": 0.493,
+       "X": 0.266,
+       "2": 0.241
+      },
+      "DC": {
+       "1X": 0.759,
+       "X2": 0.507,
+       "12": 0.734
+      },
+      "OU1.5": {
+       "over": 0.679,
+       "under": 0.321
+      },
+      "OU2.5": {
+       "over": 0.416,
+       "under": 0.584
+      },
+      "OU3.5": {
+       "over": 0.21,
+       "under": 0.79
+      },
+      "BTTS": {
+       "yes": 0.455,
+       "no": 0.545
+      },
+      "BTTS_O2.5": {
+       "yes": 0.331
+      },
+      "1X_O1.5": {
+       "yes": 0.526
+      },
+      "1X_O2.5": {
+       "yes": 0.304
+      },
+      "1X_U3.5": {
+       "yes": 0.592
+      },
+      "1X_BTTS": {
+       "yes": 0.358
+      },
+      "X2_O1.5": {
+       "yes": 0.324
+      },
+      "X2_O2.5": {
+       "yes": 0.16
+      },
+      "X2_U3.5": {
+       "yes": 0.416
+      },
+      "X2_BTTS": {
+       "yes": 0.269
+      },
+      "12_O1.5": {
+       "yes": 0.507
+      },
+      "12_O2.5": {
+       "yes": 0.369
+      },
+      "12_U3.5": {
+       "yes": 0.571
+      },
+      "12_BTTS": {
+       "yes": 0.283
+      },
+      "HT1X2": {
+       "1": 0.352,
+       "X": 0.449,
+       "2": 0.199
+      }
+     },
+     "expected_goals": {
+      "home": 1.43,
+      "away": 0.91
+     },
+     "top_scores": [
+      {
+       "score": "1-0",
+       "p": 0.138
+      },
+      {
+       "score": "1-1",
+       "p": 0.124
+      },
+      {
+       "score": "2-0",
+       "p": 0.098
+      }
+     ],
+     "confidence": {
+      "value": 0.759,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.673,
+     "ev": 0.092,
+     "odds_seen": {
+      "value": 1.44,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-08T12:03:07+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 75,9 % pour « Napoli ou nul (1N) » contre 67,3 % pour le marché.",
+      "Buts attendus (modèle) : 1,43 – 0,91.",
+      "Candidat EV max écarté : Moins de 2,5 buts (58,4 %, cote 2,41, EV +40,7 %)."
+     ],
+     "web_check": {
+      "status": "contradiction",
+      "items_fr": [
+       "Soir ~18h50 : Napoli–Lazio (affiche, ligne Victoire Napoli). Note officielle Napoli : Di Lorenzo out ~3 semaines (adducteur) ; Olivera OK. Nombreux autres absents (Buongiorno, Badiashile, Spinazzola, Lobotka, Neres, Santos, Favasuli ; Marianucci suspendu) — rosa réduite. Lazio leader imbattue : Zaccagni et Gudmundsson out ; Tavares, Marusic, Rovella de retour (Gazzetta / Sky). Urgence Napoli + forme Lazio vont clairement contre une Victoire Napoli. À traiter en contradiction pour la relecture."
+      ],
+      "checked_at": "2026-11-07T18:51:54+01:00",
+      "x_reads": 0,
+      "sources": [
+       "https://www.cittaceleste.it/news/di-lorenzo-salta-la-lazio-olivera-no-la-nota-del-napoli-sugli-infortunati/",
+       "https://sport.sky.it/calcio/serie-a/2026/11/07/napoli-lazio-probabili-formazioni-11-giornata",
+       "https://www.gazzetta.it/en/football/fantanews/07-11-2026/lazio-squad-for-napoli-nuno-tavares-included-rovella-and-marusic-return.shtml"
+      ]
+     },
+     "team_samples": {
+      "home": 70,
+      "away": 70
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
