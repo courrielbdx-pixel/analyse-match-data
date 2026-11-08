@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-08T21:40:20+01:00",
+ "generated_at": "2026-11-08T21:56:55+01:00",
  "date": "2026-11-08",
  "picks": [
   {
@@ -139319,7 +139319,7 @@
     },
     {
      "reading_id": "1639804-r3",
-     "timestamp": "2026-11-08T18:55:09+01:00",
+     "timestamp": "2026-11-08T21:56:50+01:00",
      "trigger": "releco",
      "method_version": "dc-v1",
      "model_variant": "buts",
@@ -139336,9 +139336,9 @@
       "label_fr": "Mi-temps : nul (MT N)",
       "model_probability": 0.491,
       "market_probability": 0.438,
-      "odds": 2.18,
+      "odds": 2.17,
       "bookmaker": "Pinnacle",
-      "ev": 0.07
+      "ev": 0.065
      },
      "skip_reasons_fr": [
       "EV +3,7 % < 5 %"
@@ -139439,15 +139439,15 @@
       "source": "model_probability",
       "bucket": "65-70"
      },
-     "market_probability": 0.654,
+     "market_probability": 0.655,
      "ev": 0.037,
      "odds_seen": {
       "value": 1.5,
       "bookmaker": "Betano",
-      "captured_at": "2026-11-08T18:55:09+01:00"
+      "captured_at": "2026-11-08T21:56:50+01:00"
      },
      "reasoning_fr": [
-      "Modèle 69,1 % pour « Barcelona SC ou nul (1N) » contre 65,4 % pour le marché.",
+      "Modèle 69,1 % pour « Barcelona SC ou nul (1N) » contre 65,5 % pour le marché.",
       "Buts attendus (modèle) : 1,09 – 0,95.",
       "Candidat EV max écarté : Moins de 2,5 buts (66,8 %, cote 1,78, EV +18,8 %)."
      ],
@@ -139504,14 +139504,14 @@
        }
       ]
      },
-     "releco_count": 3,
+     "releco_count": 4,
      "first_timestamp": "2026-11-08T12:55:08+01:00"
     }
    ]
   },
   {
    "fixture_id": 1493232,
-   "final_reading_id": "1493232-r1",
+   "final_reading_id": "1493232-r2",
    "decision": "SKIP",
    "readings": [
     {
@@ -139658,6 +139658,203 @@
       "away": 66
      },
      "change_from_previous": null,
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     }
+    },
+    {
+     "reading_id": "1493232-r2",
+     "timestamp": "2026-11-08T21:56:50+01:00",
+     "trigger": "releco",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": false,
+     "pick": {
+      "market": "OU3.5",
+      "selection": "under",
+      "label_fr": "Moins de 3,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou Lanus (N2)",
+      "model_probability": 0.77,
+      "market_probability": 0.808,
+      "odds": 1.19,
+      "bookmaker": "Betano"
+     },
+     "value_pick": {
+      "market": "OU1.5",
+      "selection": "under",
+      "label_fr": "Moins de 1,5 buts",
+      "model_probability": 0.401,
+      "market_probability": 0.32,
+      "odds": 3.12,
+      "bookmaker": "Pinnacle",
+      "ev": 0.252
+     },
+     "skip_reasons_fr": [
+      "Écart modèle/marché 9,5 pts > 5"
+     ],
+     "model_probability": 0.86,
+     "probabilities": {
+      "1X2": {
+       "1": 0.23,
+       "X": 0.318,
+       "2": 0.452
+      },
+      "DC": {
+       "1X": 0.548,
+       "X2": 0.77,
+       "12": 0.682
+      },
+      "OU1.5": {
+       "over": 0.599,
+       "under": 0.401
+      },
+      "OU2.5": {
+       "over": 0.319,
+       "under": 0.681
+      },
+      "OU3.5": {
+       "over": 0.14,
+       "under": 0.86
+      },
+      "BTTS": {
+       "yes": 0.388,
+       "no": 0.612
+      },
+      "BTTS_O2.5": {
+       "yes": 0.25
+      },
+      "1X_O1.5": {
+       "yes": 0.304
+      },
+      "1X_O2.5": {
+       "yes": 0.124
+      },
+      "1X_U3.5": {
+       "yes": 0.486
+      },
+      "1X_BTTS": {
+       "yes": 0.249
+      },
+      "X2_O1.5": {
+       "yes": 0.467
+      },
+      "X2_O2.5": {
+       "yes": 0.229
+      },
+      "X2_U3.5": {
+       "yes": 0.659
+      },
+      "X2_BTTS": {
+       "yes": 0.311
+      },
+      "12_O1.5": {
+       "yes": 0.427
+      },
+      "12_O2.5": {
+       "yes": 0.285
+      },
+      "12_U3.5": {
+       "yes": 0.575
+      },
+      "12_BTTS": {
+       "yes": 0.216
+      },
+      "HT1X2": {
+       "1": 0.187,
+       "X": 0.494,
+       "2": 0.319
+      }
+     },
+     "expected_goals": {
+      "home": 0.78,
+      "away": 1.2
+     },
+     "top_scores": [
+      {
+       "score": "0-1",
+       "p": 0.157
+      },
+      {
+       "score": "0-0",
+       "p": 0.147
+      },
+      {
+       "score": "1-1",
+       "p": 0.138
+      }
+     ],
+     "confidence": {
+      "value": 0.86,
+      "source": "model_probability",
+      "bucket": "85-90"
+     },
+     "market_probability": 0.765,
+     "ev": 0.084,
+     "odds_seen": {
+      "value": 1.26,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-08T21:56:50+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 86,0 % pour « Moins de 3,5 buts » contre 76,5 % pour le marché.",
+      "Buts attendus (modèle) : 0,78 – 1,20.",
+      "Candidat EV max écarté : Central Cordoba de Santiago ou nul (1N) (54,8 %, cote 2,16, EV +18,4 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 65,
+      "away": 66
+     },
+     "change_from_previous": {
+      "pick_changed": true,
+      "label_changed": false,
+      "reason_fr": "Nouvelle lecture : cote 1,17 → 1,26."
+     },
      "coherence_check": {
       "passed": true,
       "checks": [
@@ -139892,7 +140089,7 @@
     },
     {
      "reading_id": "1632061-r2",
-     "timestamp": "2026-11-08T18:55:10+01:00",
+     "timestamp": "2026-11-08T21:56:51+01:00",
      "trigger": "releco",
      "method_version": "dc-v1",
      "model_variant": "buts",
@@ -139908,7 +140105,7 @@
       "selection": "under",
       "label_fr": "Moins de 2,5 buts",
       "model_probability": 0.547,
-      "market_probability": 0.498,
+      "market_probability": 0.499,
       "odds": 1.93,
       "bookmaker": "Pinnacle",
       "ev": 0.057
@@ -140012,15 +140209,15 @@
       "source": "model_probability",
       "bucket": "80-85"
      },
-     "market_probability": 0.771,
+     "market_probability": 0.772,
      "ev": 0.015,
      "odds_seen": {
       "value": 1.26,
       "bookmaker": "Betano",
-      "captured_at": "2026-11-08T18:55:10+01:00"
+      "captured_at": "2026-11-08T21:56:51+01:00"
      },
      "reasoning_fr": [
-      "Modèle 80,6 % pour « Sportivo Trinidense ou nul (1N) » contre 77,1 % pour le marché.",
+      "Modèle 80,6 % pour « Sportivo Trinidense ou nul (1N) » contre 77,2 % pour le marché.",
       "Buts attendus (modèle) : 1,62 – 0,86.",
       "Candidat EV max écarté : Moins de 2,5 buts (54,7 %, cote 1,93, EV +5,7 %)."
      ],
@@ -140077,7 +140274,7 @@
        }
       ]
      },
-     "releco_count": 4,
+     "releco_count": 5,
      "first_timestamp": "2026-11-08T09:55:46+01:00"
     }
    ]
