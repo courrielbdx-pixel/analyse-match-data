@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-09T23:02:43+01:00",
+ "generated_at": "2026-11-09T23:36:37+01:00",
  "settled": [
   {
    "fixture_id": 1492403,
@@ -57236,6 +57236,66 @@
     "label": "SKIP",
     "outcome": "lost"
    }
+  },
+  {
+   "fixture_id": 1576529,
+   "date": "2026-11-09",
+   "kickoff": "2026-11-09T21:15:00+01:00",
+   "league": {
+    "name": "Liga Portugal 2",
+    "country": "Portugal"
+   },
+   "region": "europe",
+   "method_version": "dc-v1",
+   "reading_id": "1576529-r4",
+   "trigger": "releco",
+   "lineups_confirmed": false,
+   "market": "DC",
+   "selection": "X2",
+   "label_fr": "Nul ou União de Leiria (N2)",
+   "label": "SKIP",
+   "model_probability": 0.57,
+   "confidence_bucket": "55-60",
+   "odds": 1.88,
+   "bookmaker": "Betano",
+   "final_score": "2-3",
+   "outcome": "won",
+   "pl_units": 0.88,
+   "matin": {
+    "selection": "12",
+    "label": "SKIP",
+    "outcome": "won"
+   }
+  },
+  {
+   "fixture_id": 1639835,
+   "date": "2026-11-09",
+   "kickoff": "2026-11-09T21:30:00+01:00",
+   "league": {
+    "name": "Liga Pro",
+    "country": "Équateur"
+   },
+   "region": "ameriques",
+   "method_version": "dc-v1",
+   "reading_id": "1639835-r4",
+   "trigger": "compo",
+   "lineups_confirmed": true,
+   "market": "DC",
+   "selection": "12",
+   "label_fr": "Pas de nul (12)",
+   "label": "SKIP",
+   "model_probability": 0.716,
+   "confidence_bucket": "70-75",
+   "odds": 1.2,
+   "bookmaker": "William Hill",
+   "final_score": "1-2",
+   "outcome": "won",
+   "pl_units": 0.2,
+   "matin": {
+    "selection": "under",
+    "label": "SKIP",
+    "outcome": "won"
+   }
   }
  ],
  "aggregates": {
@@ -57252,14 +57312,14 @@
     "avg_odds": 1.83
    },
    "SKIP": {
-    "n": 1826,
-    "won": 1473,
+    "n": 1828,
+    "won": 1475,
     "lost": 349,
     "void": 4,
     "no_odds": 12,
-    "hit_rate": 0.808,
-    "pl_units": -35.76,
-    "roi": -0.02,
+    "hit_rate": 0.809,
+    "pl_units": -34.68,
+    "roi": -0.019,
     "avg_odds": 1.22
    },
    "by_league": [
@@ -57697,10 +57757,10 @@
     },
     {
      "label": "SKIP",
-     "n": 21,
-     "won": 14,
+     "n": 22,
+     "won": 15,
      "lost": 7,
-     "pl_units": -2.45,
+     "pl_units": -1.57,
      "league": "Liga Portugal 2",
      "country": "Portugal"
     },
@@ -57724,10 +57784,10 @@
     },
     {
      "label": "SKIP",
-     "n": 31,
-     "won": 18,
+     "n": 32,
+     "won": 19,
      "lost": 13,
-     "pl_units": -7.99,
+     "pl_units": -7.79,
      "league": "Liga Pro",
      "country": "Équateur"
     },
@@ -58501,10 +58561,10 @@
     {
      "market": "DC",
      "label": "SKIP",
-     "n": 704,
-     "won": 583,
+     "n": 706,
+     "won": 585,
      "lost": 117,
-     "pl_units": -0.79
+     "pl_units": 0.29
     },
     {
      "market": "DC",
@@ -58613,8 +58673,8 @@
     {
      "bucket": "55-60",
      "label": "SKIP",
-     "n": 12,
-     "won": 6,
+     "n": 13,
+     "won": 7,
      "lost": 6
     },
     {
@@ -58690,8 +58750,8 @@
     {
      "bucket": "70-75",
      "label": "SKIP",
-     "n": 207,
-     "won": 164,
+     "n": 208,
+     "won": 165,
      "lost": 42
     },
     {
@@ -59310,10 +59370,10 @@
     {
      "date": "2026-11-09",
      "label": "SKIP",
-     "n": 12,
-     "won": 9,
+     "n": 14,
+     "won": 11,
      "lost": 3,
-     "pl_units": -0.61
+     "pl_units": 0.47
     }
    ],
    "by_week": [
@@ -59448,18 +59508,18 @@
     {
      "week": "2026-W46",
      "label": "SKIP",
-     "n": 12,
-     "won": 9,
+     "n": 14,
+     "won": 11,
      "lost": 3,
-     "pl_units": -0.61
+     "pl_units": 0.47
     }
    ],
    "by_trigger": [
     {
      "trigger": "compo",
      "label": "SKIP",
-     "n": 1370,
-     "won": 1109,
+     "n": 1371,
+     "won": 1110,
      "lost": 257
     },
     {
@@ -59514,8 +59574,8 @@
     {
      "trigger": "releco",
      "label": "SKIP",
-     "n": 239,
-     "won": 192,
+     "n": 240,
+     "won": 193,
      "lost": 47
     },
     {
@@ -59556,9 +59616,9 @@
     },
     {
      "bucket": "55-60",
-     "n": 67,
+     "n": 68,
      "mean_predicted": 0.572,
-     "observed": 0.507
+     "observed": 0.515
     },
     {
      "bucket": "60-65",
@@ -59574,9 +59634,9 @@
     },
     {
      "bucket": "70-75",
-     "n": 206,
+     "n": 207,
      "mean_predicted": 0.733,
-     "observed": 0.796
+     "observed": 0.797
     },
     {
      "bucket": "75-80",
@@ -60146,31 +60206,31 @@
  "bilan_start": "2026-10-13",
  "skip_lines": {
   "probable": {
-   "n": 1822,
-   "won": 1473,
-   "hit_rate": 0.808,
-   "with_odds": 1810,
+   "n": 1824,
+   "won": 1475,
+   "hit_rate": 0.809,
+   "with_odds": 1812,
    "avg_odds": 1.22,
-   "profit_eur": -35.76,
-   "roi": -0.02
+   "profit_eur": -34.68,
+   "roi": -0.019
   },
   "resultat": {
-   "n": 1113,
+   "n": 1114,
    "won": 836,
-   "hit_rate": 0.751,
-   "with_odds": 1113,
+   "hit_rate": 0.75,
+   "with_odds": 1114,
    "avg_odds": 1.28,
-   "profit_eur": -45.65,
-   "roi": -0.041
+   "profit_eur": -46.65,
+   "roi": -0.042
   },
   "valeur": {
-   "n": 1751,
+   "n": 1752,
    "won": 780,
    "hit_rate": 0.445,
-   "with_odds": 1751,
+   "with_odds": 1752,
    "avg_odds": 2.21,
-   "profit_eur": -89.67,
-   "roi": -0.051
+   "profit_eur": -90.67,
+   "roi": -0.052
   }
  },
  "clv": {
@@ -60183,27 +60243,27 @@
    "se": 0.0035
   },
   "probable": {
-   "n": 1591,
+   "n": 1593,
    "mean_clv": 0.0001,
-   "beat_close": 0.025,
+   "beat_close": 0.024,
    "beat_n": 39,
-   "same_n": 1512,
+   "same_n": 1514,
    "se": 0.0001
   },
   "resultat": {
-   "n": 957,
-   "mean_clv": 0.0002,
-   "beat_close": 0.027,
-   "beat_n": 26,
+   "n": 958,
+   "mean_clv": 0.0003,
+   "beat_close": 0.028,
+   "beat_n": 27,
    "same_n": 909,
    "se": 0.0001
   },
   "valeur": {
-   "n": 1539,
+   "n": 1540,
    "mean_clv": 0.001,
    "beat_close": 0.086,
    "beat_n": 132,
-   "same_n": 1325,
+   "same_n": 1326,
    "se": 0.0004
   },
   "tickets_list": [
@@ -60601,46 +60661,6 @@
   "recent": [
    {
     "date": "2026-11-08",
-    "match": "Jaguares – Bucaramanga",
-    "fixture_id": 1549859,
-    "label_fr": "Nul ou Bucaramanga (N2)",
-    "line": "probable",
-    "odds": 1.28,
-    "closing_odds": 1.28,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-11-08",
-    "match": "Jaguares – Bucaramanga",
-    "fixture_id": 1549859,
-    "label_fr": "Moins de 2,5 buts",
-    "line": "valeur",
-    "odds": 2.0,
-    "closing_odds": 2.0,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-11-08",
-    "match": "Barcelona SC – LDU de Quito",
-    "fixture_id": 1639804,
-    "label_fr": "Barcelona SC ou nul (1N)",
-    "line": "probable",
-    "odds": 1.5,
-    "closing_odds": 1.5,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-11-08",
-    "match": "Barcelona SC – LDU de Quito",
-    "fixture_id": 1639804,
-    "label_fr": "Mi-temps : nul (MT N)",
-    "line": "valeur",
-    "odds": 2.17,
-    "closing_odds": 2.17,
-    "clv": 0.0
-   },
-   {
-    "date": "2026-11-08",
     "match": "Central Cordoba de Santiago – Lanus",
     "fixture_id": 1493232,
     "label_fr": "Moins de 3,5 buts",
@@ -60897,6 +60917,46 @@
     "line": "valeur",
     "odds": 1.89,
     "closing_odds": 1.89,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-11-09",
+    "match": "Torreense – União de Leiria",
+    "fixture_id": 1576529,
+    "label_fr": "Nul ou União de Leiria (N2)",
+    "line": "probable",
+    "odds": 1.88,
+    "closing_odds": 1.88,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-11-09",
+    "match": "Tecnico Universitario – Manta FC",
+    "fixture_id": 1639835,
+    "label_fr": "Pas de nul (12)",
+    "line": "probable",
+    "odds": 1.2,
+    "closing_odds": 1.2,
+    "clv": 0.0
+   },
+   {
+    "date": "2026-11-09",
+    "match": "Tecnico Universitario – Manta FC",
+    "fixture_id": 1639835,
+    "label_fr": "Tecnico Universitario ou nul (1N)",
+    "line": "resultat",
+    "odds": 1.16,
+    "closing_odds": 1.1,
+    "clv": 0.0545
+   },
+   {
+    "date": "2026-11-09",
+    "match": "Tecnico Universitario – Manta FC",
+    "fixture_id": 1639835,
+    "label_fr": "Mi-temps : nul (MT N)",
+    "line": "valeur",
+    "odds": 2.91,
+    "closing_odds": 2.91,
     "clv": 0.0
    }
   ]
@@ -61459,16 +61519,11 @@
   },
   "probable": {
    "start": 100.0,
-   "bank": 63.76,
-   "bets": 640,
-   "zero_stake": 1174,
-   "roi_bank": -0.3624,
+   "bank": 64.89,
+   "bets": 641,
+   "zero_stake": 1175,
+   "roi_bank": -0.3511,
    "curve": [
-    {
-     "date": "2026-11-01",
-     "stake": 1.43,
-     "bank": 71.57
-    },
     {
      "date": "2026-11-01",
      "stake": 0.45,
@@ -62463,6 +62518,11 @@
      "date": "2026-11-09",
      "stake": 0.09,
      "bank": 63.76
+    },
+    {
+     "date": "2026-11-09",
+     "stake": 1.28,
+     "bank": 64.89
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
@@ -62471,7 +62531,7 @@
    "start": 100.0,
    "bank": 82.29,
    "bets": 191,
-   "zero_stake": 922,
+   "zero_stake": 923,
    "roi_bank": -0.1771,
    "curve": [
     {
@@ -63434,16 +63494,11 @@
   },
   "valeur": {
    "start": 100.0,
-   "bank": 10.68,
-   "bets": 1747,
+   "bank": 10.47,
+   "bets": 1748,
    "zero_stake": 7,
-   "roi_bank": -0.8932,
+   "roi_bank": -0.8953,
    "curve": [
-    {
-     "date": "2026-11-07",
-     "stake": 0.33,
-     "bank": 18.44
-    },
     {
      "date": "2026-11-07",
      "stake": 0.37,
@@ -64438,6 +64493,11 @@
      "date": "2026-11-09",
      "stake": 0.1,
      "bank": 10.68
+    },
+    {
+     "date": "2026-11-09",
+     "stake": 0.21,
+     "bank": 10.47
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
