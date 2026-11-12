@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-12T19:35:43+01:00",
+ "generated_at": "2026-11-12T20:03:35+01:00",
  "date": "2026-11-12",
  "picks": [
   {
@@ -3191,7 +3191,7 @@
   },
   {
    "fixture_id": 1528960,
-   "final_reading_id": "1528960-r3",
+   "final_reading_id": "1528960-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -3749,6 +3749,198 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-11-12T09:53:38+01:00",
+     "history_insufficient": {
+      "home": 4,
+      "away": 4,
+      "min": 20,
+      "label_fr": "Historique insuffisant",
+      "text_fr": "⚠️ Historique insuffisant (4 / 4 matchs)"
+     }
+    },
+    {
+     "reading_id": "1528960-r4",
+     "timestamp": "2026-11-12T20:03:32+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou France (N2)"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "⚠️ Historique insuffisant (4 / 4 matchs)",
+      "EV +0,6 % < 5 %",
+      "Échantillon insuffisant (4 matchs < 20)"
+     ],
+     "model_probability": 0.762,
+     "probabilities": {
+      "1X2": {
+       "1": 0.238,
+       "X": 0.317,
+       "2": 0.445
+      },
+      "DC": {
+       "1X": 0.555,
+       "X2": 0.762,
+       "12": 0.683
+      },
+      "OU1.5": {
+       "over": 0.723,
+       "under": 0.277
+      },
+      "OU2.5": {
+       "over": 0.438,
+       "under": 0.562
+      },
+      "OU3.5": {
+       "over": 0.227,
+       "under": 0.773
+      },
+      "BTTS": {
+       "yes": 0.506,
+       "no": 0.494
+      },
+      "BTTS_O2.5": {
+       "yes": 0.355
+      },
+      "1X_O1.5": {
+       "yes": 0.379
+      },
+      "1X_O2.5": {
+       "yes": 0.184
+      },
+      "1X_U3.5": {
+       "yes": 0.448
+      },
+      "1X_BTTS": {
+       "yes": 0.316
+      },
+      "X2_O1.5": {
+       "yes": 0.548
+      },
+      "X2_O2.5": {
+       "yes": 0.307
+      },
+      "X2_U3.5": {
+       "yes": 0.589
+      },
+      "X2_BTTS": {
+       "yes": 0.394
+      },
+      "12_O1.5": {
+       "yes": 0.519
+      },
+      "12_O2.5": {
+       "yes": 0.385
+      },
+      "12_U3.5": {
+       "yes": 0.508
+      },
+      "12_BTTS": {
+       "yes": 0.302
+      },
+      "HT1X2": {
+       "1": 0.216,
+       "X": 0.442,
+       "2": 0.343
+      }
+     },
+     "expected_goals": {
+      "home": 1.0,
+      "away": 1.43
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.151
+      },
+      {
+       "score": "0-0",
+       "p": 0.113
+      },
+      {
+       "score": "0-1",
+       "p": 0.101
+      }
+     ],
+     "confidence": {
+      "value": 0.762,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.744,
+     "ev": 0.006,
+     "odds_seen": {
+      "value": 1.32,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-12T20:03:32+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 76,2 % pour « Nul ou France (N2) » contre 74,4 % pour le marché.",
+      "Buts attendus (modèle) : 1,00 – 1,43.",
+      "Candidat EV max écarté : Moins de 2,5 buts (56,2 %, cote 2,30, EV +29,3 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Matin : Italie–France (20h45). France sans Mbappé (ischios, forfait annoncé par Zidane), Thuram, Tchouaméni, Kalulu, Dembélé, Saliba, Koné, Koundé, Lacroix, Akliouche, Lepaul ; Mayulu et Kroupi appelés. Italie sans G. Mancini, Zaniolo, Di Lorenzo, Raspadori, Kean (20 Minutes, Le Parisien, RTL). Lecture SKIP, pas de ticket."
+      ],
+      "x_reads": 0,
+      "checked_at": "2026-11-12T09:44:33+01:00"
+     },
+     "team_samples": {
+      "home": 4,
+      "away": 4
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn",
      "history_insufficient": {
       "home": 4,
       "away": 4,
@@ -4329,7 +4521,7 @@
   },
   {
    "fixture_id": 1528962,
-   "final_reading_id": "1528962-r3",
+   "final_reading_id": "1528962-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -4895,12 +5087,205 @@
       "label_fr": "Historique insuffisant",
       "text_fr": "⚠️ Historique insuffisant (4 / 4 matchs)"
      }
+    },
+    {
+     "reading_id": "1528962-r4",
+     "timestamp": "2026-11-12T20:03:33+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "England ou nul (1N)"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "⚠️ Historique insuffisant (4 / 4 matchs)",
+      "EV +3,8 % < 5 %",
+      "Écart modèle/marché 6,0 pts > 5",
+      "Échantillon insuffisant (4 matchs < 20)"
+     ],
+     "model_probability": 0.961,
+     "probabilities": {
+      "1X2": {
+       "1": 0.868,
+       "X": 0.093,
+       "2": 0.039
+      },
+      "DC": {
+       "1X": 0.961,
+       "X2": 0.132,
+       "12": 0.907
+      },
+      "OU1.5": {
+       "over": 0.952,
+       "under": 0.048
+      },
+      "OU2.5": {
+       "over": 0.841,
+       "under": 0.159
+      },
+      "OU3.5": {
+       "over": 0.679,
+       "under": 0.321
+      },
+      "BTTS": {
+       "yes": 0.577,
+       "no": 0.423
+      },
+      "BTTS_O2.5": {
+       "yes": 0.538
+      },
+      "1X_O1.5": {
+       "yes": 0.914
+      },
+      "1X_O2.5": {
+       "yes": 0.807
+      },
+      "1X_U3.5": {
+       "yes": 0.3
+      },
+      "1X_BTTS": {
+       "yes": 0.545
+      },
+      "X2_O1.5": {
+       "yes": 0.114
+      },
+      "X2_O2.5": {
+       "yes": 0.072
+      },
+      "X2_U3.5": {
+       "yes": 0.076
+      },
+      "X2_BTTS": {
+       "yes": 0.109
+      },
+      "12_O1.5": {
+       "yes": 0.875
+      },
+      "12_O2.5": {
+       "yes": 0.802
+      },
+      "12_U3.5": {
+       "yes": 0.266
+      },
+      "12_BTTS": {
+       "yes": 0.5
+      },
+      "HT1X2": {
+       "1": 0.695,
+       "X": 0.224,
+       "2": 0.081
+      }
+     },
+     "expected_goals": {
+      "home": 3.76,
+      "away": 0.88
+     },
+     "top_scores": [
+      {
+       "score": "3-0",
+       "p": 0.086
+      },
+      {
+       "score": "4-0",
+       "p": 0.081
+      },
+      {
+       "score": "3-1",
+       "p": 0.075
+      }
+     ],
+     "confidence": {
+      "value": 0.961,
+      "source": "model_probability",
+      "bucket": "95-100"
+     },
+     "market_probability": 0.901,
+     "ev": 0.038,
+     "odds_seen": {
+      "value": 1.08,
+      "bookmaker": "Marathonbet",
+      "captured_at": "2026-11-12T20:03:33+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 96,1 % pour « England ou nul (1N) » contre 90,1 % pour le marché.",
+      "Buts attendus (modèle) : 3,76 – 0,88.",
+      "Candidat EV max écarté : Plus de 3,5 buts (67,9 %, cote 2,25, EV +52,9 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Matin : Angleterre–Croatie (20h45). Angleterre sans Guehi, Konsa, Spence (Tuchel, BBC/Sun) ; Kane titulaire. Croatie sans Perišić (susp.), Šutalo, Pongračić, Kramarić, Ivanović, Jakić (Flashscore). Lecture SKIP, pas de ticket."
+      ],
+      "x_reads": 0,
+      "checked_at": "2026-11-12T09:44:33+01:00"
+     },
+     "team_samples": {
+      "home": 4,
+      "away": 4
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn",
+     "history_insufficient": {
+      "home": 4,
+      "away": 4,
+      "min": 20,
+      "label_fr": "Historique insuffisant",
+      "text_fr": "⚠️ Historique insuffisant (4 / 4 matchs)"
+     }
     }
    ]
   },
   {
    "fixture_id": 1528963,
-   "final_reading_id": "1528963-r3",
+   "final_reading_id": "1528963-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -5465,12 +5850,204 @@
       "label_fr": "Historique insuffisant",
       "text_fr": "⚠️ Historique insuffisant (4 / 4 matchs)"
      }
+    },
+    {
+     "reading_id": "1528963-r4",
+     "timestamp": "2026-11-12T20:03:33+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU3.5",
+      "selection": "under",
+      "label_fr": "Moins de 3,5 buts"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "⚠️ Historique insuffisant (4 / 4 matchs)",
+      "EV −8,0 % < 5 %",
+      "Échantillon insuffisant (4 matchs < 20)"
+     ],
+     "model_probability": 0.8,
+     "probabilities": {
+      "1X2": {
+       "1": 0.227,
+       "X": 0.326,
+       "2": 0.447
+      },
+      "DC": {
+       "1X": 0.553,
+       "X2": 0.773,
+       "12": 0.674
+      },
+      "OU1.5": {
+       "over": 0.694,
+       "under": 0.306
+      },
+      "OU2.5": {
+       "over": 0.404,
+       "under": 0.596
+      },
+      "OU3.5": {
+       "over": 0.2,
+       "under": 0.8
+      },
+      "BTTS": {
+       "yes": 0.476,
+       "no": 0.524
+      },
+      "BTTS_O2.5": {
+       "yes": 0.323
+      },
+      "1X_O1.5": {
+       "yes": 0.359
+      },
+      "1X_O2.5": {
+       "yes": 0.164
+      },
+      "1X_U3.5": {
+       "yes": 0.461
+      },
+      "1X_BTTS": {
+       "yes": 0.3
+      },
+      "X2_O1.5": {
+       "yes": 0.535
+      },
+      "X2_O2.5": {
+       "yes": 0.287
+      },
+      "X2_U3.5": {
+       "yes": 0.617
+      },
+      "X2_BTTS": {
+       "yes": 0.376
+      },
+      "12_O1.5": {
+       "yes": 0.495
+      },
+      "12_O2.5": {
+       "yes": 0.357
+      },
+      "12_U3.5": {
+       "yes": 0.521
+      },
+      "12_BTTS": {
+       "yes": 0.276
+      },
+      "HT1X2": {
+       "1": 0.205,
+       "X": 0.455,
+       "2": 0.339
+      }
+     },
+     "expected_goals": {
+      "home": 0.92,
+      "away": 1.37
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.153
+      },
+      {
+       "score": "0-0",
+       "p": 0.126
+      },
+      {
+       "score": "0-1",
+       "p": 0.112
+      }
+     ],
+     "confidence": {
+      "value": 0.8,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.832,
+     "ev": -0.08,
+     "odds_seen": {
+      "value": 1.15,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-12T20:03:33+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 80,0 % pour « Moins de 3,5 buts » contre 83,2 % pour le marché.",
+      "Buts attendus (modèle) : 0,92 – 1,37.",
+      "Candidat EV max écarté : Nul ou Finland (N2) (77,3 %, cote 1,92, EV +48,4 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Matin : Albanie–Finlande (20h45). Hoxha et Shpendi attendus disponibles (FSHF via Balkanweb) ; rien de notable côté Finlande. Lecture SKIP, pas de ticket."
+      ],
+      "x_reads": 0,
+      "checked_at": "2026-11-12T09:44:33+01:00"
+     },
+     "team_samples": {
+      "home": 4,
+      "away": 4
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn",
+     "history_insufficient": {
+      "home": 4,
+      "away": 4,
+      "min": 20,
+      "label_fr": "Historique insuffisant",
+      "text_fr": "⚠️ Historique insuffisant (4 / 4 matchs)"
+     }
     }
    ]
   },
   {
    "fixture_id": 1528964,
-   "final_reading_id": "1528964-r3",
+   "final_reading_id": "1528964-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -6035,12 +6612,204 @@
       "label_fr": "Historique insuffisant",
       "text_fr": "⚠️ Historique insuffisant (4 / 4 matchs)"
      }
+    },
+    {
+     "reading_id": "1528964-r4",
+     "timestamp": "2026-11-12T20:03:33+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou Belarus (N2)"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "⚠️ Historique insuffisant (4 / 4 matchs)",
+      "EV −1,6 % < 5 %",
+      "Échantillon insuffisant (4 matchs < 20)"
+     ],
+     "model_probability": 0.956,
+     "probabilities": {
+      "1X2": {
+       "1": 0.044,
+       "X": 0.156,
+       "2": 0.8
+      },
+      "DC": {
+       "1X": 0.2,
+       "X2": 0.956,
+       "12": 0.844
+      },
+      "OU1.5": {
+       "over": 0.83,
+       "under": 0.17
+      },
+      "OU2.5": {
+       "over": 0.602,
+       "under": 0.398
+      },
+      "OU3.5": {
+       "over": 0.378,
+       "under": 0.622
+      },
+      "BTTS": {
+       "yes": 0.398,
+       "no": 0.602
+      },
+      "BTTS_O2.5": {
+       "yes": 0.323
+      },
+      "1X_O1.5": {
+       "yes": 0.132
+      },
+      "1X_O2.5": {
+       "yes": 0.051
+      },
+      "1X_U3.5": {
+       "yes": 0.167
+      },
+      "1X_BTTS": {
+       "yes": 0.124
+      },
+      "X2_O1.5": {
+       "yes": 0.797
+      },
+      "X2_O2.5": {
+       "yes": 0.575
+      },
+      "X2_U3.5": {
+       "yes": 0.586
+      },
+      "X2_BTTS": {
+       "yes": 0.372
+      },
+      "12_O1.5": {
+       "yes": 0.73
+      },
+      "12_O2.5": {
+       "yes": 0.577
+      },
+      "12_U3.5": {
+       "yes": 0.491
+      },
+      "12_BTTS": {
+       "yes": 0.298
+      },
+      "HT1X2": {
+       "1": 0.077,
+       "X": 0.323,
+       "2": 0.6
+      }
+     },
+     "expected_goals": {
+      "home": 0.54,
+      "away": 2.57
+     },
+     "top_scores": [
+      {
+       "score": "0-2",
+       "p": 0.147
+      },
+      {
+       "score": "0-3",
+       "p": 0.126
+      },
+      {
+       "score": "0-1",
+       "p": 0.102
+      }
+     ],
+     "confidence": {
+      "value": 0.956,
+      "source": "model_probability",
+      "bucket": "95-100"
+     },
+     "market_probability": 0.948,
+     "ev": -0.016,
+     "odds_seen": {
+      "value": 1.03,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-12T20:03:33+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 95,6 % pour « Nul ou Belarus (N2) » contre 94,8 % pour le marché.",
+      "Buts attendus (modèle) : 0,54 – 2,57.",
+      "Candidat EV max écarté : Plus de 2,5 buts (60,2 %, cote 1,72, EV +3,5 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Matin : Saint-Marin–Biélorussie (20h45). Saint-Marin sans Cevoli (blessé), Giacopetti (susp.) ; Biélorussie sans Shumanskiy et Barkovskiy (susp.) (Sports Mole). Lecture SKIP, pas de ticket."
+      ],
+      "x_reads": 0,
+      "checked_at": "2026-11-12T09:44:33+01:00"
+     },
+     "team_samples": {
+      "home": 4,
+      "away": 4
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn",
+     "history_insufficient": {
+      "home": 4,
+      "away": 4,
+      "min": 20,
+      "label_fr": "Historique insuffisant",
+      "text_fr": "⚠️ Historique insuffisant (4 / 4 matchs)"
+     }
     }
    ]
   },
   {
    "fixture_id": 1545613,
-   "final_reading_id": "1545613-r3",
+   "final_reading_id": "1545613-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -6601,6 +7370,199 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-11-12T09:53:38+01:00",
+     "history_insufficient": {
+      "home": 4,
+      "away": 4,
+      "min": 20,
+      "label_fr": "Historique insuffisant",
+      "text_fr": "⚠️ Historique insuffisant (4 / 4 matchs)"
+     }
+    },
+    {
+     "reading_id": "1545613-r4",
+     "timestamp": "2026-11-12T20:03:34+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Montenegro ou nul (1N)"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "⚠️ Historique insuffisant (4 / 4 matchs)",
+      "EV −11,0 % < 5 %",
+      "Écart modèle/marché 7,9 pts > 5",
+      "Échantillon insuffisant (4 matchs < 20)"
+     ],
+     "model_probability": 0.832,
+     "probabilities": {
+      "1X2": {
+       "1": 0.54,
+       "X": 0.292,
+       "2": 0.168
+      },
+      "DC": {
+       "1X": 0.832,
+       "X2": 0.46,
+       "12": 0.708
+      },
+      "OU1.5": {
+       "over": 0.731,
+       "under": 0.269
+      },
+      "OU2.5": {
+       "over": 0.45,
+       "under": 0.55
+      },
+      "OU3.5": {
+       "over": 0.237,
+       "under": 0.763
+      },
+      "BTTS": {
+       "yes": 0.48,
+       "no": 0.52
+      },
+      "BTTS_O2.5": {
+       "yes": 0.341
+      },
+      "1X_O1.5": {
+       "yes": 0.61
+      },
+      "1X_O2.5": {
+       "yes": 0.359
+      },
+      "1X_U3.5": {
+       "yes": 0.629
+      },
+      "1X_BTTS": {
+       "yes": 0.399
+      },
+      "X2_O1.5": {
+       "yes": 0.305
+      },
+      "X2_O2.5": {
+       "yes": 0.137
+      },
+      "X2_U3.5": {
+       "yes": 0.379
+      },
+      "X2_BTTS": {
+       "yes": 0.265
+      },
+      "12_O1.5": {
+       "yes": 0.546
+      },
+      "12_O2.5": {
+       "yes": 0.404
+      },
+      "12_U3.5": {
+       "yes": 0.517
+      },
+      "12_BTTS": {
+       "yes": 0.295
+      },
+      "HT1X2": {
+       "1": 0.401,
+       "X": 0.428,
+       "2": 0.17
+      }
+     },
+     "expected_goals": {
+      "home": 1.64,
+      "away": 0.84
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.139
+      },
+      {
+       "score": "1-0",
+       "p": 0.115
+      },
+      {
+       "score": "2-0",
+       "p": 0.113
+      }
+     ],
+     "confidence": {
+      "value": 0.832,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.911,
+     "ev": -0.11,
+     "odds_seen": {
+      "value": 1.07,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-12T20:03:34+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 83,2 % pour « Montenegro ou nul (1N) » contre 91,1 % pour le marché.",
+      "Buts attendus (modèle) : 1,64 – 0,84.",
+      "Candidat EV max écarté : Moins de 2,5 buts (55,0 %, cote 2,09, EV +15,0 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Matin : Monténégro–Lettonie (20h45). Monténégro sans Lonar (susp.) ; Lettonie sans Varslavans, Penkevics (Sports Mole). Lecture SKIP, pas de ticket."
+      ],
+      "x_reads": 0,
+      "checked_at": "2026-11-12T09:44:33+01:00"
+     },
+     "team_samples": {
+      "home": 4,
+      "away": 4
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn",
      "history_insufficient": {
       "home": 4,
       "away": 4,
