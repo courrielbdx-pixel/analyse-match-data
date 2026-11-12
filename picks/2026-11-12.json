@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-12T21:59:03+01:00",
+ "generated_at": "2026-11-12T22:04:40+01:00",
  "date": "2026-11-12",
  "picks": [
   {
@@ -8415,7 +8415,7 @@
   },
   {
    "fixture_id": 1649029,
-   "final_reading_id": "1649029-r2",
+   "final_reading_id": "1649029-r3",
    "decision": "SKIP",
    "readings": [
     {
@@ -8786,6 +8786,197 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-11-12T09:53:39+01:00",
+     "history_insufficient": {
+      "home": 10,
+      "away": 8,
+      "min": 20,
+      "label_fr": "Historique insuffisant",
+      "text_fr": "⚠️ Historique insuffisant (10 / 8 matchs)"
+     }
+    },
+    {
+     "reading_id": "1649029-r3",
+     "timestamp": "2026-11-12T22:04:38+01:00",
+     "trigger": "soir",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": false,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "⚠️ Historique insuffisant (10 / 8 matchs)",
+      "EV −8,0 % < 5 %",
+      "Échantillon insuffisant (8 matchs < 20)"
+     ],
+     "model_probability": 0.786,
+     "probabilities": {
+      "1X2": {
+       "1": 0.402,
+       "X": 0.221,
+       "2": 0.376
+      },
+      "DC": {
+       "1X": 0.624,
+       "X2": 0.598,
+       "12": 0.779
+      },
+      "OU1.5": {
+       "over": 0.786,
+       "under": 0.214
+      },
+      "OU2.5": {
+       "over": 0.571,
+       "under": 0.429
+      },
+      "OU3.5": {
+       "over": 0.347,
+       "under": 0.653
+      },
+      "BTTS": {
+       "yes": 0.588,
+       "no": 0.412
+      },
+      "BTTS_O2.5": {
+       "yes": 0.486
+      },
+      "1X_O1.5": {
+       "yes": 0.495
+      },
+      "1X_O2.5": {
+       "yes": 0.335
+      },
+      "1X_U3.5": {
+       "yes": 0.404
+      },
+      "1X_BTTS": {
+       "yes": 0.391
+      },
+      "X2_O1.5": {
+       "yes": 0.472
+      },
+      "X2_O2.5": {
+       "yes": 0.317
+      },
+      "X2_U3.5": {
+       "yes": 0.39
+      },
+      "X2_BTTS": {
+       "yes": 0.378
+      },
+      "12_O1.5": {
+       "yes": 0.604
+      },
+      "12_O2.5": {
+       "yes": 0.491
+      },
+      "12_U3.5": {
+       "yes": 0.511
+      },
+      "12_BTTS": {
+       "yes": 0.406
+      },
+      "HT1X2": {
+       "1": 0.31,
+       "X": 0.395,
+       "2": 0.294
+      }
+     },
+     "expected_goals": {
+      "home": 1.52,
+      "away": 1.46
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.102
+      },
+      {
+       "score": "1-0",
+       "p": 0.089
+      },
+      {
+       "score": "0-1",
+       "p": 0.086
+      }
+     ],
+     "confidence": {
+      "value": 0.786,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.805,
+     "ev": -0.08,
+     "odds_seen": {
+      "value": 1.17,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-12T22:04:38+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 78,6 % pour « Plus de 1,5 buts » contre 80,5 % pour le marché.",
+      "Buts attendus (modèle) : 1,52 – 1,46.",
+      "Candidat EV max écarté : Aruba ou nul (1N) (62,4 %, cote 3,05, EV +90,2 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Matin : Aruba–Martinique (23h, barrage play-in Gold Cup). Aruba annoncé avec 12 absences majeures ; Martinique 23 convoqués (Outre-mer La 1ère). Lecture SKIP."
+      ],
+      "x_reads": 0,
+      "checked_at": "2026-11-12T09:44:33+01:00"
+     },
+     "team_samples": {
+      "home": 10,
+      "away": 8
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
      "history_insufficient": {
       "home": 10,
       "away": 8,
