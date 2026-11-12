@@ -1,11 +1,11 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-12T15:56:44+01:00",
+ "generated_at": "2026-11-12T17:03:18+01:00",
  "date": "2026-11-12",
  "picks": [
   {
    "fixture_id": 1528958,
-   "final_reading_id": "1528958-r3",
+   "final_reading_id": "1528958-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -563,6 +563,198 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-11-12T09:53:37+01:00",
+     "history_insufficient": {
+      "home": 4,
+      "away": 4,
+      "min": 20,
+      "label_fr": "Historique insuffisant",
+      "text_fr": "⚠️ Historique insuffisant (4 / 4 matchs)"
+     }
+    },
+    {
+     "reading_id": "1528958-r4",
+     "timestamp": "2026-11-12T17:03:16+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "⚠️ Historique insuffisant (4 / 4 matchs)",
+      "EV −5,7 % < 5 %",
+      "Échantillon insuffisant (4 matchs < 20)"
+     ],
+     "model_probability": 0.813,
+     "probabilities": {
+      "1X2": {
+       "1": 0.12,
+       "X": 0.232,
+       "2": 0.648
+      },
+      "DC": {
+       "1X": 0.352,
+       "X2": 0.88,
+       "12": 0.768
+      },
+      "OU1.5": {
+       "over": 0.813,
+       "under": 0.187
+      },
+      "OU2.5": {
+       "over": 0.567,
+       "under": 0.433
+      },
+      "OU3.5": {
+       "over": 0.343,
+       "under": 0.657
+      },
+      "BTTS": {
+       "yes": 0.519,
+       "no": 0.481
+      },
+      "BTTS_O2.5": {
+       "yes": 0.408
+      },
+      "1X_O1.5": {
+       "yes": 0.256
+      },
+      "1X_O2.5": {
+       "yes": 0.126
+      },
+      "1X_U3.5": {
+       "yes": 0.27
+      },
+      "1X_BTTS": {
+       "yes": 0.231
+      },
+      "X2_O1.5": {
+       "yes": 0.718
+      },
+      "X2_O2.5": {
+       "yes": 0.491
+      },
+      "X2_U3.5": {
+       "yes": 0.569
+      },
+      "X2_BTTS": {
+       "yes": 0.45
+      },
+      "12_O1.5": {
+       "yes": 0.651
+      },
+      "12_O2.5": {
+       "yes": 0.516
+      },
+      "12_U3.5": {
+       "yes": 0.475
+      },
+      "12_BTTS": {
+       "yes": 0.358
+      },
+      "HT1X2": {
+       "1": 0.144,
+       "X": 0.371,
+       "2": 0.485
+      }
+     },
+     "expected_goals": {
+      "home": 0.84,
+      "away": 2.11
+     },
+     "top_scores": [
+      {
+       "score": "0-2",
+       "p": 0.116
+      },
+      {
+       "score": "1-1",
+       "p": 0.111
+      },
+      {
+       "score": "1-2",
+       "p": 0.098
+      }
+     ],
+     "confidence": {
+      "value": 0.813,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.824,
+     "ev": -0.057,
+     "odds_seen": {
+      "value": 1.16,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-12T17:03:16+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 81,3 % pour « Plus de 1,5 buts » contre 82,4 % pour le marché.",
+      "Buts attendus (modèle) : 0,84 – 2,11.",
+      "Candidat EV max écarté : Victoire Belgium (2) (64,8 %, cote 2,00, EV +29,6 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Matin : Turquie–Belgique (18h). Turquie sans Yıldız, Şimşir, Demirbağ, Müldür, Bardakcı (susp.), nouveau sélectionneur Yalçın, Ünal titulaire. Belgique sans Lukaku (hanche), Lavia (susp.), Onana, Openda ; De Bruyne, Tielemans, Doku de retour (Goal, RTBF, Sports Mole). Lecture SKIP, pas de ticket."
+      ],
+      "x_reads": 0,
+      "checked_at": "2026-11-12T09:44:33+01:00"
+     },
+     "team_samples": {
+      "home": 4,
+      "away": 4
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn",
      "history_insufficient": {
       "home": 4,
       "away": 4,
