@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-13T16:00:16+01:00",
+ "generated_at": "2026-11-13T17:37:06+01:00",
  "date": "2026-11-13",
  "picks": [
   {
@@ -3267,7 +3267,7 @@
   },
   {
    "fixture_id": 1528968,
-   "final_reading_id": "1528968-r3",
+   "final_reading_id": "1528968-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -3825,6 +3825,198 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-11-13T09:51:42+01:00",
+     "history_insufficient": {
+      "home": 4,
+      "away": 4,
+      "min": 20,
+      "label_fr": "Historique insuffisant",
+      "text_fr": "⚠️ Historique insuffisant (4 / 4 matchs)"
+     }
+    },
+    {
+     "reading_id": "1528968-r4",
+     "timestamp": "2026-11-13T17:37:04+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou Kazakhstan (N2)"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "⚠️ Historique insuffisant (4 / 4 matchs)",
+      "Écart modèle/marché 7,0 pts > 5",
+      "Échantillon insuffisant (4 matchs < 20)"
+     ],
+     "model_probability": 0.714,
+     "probabilities": {
+      "1X2": {
+       "1": 0.286,
+       "X": 0.304,
+       "2": 0.41
+      },
+      "DC": {
+       "1X": 0.59,
+       "X2": 0.714,
+       "12": 0.696
+      },
+      "OU1.5": {
+       "over": 0.777,
+       "under": 0.223
+      },
+      "OU2.5": {
+       "over": 0.508,
+       "under": 0.492
+      },
+      "OU3.5": {
+       "over": 0.287,
+       "under": 0.713
+      },
+      "BTTS": {
+       "yes": 0.569,
+       "no": 0.431
+      },
+      "BTTS_O2.5": {
+       "yes": 0.424
+      },
+      "1X_O1.5": {
+       "yes": 0.441
+      },
+      "1X_O2.5": {
+       "yes": 0.247
+      },
+      "1X_U3.5": {
+       "yes": 0.437
+      },
+      "1X_BTTS": {
+       "yes": 0.364
+      },
+      "X2_O1.5": {
+       "yes": 0.548
+      },
+      "X2_O2.5": {
+       "yes": 0.328
+      },
+      "X2_U3.5": {
+       "yes": 0.512
+      },
+      "X2_BTTS": {
+       "yes": 0.418
+      },
+      "12_O1.5": {
+       "yes": 0.564
+      },
+      "12_O2.5": {
+       "yes": 0.441
+      },
+      "12_U3.5": {
+       "yes": 0.476
+      },
+      "12_BTTS": {
+       "yes": 0.357
+      },
+      "HT1X2": {
+       "1": 0.253,
+       "X": 0.417,
+       "2": 0.33
+      }
+     },
+     "expected_goals": {
+      "home": 1.22,
+      "away": 1.49
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.145
+      },
+      {
+       "score": "0-0",
+       "p": 0.091
+      },
+      {
+       "score": "1-2",
+       "p": 0.09
+      }
+     ],
+     "confidence": {
+      "value": 0.714,
+      "source": "model_probability",
+      "bucket": "70-75"
+     },
+     "market_probability": 0.644,
+     "ev": 0.085,
+     "odds_seen": {
+      "value": 1.52,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-13T17:37:04+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 71,4 % pour « Nul ou Kazakhstan (N2) » contre 64,4 % pour le marché.",
+      "Buts attendus (modèle) : 1,22 – 1,49.",
+      "Candidat EV max écarté : Plus de 2,5 buts (50,8 %, cote 2,61, EV +32,5 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Matin : Moldavie–Kazakhstan (18h). Kazakhstan sans Malyy (susp.) ; Moldavie sans suspendu (Sports Mole). Pas de contradiction."
+      ],
+      "x_reads": 0,
+      "checked_at": "2026-11-13T09:47:39+01:00"
+     },
+     "team_samples": {
+      "home": 4,
+      "away": 4
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn",
      "history_insufficient": {
       "home": 4,
       "away": 4,
