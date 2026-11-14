@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-14T22:03:27+01:00",
+ "generated_at": "2026-11-14T22:08:10+01:00",
  "date": "2026-11-14",
  "picks": [
   {
@@ -21829,7 +21829,7 @@
   },
   {
    "fixture_id": 1492455,
-   "final_reading_id": "1492455-r3",
+   "final_reading_id": "1492455-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -22428,12 +22428,214 @@
        }
       ]
      }
+    },
+    {
+     "reading_id": "1492455-r4",
+     "timestamp": "2026-11-14T22:08:08+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU3.5",
+      "selection": "under",
+      "label_fr": "Moins de 3,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Mirassol ou nul (1N)",
+      "model_probability": 0.744,
+      "market_probability": 0.712,
+      "odds": 1.34,
+      "bookmaker": "Betano"
+     },
+     "value_pick": {
+      "market": "OU2.5",
+      "selection": "under",
+      "label_fr": "Moins de 2,5 buts",
+      "model_probability": 0.579,
+      "market_probability": 0.491,
+      "odds": 1.98,
+      "bookmaker": "Betano",
+      "ev": 0.145
+     },
+     "skip_reasons_fr": [
+      "Écart modèle/marché 8,7 pts > 5"
+     ],
+     "model_probability": 0.786,
+     "probabilities": {
+      "1X2": {
+       "1": 0.458,
+       "X": 0.287,
+       "2": 0.256
+      },
+      "DC": {
+       "1X": 0.744,
+       "X2": 0.542,
+       "12": 0.713
+      },
+      "OU1.5": {
+       "over": 0.692,
+       "under": 0.308
+      },
+      "OU2.5": {
+       "over": 0.421,
+       "under": 0.579
+      },
+      "OU3.5": {
+       "over": 0.214,
+       "under": 0.786
+      },
+      "BTTS": {
+       "yes": 0.476,
+       "no": 0.524
+      },
+      "BTTS_O2.5": {
+       "yes": 0.341
+      },
+      "1X_O1.5": {
+       "yes": 0.52
+      },
+      "1X_O2.5": {
+       "yes": 0.294
+      },
+      "1X_U3.5": {
+       "yes": 0.581
+      },
+      "1X_BTTS": {
+       "yes": 0.367
+      },
+      "X2_O1.5": {
+       "yes": 0.357
+      },
+      "X2_O2.5": {
+       "yes": 0.178
+      },
+      "X2_U3.5": {
+       "yes": 0.441
+      },
+      "X2_BTTS": {
+       "yes": 0.294
+      },
+      "12_O1.5": {
+       "yes": 0.507
+      },
+      "12_O2.5": {
+       "yes": 0.371
+      },
+      "12_U3.5": {
+       "yes": 0.549
+      },
+      "12_BTTS": {
+       "yes": 0.29
+      },
+      "HT1X2": {
+       "1": 0.337,
+       "X": 0.449,
+       "2": 0.214
+      }
+     },
+     "expected_goals": {
+      "home": 1.39,
+      "away": 0.97
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.135
+      },
+      {
+       "score": "1-0",
+       "p": 0.123
+      },
+      {
+       "score": "0-0",
+       "p": 0.101
+      }
+     ],
+     "confidence": {
+      "value": 0.786,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.699,
+     "ev": 0.084,
+     "odds_seen": {
+      "value": 1.38,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-14T22:08:08+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 78,6 % pour « Moins de 3,5 buts » contre 69,9 % pour le marché.",
+      "Buts attendus (modèle) : 1,39 – 0,97.",
+      "Candidat EV max écarté : Moins de 2,5 buts (57,9 %, cote 1,98, EV +14,5 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Matin : Mirassol–Atlético-MG (22h30). Mirassol sans Negueba, retours d'Edson Carioca et Bruno Santos ; Atlético-MG avec une longue liste d'absents (Tomás Pérez susp., Victor Hugo, Borbas, Reinier, Maycon, Alan Franco, Minda, Vitão…), finale de Sudamericana le 21/11 (ge.globo). Pas de contradiction."
+      ],
+      "x_reads": 0,
+      "checked_at": "2026-11-14T09:49:48+01:00"
+     },
+     "team_samples": {
+      "home": 72,
+      "away": 72
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
   {
    "fixture_id": 1644693,
-   "final_reading_id": "1644693-r3",
+   "final_reading_id": "1644693-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -22985,6 +23187,194 @@
        }
       ]
      },
+     "history_insufficient": {
+      "home": 10,
+      "away": 4,
+      "min": 20,
+      "label_fr": "Historique insuffisant",
+      "text_fr": "⚠️ Historique insuffisant (10 / 4 matchs)"
+     }
+    },
+    {
+     "reading_id": "1644693-r4",
+     "timestamp": "2026-11-14T22:08:08+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "⚠️ Historique insuffisant (10 / 4 matchs)",
+      "Écart modèle/marché 7,8 pts > 5",
+      "Échantillon insuffisant (4 matchs < 20)"
+     ],
+     "model_probability": 0.899,
+     "probabilities": {
+      "1X2": {
+       "1": 0.693,
+       "X": 0.151,
+       "2": 0.156
+      },
+      "DC": {
+       "1X": 0.844,
+       "X2": 0.307,
+       "12": 0.849
+      },
+      "OU1.5": {
+       "over": 0.899,
+       "under": 0.101
+      },
+      "OU2.5": {
+       "over": 0.754,
+       "under": 0.246
+      },
+      "OU3.5": {
+       "over": 0.556,
+       "under": 0.444
+      },
+      "BTTS": {
+       "yes": 0.656,
+       "no": 0.344
+      },
+      "BTTS_O2.5": {
+       "yes": 0.597
+      },
+      "1X_O1.5": {
+       "yes": 0.772
+      },
+      "1X_O2.5": {
+       "yes": 0.643
+      },
+      "1X_U3.5": {
+       "yes": 0.354
+      },
+      "1X_BTTS": {
+       "yes": 0.552
+      },
+      "X2_O1.5": {
+       "yes": 0.264
+      },
+      "X2_O2.5": {
+       "yes": 0.191
+      },
+      "X2_U3.5": {
+       "yes": 0.162
+      },
+      "X2_BTTS": {
+       "yes": 0.241
+      },
+      "12_O1.5": {
+       "yes": 0.761
+      },
+      "12_O2.5": {
+       "yes": 0.675
+      },
+      "12_U3.5": {
+       "yes": 0.371
+      },
+      "12_BTTS": {
+       "yes": 0.518
+      },
+      "HT1X2": {
+       "1": 0.525,
+       "X": 0.307,
+       "2": 0.168
+      }
+     },
+     "expected_goals": {
+      "home": 2.72,
+      "away": 1.23
+     },
+     "top_scores": [
+      {
+       "score": "2-1",
+       "p": 0.088
+      },
+      {
+       "score": "3-1",
+       "p": 0.079
+      },
+      {
+       "score": "2-0",
+       "p": 0.071
+      }
+     ],
+     "confidence": {
+      "value": 0.899,
+      "source": "model_probability",
+      "bucket": "85-90"
+     },
+     "market_probability": 0.821,
+     "ev": 0.061,
+     "odds_seen": {
+      "value": 1.18,
+      "bookmaker": "Pinnacle",
+      "captured_at": "2026-11-14T22:08:08+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 89,9 % pour « Plus de 1,5 buts » contre 82,1 % pour le marché.",
+      "Buts attendus (modèle) : 2,72 – 1,23.",
+      "Candidat EV max écarté : Victoire Haiti (1) (69,3 %, cote 11,00, EV +662,2 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 10,
+      "away": 4
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn",
      "history_insufficient": {
       "home": 10,
       "away": 4,
