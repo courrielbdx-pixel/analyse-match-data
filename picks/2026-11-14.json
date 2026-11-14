@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-14T15:55:13+01:00",
+ "generated_at": "2026-11-14T17:04:11+01:00",
  "date": "2026-11-14",
  "picks": [
   {
@@ -7512,7 +7512,7 @@
   },
   {
    "fixture_id": 1528972,
-   "final_reading_id": "1528972-r3",
+   "final_reading_id": "1528972-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -8073,6 +8073,199 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-11-14T10:01:03+01:00",
+     "history_insufficient": {
+      "home": 4,
+      "away": 4,
+      "min": 20,
+      "label_fr": "Historique insuffisant",
+      "text_fr": "⚠️ Historique insuffisant (4 / 4 matchs)"
+     }
+    },
+    {
+     "reading_id": "1528972-r4",
+     "timestamp": "2026-11-14T17:04:08+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "BTTS",
+      "selection": "no",
+      "label_fr": "Les deux équipes ne marquent pas"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "⚠️ Historique insuffisant (4 / 4 matchs)",
+      "Écart modèle/marché 7,8 pts > 5",
+      "Proba 53,6 % < 55 %",
+      "Échantillon insuffisant (4 matchs < 20)"
+     ],
+     "model_probability": 0.536,
+     "probabilities": {
+      "1X2": {
+       "1": 0.397,
+       "X": 0.341,
+       "2": 0.262
+      },
+      "DC": {
+       "1X": 0.738,
+       "X2": 0.603,
+       "12": 0.659
+      },
+      "OU1.5": {
+       "over": 0.67,
+       "under": 0.33
+      },
+      "OU2.5": {
+       "over": 0.375,
+       "under": 0.625
+      },
+      "OU3.5": {
+       "over": 0.179,
+       "under": 0.821
+      },
+      "BTTS": {
+       "yes": 0.464,
+       "no": 0.536
+      },
+      "BTTS_O2.5": {
+       "yes": 0.305
+      },
+      "1X_O1.5": {
+       "yes": 0.489
+      },
+      "1X_O2.5": {
+       "yes": 0.246
+      },
+      "1X_U3.5": {
+       "yes": 0.608
+      },
+      "1X_BTTS": {
+       "yes": 0.356
+      },
+      "X2_O1.5": {
+       "yes": 0.384
+      },
+      "X2_O2.5": {
+       "yes": 0.174
+      },
+      "X2_U3.5": {
+       "yes": 0.509
+      },
+      "X2_BTTS": {
+       "yes": 0.311
+      },
+      "12_O1.5": {
+       "yes": 0.467
+      },
+      "12_O2.5": {
+       "yes": 0.331
+      },
+      "12_U3.5": {
+       "yes": 0.524
+      },
+      "12_BTTS": {
+       "yes": 0.261
+      },
+      "HT1X2": {
+       "1": 0.306,
+       "X": 0.47,
+       "2": 0.224
+      }
+     },
+     "expected_goals": {
+      "home": 1.23,
+      "away": 0.96
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.159
+      },
+      {
+       "score": "0-0",
+       "p": 0.138
+      },
+      {
+       "score": "1-0",
+       "p": 0.111
+      }
+     ],
+     "confidence": {
+      "value": 0.536,
+      "source": "model_probability",
+      "bucket": "50-55"
+     },
+     "market_probability": 0.458,
+     "ev": 0.11,
+     "odds_seen": {
+      "value": 2.07,
+      "bookmaker": "1xBet",
+      "captured_at": "2026-11-14T17:04:08+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 53,6 % pour « Les deux équipes ne marquent pas » contre 45,8 % pour le marché.",
+      "Buts attendus (modèle) : 1,23 – 0,96.",
+      "Candidat EV max écarté : Nul ou Wales (N2) & −3,5 buts (50,9 %, cote 4,95, EV +152,2 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Matin : Norvège–Pays de Galles (18h). Norvège sans Strand Larsen ; Galles sans Cabango, Sorba Thomas (susp.), Wilson de retour (ESPN, Sports Mole). Pas de contradiction."
+      ],
+      "x_reads": 0,
+      "checked_at": "2026-11-14T09:49:48+01:00"
+     },
+     "team_samples": {
+      "home": 4,
+      "away": 4
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn",
      "history_insufficient": {
       "home": 4,
       "away": 4,
