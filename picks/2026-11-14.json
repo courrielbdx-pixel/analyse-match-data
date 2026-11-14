@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-14T10:01:09+01:00",
+ "generated_at": "2026-11-14T11:39:39+01:00",
  "date": "2026-11-14",
  "picks": [
   {
@@ -3579,7 +3579,7 @@
   },
   {
    "fixture_id": 1649703,
-   "final_reading_id": "1649703-r3",
+   "final_reading_id": "1649703-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -4135,6 +4135,198 @@
        }
       ]
      },
+     "history_insufficient": {
+      "home": 1,
+      "away": 73,
+      "min": 20,
+      "label_fr": "Historique insuffisant",
+      "text_fr": "⚠️ Historique insuffisant (1 / 73 matchs)"
+     }
+    },
+    {
+     "reading_id": "1649703-r4",
+     "timestamp": "2026-11-14T11:39:38+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "⚠️ Historique insuffisant (1 / 73 matchs)",
+      "EV −6,9 % < 5 %",
+      "Échantillon insuffisant (1 matchs < 20)"
+     ],
+     "model_probability": 0.722,
+     "probabilities": {
+      "1X2": {
+       "1": 0.456,
+       "X": 0.278,
+       "2": 0.266
+      },
+      "DC": {
+       "1X": 0.734,
+       "X2": 0.544,
+       "12": 0.722
+      },
+      "OU1.5": {
+       "over": 0.675,
+       "under": 0.325
+      },
+      "OU2.5": {
+       "over": 0.409,
+       "under": 0.591
+      },
+      "OU3.5": {
+       "over": 0.204,
+       "under": 0.796
+      },
+      "BTTS": {
+       "yes": 0.461,
+       "no": 0.539
+      },
+      "BTTS_O2.5": {
+       "yes": 0.331
+      },
+      "1X_O1.5": {
+       "yes": 0.502
+      },
+      "1X_O2.5": {
+       "yes": 0.282
+      },
+      "1X_U3.5": {
+       "yes": 0.579
+      },
+      "1X_BTTS": {
+       "yes": 0.353
+      },
+      "X2_O1.5": {
+       "yes": 0.351
+      },
+      "X2_O2.5": {
+       "yes": 0.175
+      },
+      "X2_U3.5": {
+       "yes": 0.446
+      },
+      "X2_BTTS": {
+       "yes": 0.286
+      },
+      "12_O1.5": {
+       "yes": 0.496
+      },
+      "12_O2.5": {
+       "yes": 0.36
+      },
+      "12_U3.5": {
+       "yes": 0.566
+      },
+      "12_BTTS": {
+       "yes": 0.282
+      },
+      "HT1X2": {
+       "1": 0.33,
+       "X": 0.454,
+       "2": 0.215
+      }
+     },
+     "expected_goals": {
+      "home": 1.35,
+      "away": 0.97
+     },
+     "top_scores": [
+      {
+       "score": "1-0",
+       "p": 0.132
+      },
+      {
+       "score": "1-1",
+       "p": 0.13
+      },
+      {
+       "score": "0-0",
+       "p": 0.1
+      }
+     ],
+     "confidence": {
+      "value": 0.722,
+      "source": "model_probability",
+      "bucket": "70-75"
+     },
+     "market_probability": 0.745,
+     "ev": -0.069,
+     "odds_seen": {
+      "value": 1.29,
+      "bookmaker": "William Hill",
+      "captured_at": "2026-11-14T11:39:38+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 72,2 % pour « Pas de nul (12) » contre 74,5 % pour le marché.",
+      "Buts attendus (modèle) : 1,35 – 0,97.",
+      "Candidat EV max écarté : Valmiera / BSS ou nul (1N) & −3,5 buts (57,9 %, cote 2,38, EV +37,9 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Matin : Valmiera–Tukums (12h, barrage retour pour la Virslīga). Tukums a gagné l'aller 1-0 (LFF, jauns.lv). Pas de contradiction."
+      ],
+      "x_reads": 0,
+      "checked_at": "2026-11-14T09:49:48+01:00"
+     },
+     "team_samples": {
+      "home": 1,
+      "away": 73
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "api",
      "history_insufficient": {
       "home": 1,
       "away": 73,
