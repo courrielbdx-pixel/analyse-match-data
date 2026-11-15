@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-15T13:06:03+01:00",
+ "generated_at": "2026-11-15T14:05:38+01:00",
  "date": "2026-11-15",
  "picks": [
   {
@@ -6193,7 +6193,7 @@
   },
   {
    "fixture_id": 1545616,
-   "final_reading_id": "1545616-r3",
+   "final_reading_id": "1545616-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -6755,6 +6755,202 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-11-15T09:52:33+01:00",
+     "history_insufficient": {
+      "home": 5,
+      "away": 5,
+      "min": 20,
+      "label_fr": "Historique insuffisant",
+      "text_fr": "⚠️ Historique insuffisant (5 / 5 matchs)"
+     }
+    },
+    {
+     "reading_id": "1545616-r4",
+     "timestamp": "2026-11-15T14:05:36+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU3.5",
+      "selection": "under",
+      "label_fr": "Moins de 3,5 buts"
+     },
+     "label": "SKIP",
+     "skip_reasons_fr": [
+      "⚠️ Historique insuffisant (5 / 5 matchs)",
+      "EV +3,3 % < 5 %",
+      "Écart modèle/marché 6,2 pts > 5",
+      "Échantillon insuffisant (5 matchs < 20)"
+     ],
+     "model_probability": 0.84,
+     "probabilities": {
+      "1X2": {
+       "1": 0.243,
+       "X": 0.348,
+       "2": 0.409
+      },
+      "DC": {
+       "1X": 0.591,
+       "X2": 0.757,
+       "12": 0.652
+      },
+      "OU1.5": {
+       "over": 0.645,
+       "under": 0.355
+      },
+      "OU2.5": {
+       "over": 0.348,
+       "under": 0.652
+      },
+      "OU3.5": {
+       "over": 0.16,
+       "under": 0.84
+      },
+      "BTTS": {
+       "yes": 0.438,
+       "no": 0.562
+      },
+      "BTTS_O2.5": {
+       "yes": 0.28
+      },
+      "1X_O1.5": {
+       "yes": 0.358
+      },
+      "1X_O2.5": {
+       "yes": 0.152
+      },
+      "1X_U3.5": {
+       "yes": 0.511
+      },
+      "1X_BTTS": {
+       "yes": 0.292
+      },
+      "X2_O1.5": {
+       "yes": 0.484
+      },
+      "X2_O2.5": {
+       "yes": 0.236
+      },
+      "X2_U3.5": {
+       "yes": 0.637
+      },
+      "X2_BTTS": {
+       "yes": 0.344
+      },
+      "12_O1.5": {
+       "yes": 0.447
+      },
+      "12_O2.5": {
+       "yes": 0.309
+      },
+      "12_U3.5": {
+       "yes": 0.532
+      },
+      "12_BTTS": {
+       "yes": 0.24
+      },
+      "HT1X2": {
+       "1": 0.21,
+       "X": 0.481,
+       "2": 0.309
+      }
+     },
+     "expected_goals": {
+      "home": 0.88,
+      "away": 1.21
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.158
+      },
+      {
+       "score": "0-0",
+       "p": 0.15
+      },
+      {
+       "score": "0-1",
+       "p": 0.123
+      }
+     ],
+     "confidence": {
+      "value": 0.84,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.778,
+     "ev": 0.033,
+     "odds_seen": {
+      "value": 1.23,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-15T14:05:36+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 84,0 % pour « Moins de 3,5 buts » contre 77,8 % pour le marché.",
+      "Buts attendus (modèle) : 0,88 – 1,21.",
+      "Candidat EV max écarté : Moins de 2,5 buts (65,2 %, cote 1,65, EV +7,5 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Matin : Lettonie–Arménie (15h). Lettonie : Meļņiks peu probable, Strods pas à 100 %, retour Toņiševs. Arménie sans Simonyan, Hovhannisyan, Bichakhchyan (blessés). Pas de contradiction."
+      ],
+      "x_reads": 0,
+      "checked_at": "2026-11-15T09:38:35+01:00",
+      "sources": [
+       "https://balticfootballnews.com/nicolato-defends-late-tactical-gamble-against-montenegro-and-plans-few-changes-for-armenia/"
+      ]
+     },
+     "team_samples": {
+      "home": 5,
+      "away": 5
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn",
      "history_insufficient": {
       "home": 5,
       "away": 5,
