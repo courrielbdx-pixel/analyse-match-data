@@ -1,12 +1,12 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-16T12:49:02+01:00",
+ "generated_at": "2026-11-16T15:51:30+01:00",
  "date": "2026-11-17",
  "picks": [
   {
    "fixture_id": 1649063,
    "final_reading_id": "1649063-r1",
-   "decision": "TICKET",
+   "decision": "ANNULE",
    "readings": [
     {
      "reading_id": "1649063-r1",
@@ -182,7 +182,7 @@
     },
     {
      "reading_id": "1649063-r2",
-     "timestamp": "2026-11-16T12:49:01+01:00",
+     "timestamp": "2026-11-16T15:51:28+01:00",
      "trigger": "releco",
      "method_version": "dc-v1",
      "model_variant": "buts",
@@ -198,23 +198,23 @@
       "selection": "12",
       "label_fr": "Pas de nul (12)",
       "model_probability": 0.724,
-      "market_probability": 0.721,
-      "odds": null,
-      "bookmaker": null
+      "market_probability": 0.722,
+      "odds": 1.33,
+      "bookmaker": "Bet365"
      },
      "value_pick": {
-      "market": "OU2.5",
-      "selection": "under",
-      "label_fr": "Moins de 2,5 buts",
-      "model_probability": 0.587,
-      "market_probability": 0.529,
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou Juventud (N2)",
+      "model_probability": 0.621,
+      "market_probability": 0.555,
       "odds": 1.78,
-      "bookmaker": "Pinnacle",
-      "ev": 0.045
+      "bookmaker": "Betano",
+      "ev": 0.106
      },
      "skip_reasons_fr": [
-      "EV +1,4 % < 5 %",
-      "Écart modèle/marché 6,4 pts > 5"
+      "EV +3,8 % < 5 %",
+      "Écart modèle/marché 6,5 pts > 5"
      ],
      "model_probability": 0.792,
      "probabilities": {
@@ -312,17 +312,17 @@
       "source": "model_probability",
       "bucket": "75-80"
      },
-     "market_probability": 0.728,
-     "ev": 0.014,
+     "market_probability": 0.727,
+     "ev": 0.038,
      "odds_seen": {
-      "value": 1.28,
-      "bookmaker": "Pinnacle",
-      "captured_at": "2026-11-16T12:49:01+01:00"
+      "value": 1.31,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-16T15:51:28+01:00"
      },
      "reasoning_fr": [
-      "Modèle 79,2 % pour « Moins de 3,5 buts » contre 72,8 % pour le marché.",
+      "Modèle 79,2 % pour « Moins de 3,5 buts » contre 72,7 % pour le marché.",
       "Buts attendus (modèle) : 1,20 – 1,13.",
-      "Candidat EV max écarté : Moins de 2,5 buts (58,7 %, cote 1,78, EV +4,5 %)."
+      "Candidat EV max écarté : Nul ou Juventud (N2) (62,1 %, cote 1,78, EV +10,6 %)."
      ],
      "web_check": {
       "status": "ok",
@@ -346,13 +346,13 @@
       "selection": "X2",
       "label_fr": "Nul ou Juventud (N2)",
       "model_probability": 0.621,
-      "market_probability": 0.592,
-      "odds": null,
-      "bookmaker": null,
-      "ev": null,
+      "market_probability": 0.555,
+      "odds": 1.78,
+      "bookmaker": "Betano",
+      "ev": 0.106,
       "still_ok": false,
       "reasons_fr": [
-       "Pas de cote disponible"
+       "Écart modèle/marché 6,6 pts > 5"
       ]
      },
      "change_from_previous": {
@@ -400,10 +400,13 @@
        }
       ]
      },
-     "releco_count": 2,
+     "releco_count": 3,
      "first_timestamp": "2026-11-16T09:51:40+01:00"
     }
-   ]
+   ],
+   "cancelled": true,
+   "cancel_reason_fr": "écart modèle/marché 6,6 pts > 5",
+   "cancel_label_fr": "Annulé (relecture 15h)"
   },
   {
    "fixture_id": 1649033,
