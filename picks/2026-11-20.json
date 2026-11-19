@@ -1,11 +1,11 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-19T21:54:52+01:00",
+ "generated_at": "2026-11-19T22:11:19+01:00",
  "date": "2026-11-20",
  "picks": [
   {
    "fixture_id": 1492457,
-   "final_reading_id": "1492457-r2",
+   "final_reading_id": "1492457-r3",
    "decision": "SKIP",
    "readings": [
     {
@@ -406,6 +406,210 @@
      },
      "releco_count": 4,
      "first_timestamp": "2026-11-19T09:50:26+01:00"
+    },
+    {
+     "reading_id": "1492457-r3",
+     "timestamp": "2026-11-19T22:11:16+01:00",
+     "trigger": "soir",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": false,
+     "pick": {
+      "market": "OU3.5",
+      "selection": "under",
+      "label_fr": "Moins de 3,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.699,
+      "market_probability": 0.702,
+      "odds": 1.36,
+      "bookmaker": "William Hill"
+     },
+     "value_pick": {
+      "market": "OU2.5",
+      "selection": "under",
+      "label_fr": "Moins de 2,5 buts",
+      "model_probability": 0.591,
+      "market_probability": 0.558,
+      "odds": 1.72,
+      "bookmaker": "Betano",
+      "ev": 0.017
+     },
+     "skip_reasons_fr": [
+      "EV +1,0 % < 5 %"
+     ],
+     "model_probability": 0.796,
+     "probabilities": {
+      "1X2": {
+       "1": 0.361,
+       "X": 0.301,
+       "2": 0.338
+      },
+      "DC": {
+       "1X": 0.662,
+       "X2": 0.639,
+       "12": 0.699
+      },
+      "OU1.5": {
+       "over": 0.683,
+       "under": 0.317
+      },
+      "OU2.5": {
+       "over": 0.409,
+       "under": 0.591
+      },
+      "OU3.5": {
+       "over": 0.204,
+       "under": 0.796
+      },
+      "BTTS": {
+       "yes": 0.48,
+       "no": 0.52
+      },
+      "BTTS_O2.5": {
+       "yes": 0.339
+      },
+      "1X_O1.5": {
+       "yes": 0.447
+      },
+      "1X_O2.5": {
+       "yes": 0.237
+      },
+      "1X_U3.5": {
+       "yes": 0.531
+      },
+      "1X_BTTS": {
+       "yes": 0.341
+      },
+      "X2_O1.5": {
+       "yes": 0.429
+      },
+      "X2_O2.5": {
+       "yes": 0.224
+      },
+      "X2_U3.5": {
+       "yes": 0.514
+      },
+      "X2_BTTS": {
+       "yes": 0.332
+      },
+      "12_O1.5": {
+       "yes": 0.49
+      },
+      "12_O2.5": {
+       "yes": 0.357
+      },
+      "12_U3.5": {
+       "yes": 0.546
+      },
+      "12_BTTS": {
+       "yes": 0.287
+      },
+      "HT1X2": {
+       "1": 0.279,
+       "X": 0.457,
+       "2": 0.264
+      }
+     },
+     "expected_goals": {
+      "home": 1.18,
+      "away": 1.14
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.141
+      },
+      {
+       "score": "0-0",
+       "p": 0.108
+      },
+      {
+       "score": "1-0",
+       "p": 0.107
+      }
+     ],
+     "confidence": {
+      "value": 0.796,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.753,
+     "ev": 0.01,
+     "odds_seen": {
+      "value": 1.27,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-19T22:11:16+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 79,6 % pour « Moins de 3,5 buts » contre 75,3 % pour le marché.",
+      "Buts attendus (modèle) : 1,18 – 1,14.",
+      "Candidat EV max écarté : Moins de 2,5 buts (59,1 %, cote 1,72, EV +1,7 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Soir : São Paulo sans Nicolas, Aurélio Buta, Domingos Duarte, Marcos Antônio, Sabino (blessés), Newton, Luciano, Ferreirinha (suspendus) et Bobadilla (ménagé) ; seulement 3 centraux de métier. Fluminense sans Canobbio et Savarino (retour sélection), John Kennedy (blessé), Alisson (contrat). Pas de contradiction avec la lecture SKIP (Moins de 2,5)."
+      ],
+      "x_reads": 0,
+      "checked_at": "2026-11-19T18:39:58+01:00",
+      "sources": [
+       "https://ge.globo.com/sp/futebol/brasileirao-serie-a/noticia/2026/11/19/sao-paulo-x-fluminense-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml"
+      ]
+     },
+     "team_samples": {
+      "home": 72,
+      "away": 72
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     }
     }
    ],
    "skip_check": {
@@ -416,7 +620,7 @@
   },
   {
    "fixture_id": 1649491,
-   "final_reading_id": "1649491-r2",
+   "final_reading_id": "1649491-r3",
    "decision": "SKIP",
    "readings": [
     {
@@ -820,12 +1024,218 @@
      },
      "releco_count": 5,
      "first_timestamp": "2026-11-19T09:50:26+01:00"
+    },
+    {
+     "reading_id": "1649491-r3",
+     "timestamp": "2026-11-19T22:11:17+01:00",
+     "trigger": "soir",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": false,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.806,
+      "market_probability": 0.761,
+      "odds": 1.25,
+      "bookmaker": "William Hill"
+     },
+     "value_pick": {
+      "market": "HT1X2",
+      "selection": "1",
+      "label_fr": "Mi-temps : Orlando City SC mène (MT 1)",
+      "model_probability": 0.404,
+      "market_probability": 0.336,
+      "odds": 2.88,
+      "bookmaker": "Pinnacle",
+      "ev": 0.164
+     },
+     "skip_reasons_fr": [
+      "EV +3,9 % < 5 %",
+      "Écart modèle/marché 6,1 pts > 5"
+     ],
+     "model_probability": 0.936,
+     "probabilities": {
+      "1X2": {
+       "1": 0.494,
+       "X": 0.194,
+       "2": 0.312
+      },
+      "DC": {
+       "1X": 0.688,
+       "X2": 0.506,
+       "12": 0.806
+      },
+      "OU1.5": {
+       "over": 0.936,
+       "under": 0.064
+      },
+      "OU2.5": {
+       "over": 0.818,
+       "under": 0.182
+      },
+      "OU3.5": {
+       "over": 0.645,
+       "under": 0.355
+      },
+      "BTTS": {
+       "yes": 0.787,
+       "no": 0.213
+      },
+      "BTTS_O2.5": {
+       "yes": 0.728
+      },
+      "1X_O1.5": {
+       "yes": 0.646
+      },
+      "1X_O2.5": {
+       "yes": 0.551
+      },
+      "1X_U3.5": {
+       "yes": 0.238
+      },
+      "1X_BTTS": {
+       "yes": 0.547
+      },
+      "X2_O1.5": {
+       "yes": 0.471
+      },
+      "X2_O2.5": {
+       "yes": 0.388
+      },
+      "X2_U3.5": {
+       "yes": 0.19
+      },
+      "X2_BTTS": {
+       "yes": 0.421
+      },
+      "12_O1.5": {
+       "yes": 0.756
+      },
+      "12_O2.5": {
+       "yes": 0.696
+      },
+      "12_U3.5": {
+       "yes": 0.283
+      },
+      "12_BTTS": {
+       "yes": 0.607
+      },
+      "HT1X2": {
+       "1": 0.404,
+       "X": 0.308,
+       "2": 0.288
+      }
+     },
+     "expected_goals": {
+      "home": 2.46,
+      "away": 1.96
+     },
+     "top_scores": [
+      {
+       "score": "2-1",
+       "p": 0.071
+      },
+      {
+       "score": "2-2",
+       "p": 0.07
+      },
+      {
+       "score": "1-1",
+       "p": 0.059
+      }
+     ],
+     "confidence": {
+      "value": 0.936,
+      "source": "model_probability",
+      "bucket": "90-95"
+     },
+     "market_probability": 0.875,
+     "ev": 0.039,
+     "odds_seen": {
+      "value": 1.11,
+      "bookmaker": "Pinnacle",
+      "captured_at": "2026-11-19T22:11:17+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 93,6 % pour « Plus de 1,5 buts » contre 87,5 % pour le marché.",
+      "Buts attendus (modèle) : 2,46 – 1,96.",
+      "Candidat EV max écarté : Plus de 3,5 buts (64,5 %, cote 1,88, EV +21,2 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Soir : barrage Wild Card à élimination directe (tirs au but direct si nul). Orlando sans Jansson et Spicer, Cartagena et Ojeda incertains ; Cincinnati sans Anunga et Hadebe. Pas de contradiction (SKIP)."
+      ],
+      "x_reads": 0,
+      "checked_at": "2026-11-19T18:39:58+01:00",
+      "sources": [
+       "https://www.mlssoccer.com/news/mls-player-status-report-wild-card-games-thursday-november-19",
+       "https://www.orlandocitysc.com/news/player-status-report-presented-by-orlando-health-orlando-city-sc-vs-fc-cincinnati-x4800"
+      ]
+     },
+     "team_samples": {
+      "home": 64,
+      "away": 64
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     }
     }
    ]
   },
   {
    "fixture_id": 1649492,
-   "final_reading_id": "1649492-r2",
+   "final_reading_id": "1649492-r3",
    "decision": "SKIP",
    "readings": [
     {
@@ -1207,12 +1617,208 @@
        }
       ]
      }
+    },
+    {
+     "reading_id": "1649492-r3",
+     "timestamp": "2026-11-19T22:11:17+01:00",
+     "trigger": "soir",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": false,
+     "pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Seattle Sounders ou nul (1N)"
+     },
+     "label": "SKIP",
+     "value_pick": {
+      "market": "OU2.5",
+      "selection": "under",
+      "label_fr": "Moins de 2,5 buts",
+      "model_probability": 0.485,
+      "market_probability": 0.402,
+      "odds": 2.4,
+      "bookmaker": "Pinnacle",
+      "ev": 0.164
+     },
+     "skip_reasons_fr": [
+      "EV −1,1 % < 5 %"
+     ],
+     "model_probability": 0.76,
+     "probabilities": {
+      "1X2": {
+       "1": 0.513,
+       "X": 0.248,
+       "2": 0.24
+      },
+      "DC": {
+       "1X": 0.76,
+       "X2": 0.487,
+       "12": 0.752
+      },
+      "OU1.5": {
+       "over": 0.76,
+       "under": 0.24
+      },
+      "OU2.5": {
+       "over": 0.515,
+       "under": 0.485
+      },
+      "OU3.5": {
+       "over": 0.294,
+       "under": 0.706
+      },
+      "BTTS": {
+       "yes": 0.534,
+       "no": 0.466
+      },
+      "BTTS_O2.5": {
+       "yes": 0.416
+      },
+      "1X_O1.5": {
+       "yes": 0.587
+      },
+      "1X_O2.5": {
+       "yes": 0.379
+      },
+      "1X_U3.5": {
+       "yes": 0.528
+      },
+      "1X_BTTS": {
+       "yes": 0.416
+      },
+      "X2_O1.5": {
+       "yes": 0.353
+      },
+      "X2_O2.5": {
+       "yes": 0.199
+      },
+      "X2_U3.5": {
+       "yes": 0.363
+      },
+      "X2_BTTS": {
+       "yes": 0.299
+      },
+      "12_O1.5": {
+       "yes": 0.58
+      },
+      "12_O2.5": {
+       "yes": 0.452
+      },
+      "12_U3.5": {
+       "yes": 0.521
+      },
+      "12_BTTS": {
+       "yes": 0.354
+      },
+      "HT1X2": {
+       "1": 0.38,
+       "X": 0.409,
+       "2": 0.21
+      }
+     },
+     "expected_goals": {
+      "home": 1.67,
+      "away": 1.06
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.118
+      },
+      {
+       "score": "1-0",
+       "p": 0.106
+      },
+      {
+       "score": "2-1",
+       "p": 0.096
+      }
+     ],
+     "confidence": {
+      "value": 0.76,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.738,
+     "ev": -0.011,
+     "odds_seen": {
+      "value": 1.3,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-19T22:11:17+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 76,0 % pour « Seattle Sounders ou nul (1N) » contre 73,8 % pour le marché.",
+      "Buts attendus (modèle) : 1,67 – 1,06.",
+      "Candidat EV max écarté : Moins de 3,5 buts (70,6 %, cote 1,57, EV +10,9 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Soir : barrage Wild Card à élimination directe. Seattle sans De la Vega, Morris, Petković et Ragen (suspendu), A. Roldán et Gómez Andrade incertains ; RSL sans Eneli et Diego Luna. Pas de contradiction (SKIP)."
+      ],
+      "x_reads": 0,
+      "checked_at": "2026-11-19T18:39:58+01:00",
+      "sources": [
+       "https://www.mlssoccer.com/news/mls-player-status-report-wild-card-games-thursday-november-19",
+       "https://www.seattletimes.com/sports/sounders/sounders-try-to-salvage-disappointing-season-in-mls-playoffs/"
+      ]
+     },
+     "team_samples": {
+      "home": 66,
+      "away": 62
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     }
     }
    ]
   },
   {
    "fixture_id": 1593704,
-   "final_reading_id": "1593704-r1",
+   "final_reading_id": "1593704-r2",
    "decision": "SKIP",
    "readings": [
     {
@@ -1416,6 +2022,210 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-11-19T09:50:27+01:00"
+    },
+    {
+     "reading_id": "1593704-r2",
+     "timestamp": "2026-11-19T22:11:17+01:00",
+     "trigger": "soir",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": false,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.731,
+      "market_probability": 0.779,
+      "odds": 1.22,
+      "bookmaker": "William Hill"
+     },
+     "value_pick": {
+      "market": "OU2.5",
+      "selection": "under",
+      "label_fr": "Moins de 2,5 buts",
+      "model_probability": 0.41,
+      "market_probability": 0.354,
+      "odds": 2.74,
+      "bookmaker": "Pinnacle",
+      "ev": 0.124
+     },
+     "skip_reasons_fr": [
+      "EV −5,3 % < 5 %"
+     ],
+     "model_probability": 0.824,
+     "probabilities": {
+      "1X2": {
+       "1": 0.349,
+       "X": 0.269,
+       "2": 0.383
+      },
+      "DC": {
+       "1X": 0.617,
+       "X2": 0.651,
+       "12": 0.731
+      },
+      "OU1.5": {
+       "over": 0.824,
+       "under": 0.176
+      },
+      "OU2.5": {
+       "over": 0.59,
+       "under": 0.41
+      },
+      "OU3.5": {
+       "over": 0.366,
+       "under": 0.634
+      },
+      "BTTS": {
+       "yes": 0.628,
+       "no": 0.372
+      },
+      "BTTS_O2.5": {
+       "yes": 0.503
+      },
+      "1X_O1.5": {
+       "yes": 0.5
+      },
+      "1X_O2.5": {
+       "yes": 0.324
+      },
+      "1X_U3.5": {
+       "yes": 0.401
+      },
+      "1X_BTTS": {
+       "yes": 0.409
+      },
+      "X2_O1.5": {
+       "yes": 0.531
+      },
+      "X2_O2.5": {
+       "yes": 0.349
+      },
+      "X2_U3.5": {
+       "yes": 0.419
+      },
+      "X2_BTTS": {
+       "yes": 0.426
+      },
+      "12_O1.5": {
+       "yes": 0.616
+      },
+      "12_O2.5": {
+       "yes": 0.506
+      },
+      "12_U3.5": {
+       "yes": 0.449
+      },
+      "12_BTTS": {
+       "yes": 0.42
+      },
+      "HT1X2": {
+       "1": 0.295,
+       "X": 0.389,
+       "2": 0.316
+      }
+     },
+     "expected_goals": {
+      "home": 1.49,
+      "away": 1.57
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.124
+      },
+      {
+       "score": "1-2",
+       "p": 0.086
+      },
+      {
+       "score": "2-1",
+       "p": 0.082
+      }
+     ],
+     "confidence": {
+      "value": 0.824,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.827,
+     "ev": -0.053,
+     "odds_seen": {
+      "value": 1.15,
+      "bookmaker": "Betano",
+      "captured_at": "2026-11-19T22:11:17+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 82,4 % pour « Plus de 1,5 buts » contre 82,7 % pour le marché.",
+      "Buts attendus (modèle) : 1,49 – 1,57.",
+      "Candidat EV max écarté : Nul ou Adelaide United (N2) (65,1 %, cote 2,27, EV +47,9 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Soir : groupes officiels publiés. WSW sans Savic (sélection), Lual et Pantazopoulos (blessés) ; Adelaide récupère Brazete, sans Vriends, Najdovski, Pierias, White. Pas de contradiction (SKIP)."
+      ],
+      "x_reads": 0,
+      "checked_at": "2026-11-19T18:39:58+01:00",
+      "sources": [
+       "https://aleagues.com.au/news/news-aleague-men-ins-outs-matchweek-5/"
+      ]
+     },
+     "team_samples": {
+      "home": 30,
+      "away": 31
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     }
     }
    ]
   },

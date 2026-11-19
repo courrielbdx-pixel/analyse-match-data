@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-19T21:54:52+01:00",
+ "generated_at": "2026-11-19T22:11:19+01:00",
  "date": "2026-11-19",
  "picks": [
   {
@@ -7031,7 +7031,7 @@
   },
   {
    "fixture_id": 1492458,
-   "final_reading_id": "1492458-r2",
+   "final_reading_id": "1492458-r3",
    "decision": "SKIP",
    "readings": [
     {
@@ -7432,6 +7432,210 @@
      },
      "releco_count": 2,
      "first_timestamp": "2026-11-19T09:50:26+01:00"
+    },
+    {
+     "reading_id": "1492458-r3",
+     "timestamp": "2026-11-19T22:11:16+01:00",
+     "trigger": "soir",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": false,
+     "pick": {
+      "market": "OU1.5",
+      "selection": "over",
+      "label_fr": "Plus de 1,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "1X",
+      "label_fr": "Vasco DA Gama ou nul (1N)",
+      "model_probability": 0.761,
+      "market_probability": 0.835,
+      "odds": 1.17,
+      "bookmaker": "Betano"
+     },
+     "value_pick": {
+      "market": "OU3.5",
+      "selection": "under",
+      "label_fr": "Moins de 3,5 buts",
+      "model_probability": 0.699,
+      "market_probability": 0.657,
+      "odds": 1.5,
+      "bookmaker": "Bet365",
+      "ev": 0.049
+     },
+     "skip_reasons_fr": [
+      "EV −3,7 % < 5 %"
+     ],
+     "model_probability": 0.77,
+     "probabilities": {
+      "1X2": {
+       "1": 0.506,
+       "X": 0.256,
+       "2": 0.239
+      },
+      "DC": {
+       "1X": 0.761,
+       "X2": 0.494,
+       "12": 0.744
+      },
+      "OU1.5": {
+       "over": 0.77,
+       "under": 0.23
+      },
+      "OU2.5": {
+       "over": 0.523,
+       "under": 0.477
+      },
+      "OU3.5": {
+       "over": 0.301,
+       "under": 0.699
+      },
+      "BTTS": {
+       "yes": 0.546,
+       "no": 0.454
+      },
+      "BTTS_O2.5": {
+       "yes": 0.425
+      },
+      "1X_O1.5": {
+       "yes": 0.593
+      },
+      "1X_O2.5": {
+       "yes": 0.383
+      },
+      "1X_U3.5": {
+       "yes": 0.525
+      },
+      "1X_BTTS": {
+       "yes": 0.424
+      },
+      "X2_O1.5": {
+       "yes": 0.363
+      },
+      "X2_O2.5": {
+       "yes": 0.205
+      },
+      "X2_U3.5": {
+       "yes": 0.365
+      },
+      "X2_BTTS": {
+       "yes": 0.308
+      },
+      "12_O1.5": {
+       "yes": 0.584
+      },
+      "12_O2.5": {
+       "yes": 0.459
+      },
+      "12_U3.5": {
+       "yes": 0.508
+      },
+      "12_BTTS": {
+       "yes": 0.36
+      },
+      "HT1X2": {
+       "1": 0.38,
+       "X": 0.407,
+       "2": 0.214
+      }
+     },
+     "expected_goals": {
+      "home": 1.68,
+      "away": 1.09
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.122
+      },
+      {
+       "score": "1-0",
+       "p": 0.099
+      },
+      {
+       "score": "2-1",
+       "p": 0.096
+      }
+     ],
+     "confidence": {
+      "value": 0.77,
+      "source": "model_probability",
+      "bucket": "75-80"
+     },
+     "market_probability": 0.767,
+     "ev": -0.037,
+     "odds_seen": {
+      "value": 1.25,
+      "bookmaker": "Pinnacle",
+      "captured_at": "2026-11-19T22:11:16+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 77,0 % pour « Plus de 1,5 buts » contre 76,7 % pour le marché.",
+      "Buts attendus (modèle) : 1,68 – 1,09.",
+      "Candidat EV max écarté : Moins de 3,5 buts (69,9 %, cote 1,50, EV +4,9 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Matin : Vasco récupère Thiago Mendes et Sosa ; absents Nuno Moreira, Tchê Tchê, Cuesta. Inter sans Thiago Maia, Rochet, Maripán (suspendu), Kayky, Bernabei ; retour d'Alan Patrick. Inter 16e/17e (38 pts) en lutte pour le maintien. Pas de contradiction (SKIP Plus de 1,5 buts)."
+      ],
+      "x_reads": 0,
+      "checked_at": "2026-11-19T09:43:55+01:00",
+      "sources": [
+       "https://ge.globo.com/rj/futebol/brasileirao-serie-a/noticia/2026/11/19/vasco-x-internacional-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml"
+      ]
+     },
+     "team_samples": {
+      "home": 72,
+      "away": 72
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     }
     }
    ],
    "skip_check": {
@@ -7441,7 +7645,7 @@
   },
   {
    "fixture_id": 1492459,
-   "final_reading_id": "1492459-r2",
+   "final_reading_id": "1492459-r3",
    "decision": "SKIP",
    "readings": [
     {
@@ -7824,6 +8028,201 @@
      },
      "releco_count": 5,
      "first_timestamp": "2026-11-19T09:50:26+01:00"
+    },
+    {
+     "reading_id": "1492459-r3",
+     "timestamp": "2026-11-19T22:11:16+01:00",
+     "trigger": "soir",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": false,
+     "pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)"
+     },
+     "label": "SKIP",
+     "value_pick": {
+      "market": "BTTS",
+      "selection": "no",
+      "label_fr": "Les deux équipes ne marquent pas",
+      "model_probability": 0.523,
+      "market_probability": 0.427,
+      "odds": 2.2,
+      "bookmaker": "Betano",
+      "ev": 0.151
+     },
+     "skip_reasons_fr": [
+      "EV −7,5 % < 5 %"
+     ],
+     "model_probability": 0.701,
+     "probabilities": {
+      "1X2": {
+       "1": 0.357,
+       "X": 0.299,
+       "2": 0.345
+      },
+      "DC": {
+       "1X": 0.655,
+       "X2": 0.643,
+       "12": 0.701
+      },
+      "OU1.5": {
+       "over": 0.679,
+       "under": 0.321
+      },
+      "OU2.5": {
+       "over": 0.406,
+       "under": 0.594
+      },
+      "OU3.5": {
+       "over": 0.203,
+       "under": 0.797
+      },
+      "BTTS": {
+       "yes": 0.477,
+       "no": 0.523
+      },
+      "BTTS_O2.5": {
+       "yes": 0.336
+      },
+      "1X_O1.5": {
+       "yes": 0.44
+      },
+      "1X_O2.5": {
+       "yes": 0.232
+      },
+      "1X_U3.5": {
+       "yes": 0.527
+      },
+      "1X_BTTS": {
+       "yes": 0.336
+      },
+      "X2_O1.5": {
+       "yes": 0.431
+      },
+      "X2_O2.5": {
+       "yes": 0.225
+      },
+      "X2_U3.5": {
+       "yes": 0.518
+      },
+      "X2_BTTS": {
+       "yes": 0.332
+      },
+      "12_O1.5": {
+       "yes": 0.488
+      },
+      "12_O2.5": {
+       "yes": 0.355
+      },
+      "12_U3.5": {
+       "yes": 0.55
+      },
+      "12_BTTS": {
+       "yes": 0.285
+      },
+      "HT1X2": {
+       "1": 0.275,
+       "X": 0.458,
+       "2": 0.267
+      }
+     },
+     "expected_goals": {
+      "home": 1.17,
+      "away": 1.14
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.14
+      },
+      {
+       "score": "1-0",
+       "p": 0.108
+      },
+      {
+       "score": "0-0",
+       "p": 0.107
+      }
+     ],
+     "confidence": {
+      "value": 0.701,
+      "source": "model_probability",
+      "bucket": "70-75"
+     },
+     "market_probability": 0.72,
+     "ev": -0.075,
+     "odds_seen": {
+      "value": 1.32,
+      "bookmaker": "1xBet",
+      "captured_at": "2026-11-19T22:11:16+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 70,1 % pour « Pas de nul (12) » contre 72,0 % pour le marché.",
+      "Buts attendus (modèle) : 1,17 – 1,14.",
+      "Candidat EV max écarté : Moins de 2,5 buts (59,4 %, cote 2,02, EV +19,9 %)."
+     ],
+     "web_check": {
+      "status": "ok",
+      "items_fr": [
+       "Matin : Vitória (15e, 38 pts, 5 matchs sans victoire) débute avec le nouveau coach Rafael Lacerda ; absents Dudu, Nathan Mendes, Fabiano Souza, Luan Cândido, Laquintana. Bragantino sans Lucas Barbosa (suspendu), Rodriguinho, Davi Gomes. Pas de contradiction (SKIP 12)."
+      ],
+      "x_reads": 0,
+      "checked_at": "2026-11-19T09:43:55+01:00",
+      "sources": [
+       "https://ge.globo.com/ba/futebol/brasileirao-serie-a/noticia/2026/11/19/vitoria-x-bragantino-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml"
+      ]
+     },
+     "team_samples": {
+      "home": 72,
+      "away": 72
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     }
     }
    ]
   }
