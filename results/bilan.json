@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-20T15:03:06+01:00",
+ "generated_at": "2026-11-20T15:51:16+01:00",
  "settled": [
   {
    "fixture_id": 1492403,
@@ -59844,6 +59844,36 @@
     "label": "SKIP",
     "outcome": "lost"
    }
+  },
+  {
+   "fixture_id": 1643064,
+   "date": "2026-11-20",
+   "kickoff": "2026-11-20T13:45:00+01:00",
+   "league": {
+    "name": "Pro League",
+    "country": "Émirats arabes unis"
+   },
+   "region": "asie_oceanie",
+   "method_version": "dc-v1",
+   "reading_id": "1643064-r4",
+   "trigger": "releco",
+   "lineups_confirmed": false,
+   "market": "OU1.5",
+   "selection": "over",
+   "label_fr": "Plus de 1,5 buts",
+   "label": "SKIP",
+   "model_probability": 0.849,
+   "confidence_bucket": "80-85",
+   "odds": 1.26,
+   "bookmaker": "Pinnacle",
+   "final_score": "0-3",
+   "outcome": "won",
+   "pl_units": 0.26,
+   "matin": {
+    "selection": "12",
+    "label": "SKIP",
+    "outcome": "won"
+   }
   }
  ],
  "aggregates": {
@@ -59860,13 +59890,13 @@
     "avg_odds": 1.83
    },
    "SKIP": {
-    "n": 1909,
-    "won": 1539,
+    "n": 1910,
+    "won": 1540,
     "lost": 366,
     "void": 4,
     "no_odds": 12,
     "hit_rate": 0.808,
-    "pl_units": -38.49,
+    "pl_units": -38.23,
     "roi": -0.02,
     "avg_odds": 1.22
    },
@@ -60665,10 +60695,10 @@
     },
     {
      "label": "SKIP",
-     "n": 11,
-     "won": 9,
+     "n": 12,
+     "won": 10,
      "lost": 2,
-     "pl_units": -0.37,
+     "pl_units": -0.11,
      "league": "Pro League",
      "country": "Émirats arabes unis"
     },
@@ -61151,10 +61181,10 @@
     {
      "market": "OU1.5",
      "label": "SKIP",
-     "n": 828,
-     "won": 660,
+     "n": 829,
+     "won": 661,
      "lost": 168,
-     "pl_units": -42.94
+     "pl_units": -42.68
     },
     {
      "market": "OU2.5",
@@ -61330,8 +61360,8 @@
     {
      "bucket": "80-85",
      "label": "SKIP",
-     "n": 580,
-     "won": 462,
+     "n": 581,
+     "won": 463,
      "lost": 118
     },
     {
@@ -62048,10 +62078,10 @@
     {
      "date": "2026-11-20",
      "label": "SKIP",
-     "n": 8,
-     "won": 5,
+     "n": 9,
+     "won": 6,
      "lost": 3,
-     "pl_units": -2.05
+     "pl_units": -1.79
     }
    ],
    "by_week": [
@@ -62210,10 +62240,10 @@
     {
      "week": "2026-W47",
      "label": "SKIP",
-     "n": 29,
-     "won": 20,
+     "n": 30,
+     "won": 21,
      "lost": 9,
-     "pl_units": -5.22
+     "pl_units": -4.96
     },
     {
      "week": "2026-W47",
@@ -62292,8 +62322,8 @@
     {
      "trigger": "releco",
      "label": "SKIP",
-     "n": 262,
-     "won": 209,
+     "n": 263,
+     "won": 210,
      "lost": 53
     },
     {
@@ -62364,7 +62394,7 @@
     },
     {
      "bucket": "80-85",
-     "n": 580,
+     "n": 581,
      "mean_predicted": 0.824,
      "observed": 0.797
     },
@@ -62903,10 +62933,51 @@
    "ev": 0.13,
    "outcome": "won",
    "pl_units": 0.85
+  },
+  {
+   "date": "2026-11-21",
+   "locked_at": "2026-11-20T15:51:16+01:00",
+   "legs": [
+    {
+     "fixture_id": 1557474,
+     "kickoff": "2026-11-21T13:30:00+01:00",
+     "home": "Manchester City",
+     "away": "Fulham",
+     "league": "Premier League",
+     "reading_id": "1557474-r1",
+     "market": "OU3.5",
+     "selection": "under",
+     "label_fr": "Moins de 3,5 buts",
+     "prob": 0.619,
+     "odds": 1.72,
+     "bookmaker": "1xBet",
+     "outcome": null
+    },
+    {
+     "fixture_id": 1575225,
+     "kickoff": "2026-11-21T15:30:00+01:00",
+     "home": "Union Berlin",
+     "away": "RB Leipzig",
+     "league": "Bundesliga",
+     "reading_id": "1575225-r1",
+     "market": "OU3.5",
+     "selection": "under",
+     "label_fr": "Moins de 3,5 buts",
+     "prob": 0.578,
+     "odds": 1.83,
+     "bookmaker": "1xBet",
+     "outcome": null
+    }
+   ],
+   "total_odds": 3.15,
+   "model_probability": 0.358,
+   "ev": 0.126,
+   "outcome": null,
+   "pl_units": null
   }
  ],
  "combines_aggregate": {
-  "n": 12,
+  "n": 13,
   "settled": 11,
   "won": 6,
   "lost": 5,
@@ -62924,17 +62995,17 @@
  "bilan_start": "2026-10-13",
  "skip_lines": {
   "probable": {
-   "n": 1905,
-   "won": 1539,
+   "n": 1906,
+   "won": 1540,
    "hit_rate": 0.808,
-   "with_odds": 1893,
+   "with_odds": 1894,
    "avg_odds": 1.22,
-   "profit_eur": -38.49,
+   "profit_eur": -38.23,
    "roi": -0.02
   },
   "resultat": {
-   "n": 1159,
-   "won": 871,
+   "n": 1160,
+   "won": 872,
    "hit_rate": 0.752,
    "with_odds": 1159,
    "avg_odds": 1.28,
@@ -62942,13 +63013,13 @@
    "roi": -0.041
   },
   "valeur": {
-   "n": 1829,
+   "n": 1830,
    "won": 813,
-   "hit_rate": 0.445,
-   "with_odds": 1829,
+   "hit_rate": 0.444,
+   "with_odds": 1830,
    "avg_odds": 2.2,
-   "profit_eur": -99.59,
-   "roi": -0.054
+   "profit_eur": -100.59,
+   "roi": -0.055
   }
  },
  "clv": {
@@ -64265,16 +64336,11 @@
   },
   "probable": {
    "start": 100.0,
-   "bank": 61.77,
-   "bets": 674,
+   "bank": 62.09,
+   "bets": 675,
    "zero_stake": 1223,
-   "roi_bank": -0.3823,
+   "roi_bank": -0.3791,
    "curve": [
-    {
-     "date": "2026-11-03",
-     "stake": 0.31,
-     "bank": 74.77
-    },
     {
      "date": "2026-11-03",
      "stake": 1.5,
@@ -65269,6 +65335,11 @@
      "date": "2026-11-20",
      "stake": 1.26,
      "bank": 61.77
+    },
+    {
+     "date": "2026-11-20",
+     "stake": 1.24,
+     "bank": 62.09
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
@@ -66265,16 +66336,11 @@
   },
   "valeur": {
    "start": 100.0,
-   "bank": 9.52,
-   "bets": 1824,
+   "bank": 9.33,
+   "bets": 1825,
    "zero_stake": 8,
-   "roi_bank": -0.9048,
+   "roi_bank": -0.9067,
    "curve": [
-    {
-     "date": "2026-11-08",
-     "stake": 0.24,
-     "bank": 12.35
-    },
     {
      "date": "2026-11-08",
      "stake": 0.09,
@@ -67269,6 +67335,11 @@
      "date": "2026-11-20",
      "stake": 0.17,
      "bank": 9.52
+    },
+    {
+     "date": "2026-11-20",
+     "stake": 0.19,
+     "bank": 9.33
     }
    ],
    "rule_fr": "1/4 de Kelly, plafonné à 2 % de la bankroll par pari, bankroll fictive de 100 €"
