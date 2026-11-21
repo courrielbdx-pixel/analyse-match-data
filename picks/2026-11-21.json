@@ -1,6 +1,6 @@
 {
  "schema_version": "6.0",
- "generated_at": "2026-11-21T18:00:31+01:00",
+ "generated_at": "2026-11-21T18:32:26+01:00",
  "date": "2026-11-21",
  "picks": [
   {
@@ -95212,7 +95212,7 @@
   },
   {
    "fixture_id": 1649566,
-   "final_reading_id": "1649566-r3",
+   "final_reading_id": "1649566-r4",
    "decision": "SKIP",
    "readings": [
     {
@@ -95803,6 +95803,204 @@
      },
      "releco_count": 3,
      "first_timestamp": "2026-11-21T09:46:26+01:00"
+    },
+    {
+     "reading_id": "1649566-r4",
+     "timestamp": "2026-11-21T18:32:22+01:00",
+     "trigger": "compo",
+     "method_version": "dc-v1",
+     "model_variant": "buts",
+     "lineups_confirmed": true,
+     "pick": {
+      "market": "OU3.5",
+      "selection": "under",
+      "label_fr": "Moins de 3,5 buts"
+     },
+     "label": "SKIP",
+     "alt_pick": {
+      "market": "DC",
+      "selection": "12",
+      "label_fr": "Pas de nul (12)",
+      "model_probability": 0.69,
+      "market_probability": 0.704,
+      "odds": 1.35,
+      "bookmaker": "William Hill"
+     },
+     "value_pick": {
+      "market": "DC",
+      "selection": "X2",
+      "label_fr": "Nul ou Barracas Central (N2)",
+      "model_probability": 0.622,
+      "market_probability": 0.54,
+      "odds": 1.8,
+      "bookmaker": "Betano",
+      "ev": 0.12
+     },
+     "skip_reasons_fr": [
+      "EV +0,1 % < 5 %"
+     ],
+     "model_probability": 0.821,
+     "probabilities": {
+      "1X2": {
+       "1": 0.378,
+       "X": 0.31,
+       "2": 0.312
+      },
+      "DC": {
+       "1X": 0.688,
+       "X2": 0.622,
+       "12": 0.69
+      },
+      "OU1.5": {
+       "over": 0.653,
+       "under": 0.347
+      },
+      "OU2.5": {
+       "over": 0.375,
+       "under": 0.625
+      },
+      "OU3.5": {
+       "over": 0.179,
+       "under": 0.821
+      },
+      "BTTS": {
+       "yes": 0.451,
+       "no": 0.549
+      },
+      "BTTS_O2.5": {
+       "yes": 0.308
+      },
+      "1X_O1.5": {
+       "yes": 0.446
+      },
+      "1X_O2.5": {
+       "yes": 0.228
+      },
+      "1X_U3.5": {
+       "yes": 0.566
+      },
+      "1X_BTTS": {
+       "yes": 0.331
+      },
+      "X2_O1.5": {
+       "yes": 0.395
+      },
+      "X2_O2.5": {
+       "yes": 0.193
+      },
+      "X2_U3.5": {
+       "yes": 0.519
+      },
+      "X2_BTTS": {
+       "yes": 0.309
+      },
+      "12_O1.5": {
+       "yes": 0.464
+      },
+      "12_O2.5": {
+       "yes": 0.33
+      },
+      "12_U3.5": {
+       "yes": 0.557
+      },
+      "12_BTTS": {
+       "yes": 0.263
+      },
+      "HT1X2": {
+       "1": 0.284,
+       "X": 0.471,
+       "2": 0.245
+      }
+     },
+     "expected_goals": {
+      "home": 1.16,
+      "away": 1.03
+     },
+     "top_scores": [
+      {
+       "score": "1-1",
+       "p": 0.143
+      },
+      {
+       "score": "0-0",
+       "p": 0.121
+      },
+      {
+       "score": "1-0",
+       "p": 0.12
+      }
+     ],
+     "confidence": {
+      "value": 0.821,
+      "source": "model_probability",
+      "bucket": "80-85"
+     },
+     "market_probability": 0.788,
+     "ev": 0.001,
+     "odds_seen": {
+      "value": 1.22,
+      "bookmaker": "Pinnacle",
+      "captured_at": "2026-11-21T18:32:22+01:00"
+     },
+     "reasoning_fr": [
+      "Modèle 82,1 % pour « Moins de 3,5 buts » contre 78,8 % pour le marché.",
+      "Buts attendus (modèle) : 1,16 – 1,03.",
+      "Candidat EV max écarté : Nul ou Barracas Central (N2) (62,2 %, cote 1,80, EV +12,0 %)."
+     ],
+     "web_check": {
+      "status": "non_fait",
+      "items_fr": []
+     },
+     "team_samples": {
+      "home": 64,
+      "away": 67
+     },
+     "change_from_previous": {
+      "pick_changed": false,
+      "label_changed": false,
+      "reason_fr": null
+     },
+     "coherence_check": {
+      "passed": true,
+      "checks": [
+       {
+        "id": "COH-01",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-02",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-03",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-04",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-05",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-06",
+        "passed": true,
+        "detail_fr": null
+       },
+       {
+        "id": "COH-07",
+        "passed": true,
+        "detail_fr": null
+       }
+      ]
+     },
+     "lineups_source": "espn"
     }
    ]
   },
